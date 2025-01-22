@@ -3,11 +3,14 @@ from datetime import datetime, timedelta
 from TradingBOT import Trader
 import logging
 import argparse
-
+import json
+import io
 # Parse command-line arguments for the bot token
 parser = argparse.ArgumentParser(description="Run the Discord bot.")
 parser.add_argument('--token', type=str, required=True, help="Discord bot token")
+parser.add_argument('--ema_args', type=str, default="[]", help="EMA arguments")
 args = parser.parse_args()
+args.ema_args = json.loads(args.ema_args)
 
 intents = discord.Intents.default()
 intents.messages = True
@@ -43,18 +46,19 @@ async def on_message(message):
                 #history_kline_data = trader.show_history_kl_quota()
                 #print(history_kline_data)
 
-                kline_data_with_time, kline_data_without_time = trader.get_kline(stock_code=stock_code)
+                kline_data_with_time, kline_data_without_time, name, ktype = trader.get_kline(stock_code=stock_code)
 
                 if kline_data_with_time is not None:
                     # Format the response
                     import pandas as pd
 
-                    buf = trader.plot_kline(kline_data_with_time, kline_data_without_time)  # Suppose we use the function from above
+                    buf = trader.plot_kline(kline_data_with_time, kline_data_without_time, name, ktype, args.ema_args)  # Suppose we use the function from above
 
                     # 4) Create a Discord file from the buffer
                     file = discord.File(buf, filename="kline_chart.png")
+                    
                     await message.channel.send(
-                        content=f"K-line Data for {stock_code}",
+                        content=f"股票{name} K线图({ktype})",
                         file=file
                     )
                 else:
