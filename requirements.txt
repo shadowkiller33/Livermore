@@ -1,0 +1,10 @@
+numpy
+pandas
+pandas_market_calendars
+schedule
+yfinance
+ta
+moomoo-api
+mplfinance 
+seaborn
+matplotlib
