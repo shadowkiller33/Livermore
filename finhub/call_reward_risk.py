@@ -26,6 +26,9 @@ UPPER_BOUND = 150
 LOWER_BOUND = 138
 FILTER_THRESHOLD = 0.1 # only consider options within 10% of the current stock price
 
+SYMBOL = "AAPL"
+UPPER_BOUND = 230
+LOWER_BOUND = 220
 
 # call_reward_risk.py
 
@@ -193,7 +196,7 @@ class RewardRiskEvaluator:
                 continue
             reward_price = _estimate_option_price(self.upperbound, strike_price, risk_free_curve, dividend_curve, v0, kappa, theta, sigma, rho)
             risk_price = _estimate_option_price(self.lowerbound, strike_price, risk_free_curve, dividend_curve, v0, kappa, theta, sigma, rho)
-    
+            
             reward_ratio = (reward_price - option_price) / option_price
             risk_ratio = (option_price - risk_price) / option_price
             # print all stats

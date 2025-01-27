@@ -97,8 +97,8 @@ if __name__ == '__main__':
     quote = engine.get_stock_quote('AAPL')
 
     # for historical data, need subscription (48$ per month) from Finnhub
-    # historical_data = engine.get_historical_prices('AAPL', resolution='D', count=100)
-    # print(historical_data)
+    historical_data = engine.get_historical_prices('NVDA', resolution='D', count=100)
+    print(historical_data)
 
-    option_chain = engine.get_option_chain('AAPL', '2023-01-20')
-    print(option_chain)
+    # option_chain = engine.get_option_chain('AAPL', '2023-01-20')
+    # print(option_chain)
