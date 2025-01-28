@@ -32,13 +32,13 @@ def resample_kline_data(df, timeframe):
     return resampled_df
 
 
-def get_past_week_dates():
+def get_past_month_dates():
     """
     Returns a list of dates for the past week (including today).
     Format: YYYY-MM-DD
     """
     today = datetime.now().date()
-    past_week = [today - timedelta(days=i) for i in range(7)]
+    past_week = [today - timedelta(days=i) for i in range(31)]
     past_week_dates = [day.strftime('%Y-%m-%d') for day in reversed(past_week)]
     return past_week_dates
 
@@ -73,9 +73,9 @@ class BuySignalDetector:
                                                             )
         onehour_historical_data['t'] = pd.to_datetime(onehour_historical_data['t'], unit='s')
         onehour_historical_data.set_index('t', inplace=True)
-        twohour_historical_data = resample_kline_data(onehour_historical_data, '2H')
-        threehour_historical_data = resample_kline_data(onehour_historical_data, '3H')
-        fourhour_historical_data = resample_kline_data(onehour_historical_data, '4H')
+        twohour_historical_data = resample_kline_data(onehour_historical_data, '2h')
+        threehour_historical_data = resample_kline_data(onehour_historical_data, '3h')
+        fourhour_historical_data = resample_kline_data(onehour_historical_data, '4h')
 
         onehour_signal = self.compute_vegas_channel_and_signel(onehour_historical_data, visualize=False)
         twohour_signal = self.compute_vegas_channel_and_signel(twohour_historical_data, visualize=False)
@@ -91,15 +91,45 @@ class BuySignalDetector:
             '4H': fourhour_signal,
             'D': day_signal,
         }
-        self.check_buy_signals_past_week(resampled_data)
+        return self.check_buy_signals_past_two_days(resampled_data)
 
+        # check if any signal is triggered last week/month, this is debugging purpose
+        # self.check_buy_signals_past_week(resampled_data)
+
+
+    def check_buy_signals_past_two_days(self, resampled_data):
+        """
+        Checks if any buy signal was triggered in each timeframe within the past 2 days.
+
+        Parameters:
+        - resampled_data (dict): Dictionary containing buy signals for different timeframes.
+
+        Returns:
+        - dict: Dictionary with timeframes as keys and boolean values indicating buy signals.
+        """
+        two_days_ago = datetime.now() - timedelta(days=2)
+        signal_status = {}
+        total_triggered = 0
+        for timeframe, df in resampled_data.items():
+            # Ensure the DataFrame index is datetime
+            if not isinstance(df.index, pd.DatetimeIndex):
+                df.index = pd.to_datetime(df.index)
+            
+            # Filter signals within the past 2 days
+            recent_signals = df[df.index >= two_days_ago]
+            triggered_buy = bool(recent_signals['buy_signal'].sum() > 0)
+            signal_status[timeframe] = triggered_buy
+            if triggered_buy:
+                total_triggered += 1
+        signal_status['Good_buying_option'] = total_triggered >= 3
+        return signal_status
 
     def check_buy_signals_past_week(self, resampled_data):
         """
         For each day in the past week, check if any buy signal was triggered
         across all timeframes.
         """
-        past_week_dates = get_past_week_dates()  # ['2025-01-21', ..., '2025-01-27']
+        past_week_dates = get_past_month_dates()  # ['2025-01-21', ..., '2025-01-27']
 
         report_df = pd.DataFrame(0, index=past_week_dates, columns=resampled_data.keys())
         
@@ -114,6 +144,8 @@ class BuySignalDetector:
         # Display the report
         print("\nDetailed Buy Signal Report for the Past Week:")
         print(report_df)
+
+
     
 
 
@@ -186,12 +218,9 @@ class BuySignalDetector:
 
 
 
-
-
-
-
 if __name__ == "__main__":
-    symbol = "ZM"
+    symbol = "AAPL"
     engine = FinnhubEngine()
     detector = BuySignalDetector(symbol, engine)
     detector.multi_resolution_signal()
+    
