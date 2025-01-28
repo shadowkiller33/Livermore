@@ -229,6 +229,7 @@ class BuySignalDetector:
                 total_triggered += 1
 
         signal_status['Good_buying_option'] = total_triggered >= 3
+        # print(resampled_data)
         return signal_status
     
 
@@ -327,9 +328,29 @@ class BuySignalDetector:
 
 
 if __name__ == "__main__":
-    symbol = "AMD"
+    stocks = {
+        "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU"],
+        "crypto": ["IBIT", "BTDR", "BTBT", "HUT", "COIN", "RIOT", "CLSK", "BTCT", "MSTR", "MARA"],
+        "big_tech":["CRM", "MDB", "ZM", "NFLX", "SNOW", "PANW", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
+        "ai_software": ["TEM", "LUNR", "SOUN", "AFRM", "MRVL", "MNDY", "ASTS", "AISP", "INOD", "APLD", "NNOX", "ZETA", "AI", "BBAI"],
+        "spy_qqq_iwm": ["IWM", "SPY", "QQQ"],
+        "finance": ["DPST", "GS", "V", "WFC", "PYPL", "MS", "JPM", "BAC", "MA", "AXP"],
+        "bio_med": ["WBA", "JNJ", "UNH", "FDMT", "DNLI", "BHVN", "AURA", "WAY", "ARCT", "HIMS"],
+        "vol": ["UVXY"],
+        "tlt_tmf": ["TLT", "TMF"],
+        "energy": ["CAT", "CEG", "LTBR", "LNG", "GEV", "SMR", "RUN", "ARRY", "VRT", "VST", "FSLR", "KOLD", "OKLO", "XOM", "OXY"],
+    }
     engine = FinnhubEngine()
-    detector = BuySignalDetector(symbol, engine)
-    signal = detector.multi_resolution_signal()
-    print(signal)
-    
+    # NBIS, VIX data cannot be retrieved
+    for sector, symbols in stocks.items():
+        if sector != "energy":
+            continue
+        
+        for symbol in symbols:
+            print(symbol)
+            detector = BuySignalDetector(symbol, engine)
+            signal = detector.multi_resolution_signal()
+            if any(signal.values()):
+                print(f"Buy Signal Detected for {symbol}!")
+                print(signal)
+            time.sleep(10)
