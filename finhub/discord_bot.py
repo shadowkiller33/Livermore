@@ -34,7 +34,7 @@ detector = BuySignalDetector(symbol, engine)
 
 # initialize signal detector for different stocks
 stocks = {
-    "semi_conductor": ["SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "NVDA", "AMD"],
+    "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU"],
     "crypto": ["IBIT", "BTDR", "BTBT", "HUT", "COIN", "RIOT", "CLSK", "BTCT", "MSTR", "MARA"],
     "big_tech":["CRM", "MDB", "ZM", "NFLX", "SNOW", "PANW", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
     "ai_software": ["TEM", "LUNR", "SOUN", "AFRM", "MRVL", "MNDY", "ASTS", "NBIS", "AISP", "INOD", "APLD", "NNOX", "ZETA", "AI", "BBAI"],
@@ -86,31 +86,57 @@ async def send_hello_message():
 
     try:
         for chan in channels:
-            # other channel are not considered
+            # Other channels are not considered
             if chan.id in channel2id.values():
                 cur_sector = id2channel[chan.id]
                 print("Assessing buy signal for sector: ", cur_sector)
                 for stock_symbol in stocks[cur_sector]:
+                    print(f"Assessing buy signal for stock: {stock_symbol}")
                     detector = detector_dict[stock_symbol]
-                    # print(f"Assessing buy signals for {stock_symbol}")
+                    # Assess buy signals for the current stock
                     signal_status = detector.multi_resolution_signal()
-                    # print(signal_status)
-                    # signal is a dict, eg: {'30min': False, '1H': False, '2H': False, '3H': False, '4H': False, 'D': False, 'Good_buying_option': False}
-                    await asyncio.sleep(1)
+                           
                     if any(signal_status.values()):
-                        warning_msg = "\n\n" + "#" * 20
-                        warning_msg += f"\nWarning: Buy signal triggered for {stock_symbol} in the past 2 days!"
-                        warning_msg += "\nSignal Status:"
+                        # Determine embed color based on signal strength
+                        color = 0x00FF00  # Green by default
+                        if signal_status.get('Good_buying_option'):
+                            color = 0xFFA500  # Orange for good buying options
+                        if sum(signal_status.values()) > 3:
+                            color = 0xFF0000  # Red for multiple signals
+                        
+                        # Create an Embed object
+                        embed = discord.Embed(
+                            title="📈 **Buy Signal Triggered!**",
+                            description=f"**{stock_symbol}** has triggered a buy signal in the past **2 days**.",
+                            color=color,
+                            timestamp=datetime.utcnow()
+                        )
+                        
+                        # Add a field for each timeframe's signal status
                         for timeframe, triggered in signal_status.items():
-                            warning_msg += f"\n{timeframe}: {'Yes' if triggered else 'No'}"
-                        warning_msg += "\n\n"
+                            status = "✅ Yes" if triggered else "❌ No"
+                            embed.add_field(
+                                name=timeframe,
+                                value=status,
+                                inline=True
+                            )
+                        
+                        # Add a footer for additional context
+                        embed.set_footer(text="Automated Alert", icon_url="https://i.imgur.com/rdm3D7P.png")
+                        
                         try:
-                            await chan.send(warning_msg)
-                            print(f"Warning msg sent!")
+                            await chan.send(embed=embed)
+                            print(f"Warning message sent to channel {chan.id} for stock {stock_symbol}!")
                             msg_sent = True
                         except Exception as e:
-                            print(f"Failed to send message: {e}")
-                await asyncio.sleep(60) # reset the request after each sector is finished
+                            print(f"Failed to send message to channel {chan.id}: {e}")
+                    
+                    # Pause to respect rate limits
+                    await asyncio.sleep(30)
+
+        # Pause after processing each sector to respect rate limits
+        await asyncio.sleep(60)  # Reset the request after each sector is finished
+       
     except Exception as e:
         print(f"Error occurred: {e}")
                     
