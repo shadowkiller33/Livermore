@@ -131,6 +131,7 @@ async def send_buy_signal_message():
                     detector = detector_dict[stock_symbol]
                     # Assess buy signals for the current stock
                     signal_status = detector.multi_resolution_signal()
+                    await asyncio.sleep(20)
                     if any(signal_status.values()):
                         now = datetime.utcnow()
                         last_sent_info = last_sent_data.get(stock_symbol)
@@ -197,8 +198,6 @@ async def send_buy_signal_message():
                             except Exception as e:
                                 print(f"Failed to send message to channel {chan.id}: {e}")
 
-                        # Pause to respect rate limits
-                        await asyncio.sleep(20)
 
     except Exception as e:
         print(f"Error occurred: {e}")
