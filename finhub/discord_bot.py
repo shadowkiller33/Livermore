@@ -90,25 +90,35 @@ last_sent_times_file = 'last_sent_times.json'
 # Load existing tracking data if available
 if os.path.exists(last_sent_times_file):
     with open(last_sent_times_file, 'r') as f:
-        last_sent_times = json.load(f)
+        last_sent_data = json.load(f)
     # Convert string timestamps back to datetime objects
-    last_sent_times = {k: datetime.fromisoformat(v) for k, v in last_sent_times.items()}
+    last_sent_data = {
+        k: {
+            "last_sent_time": datetime.fromisoformat(v["last_sent_time"]),
+            "last_signal_status": v["last_signal_status"]
+        } for k, v in last_sent_data.items()
+    }
 else:
-    last_sent_times = {}
+    last_sent_data = {}
 
 # Function to save tracking data to a file
-def save_last_sent_times():
+def save_last_sent_data():
     with open(last_sent_times_file, 'w') as f:
         # Convert datetime objects to ISO format strings for JSON serialization
-        json.dump({k: v.isoformat() for k, v in last_sent_times.items()}, f)
+        json.dump({
+            k: {
+                "last_sent_time": v["last_sent_time"].isoformat(),
+                "last_signal_status": v["last_signal_status"]
+            } for k, v in last_sent_data.items()
+        }, f, indent=4)
 
 
 
-@tasks.loop(minutes=1)  # Run the detector every 1 hour
+
+@tasks.loop(minutes=60)  # Run the detector every 1 hour
 async def send_buy_signal_message():
     await bot.wait_until_ready()
     channels = bot.get_all_channels()
-    msg_sent = False
 
     try:
         for chan in channels:
@@ -121,59 +131,74 @@ async def send_buy_signal_message():
                     detector = detector_dict[stock_symbol]
                     # Assess buy signals for the current stock
                     signal_status = detector.multi_resolution_signal()
-
-                    # Check if any signal is triggered
                     if any(signal_status.values()):
                         now = datetime.utcnow()
-                        last_sent = last_sent_times.get(stock_symbol)
+                        last_sent_info = last_sent_data.get(stock_symbol)
 
-                        # Check if a message was sent within the last 24 hours
-                        if last_sent and (now - last_sent) < timedelta(days=1):
-                            print(f"Message for {stock_symbol} was sent less than a day ago. Skipping.")
-                            continue  # Skip sending the message
+                        send_message = False
+                        if last_sent_info:
+                            last_sent_time = last_sent_info["last_sent_time"]
+                            last_signal_status = last_sent_info["last_signal_status"]
 
-                        # Determine embed color based on signal strength
-                        color = 0x00FF00  # Green by default
-                        if signal_status.get('Good_buying_option'):
-                            color = 0xFFA500  # Orange for good buying options
-                        if sum(signal_status.values()) > 3:
-                            color = 0xFF0000  # Red for multiple signals
+                            # Check if signal status has changed
+                            if signal_status != last_signal_status:
+                                send_message = True
+                                print(f"Signal status changed for {stock_symbol}. Preparing to send message.")
+                            else:
+                                # Check if a message was sent within the last 24 hours
+                                if (now - last_sent_time) > timedelta(days=1):
+                                    send_message = True
+                                    print(f"24 hours passed since last message for {stock_symbol}. Preparing to send message.")
+                                else:
+                                    print(f"Message for {stock_symbol} was sent less than a day ago and no signal change. Skipping.")
+                        else:
+                            # No previous record, send message
+                            send_message = True
+                            print(f"No previous message sent for {stock_symbol}. Preparing to send message.")
+                    
+                        if send_message:
+                            # Determine embed color based on signal strength
+                            color = 0x00FF00  # Green by default
+                            if signal_status.get('Good_buying_option'):
+                                color = 0xFFA500  # Orange for good buying options
+                            if sum(signal_status.values()) > 3:
+                                color = 0xFF0000  # Red for multiple signals
 
-                        # Create an Embed object
-                        embed = discord.Embed(
-                            title="📈 **Buy Signal Triggered!**",
-                            description=f"**{stock_symbol}** has triggered a buy signal in the past **2 days**.",
-                            color=color,
-                            timestamp=datetime.utcnow()
-                        )
-
-                        # Add a field for each timeframe's signal status
-                        for timeframe, triggered in signal_status.items():
-                            status = "✅ Yes" if triggered else "❌ No"
-                            embed.add_field(
-                                name=timeframe,
-                                value=status,
-                                inline=True
+                            # Create an Embed object
+                            embed = discord.Embed(
+                                title="📈 **Buy Signal Triggered!**",
+                                description=f"**{stock_symbol}** has triggered a buy signal.",
+                                color=color,
+                                timestamp=datetime.utcnow()
                             )
 
-                        # Add a footer for additional context
-                        embed.set_footer(text="Automated Alert", icon_url="https://i.imgur.com/rdm3D7P.png")
+                            # Add a field for each timeframe's signal status
+                            for timeframe, triggered in signal_status.items():
+                                status = "✅ Yes" if triggered else "❌ No"
+                                embed.add_field(
+                                    name=timeframe,
+                                    value=status,
+                                    inline=True
+                                )
 
-                        try:
-                            await chan.send(embed=embed)
-                            print(f"Buy signal message sent to channel {chan.id} for stock {stock_symbol}!")
-                            msg_sent = True
-                            # Update the last sent time for the stock
-                            last_sent_times[stock_symbol] = now
-                            save_last_sent_times()  # Persist the update
-                        except Exception as e:
-                            print(f"Failed to send message to channel {chan.id}: {e}")
+                            # Add a footer for additional context
+                            embed.set_footer(text="Automated Alert", icon_url="https://i.imgur.com/rdm3D7P.png")
 
-                    # Pause to respect rate limits
-                    await asyncio.sleep(20)
+                            try:
+                                await chan.send(embed=embed)
+                                print(f"Buy signal message sent to channel {chan.id} for stock {stock_symbol}!")
+                                msg_sent = True
+                                # Update the last sent time and signal status for the stock
+                                last_sent_data[stock_symbol] = {
+                                    "last_sent_time": now,
+                                    "last_signal_status": signal_status
+                                }
+                                save_last_sent_data()  # Persist the update
+                            except Exception as e:
+                                print(f"Failed to send message to channel {chan.id}: {e}")
 
-        if not msg_sent:
-            print(f"No buy signals triggered in this period.")
+                        # Pause to respect rate limits
+                        await asyncio.sleep(20)
 
     except Exception as e:
         print(f"Error occurred: {e}")

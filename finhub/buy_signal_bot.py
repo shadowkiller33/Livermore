@@ -228,7 +228,7 @@ class BuySignalDetector:
             if triggered_buy:
                 total_triggered += 1
 
-        signal_status['Good_buying_option'] = total_triggered >= 3
+        signal_status['Good_Buy'] = total_triggered >= 3
         # print(resampled_data)
         return signal_status
     
