@@ -10,6 +10,7 @@ import asyncio
 from dotenv import load_dotenv
 from buy_signal_bot import BuySignalDetector
 import os
+import json
 
 # API Key
 load_dotenv()
@@ -37,14 +38,19 @@ stocks = {
     "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU"],
     "crypto": ["IBIT", "BTDR", "BTBT", "HUT", "COIN", "RIOT", "CLSK", "BTCT", "MSTR", "MARA"],
     "big_tech":["CRM", "MDB", "ZM", "NFLX", "SNOW", "PANW", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
-    "ai_software": ["TEM", "LUNR", "SOUN", "AFRM", "MRVL", "MNDY", "ASTS", "NBIS", "AISP", "INOD", "APLD", "NNOX", "ZETA", "AI", "BBAI"],
+    "ai_software": ["TEM", "LUNR", "SOUN", "AFRM", "MRVL", "MNDY", "ASTS", "AISP", "INOD", "APLD", "NNOX", "ZETA", "AI", "BBAI"],
     "spy_qqq_iwm": ["IWM", "SPY", "QQQ"],
     "finance": ["DPST", "GS", "V", "WFC", "PYPL", "MS", "JPM", "BAC", "MA", "AXP"],
     "bio_med": ["WBA", "JNJ", "UNH", "FDMT", "DNLI", "BHVN", "AURA", "WAY", "ARCT", "HIMS"],
-    "vol": ["VIX", "UVXY"],
+    "vol": ["UVXY"],
     "tlt_tmf": ["TLT", "TMF"],
     "energy": ["CAT", "CEG", "LTBR", "LNG", "GEV", "SMR", "RUN", "ARRY", "VRT", "VST", "FSLR", "KOLD", "OKLO", "XOM", "OXY"],
 }
+
+# testing purpose
+# stocks = {
+#     "semi_conductor": ["AMD", "AMD"]
+# }
 
 channel2id = {
     "semi_conductor": 1333613478685970554,
@@ -73,20 +79,50 @@ for _, stock_list in stocks.items():
 async def on_ready():
     print(f'Logged in as {bot.user} (ID: {bot.user.id})')
     print('------')
-    if not send_hello_message.is_running():
-        send_hello_message.start()
-        print("Started background task to send 'Hello!' messages every minute.")
+    if not send_buy_signal_message.is_running():
+        send_buy_signal_message.start()
+        print("Started background task to send buy signals every hour.")
 
 
-@tasks.loop(minutes=60) # we run the detector every 1 hour
-async def send_hello_message():
+# Initialize a dictionary to track the last sent time for each stock
+last_sent_times_file = 'last_sent_times.json'
+
+# Load existing tracking data if available
+if os.path.exists(last_sent_times_file):
+    with open(last_sent_times_file, 'r') as f:
+        last_sent_data = json.load(f)
+    # Convert string timestamps back to datetime objects
+    last_sent_data = {
+        k: {
+            "last_sent_time": datetime.fromisoformat(v["last_sent_time"]),
+            "last_signal_status": v["last_signal_status"]
+        } for k, v in last_sent_data.items()
+    }
+else:
+    last_sent_data = {}
+
+# Function to save tracking data to a file
+def save_last_sent_data():
+    with open(last_sent_times_file, 'w') as f:
+        # Convert datetime objects to ISO format strings for JSON serialization
+        json.dump({
+            k: {
+                "last_sent_time": v["last_sent_time"].isoformat(),
+                "last_signal_status": v["last_signal_status"]
+            } for k, v in last_sent_data.items()
+        }, f, indent=4)
+
+
+
+
+@tasks.loop(minutes=60)  # Run the detector every 1 hour
+async def send_buy_signal_message():
     await bot.wait_until_ready()
     channels = bot.get_all_channels()
-    msg_sent = False
 
     try:
         for chan in channels:
-            # Other channels are not considered
+            # Only consider specific channels
             if chan.id in channel2id.values():
                 cur_sector = id2channel[chan.id]
                 print("Assessing buy signal for sector: ", cur_sector)
@@ -95,53 +131,77 @@ async def send_hello_message():
                     detector = detector_dict[stock_symbol]
                     # Assess buy signals for the current stock
                     signal_status = detector.multi_resolution_signal()
-                           
+                    await asyncio.sleep(20)
                     if any(signal_status.values()):
-                        # Determine embed color based on signal strength
-                        color = 0x00FF00  # Green by default
-                        if signal_status.get('Good_buying_option'):
-                            color = 0xFFA500  # Orange for good buying options
-                        if sum(signal_status.values()) > 3:
-                            color = 0xFF0000  # Red for multiple signals
-                        
-                        # Create an Embed object
-                        embed = discord.Embed(
-                            title="📈 **Buy Signal Triggered!**",
-                            description=f"**{stock_symbol}** has triggered a buy signal in the past **2 days**.",
-                            color=color,
-                            timestamp=datetime.utcnow()
-                        )
-                        
-                        # Add a field for each timeframe's signal status
-                        for timeframe, triggered in signal_status.items():
-                            status = "✅ Yes" if triggered else "❌ No"
-                            embed.add_field(
-                                name=timeframe,
-                                value=status,
-                                inline=True
-                            )
-                        
-                        # Add a footer for additional context
-                        embed.set_footer(text="Automated Alert", icon_url="https://i.imgur.com/rdm3D7P.png")
-                        
-                        try:
-                            await chan.send(embed=embed)
-                            print(f"Warning message sent to channel {chan.id} for stock {stock_symbol}!")
-                            msg_sent = True
-                        except Exception as e:
-                            print(f"Failed to send message to channel {chan.id}: {e}")
-                    
-                    # Pause to respect rate limits
-                    await asyncio.sleep(30)
+                        now = datetime.utcnow()
+                        last_sent_info = last_sent_data.get(stock_symbol)
 
-        # Pause after processing each sector to respect rate limits
-        await asyncio.sleep(60)  # Reset the request after each sector is finished
-       
+                        send_message = False
+                        if last_sent_info:
+                            last_sent_time = last_sent_info["last_sent_time"]
+                            last_signal_status = last_sent_info["last_signal_status"]
+
+                            # Check if signal status has changed
+                            if signal_status != last_signal_status:
+                                send_message = True
+                                print(f"Signal status changed for {stock_symbol}. Preparing to send message.")
+                            else:
+                                # Check if a message was sent within the last 24 hours
+                                if (now - last_sent_time) > timedelta(days=1):
+                                    send_message = True
+                                    print(f"24 hours passed since last message for {stock_symbol}. Preparing to send message.")
+                                else:
+                                    print(f"Message for {stock_symbol} was sent less than a day ago and no signal change. Skipping.")
+                        else:
+                            # No previous record, send message
+                            send_message = True
+                            print(f"No previous message sent for {stock_symbol}. Preparing to send message.")
+                    
+                        if send_message:
+                            # Determine embed color based on signal strength
+                            color = 0x00FF00  # Green by default
+                            if signal_status.get('Good_buying_option'):
+                                color = 0xFFA500  # Orange for good buying options
+                            if sum(signal_status.values()) > 3:
+                                color = 0xFF0000  # Red for multiple signals
+
+                            # Create an Embed object
+                            embed = discord.Embed(
+                                title="📈 **Buy Signal Triggered!**",
+                                description=f"**{stock_symbol}** has triggered a buy signal.",
+                                color=color,
+                                timestamp=datetime.utcnow()
+                            )
+
+                            # Add a field for each timeframe's signal status
+                            for timeframe, triggered in signal_status.items():
+                                status = "✅ Yes" if triggered else "❌ No"
+                                embed.add_field(
+                                    name=timeframe,
+                                    value=status,
+                                    inline=True
+                                )
+
+                            # Add a footer for additional context
+                            embed.set_footer(text="Automated Alert", icon_url="https://i.imgur.com/rdm3D7P.png")
+
+                            try:
+                                await chan.send(embed=embed)
+                                print(f"Buy signal message sent to channel {chan.id} for stock {stock_symbol}!")
+                                msg_sent = True
+                                # Update the last sent time and signal status for the stock
+                                last_sent_data[stock_symbol] = {
+                                    "last_sent_time": now,
+                                    "last_signal_status": signal_status
+                                }
+                                save_last_sent_data()  # Persist the update
+                            except Exception as e:
+                                print(f"Failed to send message to channel {chan.id}: {e}")
+
+
     except Exception as e:
         print(f"Error occurred: {e}")
-                    
-    if not msg_sent:
-        print(f"No warning triggered in this period.")
+
 
 # Run the bot
 bot.run(DISCORD_BOT_TOKEN)
