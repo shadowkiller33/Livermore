@@ -35,16 +35,31 @@ detector = BuySignalDetector(symbol, engine)
 
 # initialize signal detector for different stocks
 stocks = {
-    "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU"],
+    "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "NBIS", "AAOI"],
     "crypto": ["IBIT", "BTDR", "BTBT", "HUT", "COIN", "RIOT", "CLSK", "BTCT", "MSTR", "MARA"],
-    "big_tech":["CRM", "MDB", "ZM", "NFLX", "SNOW", "PANW", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
-    "ai_software": ["TEM", "LUNR", "SOUN", "AFRM", "MRVL", "MNDY", "ASTS", "AISP", "INOD", "APLD", "NNOX", "ZETA", "AI", "BBAI"],
+    "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
+    "saas": ["CRM", "MDB", "ZM", "SNOW", "ORCL", "NOW", "WDAY", "SHOP", "CRWD", "SQ", "DDOG", "TWLO", "SAP", "INTU", "UBER", "APP", "DOCU", "ANET"],
+    "ai_software": ["AFRM", "MNDY", "AISP", "INOD", "APLD", "NNOX",  "ADBE", "PANW", "IBM", "PLTR", "CRDO", "INTA", "CLS"],
+    "social": ['SNAP', 'RDDT', "PINS", "RBLX", "DIS", "LYV"],
+    'robo': ["SERV", "ISRG", "TER", "IBRT"],
     "spy_qqq_iwm": ["IWM", "SPY", "QQQ"],
-    "finance": ["DPST", "GS", "V", "WFC", "PYPL", "MS", "JPM", "BAC", "MA", "AXP"],
-    "bio_med": ["WBA", "JNJ", "UNH", "FDMT", "DNLI", "BHVN", "AURA", "WAY", "ARCT", "HIMS"],
+    "finance": ["DPST", "GS", "V", "WFC", "PYPL", "MS", "JPM", "BAC", "MA", "AXP", "UPST", "SOFI"],
+    "bio_med": ["WBA", "JNJ", "UNH", "LLY", "MRNA", "NVO", "PFE", "AMGN", "WAY",  "HIMS", "NVS", "AZN", "ABBV"],
     "vol": ["UVXY"],
     "tlt_tmf": ["TLT", "TMF"],
-    "energy": ["CAT", "CEG", "LTBR", "LNG", "GEV", "SMR", "RUN", "ARRY", "VRT", "VST", "FSLR", "KOLD", "OKLO", "XOM", "OXY"],
+    "defense": ["LMT", "NOC", "RTX", "GD", "BA", "HII", "LHX", "TXT"],
+    "nuclear": ['OKLO', 'SMR', 'LTBR', 'NEE', 'NNE'],
+    "energy": ["CAT", "CEG", "LNG", "GEV", "RUN", "ARRY", "VRT", "VST", "FSLR", "KOLD", "XOM", "OXY", "GE"],
+    "space": ["DXYZ", "RKLB", "ASTS", "LUNR", "KULR"],
+    "small_ai": ["LUNR", "SOUN", "AFRM", "MNDY", "AISP", "INOD", "APLD", "ZETA", "AI", "BBAI", "TEM", "SERV", "CLFT"],
+    "short_eft": ['SOXS', 'SQQQ', 'SPXU', 'SDOW', "TSLZ", "NVD", "TZA", "SH"],
+    "food": ["MCD", "WEN", "QSR", "SBUX", "DPZ", "PZZA", "WING", "KO", "PEP", "COST", "WMT"],
+    "drone": ["AVAV", "BA", "LMT", "NOC", "RCAT", "ACHR", "PDYN"],
+    "sports": ["NKE", "UAA", "DKNG", "PENN", "LULU", "ADDYY"],
+    "fashion": ['EL', 'LVMUY', 'LRLCY', 'ELF', "TPR", "RL", "TJX"],
+    "travel": ["AAL", "ABNB", "RCL", "CCL", "TCOM", "BKNG", "EXPE", "DAL", "UAL", "LUV"],
+    "auto_drive": ["RIVN", "TSLA", "UBER", "LYFT"],
+    "CN": ["BABA", "TCEHY", "JD", "BIDU", "NTES", "PDD", "BILI", "JD", "FXI", "YINN", "YANG"]
 }
 
 # testing purpose
@@ -63,6 +78,20 @@ channel2id = {
     "vol": 1333613896623198298,
     "tlt_tmf": 1333614021915574304,
     "energy": 1333614121886683207,
+    "space": 1335393219491528736,
+    'robo': 1335519046291947542,
+    "social": 1335519117079351337,
+    "defense": 1335519181931679834,
+    'nuclear': 1335519259971031050,
+    "small_ai": 1335393054563237938,
+    "short_eft": 1335393145739018240,
+    "food": 1333614367979077705,
+    "drone": 1335519455475662848,
+    "sports": 1335519528355893258,
+    "fashion": 1335519593002958921,
+    "travel": 1335519666705141840,
+    "auto_drive": 1335519725287112725,
+    "CN": 1335519802265047161
 }
 
 id2channel = {v: k for k, v in channel2id.items()}
