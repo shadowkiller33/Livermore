@@ -156,9 +156,10 @@ async def send_buy_signal_message():
                 print("Assessing buy signal for sector: ", cur_sector)
                 for stock_symbol in stocks[cur_sector]:
                     print(f"Assessing buy signal for stock: {stock_symbol}")
-                    detector = detector_dict[stock_symbol]
+                    detector: BuySignalDetector = detector_dict[stock_symbol]
                     # Assess buy signals for the current stock
-                    signal_status = detector.multi_resolution_signal()
+                    signal_status = await asyncio.to_thread(detector.multi_resolution_signal)
+                    # signal_status = detector.multi_resolution_signal()
                     await asyncio.sleep(15)
                     if any(signal_status.values()):
                         now = datetime.utcnow()
