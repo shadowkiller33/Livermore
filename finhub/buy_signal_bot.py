@@ -332,7 +332,7 @@ if __name__ == "__main__":
         "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "AAOI"],
         "crypto": ["IBIT", "BTDR", "BTBT", "HUT", "COIN", "RIOT", "CLSK", "BTCT", "MSTR", "MARA"],
         "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
-        "saas": ["CRM", "MDB", "ZM", "SNOW", "ORCL", "NOW", "WDAY", "SHOP", "CRWD", "DDOG", "TWLO", "SAP", "INTU", "UBER", "APP", "DOCU", "ANET"],
+        "saas": ["CRM", "MDB", "ZM", "SNOW", "ORCL", "NOW", "WDAY", "SHOP", "CRWD", "DDOG", "TWLO", "SAP", "INTU", "UBER", "APP", "DOCU", "ANET", "XYZ"],
         "ai_software": ["AFRM", "MNDY", "AISP", "INOD", "APLD", "NNOX",  "ADBE", "PANW", "IBM", "PLTR", "CRDO", "INTA", "CLS"],
         "social": ['SNAP', 'RDDT', "PINS", "RBLX", "DIS", "LYV"],
         'robo': ["SERV", "ISRG", "TER"],
@@ -345,7 +345,7 @@ if __name__ == "__main__":
         "nuclear": ['OKLO', 'SMR', 'LTBR', 'NEE', 'NNE'],
         "energy": ["CAT", "CEG", "LNG", "GEV", "RUN", "ARRY", "VRT", "VST", "FSLR", "KOLD", "XOM", "OXY", "GE"],
         "space": ["DXYZ", "RKLB", "ASTS", "LUNR", "KULR"],
-        "small_ai": ["LUNR", "SOUN", "AFRM", "MNDY", "AISP", "INOD", "APLD", "ZETA", "AI", "BBAI", "TEM", "SERV"],
+        "small_ai": ["LUNR", "SOUN", "AFRM", "MNDY", "AISP", "INOD", "APLD", "ZETA", "AI", "BBAI", "TEM", "SERV", "CFLT"],
         "short_eft": ['SOXS', 'SQQQ', 'SPXU', 'SDOW', "TSLZ", "NVD", "TZA", "SH"],
         "food": ["MCD", "WEN", "QSR", "SBUX", "DPZ", "PZZA", "WING", "KO", "PEP", "COST", "WMT"],
         "drone": ["AVAV", "BA", "LMT", "NOC", "RCAT", "ACHR", "PDYN"],
@@ -361,8 +361,10 @@ if __name__ == "__main__":
 
     engine = FinnhubEngine()
     # Error when retrieving: IBRT, NBIS, CLFT, SQ
+    
     for sector, symbols in stocks.items(): 
         print(f"Processing sector: {sector}")
+        # symbols = ["SQ"]
         for symbol in symbols:
             time.sleep(15)
             try:
@@ -372,5 +374,6 @@ if __name__ == "__main__":
             except Exception as e:
                 print(f"Error retrieving data for {symbol}: {e}")
                 continue
+        exit(0)
             
 

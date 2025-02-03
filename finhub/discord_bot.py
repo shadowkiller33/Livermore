@@ -48,7 +48,7 @@ stocks = {
     "nuclear": ['OKLO', 'SMR', 'LTBR', 'NEE', 'NNE'],
     "energy": ["CAT", "CEG", "LNG", "GEV", "RUN", "ARRY", "VRT", "VST", "FSLR", "KOLD", "XOM", "OXY", "GE"],
     "space": ["DXYZ", "RKLB", "ASTS", "LUNR", "KULR"],
-    "small_ai": ["LUNR", "SOUN", "AFRM", "MNDY", "AISP", "INOD", "APLD", "ZETA", "AI", "BBAI", "TEM", "SERV"],
+    "small_ai": ["LUNR", "SOUN", "AFRM", "MNDY", "AISP", "INOD", "APLD", "ZETA", "AI", "BBAI", "TEM", "SERV", "CFLT"],
     "short_eft": ['SOXS', 'SQQQ', 'SPXU', 'SDOW', "TSLZ", "NVD", "TZA", "SH"],
     "food": ["MCD", "WEN", "QSR", "SBUX", "DPZ", "PZZA", "WING", "KO", "PEP", "COST", "WMT"],
     "drone": ["AVAV", "BA", "LMT", "NOC", "RCAT", "ACHR", "PDYN"],
@@ -225,7 +225,6 @@ async def send_buy_signal_message():
                                 save_last_sent_data()  # Persist the update
                             except Exception as e:
                                 print(f"Failed to send message to channel {chan.id}: {e}")
-
             else:
                 print(f"Channel {chan.id} is not in the monitored list.")
 
