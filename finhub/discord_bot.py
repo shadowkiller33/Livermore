@@ -65,34 +65,32 @@ stocks = {
 # }
 
 
-
 channel2id = {
-    "semi_conductor": os.getenv("SEMI_CONDUCTOR"),
-    "crypto": os.getenv("CRYPTO"),
-    "big_tech": os.getenv("BIG_TECH"),
-    "ai_software": os.getenv("AI_SOFTWARE"),
-    "spy_qqq_iwm": os.getenv("SPY_QQQ_IWM"),
-    "finance": os.getenv("FINANCE"),
-    "bio_med": os.getenv("BIO_MED"),
-    "vol": os.getenv("VOL"),
-    "tlt_tmf": os.getenv("TLT_TMF"),
-    "energy": os.getenv("ENERGY"),
-    "space": os.getenv("SPACE"),
-    "robo": os.getenv("ROBO"),
-    "social": os.getenv("SOCIAL"),
-    "defense": os.getenv("DEFENSE"),
-    "nuclear": os.getenv("NUCLEAR"),
-    "small_ai": os.getenv("SMALL_AI"),
-    "short_eft": os.getenv("SHORT_EFT"),
-    "food": os.getenv("FOOD"),
-    "drone": os.getenv("DRONE"),
-    "sports": os.getenv("SPORTS"),
-    "fashion": os.getenv("FASHION"),
-    "travel": os.getenv("TRAVEL"),
-    "auto_drive": os.getenv("AUTO_DRIVE"),
-    "CN": os.getenv("CN")
+    "semi_conductor": int(os.getenv("SEMI_CONDUCTOR")),
+    "crypto": int(os.getenv("CRYPTO")),
+    "big_tech": int(os.getenv("BIG_TECH")),
+    "ai_software": int(os.getenv("AI_SOFTWARE")),
+    "spy_qqq_iwm": int(os.getenv("SPY_QQQ_IWM")),
+    "finance": int(os.getenv("FINANCE")),
+    "bio_med": int(os.getenv("BIO_MED")),
+    "vol": int(os.getenv("VOL")),
+    "tlt_tmf": int(os.getenv("TLT_TMF")),
+    "energy": int(os.getenv("ENERGY")),
+    "space": int(os.getenv("SPACE")),
+    "robo": int(os.getenv("ROBO")),
+    "social": int(os.getenv("SOCIAL")),
+    "defense": int(os.getenv("DEFENSE")),
+    "nuclear": int(os.getenv("NUCLEAR")),
+    "small_ai": int(os.getenv("SMALL_AI")),
+    "short_eft": int(os.getenv("SHORT_EFT")),
+    "food": int(os.getenv("FOOD")),
+    "drone": int(os.getenv("DRONE")),
+    "sports": int(os.getenv("SPORTS")),
+    "fashion": int(os.getenv("FASHION")),
+    "travel": int(os.getenv("TRAVEL")),
+    "auto_drive": int(os.getenv("AUTO_DRIVE")),
+    "CN": int(os.getenv("CN"))
 }
-
 
 
 id2channel = {v: k for k, v in channel2id.items()}
@@ -228,6 +226,8 @@ async def send_buy_signal_message():
                             except Exception as e:
                                 print(f"Failed to send message to channel {chan.id}: {e}")
 
+            else:
+                print(f"Channel {chan.id} is not in the monitored list.")
 
     except Exception as e:
         print(f"Error occurred: {e}")
