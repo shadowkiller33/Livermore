@@ -17,9 +17,6 @@ load_dotenv()
 # Discord Bot Token
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_TOKEN") # Ensure this is kept secure
 
-# Define your Discord channel ID where messages will be sent
-DISCORD_CHANNEL_ID = os.getenv("DISCORD_CHANNEL")
-
 # Initialize the Discord bot
 intents = discord.Intents.default()
 intents.message_content = True  # Enable privileged intents if needed
@@ -35,13 +32,13 @@ detector = BuySignalDetector(symbol, engine)
 
 # initialize signal detector for different stocks
 stocks = {
-    "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "NBIS", "AAOI"],
+    "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "AAOI"],
     "crypto": ["IBIT", "BTDR", "BTBT", "HUT", "COIN", "RIOT", "CLSK", "BTCT", "MSTR", "MARA"],
     "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
-    "saas": ["CRM", "MDB", "ZM", "SNOW", "ORCL", "NOW", "WDAY", "SHOP", "CRWD", "SQ", "DDOG", "TWLO", "SAP", "INTU", "UBER", "APP", "DOCU", "ANET"],
+    "saas": ["CRM", "MDB", "ZM", "SNOW", "ORCL", "NOW", "WDAY", "SHOP", "CRWD", "DDOG", "TWLO", "SAP", "INTU", "UBER", "APP", "DOCU", "ANET"],
     "ai_software": ["AFRM", "MNDY", "AISP", "INOD", "APLD", "NNOX",  "ADBE", "PANW", "IBM", "PLTR", "CRDO", "INTA", "CLS"],
     "social": ['SNAP', 'RDDT', "PINS", "RBLX", "DIS", "LYV"],
-    'robo': ["SERV", "ISRG", "TER", "IBRT"],
+    'robo': ["SERV", "ISRG", "TER"],
     "spy_qqq_iwm": ["IWM", "SPY", "QQQ"],
     "finance": ["DPST", "GS", "V", "WFC", "PYPL", "MS", "JPM", "BAC", "MA", "AXP", "UPST", "SOFI"],
     "bio_med": ["WBA", "JNJ", "UNH", "LLY", "MRNA", "NVO", "PFE", "AMGN", "WAY",  "HIMS", "NVS", "AZN", "ABBV"],
@@ -51,7 +48,7 @@ stocks = {
     "nuclear": ['OKLO', 'SMR', 'LTBR', 'NEE', 'NNE'],
     "energy": ["CAT", "CEG", "LNG", "GEV", "RUN", "ARRY", "VRT", "VST", "FSLR", "KOLD", "XOM", "OXY", "GE"],
     "space": ["DXYZ", "RKLB", "ASTS", "LUNR", "KULR"],
-    "small_ai": ["LUNR", "SOUN", "AFRM", "MNDY", "AISP", "INOD", "APLD", "ZETA", "AI", "BBAI", "TEM", "SERV", "CLFT"],
+    "small_ai": ["LUNR", "SOUN", "AFRM", "MNDY", "AISP", "INOD", "APLD", "ZETA", "AI", "BBAI", "TEM", "SERV"],
     "short_eft": ['SOXS', 'SQQQ', 'SPXU', 'SDOW', "TSLZ", "NVD", "TZA", "SH"],
     "food": ["MCD", "WEN", "QSR", "SBUX", "DPZ", "PZZA", "WING", "KO", "PEP", "COST", "WMT"],
     "drone": ["AVAV", "BA", "LMT", "NOC", "RCAT", "ACHR", "PDYN"],
@@ -67,32 +64,36 @@ stocks = {
 #     "semi_conductor": ["AMD", "AMD"]
 # }
 
+
+
 channel2id = {
-    "semi_conductor": 1333613478685970554,
-    "crypto": 1333613521891495998,
-    "big_tech": 1333613598450384987,
-    "ai_software": 1333613642431594527,
-    "spy_qqq_iwm": 1333613691110821888,
-    "finance": 1333613735604125737,
-    "bio_med": 1333613812309557319,
-    "vol": 1333613896623198298,
-    "tlt_tmf": 1333614021915574304,
-    "energy": 1333614121886683207,
-    "space": 1335393219491528736,
-    'robo': 1335519046291947542,
-    "social": 1335519117079351337,
-    "defense": 1335519181931679834,
-    'nuclear': 1335519259971031050,
-    "small_ai": 1335393054563237938,
-    "short_eft": 1335393145739018240,
-    "food": 1333614367979077705,
-    "drone": 1335519455475662848,
-    "sports": 1335519528355893258,
-    "fashion": 1335519593002958921,
-    "travel": 1335519666705141840,
-    "auto_drive": 1335519725287112725,
-    "CN": 1335519802265047161
+    "semi_conductor": os.getenv("SEMI_CONDUCTOR"),
+    "crypto": os.getenv("CRYPTO"),
+    "big_tech": os.getenv("BIG_TECH"),
+    "ai_software": os.getenv("AI_SOFTWARE"),
+    "spy_qqq_iwm": os.getenv("SPY_QQQ_IWM"),
+    "finance": os.getenv("FINANCE"),
+    "bio_med": os.getenv("BIO_MED"),
+    "vol": os.getenv("VOL"),
+    "tlt_tmf": os.getenv("TLT_TMF"),
+    "energy": os.getenv("ENERGY"),
+    "space": os.getenv("SPACE"),
+    "robo": os.getenv("ROBO"),
+    "social": os.getenv("SOCIAL"),
+    "defense": os.getenv("DEFENSE"),
+    "nuclear": os.getenv("NUCLEAR"),
+    "small_ai": os.getenv("SMALL_AI"),
+    "short_eft": os.getenv("SHORT_EFT"),
+    "food": os.getenv("FOOD"),
+    "drone": os.getenv("DRONE"),
+    "sports": os.getenv("SPORTS"),
+    "fashion": os.getenv("FASHION"),
+    "travel": os.getenv("TRAVEL"),
+    "auto_drive": os.getenv("AUTO_DRIVE"),
+    "CN": os.getenv("CN")
 }
+
+
 
 id2channel = {v: k for k, v in channel2id.items()}
 
@@ -144,7 +145,7 @@ def save_last_sent_data():
 
 
 
-@tasks.loop(minutes=60)  # Run the detector every 1 hour
+@tasks.loop(minutes=90)  # Run the detector every 1 hour
 async def send_buy_signal_message():
     await bot.wait_until_ready()
     channels = bot.get_all_channels()
@@ -160,7 +161,7 @@ async def send_buy_signal_message():
                     detector = detector_dict[stock_symbol]
                     # Assess buy signals for the current stock
                     signal_status = detector.multi_resolution_signal()
-                    await asyncio.sleep(20)
+                    await asyncio.sleep(15)
                     if any(signal_status.values()):
                         now = datetime.utcnow()
                         last_sent_info = last_sent_data.get(stock_symbol)
