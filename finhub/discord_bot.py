@@ -32,29 +32,29 @@ detector = BuySignalDetector(symbol, engine)
 
 # initialize signal detector for different stocks
 stocks = {
-    "semi_conductor": ["NVDA", "AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "AAOI"],
-    "crypto": ["IBIT", "BTDR", "BTBT", "HUT", "COIN", "RIOT", "CLSK", "BTCT", "MSTR", "MARA"],
+    "semi_conductor": ["AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "AAOI", "SMCI"],
+    "crypto": ["BTDR", "COIN", "RIOT", "CLSK", "MSTR", "MARA"],
     "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
-    "saas": ["CRM", "MDB", "ZM", "SNOW", "ORCL", "NOW", "WDAY", "SHOP", "CRWD", "DDOG", "TWLO", "SAP", "INTU", "UBER", "APP", "DOCU", "ANET"],
-    "ai_software": ["AFRM", "MNDY", "AISP", "INOD", "APLD", "NNOX",  "ADBE", "PANW", "IBM", "PLTR", "CRDO", "INTA", "CLS"],
+    "saas": ["CRM", "MDB", "ZM", "SNOW", "NOW", "WDAY", "SHOP", "CRWD", "DDOG", "TWLO", "SAP", "UBER", "APP", "DOCU", "ANET"],
+    "ai_software": ["AFRM",  "ADBE", "PANW", "IBM", "PLTR", "CRDO", "INTA", "CLS"],
     "social": ['SNAP', 'RDDT', "PINS", "RBLX", "DIS", "LYV"],
     'robo': ["SERV", "ISRG", "TER"],
     "spy_qqq_iwm": ["IWM", "SPY", "QQQ"],
     "finance": ["DPST", "GS", "V", "WFC", "PYPL", "MS", "JPM", "BAC", "MA", "AXP", "UPST", "SOFI"],
-    "bio_med": ["WBA", "JNJ", "UNH", "LLY", "MRNA", "NVO", "PFE", "AMGN", "WAY",  "HIMS", "NVS", "AZN", "ABBV"],
+    "bio_med": ["WBA", "JNJ", "UNH", "LLY", "MRNA", "PFE", "AMGN", "WAY",  "HIMS"],
     "vol": ["UVXY"],
     "tlt_tmf": ["TLT", "TMF"],
-    "defense": ["LMT", "NOC", "RTX", "GD", "BA", "HII", "LHX", "TXT"],
+    "defense": ["LMT", "NOC", "RTX", "GD"],
     "nuclear": ['OKLO', 'SMR', 'LTBR', 'NEE', 'NNE'],
-    "energy": ["CAT", "CEG", "LNG", "GEV", "RUN", "ARRY", "VRT", "VST", "FSLR", "KOLD", "XOM", "OXY", "GE"],
-    "space": ["DXYZ", "RKLB", "ASTS", "LUNR", "KULR"],
-    "small_ai": ["LUNR", "SOUN", "AFRM", "MNDY", "AISP", "INOD", "APLD", "ZETA", "AI", "BBAI", "TEM", "SERV"],
-    "short_eft": ['SOXS', 'SQQQ', 'SPXU', 'SDOW', "TSLZ", "NVD", "TZA", "SH"],
-    "food": ["MCD", "WEN", "QSR", "SBUX", "DPZ", "PZZA", "WING", "KO", "PEP", "COST", "WMT"],
+    "energy": ["CAT", "CEG", "LNG", "GEV", "VRT", "VST", "FSLR", "KOLD", "XOM", "OXY", "GE"],
+    "space": ["DXYZ", "RKLB", "ASTS", "LUNR"],
+    "small_ai": ["SOUN", "AI", "BBAI", "TEM", "CFLT"],
+    "short_eft": ['SOXS', 'SQQQ'],
+    "food": ["MCD", "WEN", "SBUX", "DPZ", "WING", "KO", "PEP", "COST", "WMT"],
     "drone": ["AVAV", "BA", "LMT", "NOC", "RCAT", "ACHR", "PDYN"],
-    "sports": ["NKE", "UAA", "DKNG", "PENN", "LULU", "ADDYY"],
-    "fashion": ['EL', 'LVMUY', 'LRLCY', 'ELF', "TPR", "RL", "TJX"],
-    "travel": ["AAL", "ABNB", "RCL", "CCL", "TCOM", "BKNG", "EXPE", "DAL", "UAL", "LUV"],
+    "sports": ["NKE", "UAA", "DKNG", "LULU", "ADDYY"],
+    "fashion": ['EL', 'LVMUY', 'LRLCY', 'ELF', "TPR", "RL"],
+    "travel": ["AAL", "ABNB", "RCL", "CCL", "TCOM", "EXPE", "DAL", "UAL", "LUV"],
     "auto_drive": ["RIVN", "TSLA", "UBER", "LYFT"],
     "CN": ["BABA", "TCEHY", "JD", "BIDU", "NTES", "PDD", "BILI", "JD", "FXI", "YINN", "YANG"]
 }
@@ -156,9 +156,10 @@ async def send_buy_signal_message():
                 print("Assessing buy signal for sector: ", cur_sector)
                 for stock_symbol in stocks[cur_sector]:
                     print(f"Assessing buy signal for stock: {stock_symbol}")
-                    detector = detector_dict[stock_symbol]
+                    detector: BuySignalDetector = detector_dict[stock_symbol]
                     # Assess buy signals for the current stock
-                    signal_status = detector.multi_resolution_signal()
+                    signal_status = await asyncio.to_thread(detector.multi_resolution_signal)
+                    # signal_status = detector.multi_resolution_signal()
                     await asyncio.sleep(15)
                     if any(signal_status.values()):
                         now = datetime.utcnow()
@@ -225,7 +226,6 @@ async def send_buy_signal_message():
                                 save_last_sent_data()  # Persist the update
                             except Exception as e:
                                 print(f"Failed to send message to channel {chan.id}: {e}")
-
             else:
                 print(f"Channel {chan.id} is not in the monitored list.")
 
