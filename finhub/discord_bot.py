@@ -34,9 +34,9 @@ detector = BuySignalDetector(symbol, engine)
 stocks = {
     "semi_conductor": ["AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "AAOI", "SMCI"],
     "crypto": ["BTDR", "COIN", "RIOT", "CLSK", "MSTR", "MARA"],
-    "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
+    "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG", "DELL", "IBM"],
     "saas": ["CRM", "MDB", "ZM", "SNOW", "NOW", "WDAY", "SHOP", "CRWD", "DDOG", "TWLO", "SAP", "UBER", "APP", "DOCU", "ANET"],
-    "ai_software": ["AFRM",  "ADBE", "PANW", "IBM", "PLTR", "CRDO", "INTA", "CLS"],
+    "ai_software": ["AFRM",  "ADBE", "PANW", "PLTR", "CRDO", "INTA", "CLS"],
     "social": ['SNAP', 'RDDT', "PINS", "RBLX", "DIS", "LYV"],
     'robo': ["SERV", "ISRG", "TER"],
     "spy_qqq_iwm": ["IWM", "SPY", "QQQ"],
