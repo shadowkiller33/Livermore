@@ -58,8 +58,8 @@ stocks = {
     "auto_drive": ["RIVN", "TSLA", "UBER", "LYFT"],
     "CN": ["BABA", "TCEHY", "JD", "BIDU", "NTES", "PDD", "BILI", "JD", "FXI", "YINN", "YANG"]
 }
-print("Number of stocks we monitor: ", len(stocks.values()))
-
+# compute the number of stocks monitored
+print("Number of stocks monitored: ", sum([len(stock_list) for stock_list in stocks.values()]))
 # testing purpose
 # stocks = {
 #     "semi_conductor": ["AMD", "AMD"]
