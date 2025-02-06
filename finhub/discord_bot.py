@@ -34,9 +34,9 @@ detector = BuySignalDetector(symbol, engine)
 stocks = {
     "semi_conductor": ["AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "AAOI", "SMCI"],
     "crypto": ["BTDR", "COIN", "RIOT", "CLSK", "MSTR", "MARA"],
-    "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG"],
+    "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG", "DELL", "IBM"],
     "saas": ["CRM", "MDB", "ZM", "SNOW", "NOW", "WDAY", "SHOP", "CRWD", "DDOG", "TWLO", "SAP", "UBER", "APP", "DOCU", "ANET"],
-    "ai_software": ["AFRM",  "ADBE", "PANW", "IBM", "PLTR", "CRDO", "INTA", "CLS"],
+    "ai_software": ["AFRM",  "ADBE", "PANW", "PLTR", "CRDO", "INTA", "CLS"],
     "social": ['SNAP', 'RDDT', "PINS", "RBLX", "DIS", "LYV"],
     'robo': ["SERV", "ISRG", "TER"],
     "spy_qqq_iwm": ["IWM", "SPY", "QQQ"],
@@ -58,7 +58,8 @@ stocks = {
     "auto_drive": ["RIVN", "TSLA", "UBER", "LYFT"],
     "CN": ["BABA", "TCEHY", "JD", "BIDU", "NTES", "PDD", "BILI", "JD", "FXI", "YINN", "YANG"]
 }
-
+# compute the number of stocks monitored
+print("Number of stocks monitored: ", sum([len(stock_list) for stock_list in stocks.values()]))
 # testing purpose
 # stocks = {
 #     "semi_conductor": ["AMD", "AMD"]
@@ -143,7 +144,7 @@ def save_last_sent_data():
 
 
 
-@tasks.loop(minutes=90)  # Run the detector every 1 hour
+@tasks.loop(minutes=30)  # Run the detector every 1 hour
 async def send_buy_signal_message():
     await bot.wait_until_ready()
     channels = bot.get_all_channels()
@@ -160,7 +161,7 @@ async def send_buy_signal_message():
                     # Assess buy signals for the current stock
                     signal_status = await asyncio.to_thread(detector.multi_resolution_signal)
                     # signal_status = detector.multi_resolution_signal()
-                    await asyncio.sleep(15)
+                    await asyncio.sleep(10)
                     if any(signal_status.values()):
                         now = datetime.utcnow()
                         last_sent_info = last_sent_data.get(stock_symbol)
