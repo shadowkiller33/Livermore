@@ -8,6 +8,7 @@ import discord
 from discord.ext import commands, tasks
 import asyncio
 from dotenv import load_dotenv
+from put_call_ratio import analyze_option_chain  # import the new plotting function
 from buy_signal_bot import BuySignalDetector
 import os
 import json
@@ -233,6 +234,33 @@ async def send_buy_signal_message():
     except Exception as e:
         print(f"Error occurred: {e}")
 
+
+
+@bot.command()
+async def plot_options(ctx, symbol: str, expiration: str):
+    """
+    Discord command to generate the options plot for a given stock symbol and expiration date.
+    Usage: !plot_options NVDA 2025-02-15
+    """
+    # Validate the expiration date format.
+    try:
+        # This will raise a ValueError if the format is not correct.
+        dt = datetime.strptime(expiration, '%Y-%m-%d')
+        print(dt)
+    except ValueError:
+        await ctx.send("Expiration date must be in **YYYY-MM-DD** format. Please try again.")
+        return
+
+    await ctx.send(f"Generating options plot for {symbol} with expiration {dt}...")
+    output_file_name = f"{symbol}_{dt}.png"
+    
+    # Generate the plot if the file doesn't already exist.
+    if not os.path.exists(output_file_name):
+        analyze_option_chain(symbol, expiration, output_file_name)
+    try:
+        await ctx.send(file=discord.File(output_file_name))
+    except Exception as e:
+        await ctx.send(f"Error sending the plot: {e}")
 
 # Run the bot
 bot.run(DISCORD_BOT_TOKEN)

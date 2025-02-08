@@ -197,7 +197,9 @@ class FinnhubEngine:
         params = {'symbol': symbol, 'expiration': expiration}
         response = self.session.get(OPTION_CHAIN_URL, params=params)
         response.raise_for_status()
-        return response.json()['data']
+        data = response.json()['data']
+        filtered_data = [option for option in data if option.get('expirationDate') == expiration]
+        return filtered_data
     
 
     
