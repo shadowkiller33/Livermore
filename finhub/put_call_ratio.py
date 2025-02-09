@@ -106,6 +106,7 @@ def analyze_option_chain(symbol, output_path='temp_plot.png'):
         ax.set_ylabel("Volume")
         # Format the call/put ratio as a percentage with 1 decimal.
         vol_ratio_percent = overall_volume_ratio * 100 if overall_volume_ratio is not None else 0
+        overall_open_interest_ratio = overall_open_interest_ratio * 100 if overall_open_interest_ratio is not None else 0
         title = (f"{symbol} Option Volume Distribution\nExpiration: {chain_expiration}\n"
                  f"Overall Vol Ratio (Put/Call): {vol_ratio_percent:.1f}%, "
                  f"Open Interest Ratio (Put/Call): {overall_open_interest_ratio:.1f}%")
