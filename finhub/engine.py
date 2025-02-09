@@ -201,6 +201,23 @@ class FinnhubEngine:
         filtered_data = [option for option in data if option.get('expirationDate') == expiration]
         return filtered_data
     
+    def get_option_chain(self, symbol):
+        """
+        Retrieve option chain for a given stock symbol.
+        
+        Parameters:
+        - symbol (str): Stock ticker symbol.
+        
+        Returns:
+        - dict: Option chain data.
+        """
+        params = {'symbol': symbol}
+        response = self.session.get(OPTION_CHAIN_URL, params=params)
+        response.raise_for_status()
+        data = response.json()['data']
+        return data
+        
+    
 
     
 
