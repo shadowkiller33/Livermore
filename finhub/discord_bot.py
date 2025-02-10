@@ -173,12 +173,12 @@ async def send_buy_signal_message():
                             last_signal_status = last_sent_info["last_signal_status"]
 
                             # Check if signal status has changed
-                            if signal_status != last_signal_status:
+                            if (signal_status != last_signal_status) and (sum(signal_status.values() > sum(last_signal_status.values()))):
                                 send_message = True
                                 print(f"Signal status changed for {stock_symbol}. Preparing to send message.")
                             else:
                                 # Check if a message was sent within the last 24 hours
-                                if (now - last_sent_time) > timedelta(days=1):
+                                if (now - last_sent_time) > timedelta(days=0.5):
                                     send_message = True
                                     print(f"24 hours passed since last message for {stock_symbol}. Preparing to send message.")
                                 else:

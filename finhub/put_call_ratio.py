@@ -158,8 +158,8 @@ def analyze_option_chain(symbol, output_path='temp_plot.png'):
 
 # For standalone testing
 def main():
-    symbol = 'SPY'
-    analyze_option_chain(symbol, output_path=f'{symbol}_option_chains.png')
+    symbol = 'TSLA'
+    analyze_option_chain(symbol, output_path=f'figures/{symbol}_option_chains.png')
 
 if __name__ == "__main__":
     main()
