@@ -47,7 +47,7 @@ stocks = {
     "tlt_tmf": ["TLT", "TMF"],
     "defense": ["LMT", "NOC", "RTX", "GD"],
     "nuclear": ['OKLO', 'SMR', 'LTBR', 'NEE', 'NNE'],
-    "energy": ["CAT", "CEG", "LNG", "GEV", "VRT", "VST", "FSLR", "KOLD", "XOM", "OXY", "GE"],
+    "energy": ["CAT", "CEG", "LNG", "GEV", "VRT", "VST", "FSLR", "KOLD", "XOM", "OXY", "GE", "HAL"],
     "space": ["DXYZ", "RKLB", "ASTS", "LUNR"],
     "small_ai": ["SOUN", "AI", "BBAI", "TEM", "CFLT"],
     "short_eft": ['SOXS', 'SQQQ'],
@@ -92,6 +92,16 @@ channel2id = {
     "travel": int(os.getenv("TRAVEL")),
     "auto_drive": int(os.getenv("AUTO_DRIVE")),
     "CN": int(os.getenv("CN"))
+}
+
+# Define weights for each timeframe
+weights = {
+    '30min': 1,
+    '1H': 2,
+    '2H': 3,
+    '3H': 4,
+    '4H': 5,
+    'D': 6,
 }
 
 
@@ -173,16 +183,21 @@ async def send_buy_signal_message():
                             last_signal_status = last_sent_info["last_signal_status"]
 
                             # Check if signal status has changed
-                            if (signal_status != last_signal_status) and (sum(signal_status.values() > sum(last_signal_status.values()))):
+                            # Calculate the weighted score for the current signal status
+                            current_score = sum(weights.get(tf, 0) for tf, triggered in signal_status.items() if triggered)
+                            # Calculate the weighted score for the last signal status
+                            previous_score = sum(weights.get(tf, 0) for tf, triggered in last_signal_status.items() if triggered)
+
+                            if signal_status != last_signal_status and current_score > previous_score:
                                 send_message = True
-                                print(f"Signal status changed for {stock_symbol}. Preparing to send message.")
+                                print(f"Signal status changed for {stock_symbol} with increased weighted score (from {previous_score} to {current_score}). Preparing to send message.")
                             else:
                                 # Check if a message was sent within the last 24 hours
-                                if (now - last_sent_time) > timedelta(days=0.5):
+                                if (now - last_sent_time) > timedelta(hours=24):
                                     send_message = True
                                     print(f"24 hours passed since last message for {stock_symbol}. Preparing to send message.")
                                 else:
-                                    print(f"Message for {stock_symbol} was sent less than a day ago and no signal change. Skipping.")
+                                    print(f"Message for {stock_symbol} was sent less than 24 hours ago and no significant signal change. Skipping.")
                         else:
                             # No previous record, send message
                             send_message = True
