@@ -33,9 +33,9 @@ detector = BuySignalDetector(symbol, engine)
 
 # initialize signal detector for different stocks
 stocks = {
-    "semi_conductor": ["AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "AAOI", "SMCI"],
+    "semi_conductor": ["AMD", "SMTC", "SOXX", "ARM", "AMAT", "LRCX", "QCOM", "INTC", "TSM", "ASML", "ALAB", "AVGO", "MU", "AAOI", "SMCI", "ADI", "TXN"],
     "crypto": ["BTDR", "COIN", "RIOT", "CLSK", "MSTR", "MARA"],
-    "big_tech":["NFLX", "NVDA", "ORCL", "TSLL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG", "DELL", "IBM"],
+    "big_tech":["NFLX", "NVDA", "ORCL", "TSLA", "MSFT", "AMZN", "META", "AAPL", "GOOG", "DELL", "IBM"],
     "saas": ["CRM", "MDB", "ZM", "SNOW", "NOW", "WDAY", "SHOP", "CRWD", "DDOG", "TWLO", "SAP", "UBER", "APP", "DOCU", "ANET"],
     "ai_software": ["AFRM",  "ADBE", "PANW", "PLTR", "CRDO", "INTA", "CLS"],
     "social": ['SNAP', 'RDDT', "PINS", "RBLX", "DIS", "LYV"],
@@ -51,7 +51,7 @@ stocks = {
     "space": ["DXYZ", "RKLB", "ASTS", "LUNR"],
     "small_ai": ["SOUN", "AI", "BBAI", "TEM", "CFLT"],
     "short_eft": ['SOXS', 'SQQQ'],
-    "food": ["MCD", "WEN", "SBUX", "DPZ", "WING", "KO", "PEP", "COST", "WMT"],
+    "food": ["MCD", "WEN", "SBUX", "DPZ", "WING", "KO", "PEP", "COST", "WMT", "PM"],
     "drone": ["AVAV", "BA", "LMT", "NOC", "RCAT", "ACHR", "PDYN"],
     "sports": ["NKE", "UAA", "DKNG", "LULU", "ADDYY"],
     "fashion": ['EL', 'LVMUY', 'LRLCY', 'ELF', "TPR", "RL"],
