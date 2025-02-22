@@ -1,0 +1,222 @@
+{
+    "semi_conductor": [
+        "AMD",
+        "SMTC",
+        "SOXX",
+        "AMAT",
+        "LRCX",
+        "QCOM",
+        "INTC",
+        "TSMWF",
+        "ASMLF",
+        "ALAB",
+        "AVGO",
+        "MU",
+        "AAOI",
+        "SMCI"
+    ],
+    "crypto": [
+        "BTDR",
+        "COIN",
+        "RIOT",
+        "CLSK",
+        "MSTR",
+        "MARA"
+    ],
+    "big_tech": [
+        "NFLX",
+        "NVDA",
+        "ORCL",
+        "TSLL",
+        "TSLA",
+        "MSFT",
+        "AMZN",
+        "META",
+        "AAPL",
+        "GOOG"
+    ],
+    "saas": [
+        "CRM",
+        "MDB",
+        "ZM",
+        "SNOW",
+        "NOW",
+        "WDAY",
+        "SHOP",
+        "CRWD",
+        "DDOG",
+        "TWLO",
+        "SAPGF",
+        "UBER",
+        "APP",
+        "DOCU",
+        "ANET"
+    ],
+    "ai_software": [
+        "AFRM",
+        "ADBE",
+        "PANW",
+        "IBM",
+        "PLTR",
+        "CRDO",
+        "INTA",
+        "CLS"
+    ],
+    "social": [
+        "SNAP",
+        "RDDT",
+        "PINS",
+        "RBLX",
+        "DIS",
+        "LYV"
+    ],
+    "robo": [
+        "SERV",
+        "ISRG",
+        "TER"
+    ],
+    "spy_qqq_iwm": [
+        "IWM",
+        "SPY",
+        "QQQ"
+    ],
+    "finance": [
+        "DPST",
+        "GS",
+        "V",
+        "WFC",
+        "PYPL",
+        "MS",
+        "JPM",
+        "BAC",
+        "MA",
+        "AXP",
+        "UPST",
+        "SOFI"
+    ],
+    "bio_med": [
+        "WBA",
+        "JNJ",
+        "UNH",
+        "LLY",
+        "MRNA",
+        "PFE",
+        "AMGN",
+        "WAY",
+        "HIMS"
+    ],
+    "vol": [
+        "UVXY"
+    ],
+    "tlt_tmf": [
+        "TLT",
+        "TMF"
+    ],
+    "defense": [
+        "LMT",
+        "NOC",
+        "RTX",
+        "GD"
+    ],
+    "nuclear": [
+        "OKLO",
+        "SMR",
+        "LTBR",
+        "NEE",
+        "NNE"
+    ],
+    "energy": [
+        "CAT",
+        "CEG",
+        "LNG",
+        "GEV",
+        "VRT",
+        "VST",
+        "FSLR",
+        "KOLD",
+        "XOM",
+        "OXY",
+        "GE"
+    ],
+    "space": [
+        "DXYZ",
+        "RKLB",
+        "ASTS",
+        "LUNR"
+    ],
+    "small_ai": [
+        "SOUN",
+        "AI",
+        "BBAI",
+        "TEM",
+        "CFLT"
+    ],
+    "short_eft": [
+        "SOXS",
+        "SQQQ"
+    ],
+    "food": [
+        "MCD",
+        "WEN",
+        "SBUX",
+        "DPZ",
+        "WING",
+        "KO",
+        "PEP",
+        "COST",
+        "WMT"
+    ],
+    "drone": [
+        "AVAV",
+        "BA",
+        "LMT",
+        "NOC",
+        "RCAT",
+        "ACHR",
+        "PDYN"
+    ],
+    "sports": [
+        "NKE",
+        "UAA",
+        "DKNG",
+        "LULU",
+        "ADDDF"
+    ],
+    "fashion": [
+        "EL",
+        "LVMHF",
+        "LRLCF",
+        "ELF",
+        "TPR",
+        "RL"
+    ],
+    "travel": [
+        "AAL",
+        "ABNB",
+        "RCL",
+        "CCL",
+        "TRPCF",
+        "EXPE",
+        "DAL",
+        "UAL",
+        "LUV"
+    ],
+    "auto_drive": [
+        "RIVN",
+        "TSLA",
+        "UBER",
+        "LYFT"
+    ],
+    "CN": [
+        "ALBHF",
+        "TCTZF",
+        "JDCMF",
+        "BAIDF",
+        "NETTF",
+        "BLBLF",
+        "JDCMF",
+        "FXI",
+        "YINN",
+        "YANG"
+    ]
+}

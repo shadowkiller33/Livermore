@@ -1,0 +1,56 @@
+[project]
+
+name = "Livermore"
+description = "software"
+version = "1.0.0"
+
+authors = [
+    { name = "Livermore Group" }
+]
+
+dependencies = [
+  "numpy",
+  "pandas",
+  "pandas_market_calendars",
+  "schedule",
+  "yfinance",
+  "ta",
+  "moomoo-api",
+  "mplfinance",
+  "seaborn",
+  "matplotlib",
+  "finnhub-python",
+  "mmengine",
+  "retrying",
+  "mplfinance",
+  "tqdm",
+  "sqlalchemy"
+]
+
+[tool.setuptools]
+py-modules = ["livermore"]
+
+[tool.black]
+line-length = 200
+target-version = ['py311']
+include = '\.pyi?$'
+ignore = ["E226", "E302", "E41"]
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+
+[tool.pylint.format]
+max-line-length = "200"
