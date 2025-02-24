@@ -16,6 +16,7 @@ from matplotlib.ticker import MaxNLocator
 from mmengine import load, dump
 from IPython import embed  
 from datetime import datetime, timedelta
+from dateutil.relativedelta import relativedelta
 
 
 def get_ny_time(timestamp=None):
@@ -82,7 +83,7 @@ def get_readable_time(timestamp):
 
 
 def time_to_seconds(time_str):
-    unit_map = {"h": "hours", "d": "days", "m": "minutes", "s": "seconds"}
+    unit_map = {"d": "days", "h": "hours", "m": "minutes", "s": "seconds"}
     num, unit = eval(time_str[:-1]), time_str[-1].lower()
     if unit in unit_map:
         return timedelta(**{unit_map[unit]: num}).total_seconds()

@@ -98,14 +98,16 @@ class StockCandleDatabase:
                 candles = session.query(StockCandle).filter(
                     StockCandle.symbol == symbol,
                     StockCandle.candle_type == candle_type,
-                ).order_by(desc(StockCandle.timestamp)).limit(num * 2).all()
+                ).order_by(desc(StockCandle.timestamp))
             else:
                 candles = session.query(StockCandle).filter(
                     StockCandle.symbol == symbol,
                     StockCandle.candle_type == candle_type,
                     StockCandle.timestamp <= last_time
-                ).order_by(desc(StockCandle.timestamp)).limit(num * 2).all()
-                
+                ).order_by(desc(StockCandle.timestamp))
+            if num is not None:
+                candles = candles.limit(num * 2)
+                candles = candles.all()[:num]
             candles = candles[::-1]
             if market_time_only:
                 candles = [candle for candle in candles if MARKET_OPEN <= candle.date.astimezone(ny_timezone).time() <= MARKET_CLOSE]

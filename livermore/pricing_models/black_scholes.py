@@ -1,6 +1,6 @@
 # black_scholes.py
 
-import numpy as np
+import numpy as np, math
 from scipy.stats import norm
 
 def black_scholes_price(S, K, T, r, sigma, option_type='call', q=0):
@@ -19,22 +19,34 @@ def black_scholes_price(S, K, T, r, sigma, option_type='call', q=0):
     Returns:
     - Option price
     """
-    S = np.array(S)
-    K = np.array(K)
-    T = np.array(T)
-    sigma = np.array(sigma)
-    
-    d1 = (np.log(S / K) + (r - q + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
-    d2 = d1 - sigma * np.sqrt(T)
-    
-    if option_type == 'call':
-        price = S * np.exp(-q * T) * norm.cdf(d1) - K * np.exp(-r * T) * norm.cdf(d2)
-    elif option_type == 'put':
-        price = K * np.exp(-r * T) * norm.cdf(-d2) - S * np.exp(-q * T) * norm.cdf(-d1)
+    # Black-Scholes d1 and d2
+    d1 = (math.log(S / K) + (r - q + 0.5 * sigma ** 2) * T) / (sigma * math.sqrt(T))
+    d2 = d1 - sigma * math.sqrt(T)
+    if option_type == "call":
+        price = S * math.exp(-q * T) * norm.cdf(d1) - K * math.exp(-r * T) * norm.cdf(d2)
+        delta = norm.cdf(d1)
+    elif option_type == "put":
+        price = K * math.exp(-r * T) * norm.cdf(-d2) - S * math.exp(-q * T) * norm.cdf(-d1)
+        delta = -norm.cdf(-d1)
     else:
-        raise ValueError("option_type must be 'call' or 'put'")
-    
-    return price
+        raise ValueError("Invalid option type. Choose 'call' or 'put'.")
+
+    # Greeks Calculation
+    gamma = norm.pdf(d1) / (S * sigma * math.sqrt(T))
+    vega = S * norm.pdf(d1) * math.sqrt(T) / 100
+    theta = (-S * norm.pdf(d1) * sigma / (2 * math.sqrt(T)) 
+             - r * K * math.exp(-r * T) * norm.cdf(d2 if option_type == "call" else -d2)) / 365
+    rho = (K * T * math.exp(-r * T) * norm.cdf(d2 if option_type == "call" else -d2)) / 100
+
+    return {
+        "price": float(round(price, 5)),
+        "delta": float(round(delta, 5)),
+        "gamma": float(round(gamma, 5)),
+        "vega": float(round(vega, 5)),
+        "theta": float(round(theta, 5)),
+        "rho": float(round(rho, 5)),
+    }
+
 
 def black_scholes_probability_ITM(S, K, T, r, sigma, option_type='call', q=0):
     """
@@ -60,6 +72,7 @@ def black_scholes_probability_ITM(S, K, T, r, sigma, option_type='call', q=0):
     else:
         raise ValueError("option_type must be 'call' or 'put'")
     return probability
+
 
 def calculate_reward_ratio(S, S_low, K, T, r, sigma, option_type='call', current_option_price=0):
     """

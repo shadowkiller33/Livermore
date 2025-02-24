@@ -342,6 +342,45 @@ class FinnhubEngine:
                 buy_signals[resolution] = int(buy_signal[-1])
         return buy_signals
 
+    def get_all_existing_signals(self, symbol):
+        # For analysis
+        resolutions = ["30m", "1h", "2h", "3h", "4h", "1d"]
+        data = self.query_candles_of_different_resolutions(symbol, num=None)
+        period_start = data["1d"]["t"][30]
+        signals = {}
+        for resolution in resolutions:
+            # print(resolution, len(data[resolution]["t"]))
+            signals[resolution] = compute_vegas_channel_and_signal(data[resolution])
+        buy_signals = {}
+        for resolution in resolutions:
+            t = data[resolution]["t"]
+            buy_signal = signals[resolution]["buy_signal"]
+            buy_signal = [t[i] for i, flag in enumerate(buy_signal) if flag and period_start <= t[i]]
+            if len(buy_signal) > 0:
+                buy_signals[resolution] = buy_signal
+        return buy_signals
+
+    def calculate_realized_volatility(self, prices, window=21, annual_factor=252):
+        """
+        Calculate Realized Volatility (RV) using log returns.
+
+        :param prices: Series or list, daily closing prices of the asset
+        :param window: int, rolling window size (default is 21 days)
+        :param annual_factor: int, annualization factor (default is 252 trading days)
+        :return: Series, realized volatility
+        """
+        if isinstance(prices, list):
+            prices = pd.Series(prices)
+        # Compute log returns
+        log_returns = np.log(prices / prices.shift(1))
+        
+        # Compute rolling realized volatility
+        rv = log_returns.rolling(window=window).apply(lambda x: np.sqrt(np.sum(x**2)), raw=True)
+        
+        # Annualized realized volatility
+        rv_annualized = rv * np.sqrt(annual_factor / window)
+        return rv_annualized
+
 
 def update_new_data():
     symbols_by_sectors = load(str(livermore_root / 'data/remapped_coarse_selection.json'))
