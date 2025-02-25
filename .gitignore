@@ -99,3 +99,4 @@ venv/
 exp/
 .env
 tmp
+*.png

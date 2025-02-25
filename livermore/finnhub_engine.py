@@ -324,10 +324,16 @@ class FinnhubEngine:
             timestamp = [candle.timestamp for candle in candles]
             assert len(timestamp) == len(set(timestamp)), f"Stock {symbol} has duplicated {resolution} candles."
 
-    def get_recent_signals(self, symbol, period="2d"):
+    def get_recent_signals(self, symbol, num_days=2):
         self.update_recent_candles(symbol)
         period_end = time.time()
-        period_start = period_end - time_to_seconds(period)
+        
+        now = get_ny_time(period_end)
+        last_date = np.busday_offset(now.strftime('%Y-%m-%d'), -num_days, roll='backward')
+        last_date = last_date.astype(datetime)
+        delta_seconds = (now.date() - last_date).total_seconds()
+        period_start = period_end - delta_seconds
+        
         resolutions = ["30m", "1h", "2h", "3h", "4h", "1d"]
         data = self.query_candles_of_different_resolutions(symbol)
         signals = {}

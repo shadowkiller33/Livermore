@@ -258,6 +258,7 @@ def plot_multiple_stock_candles(candles, symbol, filename=None, figsize=(30, 12)
     fig.suptitle(f'{symbol} | {get_readable_time(st_time)} - {get_readable_time(end_time)}', fontweight='bold', fontsize=20)
     
     for i, resolution in enumerate(["30m", "1h", "2h", "3h", "4h", "1d"]):
+        # print(resolution, len(candles[resolution]["t"]))
         signals = compute_vegas_channel_and_signal(candles[resolution])
         plot_stock_candles(candles[resolution], symbol, resolution, signals, filename, figsize, time_range, max_num, market_time_only, output_ax=axes[i], show_legend=i==0)
     fig.tight_layout()
