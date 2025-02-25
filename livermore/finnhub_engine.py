@@ -308,14 +308,17 @@ class FinnhubEngine:
             results = process_database_results(results)
             # Forward Adjusted Price
             # Consider Split & Cash Dividend
-            for i in reversed(range(len(results["t"]))):
-                if split_idx < len(splits) and results["t"][i] < splits[split_idx]["date"]:
-                    factor *= splits[split_idx]["fromFactor"] / splits[split_idx]["toFactor"]
-                    results["o"][i] *= factor
-                    results["h"][i] *= factor
-                    results["l"][i] *= factor
-                    results["c"][i] *= factor
-            ret[resolution] = results
+            try:
+                for i in reversed(range(len(results["t"]))):
+                    if split_idx < len(splits) and results["t"][i] < splits[split_idx]["date"]:
+                        factor *= splits[split_idx]["fromFactor"] / splits[split_idx]["toFactor"]
+                        results["o"][i] *= factor
+                        results["h"][i] *= factor
+                        results["l"][i] *= factor
+                        results["c"][i] *= factor
+                ret[resolution] = results
+            except Exception:
+                pass
         return ret
     
     def validate_candles(self, symbol):
@@ -341,6 +344,8 @@ class FinnhubEngine:
             signals[resolution] = compute_vegas_channel_and_signal(data[resolution])
         buy_signals = {}
         for resolution in resolutions:
+            if resolution not in data:
+                continue
             t = data[resolution]["t"]
             buy_signal = signals[resolution]["buy_signal"]
             buy_signal = [t[i] for i, flag in enumerate(buy_signal) if flag and period_start <= t[i]]

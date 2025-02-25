@@ -100,3 +100,4 @@ exp/
 .env
 tmp
 *.png
+livermore/data/previous_signals.json
