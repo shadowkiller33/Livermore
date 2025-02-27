@@ -8,7 +8,7 @@ import time
 
 
 def update_new_data():
-    symbols_by_sectors = load(str(livermore_root / 'data/coarse_selection.json'))
+    symbols_by_sectors = load(str(livermore_root / 'data/lingfeng_symbols.json'))
     symbols = []
     for key, value in symbols_by_sectors.items():
         symbols += value
