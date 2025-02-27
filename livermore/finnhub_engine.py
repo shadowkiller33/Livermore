@@ -318,7 +318,7 @@ class FinnhubEngine:
                         results["c"][i] *= factor
                 ret[resolution] = results
             except Exception:
-                pass
+                print("We cannot get data:", symbol, resolution, len(results["t"]))
         return ret
     
     def validate_candles(self, symbol):
