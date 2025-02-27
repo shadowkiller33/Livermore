@@ -16,9 +16,11 @@ def update_new_data():
     
     for symbol in tqdm(symbols):
         oldest_time = 3600 * 24 * 365 * 2
-        engine.update_recent_candles(symbol) #, new_start=int(time.time() - oldest_time), new_end=get_last_time("1m").timestamp())
-        # engine.validate_candles(symbol)
-
+        try:
+            signals = engine.get_recent_signals(symbol)
+        except Exception as e:
+            print(symbol)
+    
 
 if __name__ == "__main__":
     engine = FinnhubEngine(api_key="cu9bivpr01qnf5nmlh8gcu9bivpr01qnf5nmlh90")
