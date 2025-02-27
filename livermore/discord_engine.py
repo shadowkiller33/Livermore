@@ -31,7 +31,7 @@ engine = FinnhubEngine(api_key="cu9bivpr01qnf5nmlh8gcu9bivpr01qnf5nmlh90")
 profiles = load(str(livermore_root / 'data/large_companies_20250206.json'))
 lingfeng_selections = load(str(livermore_root / 'data/selected_sotcks.json'))
 lingfeng_selections = list(chain(*lingfeng_selections.values()))
-symbols_by_sectors = load(str(livermore_root / 'data/remapped_coarse_selection.json'))
+symbols_by_sectors = load(str(livermore_root / 'data/lingfeng_symbols.json'))
 symbols_to_sector = {}
 for name, value in symbols_by_sectors.items():
     for item in value:
