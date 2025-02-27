@@ -6,7 +6,7 @@
     "ai_software": ["AFRM",  "ADBE", "PANW", "PLTR", "CRDO", "INTA", "CLS"],
     "entertain": ["SNAP", "RDDT", "PINS", "RBLX", "DIS", "LYV", "TTWO", "EA", "TTD", "NFLX", "ROKU"],
     "robo": ["SERV", "ISRG", "TER"],
-    "spy_qqq_iwm": ["IWM", "SPY","SPX", "QQQ"],
+    "spy_qqq_iwm": ["IWM", "SPY", "QQQ"],
     "finance": ["DPST", "GS", "V", "WFC", "PYPL", "MS", "JPM", "BAC", "MA", "AXP", "UPST", "SOFI"],
     "bio_med": ["WBA", "JNJ", "UNH", "LLY", "MRNA", "PFE", "AMGN", "WAY",  "HIMS"],
     "tlt_tmf": ["TLT", "TMF"],

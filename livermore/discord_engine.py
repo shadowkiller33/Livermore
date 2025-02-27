@@ -178,9 +178,9 @@ async def on_ready():
     # await delete_stock_channels()
     # await delete_channels_by_category_name(guild, "Signa")
     # await create_signal_channels(guild)
-    
-    # await send_test_to_all_v2_channels(guild)
+    # await send_test_to_all_channels(guild)
     # await send_stock_buy_signals()
+    
     print(f"Start the server at {get_readable_time(get_ny_time())}!")
     print('------')
     if not send_stock_buy_signals.is_running():
@@ -257,32 +257,35 @@ async def send_stock_buy_signals():
     count = 0
     print(f"Start to scan {len(symbols)} stocks at {get_readable_time(now)}!")
     for symbol in tqdm(symbols):
-        # signals = alls_opportunities.get(symbol, {})
-        signals = engine.get_recent_signals(symbol)
-        if len(signals) == 0 :
-            continue
-        indices = ["30m", "1h", "2h", "3h", "4h", "1d"]
-        is_strong = sum([_ in ["1h", "2h", "3h", "4h", "1d"] for _ in signals]) >= 3
-        # best_signal = max([indices.index(_) for _ in signals])
-        if not (symbol in lingfeng_selections or is_strong):
-            continue
-        previous_signal = PREVIOUS_SIGNAL.get(symbol, None)
-        if previous_signal is not None:
-            previous_score = sum([weights[_] for _ in previous_signal["signal"]])
-            current_score = sum([weights[_] for _ in signals])
-            timestamp = datetime.fromtimestamp(previous_signal["timestamp"])
-            if current_score <= previous_score and (datetime.now() - timestamp < timedelta(hours=24)):
+        try:
+            # signals = alls_opportunities.get(symbol, {})
+            signals = engine.get_recent_signals(symbol)
+            if len(signals) == 0 :
                 continue
-        PREVIOUS_SIGNAL[symbol] = {"signal": signals, "timestamp": int(time.time())}
-        latest_time = get_readable_time(max(list(signals.values())))
-        sector_name = symbols_to_sector[symbol]
-        count += 1
-        print(f"Send signal for {symbol} to channel {sector_name} with {list(signals.keys())} at {latest_time}.")
-        await send_signals_to_channel(symbol, signals, is_strong, sector_name)
-        if is_strong:
-            print(f"Send signal for {symbol} to channel Good with {list(signals.keys())} at {latest_time}.")
-            await send_signals_to_channel(symbol, signals, is_strong, "Good")
-        dump(PREVIOUS_SIGNAL, livermore_root / 'data/previous_signals.json', indent=2)
+            indices = ["30m", "1h", "2h", "3h", "4h", "1d"]
+            is_strong = sum([_ in ["1h", "2h", "3h", "4h", "1d"] for _ in signals]) >= 3
+            # best_signal = max([indices.index(_) for _ in signals])
+            if not (symbol in lingfeng_selections or is_strong):
+                continue
+            previous_signal = PREVIOUS_SIGNAL.get(symbol, None)
+            if previous_signal is not None:
+                previous_score = sum([weights[_] for _ in previous_signal["signal"]])
+                current_score = sum([weights[_] for _ in signals])
+                timestamp = datetime.fromtimestamp(previous_signal["timestamp"])
+                if current_score <= previous_score and (datetime.now() - timestamp < timedelta(hours=24)):
+                    continue
+            PREVIOUS_SIGNAL[symbol] = {"signal": signals, "timestamp": int(time.time())}
+            latest_time = get_readable_time(max(list(signals.values())))
+            sector_name = symbols_to_sector[symbol]
+            count += 1
+            print(f"Send signal for {symbol} to channel {sector_name} with {list(signals.keys())} at {latest_time}.")
+            await send_signals_to_channel(symbol, signals, is_strong, sector_name)
+            if is_strong:
+                print(f"Send signal for {symbol} to channel Good with {list(signals.keys())} at {latest_time}.")
+                await send_signals_to_channel(symbol, signals, is_strong, "Good")
+            dump(PREVIOUS_SIGNAL, livermore_root / 'data/previous_signals.json', indent=2)
+        except Exception as e:
+            print(f"Failed to process signals for {symbol}: {e}")
             
 
 if __name__ == "__main__":
