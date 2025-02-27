@@ -110,7 +110,7 @@ class StockCandleDatabase:
                 candles = candles.all()[:num]
             candles = candles[::-1]
             if market_time_only:
-                candles = [candle for candle in candles if MARKET_OPEN <= candle.date.astimezone(ny_timezone).time() <= MARKET_CLOSE]
+                candles = [candle for candle in candles if MARKET_OPEN <= get_ny_time(candle.timestamp).time() <= MARKET_CLOSE]
             session.close()
             return candles
         except Exception as e:
