@@ -14,12 +14,15 @@ def update_new_data():
         symbols += value
     print(len(symbols))
     
+    ret = []
     for symbol in tqdm(symbols):
         oldest_time = 3600 * 24 * 365 * 2
         try:
             signals = engine.get_recent_signals(symbol)
         except Exception as e:
-            print(symbol)
+            ret.append(symbol)
+    print("Failed", len(ret))
+    print(ret)
     
 
 if __name__ == "__main__":
