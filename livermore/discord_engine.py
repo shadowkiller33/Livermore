@@ -85,6 +85,18 @@ async def delete_channels_by_category_name(guild, category_name):
         print(f"Deleted channel: {channel.name}")
 
     print(f"All channels under '{category_name}' have been deleted.")
+    
+    
+async def delete_stock_channels():
+    for guild in bot.guilds:
+        print(f'Guild: {guild.name}')
+        for channel in guild.channels:
+            if channel.category is not None:
+                continue
+            if channel.type == discord.ChannelType.category:
+               continue 
+            await delete_channel_by_id(bot, channel.id)
+
 
 
 def find_channel(guild, channel_name, category_name=None):
@@ -139,8 +151,8 @@ async def plot_options(ctx, symbol: str, expiration: str):
         await ctx.send(f"Error sending the plot: {e}")
 
 
-async def create_signal_v2_channels(guild):
-    category_name = "Signal-V2"
+async def create_signal_channels(guild):
+    category_name = "Signal"
     if find_channel(guild, category_name) is None:
         await create_category_channel(guild, category_name)
     
@@ -149,8 +161,8 @@ async def create_signal_v2_channels(guild):
             await create_text_channel(guild, sector_name, category_name)
     
 
-async def send_test_to_all_v2_channels(guild):
-    category_name = "Signal-V2"
+async def send_test_to_all_channels(guild):
+    category_name = "Signal"
     for sector_name in ["Good"] + list(symbols_by_sectors.keys()):
         channel = find_channel(guild, channel_name, category_name)
         message = f"This is a test message for the {sector_name} channel."
@@ -162,8 +174,11 @@ async def on_ready():
     print(f'Logged in as Uer: {bot.user} (ID: {bot.user.id})')
     guild = bot.guilds[0]
     # all_channels = guild.channels
-    # await delete_channels_by_category_name(guild, "Signal-V2")
-    # await create_signal_v2_channels(guild)
+    
+    # await delete_stock_channels()
+    # await delete_channels_by_category_name(guild, "Signa")
+    # await create_signal_channels(guild)
+    
     # await send_test_to_all_v2_channels(guild)
     # await send_stock_buy_signals()
     print(f"Start the server at {get_readable_time(get_ny_time())}!")
@@ -181,7 +196,7 @@ async def send_signals_to_channel(symbol, signals, is_strong, channel_name):
     color = 0x00FF00  # Green by default
     if is_strong:
         color = 0xFF0000  # Red for multiple signals
-    channel = find_channel(bot.guilds[0], channel_name, "Signal-V2")
+    channel = find_channel(bot.guilds[0], channel_name, "Signal")
     # print(channel.id)
 
     # Create an Embed object
