@@ -266,8 +266,8 @@ async def send_stock_buy_signals():
             is_strong = sum([_ in ["1h", "2h", "3h", "4h", "1d"] for _ in signals]) >= 3
             is_necessary = sum([_ in ["1h", "2h", "3h", "4h", "1d"] for _ in signals]) >= 1
             # best_signal = max([indices.index(_) for _ in signals])
-            if not (symbol in lingfeng_selections or is_necessary):
-                continue
+            # if not (symbol in lingfeng_selections or is_necessary):
+            #     continue
             previous_signal = PREVIOUS_SIGNAL.get(symbol, None)
             if previous_signal is not None:
                 previous_score = sum([weights[_] for _ in previous_signal["signal"]])
