@@ -3,12 +3,14 @@ import pytz
 import time
 import pandas as pd
 import numpy as np
-import matplotlib.ticker as ticker
 import io
 from PIL import Image
 
 from copy import deepcopy
 
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.ticker as ticker
 from matplotlib import pyplot as plt
 from matplotlib.patches import Rectangle
 from matplotlib.ticker import MaxNLocator
