@@ -1,0 +1,202 @@
+{
+  "net_assets": "13500000000",
+  "net_expense_ratio": "0.0035",
+  "portfolio_turnover": "0.28",
+  "dividend_yield": "n/a",
+  "inception_date": "2001-07-10",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.857"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.037"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "AVGO",
+      "description": "BROADCOM INC",
+      "weight": "0.1074"
+    },
+    {
+      "symbol": "NVDA",
+      "description": "NVIDIA CORP",
+      "weight": "0.0768"
+    },
+    {
+      "symbol": "QCOM",
+      "description": "QUALCOMM INC",
+      "weight": "0.0657"
+    },
+    {
+      "symbol": "AMD",
+      "description": "ADVANCED MICRO DEVICES INC",
+      "weight": "0.0635"
+    },
+    {
+      "symbol": "TXN",
+      "description": "TEXAS INSTRUMENTS INC",
+      "weight": "0.0556"
+    },
+    {
+      "symbol": "KLAC",
+      "description": "KLA CORP",
+      "weight": "0.0446"
+    },
+    {
+      "symbol": "LRCX",
+      "description": "LAM RESEARCH CORP",
+      "weight": "0.0446"
+    },
+    {
+      "symbol": "MRVL",
+      "description": "MARVELL TECHNOLOGY INC",
+      "weight": "0.0441"
+    },
+    {
+      "symbol": "INTC",
+      "description": "INTEL CORP",
+      "weight": "0.0434"
+    },
+    {
+      "symbol": "MU",
+      "description": "MICRON TECHNOLOGY INC",
+      "weight": "0.0415"
+    },
+    {
+      "symbol": "ADI",
+      "description": "ANALOG DEVICES INC",
+      "weight": "0.0385"
+    },
+    {
+      "symbol": "MPWR",
+      "description": "MONOLITHIC POWER SYSTEMS INC",
+      "weight": "0.038"
+    },
+    {
+      "symbol": "NXPI",
+      "description": "NXP SEMICONDUCTORS NV",
+      "weight": "0.038"
+    },
+    {
+      "symbol": "TSM",
+      "description": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+      "weight": "0.0378"
+    },
+    {
+      "symbol": "AMAT",
+      "description": "APPLIED MATERIALS INC",
+      "weight": "0.0375"
+    },
+    {
+      "symbol": "ASML",
+      "description": "ASML HOLDING NV ADR",
+      "weight": "0.0373"
+    },
+    {
+      "symbol": "MCHP",
+      "description": "MICROCHIP TECHNOLOGY INC",
+      "weight": "0.0323"
+    },
+    {
+      "symbol": "ON",
+      "description": "ON SEMICONDUCTOR CORP",
+      "weight": "0.0258"
+    },
+    {
+      "symbol": "TER",
+      "description": "TERADYNE INC",
+      "weight": "0.0214"
+    },
+    {
+      "symbol": "ENTG",
+      "description": "ENTEGRIS INC",
+      "weight": "0.019"
+    },
+    {
+      "symbol": "SWKS",
+      "description": "SKYWORKS SOLUTIONS INC",
+      "weight": "0.0125"
+    },
+    {
+      "symbol": "LSCC",
+      "description": "LATTICE SEMICONDUCTOR CORP",
+      "weight": "0.0108"
+    },
+    {
+      "symbol": "ONTO",
+      "description": "ONTO INNOVATION INC",
+      "weight": "0.0099"
+    },
+    {
+      "symbol": "QRVO",
+      "description": "QORVO INC",
+      "weight": "0.0086"
+    },
+    {
+      "symbol": "MKSI",
+      "description": "MKS INSTRUMENTS INC",
+      "weight": "0.0083"
+    },
+    {
+      "symbol": "ASX",
+      "description": "ASE TECHNOLOGY HOLDING CO LTD ADR",
+      "weight": "0.0082"
+    },
+    {
+      "symbol": "OLED",
+      "description": "UNIVERSAL DISPLAY CORP",
+      "weight": "0.0075"
+    },
+    {
+      "symbol": "STM",
+      "description": "STMICROELECTRONICS NV ADR",
+      "weight": "0.0074"
+    },
+    {
+      "symbol": "ARM",
+      "description": "ARM HOLDINGS PLC ADR",
+      "weight": "0.0068"
+    },
+    {
+      "symbol": "UMC",
+      "description": "UNITED MICROELECTRONICS CORP ADR",
+      "weight": "0.0054"
+    }
+  ]
+}

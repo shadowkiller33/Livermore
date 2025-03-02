@@ -1,0 +1,242 @@
+{
+  "net_assets": "22200000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.07",
+  "dividend_yield": "0.0122",
+  "inception_date": "1998-12-16",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.999"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "GE",
+      "description": "GE AEROSPACE",
+      "weight": "0.0533"
+    },
+    {
+      "symbol": "UBER",
+      "description": "UBER TECHNOLOGIES INC",
+      "weight": "0.04"
+    },
+    {
+      "symbol": "CAT",
+      "description": "CATERPILLAR INC",
+      "weight": "0.0398"
+    },
+    {
+      "symbol": "RTX",
+      "description": "RTX CORP",
+      "weight": "0.039"
+    },
+    {
+      "symbol": "UNP",
+      "description": "UNION PACIFIC CORP",
+      "weight": "0.035"
+    },
+    {
+      "symbol": "BA",
+      "description": "BOEING CO",
+      "weight": "0.0325"
+    },
+    {
+      "symbol": "HON",
+      "description": "HONEYWELL INTERNATIONAL INC",
+      "weight": "0.0321"
+    },
+    {
+      "symbol": "DE",
+      "description": "DEERE & CO",
+      "weight": "0.0303"
+    },
+    {
+      "symbol": "ADP",
+      "description": "AUTOMATIC DATA PROCESSING INC",
+      "weight": "0.0298"
+    },
+    {
+      "symbol": "ETN",
+      "description": "EATON CORP PLC",
+      "weight": "0.0286"
+    },
+    {
+      "symbol": "GEV",
+      "description": "GE VERNOVA INC",
+      "weight": "0.0242"
+    },
+    {
+      "symbol": "LMT",
+      "description": "LOCKHEED MARTIN CORP",
+      "weight": "0.0213"
+    },
+    {
+      "symbol": "PH",
+      "description": "PARKER HANNIFIN CORP",
+      "weight": "0.0211"
+    },
+    {
+      "symbol": "UPS",
+      "description": "UNITED PARCEL SERVICE INC CLASS B",
+      "weight": "0.0197"
+    },
+    {
+      "symbol": "WM",
+      "description": "WASTE MANAGEMENT INC",
+      "weight": "0.0195"
+    },
+    {
+      "symbol": "TT",
+      "description": "TRANE TECHNOLOGIES PLC CLASS A",
+      "weight": "0.0195"
+    },
+    {
+      "symbol": "MMM",
+      "description": "3M CO",
+      "weight": "0.0191"
+    },
+    {
+      "symbol": "TDG",
+      "description": "TRANSDIGM GROUP INC",
+      "weight": "0.0176"
+    },
+    {
+      "symbol": "CTAS",
+      "description": "CINTAS CORP",
+      "weight": "0.0167"
+    },
+    {
+      "symbol": "EMR",
+      "description": "EMERSON ELECTRIC CO",
+      "weight": "0.0166"
+    },
+    {
+      "symbol": "BLDR",
+      "description": "BUILDERS FIRSTSOURCE INC",
+      "weight": "0.0039"
+    },
+    {
+      "symbol": "MAS",
+      "description": "MASCO CORP",
+      "weight": "0.0039"
+    },
+    {
+      "symbol": "J",
+      "description": "JACOBS SOLUTIONS INC",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "EXPD",
+      "description": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "PNR",
+      "description": "PENTAIR PLC",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "IEX",
+      "description": "IDEX CORP",
+      "weight": "0.0035"
+    },
+    {
+      "symbol": "ROL",
+      "description": "ROLLINS INC",
+      "weight": "0.0033"
+    },
+    {
+      "symbol": "SWK",
+      "description": "STANLEY BLACK & DECKER INC",
+      "weight": "0.0032"
+    },
+    {
+      "symbol": "JBHT",
+      "description": "JB HUNT TRANSPORT SERVICES INC",
+      "weight": "0.0031"
+    },
+    {
+      "symbol": "TXT",
+      "description": "TEXTRON INC",
+      "weight": "0.0031"
+    },
+    {
+      "symbol": "NDSN",
+      "description": "NORDSON CORP",
+      "weight": "0.0028"
+    },
+    {
+      "symbol": "CHRW",
+      "description": "C.H. ROBINSON WORLDWIDE INC",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "ALLE",
+      "description": "ALLEGION PLC",
+      "weight": "0.0026"
+    },
+    {
+      "symbol": "DAY",
+      "description": "DAYFORCE INC",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "PAYC",
+      "description": "PAYCOM SOFTWARE INC",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "GNRC",
+      "description": "GENERAC HOLDINGS INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "AOS",
+      "description": "A.O. SMITH CORP",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "HII",
+      "description": "HUNTINGTON INGALLS INDUSTRIES INC",
+      "weight": "0.0016"
+    }
+  ]
+}

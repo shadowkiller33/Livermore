@@ -1,0 +1,192 @@
+{
+  "net_assets": "5100000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.13",
+  "dividend_yield": "0.0177",
+  "inception_date": "1998-12-16",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "MATERIALS",
+      "weight": "0.956"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "LIN",
+      "description": "LINDE PLC",
+      "weight": "0.2158"
+    },
+    {
+      "symbol": "SHW",
+      "description": "SHERWIN-WILLIAMS CO",
+      "weight": "0.08"
+    },
+    {
+      "symbol": "APD",
+      "description": "AIR PRODUCTS & CHEMICALS INC",
+      "weight": "0.0691"
+    },
+    {
+      "symbol": "ECL",
+      "description": "ECOLAB INC",
+      "weight": "0.0658"
+    },
+    {
+      "symbol": "FCX",
+      "description": "FREEPORT-MCMORAN INC",
+      "weight": "0.0544"
+    },
+    {
+      "symbol": "NEM",
+      "description": "NEWMONT CORP",
+      "weight": "0.0529"
+    },
+    {
+      "symbol": "CTVA",
+      "description": "CORTEVA INC",
+      "weight": "0.0429"
+    },
+    {
+      "symbol": "VMC",
+      "description": "VULCAN MATERIALS CO",
+      "weight": "0.0343"
+    },
+    {
+      "symbol": "DD",
+      "description": "DUPONT DE NEMOURS INC",
+      "weight": "0.0338"
+    },
+    {
+      "symbol": "NUE",
+      "description": "NUCOR CORP",
+      "weight": "0.0322"
+    },
+    {
+      "symbol": "MLM",
+      "description": "MARTIN MARIETTA MATERIALS INC",
+      "weight": "0.0312"
+    },
+    {
+      "symbol": "IP",
+      "description": "INTERNATIONAL PAPER CO",
+      "weight": "0.0294"
+    },
+    {
+      "symbol": "SW",
+      "description": "SMURFIT WESTROCK PLC",
+      "weight": "0.0268"
+    },
+    {
+      "symbol": "DOW",
+      "description": "DOW INC",
+      "weight": "0.0267"
+    },
+    {
+      "symbol": "PPG",
+      "description": "PPG INDUSTRIES INC",
+      "weight": "0.0266"
+    },
+    {
+      "symbol": "IFF",
+      "description": "INTERNATIONAL FLAVORS & FRAGRANCES INC",
+      "weight": "0.0206"
+    },
+    {
+      "symbol": "LYB",
+      "description": "LYONDELLBASELL INDUSTRIES NV CLASS A",
+      "weight": "0.0198"
+    },
+    {
+      "symbol": "STLD",
+      "description": "STEEL DYNAMICS INC",
+      "weight": "0.019"
+    },
+    {
+      "symbol": "PKG",
+      "description": "PACKAGING CORP OF AMERICA",
+      "weight": "0.0186"
+    },
+    {
+      "symbol": "AMCR",
+      "description": "AMCOR PLC ORDINARY SHARES",
+      "weight": "0.0145"
+    },
+    {
+      "symbol": "AVY",
+      "description": "AVERY DENNISON CORP",
+      "weight": "0.0144"
+    },
+    {
+      "symbol": "BALL",
+      "description": "BALL CORP",
+      "weight": "0.0144"
+    },
+    {
+      "symbol": "CF",
+      "description": "CF INDUSTRIES HOLDINGS INC",
+      "weight": "0.0143"
+    },
+    {
+      "symbol": "EMN",
+      "description": "EASTMAN CHEMICAL CO",
+      "weight": "0.0115"
+    },
+    {
+      "symbol": "ALB",
+      "description": "ALBEMARLE CORP",
+      "weight": "0.0096"
+    },
+    {
+      "symbol": "MOS",
+      "description": "THE MOSAIC CO",
+      "weight": "0.0085"
+    },
+    {
+      "symbol": "CE",
+      "description": "CELANESE CORP CLASS A",
+      "weight": "0.0059"
+    },
+    {
+      "symbol": "FMC",
+      "description": "FMC CORP",
+      "weight": "0.0046"
+    }
+  ]
+}

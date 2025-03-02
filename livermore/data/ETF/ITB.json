@@ -1,0 +1,282 @@
+{
+  "net_assets": "3100000000",
+  "net_expense_ratio": "0.0039",
+  "portfolio_turnover": "0.08",
+  "dividend_yield": "n/a",
+  "inception_date": "2006-05-01",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.742"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.181"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.061"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "DHI",
+      "description": "D.R. HORTON INC",
+      "weight": "0.1318"
+    },
+    {
+      "symbol": "LEN",
+      "description": "LENNAR CORP CLASS A",
+      "weight": "0.1019"
+    },
+    {
+      "symbol": "NVR",
+      "description": "NVR INC",
+      "weight": "0.0775"
+    },
+    {
+      "symbol": "PHM",
+      "description": "PULTEGROUP INC",
+      "weight": "0.0754"
+    },
+    {
+      "symbol": "HD",
+      "description": "THE HOME DEPOT INC",
+      "weight": "0.0489"
+    },
+    {
+      "symbol": "SHW",
+      "description": "SHERWIN-WILLIAMS CO",
+      "weight": "0.0485"
+    },
+    {
+      "symbol": "LOW",
+      "description": "LOWE'S COMPANIES INC",
+      "weight": "0.0478"
+    },
+    {
+      "symbol": "TOL",
+      "description": "TOLL BROTHERS INC",
+      "weight": "0.0429"
+    },
+    {
+      "symbol": "BLD",
+      "description": "TOPBUILD CORP",
+      "weight": "0.0328"
+    },
+    {
+      "symbol": "LII",
+      "description": "LENNOX INTERNATIONAL INC",
+      "weight": "0.0305"
+    },
+    {
+      "symbol": "BLDR",
+      "description": "BUILDERS FIRSTSOURCE INC",
+      "weight": "0.0255"
+    },
+    {
+      "symbol": "MAS",
+      "description": "MASCO CORP",
+      "weight": "0.0249"
+    },
+    {
+      "symbol": "OC",
+      "description": "OWENS-CORNING INC",
+      "weight": "0.0228"
+    },
+    {
+      "symbol": "TMHC",
+      "description": "TAYLOR MORRISON HOME CORP",
+      "weight": "0.0227"
+    },
+    {
+      "symbol": "SKY",
+      "description": "CHAMPION HOMES INC",
+      "weight": "0.0193"
+    },
+    {
+      "symbol": "MTH",
+      "description": "MERITAGE HOMES CORP",
+      "weight": "0.0186"
+    },
+    {
+      "symbol": "FND",
+      "description": "FLOOR & DECOR HOLDINGS INC CLASS A",
+      "weight": "0.0158"
+    },
+    {
+      "symbol": "KBH",
+      "description": "KB HOME",
+      "weight": "0.0156"
+    },
+    {
+      "symbol": "CVCO",
+      "description": "CAVCO INDUSTRIES INC",
+      "weight": "0.0152"
+    },
+    {
+      "symbol": "IBP",
+      "description": "INSTALLED BUILDING PRODUCTS INC",
+      "weight": "0.0141"
+    },
+    {
+      "symbol": "FBIN",
+      "description": "FORTUNE BRANDS INNOVATIONS INC",
+      "weight": "0.0127"
+    },
+    {
+      "symbol": "EXP",
+      "description": "EAGLE MATERIALS INC",
+      "weight": "0.0126"
+    },
+    {
+      "symbol": "SSD",
+      "description": "SIMPSON MANUFACTURING CO INC",
+      "weight": "0.0111"
+    },
+    {
+      "symbol": "MHO",
+      "description": "M/I HOMES INC",
+      "weight": "0.0111"
+    },
+    {
+      "symbol": "BECN",
+      "description": "BEACON ROOFING SUPPLY INC CLASS A",
+      "weight": "0.011"
+    },
+    {
+      "symbol": "AZEK",
+      "description": "THE AZEK CO INC CLASS A",
+      "weight": "0.011"
+    },
+    {
+      "symbol": "TREX",
+      "description": "TREX CO INC",
+      "weight": "0.0107"
+    },
+    {
+      "symbol": "TPH",
+      "description": "TRI POINTE HOMES INC",
+      "weight": "0.0105"
+    },
+    {
+      "symbol": "UFPI",
+      "description": "UFP INDUSTRIES INC",
+      "weight": "0.0104"
+    },
+    {
+      "symbol": "MRP",
+      "description": "MILLROSE PROPERTIES INC CLASS A",
+      "weight": "0.0101"
+    },
+    {
+      "symbol": "MHK",
+      "description": "MOHAWK INDUSTRIES INC",
+      "weight": "0.0094"
+    },
+    {
+      "symbol": "CCS",
+      "description": "CENTURY COMMUNITIES INC",
+      "weight": "0.0071"
+    },
+    {
+      "symbol": "GRBK",
+      "description": "GREEN BRICK PARTNERS INC",
+      "weight": "0.0064"
+    },
+    {
+      "symbol": "LGIH",
+      "description": "LGI HOMES INC",
+      "weight": "0.0061"
+    },
+    {
+      "symbol": "LEN-B",
+      "description": "LENNAR CORP CLASS B",
+      "weight": "0.0046"
+    },
+    {
+      "symbol": "HAYW",
+      "description": "HAYWARD HOLDINGS INC",
+      "weight": "0.0031"
+    },
+    {
+      "symbol": "MBC",
+      "description": "MASTERBRAND INC ORDINARY SHARES",
+      "weight": "0.0031"
+    },
+    {
+      "symbol": "BZH",
+      "description": "BEAZER HOMES USA INC",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "HOV",
+      "description": "HOVNANIAN ENTERPRISES INC CLASS A",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "DFH",
+      "description": "DREAM FINDERS HOMES INC ORDINARY SHARES CLASS A",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "LEG",
+      "description": "LEGGETT & PLATT INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "AMWD",
+      "description": "AMERICAN WOODMARK CORP",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "NX",
+      "description": "QUANEX BUILDING PRODUCTS CORP",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "ARHS",
+      "description": "ARHAUS INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "ETD",
+      "description": "ETHAN ALLEN INTERIORS INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "JELD",
+      "description": "JELD-WEN HOLDING INC",
+      "weight": "0.0009"
+    }
+  ]
+}

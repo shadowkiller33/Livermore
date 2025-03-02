@@ -1,0 +1,162 @@
+{
+  "net_assets": "32500000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.19",
+  "dividend_yield": "0.0304",
+  "inception_date": "1998-12-16",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "ENERGY",
+      "weight": "0.99"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "XOM",
+      "description": "EXXON MOBIL CORP",
+      "weight": "0.2196"
+    },
+    {
+      "symbol": "CVX",
+      "description": "CHEVRON CORP",
+      "weight": "0.1543"
+    },
+    {
+      "symbol": "COP",
+      "description": "CONOCOPHILLIPS",
+      "weight": "0.0756"
+    },
+    {
+      "symbol": "EOG",
+      "description": "EOG RESOURCES INC",
+      "weight": "0.046"
+    },
+    {
+      "symbol": "WMB",
+      "description": "WILLIAMS COMPANIES INC",
+      "weight": "0.0459"
+    },
+    {
+      "symbol": "OKE",
+      "description": "ONEOK INC",
+      "weight": "0.0421"
+    },
+    {
+      "symbol": "SLB",
+      "description": "SCHLUMBERGER LTD",
+      "weight": "0.0408"
+    },
+    {
+      "symbol": "PSX",
+      "description": "PHILLIPS 66",
+      "weight": "0.0367"
+    },
+    {
+      "symbol": "KMI",
+      "description": "KINDER MORGAN INC CLASS P",
+      "weight": "0.0356"
+    },
+    {
+      "symbol": "MPC",
+      "description": "MARATHON PETROLEUM CORP",
+      "weight": "0.0345"
+    },
+    {
+      "symbol": "BKR",
+      "description": "BAKER HUGHES CO CLASS A",
+      "weight": "0.0318"
+    },
+    {
+      "symbol": "TRGP",
+      "description": "TARGA RESOURCES CORP",
+      "weight": "0.0314"
+    },
+    {
+      "symbol": "VLO",
+      "description": "VALERO ENERGY CORP",
+      "weight": "0.0297"
+    },
+    {
+      "symbol": "HES",
+      "description": "HESS CORP",
+      "weight": "0.0282"
+    },
+    {
+      "symbol": "OXY",
+      "description": "OCCIDENTAL PETROLEUM CORP",
+      "weight": "0.0236"
+    },
+    {
+      "symbol": "EQT",
+      "description": "EQT CORP",
+      "weight": "0.0221"
+    },
+    {
+      "symbol": "FANG",
+      "description": "DIAMONDBACK ENERGY INC",
+      "weight": "0.0205"
+    },
+    {
+      "symbol": "TPL",
+      "description": "TEXAS PACIFIC LAND CORP",
+      "weight": "0.0181"
+    },
+    {
+      "symbol": "DVN",
+      "description": "DEVON ENERGY CORP",
+      "weight": "0.0169"
+    },
+    {
+      "symbol": "HAL",
+      "description": "HALLIBURTON CO",
+      "weight": "0.0161"
+    },
+    {
+      "symbol": "CTRA",
+      "description": "COTERRA ENERGY INC ORDINARY SHARES",
+      "weight": "0.0145"
+    },
+    {
+      "symbol": "APA",
+      "description": "APA CORP",
+      "weight": "0.006"
+    }
+  ]
+}

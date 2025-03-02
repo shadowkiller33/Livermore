@@ -1,0 +1,166 @@
+{
+  "net_assets": "7200000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.05",
+  "dividend_yield": "0.033",
+  "inception_date": "2015-10-07",
+  "leveraged": "NO",
+  "sectors": [],
+  "holdings": [
+    {
+      "symbol": "PLD",
+      "description": "PROLOGIS INC",
+      "weight": "0.1037"
+    },
+    {
+      "symbol": "EQIX",
+      "description": "EQUINIX INC",
+      "weight": "0.0834"
+    },
+    {
+      "symbol": "WELL",
+      "description": "WELLTOWER INC",
+      "weight": "0.0815"
+    },
+    {
+      "symbol": "AMT",
+      "description": "AMERICAN TOWER CORP",
+      "weight": "0.0811"
+    },
+    {
+      "symbol": "SPG",
+      "description": "SIMON PROPERTY GROUP INC",
+      "weight": "0.0525"
+    },
+    {
+      "symbol": "DLR",
+      "description": "DIGITAL REALTY TRUST INC",
+      "weight": "0.0487"
+    },
+    {
+      "symbol": "O",
+      "description": "REALTY INCOME CORP",
+      "weight": "0.0449"
+    },
+    {
+      "symbol": "PSA",
+      "description": "PUBLIC STORAGE",
+      "weight": "0.0432"
+    },
+    {
+      "symbol": "CBRE",
+      "description": "CBRE GROUP INC CLASS A",
+      "weight": "0.0398"
+    },
+    {
+      "symbol": "CCI",
+      "description": "CROWN CASTLE INC",
+      "weight": "0.0357"
+    },
+    {
+      "symbol": "EXR",
+      "description": "EXTRA SPACE STORAGE INC",
+      "weight": "0.03"
+    },
+    {
+      "symbol": "CSGP",
+      "description": "COSTAR GROUP INC",
+      "weight": "0.0299"
+    },
+    {
+      "symbol": "VICI",
+      "description": "VICI PROPERTIES INC ORDINARY SHARES",
+      "weight": "0.0296"
+    },
+    {
+      "symbol": "AVB",
+      "description": "AVALONBAY COMMUNITIES INC",
+      "weight": "0.0285"
+    },
+    {
+      "symbol": "VTR",
+      "description": "VENTAS INC",
+      "weight": "0.0259"
+    },
+    {
+      "symbol": "IRM",
+      "description": "IRON MOUNTAIN INC",
+      "weight": "0.0251"
+    },
+    {
+      "symbol": "EQR",
+      "description": "EQUITY RESIDENTIAL",
+      "weight": "0.0224"
+    },
+    {
+      "symbol": "SBAC",
+      "description": "SBA COMMUNICATIONS CORP CLASS A",
+      "weight": "0.0206"
+    },
+    {
+      "symbol": "WY",
+      "description": "WEYERHAEUSER CO",
+      "weight": "0.0195"
+    },
+    {
+      "symbol": "ESS",
+      "description": "ESSEX PROPERTY TRUST INC",
+      "weight": "0.0172"
+    },
+    {
+      "symbol": "MAA",
+      "description": "MID-AMERICA APARTMENT COMMUNITIES INC",
+      "weight": "0.0169"
+    },
+    {
+      "symbol": "INVH",
+      "description": "INVITATION HOMES INC",
+      "weight": "0.0166"
+    },
+    {
+      "symbol": "ARE",
+      "description": "ALEXANDRIA REAL ESTATE EQUITIES INC",
+      "weight": "0.0136"
+    },
+    {
+      "symbol": "KIM",
+      "description": "KIMCO REALTY CORP",
+      "weight": "0.0134"
+    },
+    {
+      "symbol": "DOC",
+      "description": "HEALTHPEAK PROPERTIES INC",
+      "weight": "0.0125"
+    },
+    {
+      "symbol": "UDR",
+      "description": "UDR INC",
+      "weight": "0.0118"
+    },
+    {
+      "symbol": "CPT",
+      "description": "CAMDEN PROPERTY TRUST",
+      "weight": "0.0117"
+    },
+    {
+      "symbol": "REG",
+      "description": "REGENCY CENTERS CORP",
+      "weight": "0.0111"
+    },
+    {
+      "symbol": "HST",
+      "description": "HOST HOTELS & RESORTS INC",
+      "weight": "0.011"
+    },
+    {
+      "symbol": "BXP",
+      "description": "BXP INC",
+      "weight": "0.0094"
+    },
+    {
+      "symbol": "FRT",
+      "description": "FEDERAL REALTY INVESTMENT TRUST",
+      "weight": "0.0074"
+    }
+  ]
+}

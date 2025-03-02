@@ -1,0 +1,142 @@
+{
+  "net_assets": "544700000",
+  "net_expense_ratio": "0.004",
+  "portfolio_turnover": "0.3",
+  "dividend_yield": "n/a",
+  "inception_date": "2000-05-22",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.55"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.419"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "CSCO",
+      "description": "CISCO SYSTEMS INC",
+      "weight": "0.1916"
+    },
+    {
+      "symbol": "T",
+      "description": "AT&T INC",
+      "weight": "0.1413"
+    },
+    {
+      "symbol": "VZ",
+      "description": "VERIZON COMMUNICATIONS INC",
+      "weight": "0.1307"
+    },
+    {
+      "symbol": "TMUS",
+      "description": "T-MOBILE US INC",
+      "weight": "0.0466"
+    },
+    {
+      "symbol": "CIEN",
+      "description": "CIENA CORP",
+      "weight": "0.0447"
+    },
+    {
+      "symbol": "ANET",
+      "description": "ARISTA NETWORKS INC",
+      "weight": "0.0429"
+    },
+    {
+      "symbol": "ROKU",
+      "description": "ROKU INC CLASS A",
+      "weight": "0.0424"
+    },
+    {
+      "symbol": "CMCSA",
+      "description": "COMCAST CORP CLASS A",
+      "weight": "0.0398"
+    },
+    {
+      "symbol": "IRDM",
+      "description": "IRIDIUM COMMUNICATIONS INC",
+      "weight": "0.0387"
+    },
+    {
+      "symbol": "FYBR",
+      "description": "FRONTIER COMMUNICATIONS PARENT INC",
+      "weight": "0.0375"
+    },
+    {
+      "symbol": "LBRDK",
+      "description": "LIBERTY BROADBAND CORP REGISTERED SHS SERIES -C-",
+      "weight": "0.0365"
+    },
+    {
+      "symbol": "CHTR",
+      "description": "CHARTER COMMUNICATIONS INC CLASS A",
+      "weight": "0.0361"
+    },
+    {
+      "symbol": "UI",
+      "description": "UBIQUITI INC",
+      "weight": "0.0355"
+    },
+    {
+      "symbol": "MSI",
+      "description": "MOTOROLA SOLUTIONS INC",
+      "weight": "0.0355"
+    },
+    {
+      "symbol": "JNPR",
+      "description": "JUNIPER NETWORKS INC",
+      "weight": "0.0353"
+    },
+    {
+      "symbol": "LITE",
+      "description": "LUMENTUM HOLDINGS INC",
+      "weight": "0.033"
+    },
+    {
+      "symbol": "LBTYA",
+      "description": "LIBERTY GLOBAL LTD ORDINARY SHARES CLASS A",
+      "weight": "0.0157"
+    },
+    {
+      "symbol": "LBTYK",
+      "description": "LIBERTY GLOBAL LTD CLASS C",
+      "weight": "0.0147"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "net_assets": "1900000000",
+  "net_expense_ratio": "0.0035",
+  "portfolio_turnover": "0.45",
+  "dividend_yield": "0.0053",
+  "inception_date": "2006-01-31",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.615"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.382"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "WSM",
+      "description": "WILLIAMS-SONOMA INC",
+      "weight": "0.0422"
+    },
+    {
+      "symbol": "JCI",
+      "description": "JOHNSON CONTROLS INTERNATIONAL PLC REGISTERED SHARES",
+      "weight": "0.0405"
+    },
+    {
+      "symbol": "LII",
+      "description": "LENNOX INTERNATIONAL INC",
+      "weight": "0.0372"
+    },
+    {
+      "symbol": "MAS",
+      "description": "MASCO CORP",
+      "weight": "0.0363"
+    },
+    {
+      "symbol": "HD",
+      "description": "THE HOME DEPOT INC",
+      "weight": "0.0353"
+    },
+    {
+      "symbol": "WMS",
+      "description": "ADVANCED DRAINAGE SYSTEMS INC",
+      "weight": "0.0351"
+    },
+    {
+      "symbol": "AOS",
+      "description": "A.O. SMITH CORP",
+      "weight": "0.0348"
+    },
+    {
+      "symbol": "TT",
+      "description": "TRANE TECHNOLOGIES PLC CLASS A",
+      "weight": "0.0348"
+    },
+    {
+      "symbol": "LOW",
+      "description": "LOWE'S COMPANIES INC",
+      "weight": "0.0346"
+    },
+    {
+      "symbol": "TMHC",
+      "description": "TAYLOR MORRISON HOME CORP",
+      "weight": "0.0345"
+    },
+    {
+      "symbol": "ALLE",
+      "description": "ALLEGION PLC",
+      "weight": "0.0339"
+    },
+    {
+      "symbol": "CARR",
+      "description": "CARRIER GLOBAL CORP ORDINARY SHARES",
+      "weight": "0.0337"
+    },
+    {
+      "symbol": "OC",
+      "description": "OWENS-CORNING INC",
+      "weight": "0.033"
+    },
+    {
+      "symbol": "BLD",
+      "description": "TOPBUILD CORP",
+      "weight": "0.0329"
+    },
+    {
+      "symbol": "PHM",
+      "description": "PULTEGROUP INC",
+      "weight": "0.0323"
+    },
+    {
+      "symbol": "FND",
+      "description": "FLOOR & DECOR HOLDINGS INC CLASS A",
+      "weight": "0.0317"
+    },
+    {
+      "symbol": "BLDR",
+      "description": "BUILDERS FIRSTSOURCE INC",
+      "weight": "0.0316"
+    },
+    {
+      "symbol": "KBH",
+      "description": "KB HOME",
+      "weight": "0.0314"
+    },
+    {
+      "symbol": "DHI",
+      "description": "D.R. HORTON INC",
+      "weight": "0.031"
+    },
+    {
+      "symbol": "CSL",
+      "description": "CARLISLE COMPANIES INC",
+      "weight": "0.0309"
+    },
+    {
+      "symbol": "IBP",
+      "description": "INSTALLED BUILDING PRODUCTS INC",
+      "weight": "0.0308"
+    },
+    {
+      "symbol": "MTH",
+      "description": "MERITAGE HOMES CORP",
+      "weight": "0.0306"
+    },
+    {
+      "symbol": "NVR",
+      "description": "NVR INC",
+      "weight": "0.0305"
+    },
+    {
+      "symbol": "TOL",
+      "description": "TOLL BROTHERS INC",
+      "weight": "0.0303"
+    },
+    {
+      "symbol": "LEN",
+      "description": "LENNAR CORP CLASS A",
+      "weight": "0.0287"
+    },
+    {
+      "symbol": "SKY",
+      "description": "CHAMPION HOMES INC",
+      "weight": "0.0269"
+    },
+    {
+      "symbol": "MHO",
+      "description": "M/I HOMES INC",
+      "weight": "0.0262"
+    },
+    {
+      "symbol": "CVCO",
+      "description": "CAVCO INDUSTRIES INC",
+      "weight": "0.0198"
+    },
+    {
+      "symbol": "GRBK",
+      "description": "GREEN BRICK PARTNERS INC",
+      "weight": "0.0189"
+    },
+    {
+      "symbol": "TPH",
+      "description": "TRI POINTE HOMES INC",
+      "weight": "0.0178"
+    },
+    {
+      "symbol": "CCS",
+      "description": "CENTURY COMMUNITIES INC",
+      "weight": "0.0167"
+    },
+    {
+      "symbol": "LGIH",
+      "description": "LGI HOMES INC",
+      "weight": "0.0107"
+    },
+    {
+      "symbol": "HOV",
+      "description": "HOVNANIAN ENTERPRISES INC CLASS A",
+      "weight": "0.0082"
+    },
+    {
+      "symbol": "DFH",
+      "description": "DREAM FINDERS HOMES INC ORDINARY SHARES CLASS A",
+      "weight": "0.0072"
+    },
+    {
+      "symbol": "BZH",
+      "description": "BEAZER HOMES USA INC",
+      "weight": "0.0058"
+    },
+    {
+      "symbol": "MRP",
+      "description": "MILLROSE PROPERTIES INC CLASS A",
+      "weight": "0.0028"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "net_assets": "17300000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.05",
+  "dividend_yield": "0.0293",
+  "inception_date": "1998-12-16",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "UTILITIES",
+      "weight": "0.997"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "NEE",
+      "description": "NEXTERA ENERGY INC",
+      "weight": "0.1157"
+    },
+    {
+      "symbol": "CEG",
+      "description": "CONSTELLATION ENERGY CORP",
+      "weight": "0.082"
+    },
+    {
+      "symbol": "SO",
+      "description": "SOUTHERN CO",
+      "weight": "0.0772"
+    },
+    {
+      "symbol": "DUK",
+      "description": "DUKE ENERGY CORP",
+      "weight": "0.0704"
+    },
+    {
+      "symbol": "VST",
+      "description": "VISTRA CORP",
+      "weight": "0.0469"
+    },
+    {
+      "symbol": "AEP",
+      "description": "AMERICAN ELECTRIC POWER CO INC",
+      "weight": "0.0447"
+    },
+    {
+      "symbol": "SRE",
+      "description": "SEMPRA",
+      "weight": "0.044"
+    },
+    {
+      "symbol": "D",
+      "description": "DOMINION ENERGY INC",
+      "weight": "0.0381"
+    },
+    {
+      "symbol": "EXC",
+      "description": "EXELON CORP",
+      "weight": "0.0349"
+    },
+    {
+      "symbol": "PEG",
+      "description": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+      "weight": "0.0348"
+    },
+    {
+      "symbol": "XEL",
+      "description": "XCEL ENERGY INC",
+      "weight": "0.0323"
+    },
+    {
+      "symbol": "ETR",
+      "description": "ENTERGY CORP",
+      "weight": "0.0305"
+    },
+    {
+      "symbol": "PCG",
+      "description": "PG&E CORP",
+      "weight": "0.0279"
+    },
+    {
+      "symbol": "ED",
+      "description": "CONSOLIDATED EDISON INC",
+      "weight": "0.0269"
+    },
+    {
+      "symbol": "WEC",
+      "description": "WEC ENERGY GROUP INC",
+      "weight": "0.0267"
+    },
+    {
+      "symbol": "DTE",
+      "description": "DTE ENERGY CO",
+      "weight": "0.022"
+    },
+    {
+      "symbol": "AEE",
+      "description": "AMEREN CORP",
+      "weight": "0.0213"
+    },
+    {
+      "symbol": "PPL",
+      "description": "PPL CORP",
+      "weight": "0.0207"
+    },
+    {
+      "symbol": "AWK",
+      "description": "AMERICAN WATER WORKS CO INC",
+      "weight": "0.0203"
+    },
+    {
+      "symbol": "ATO",
+      "description": "ATMOS ENERGY CORP",
+      "weight": "0.0188"
+    },
+    {
+      "symbol": "ES",
+      "description": "EVERSOURCE ENERGY",
+      "weight": "0.0187"
+    },
+    {
+      "symbol": "NRG",
+      "description": "NRG ENERGY INC",
+      "weight": "0.0186"
+    },
+    {
+      "symbol": "CNP",
+      "description": "CENTERPOINT ENERGY INC",
+      "weight": "0.0181"
+    },
+    {
+      "symbol": "CMS",
+      "description": "CMS ENERGY CORP",
+      "weight": "0.0171"
+    },
+    {
+      "symbol": "FE",
+      "description": "FIRSTENERGY CORP",
+      "weight": "0.017"
+    },
+    {
+      "symbol": "EIX",
+      "description": "EDISON INTERNATIONAL",
+      "weight": "0.0165"
+    },
+    {
+      "symbol": "NI",
+      "description": "NISOURCE INC",
+      "weight": "0.0152"
+    },
+    {
+      "symbol": "LNT",
+      "description": "ALLIANT ENERGY CORP",
+      "weight": "0.0129"
+    },
+    {
+      "symbol": "EVRG",
+      "description": "EVERGY INC",
+      "weight": "0.0126"
+    },
+    {
+      "symbol": "PNW",
+      "description": "PINNACLE WEST CAPITAL CORP",
+      "weight": "0.0084"
+    },
+    {
+      "symbol": "AES",
+      "description": "THE AES CORP",
+      "weight": "0.006"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "net_assets": "6700000000",
+  "net_expense_ratio": "0.004",
+  "portfolio_turnover": "0.17",
+  "dividend_yield": "n/a",
+  "inception_date": "2006-05-01",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.966"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.002"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "GE",
+      "description": "GE AEROSPACE",
+      "weight": "0.2082"
+    },
+    {
+      "symbol": "RTX",
+      "description": "RTX CORP",
+      "weight": "0.1509"
+    },
+    {
+      "symbol": "BA",
+      "description": "BOEING CO",
+      "weight": "0.1266"
+    },
+    {
+      "symbol": "HWM",
+      "description": "HOWMET AEROSPACE INC",
+      "weight": "0.0505"
+    },
+    {
+      "symbol": "AXON",
+      "description": "AXON ENTERPRISE INC",
+      "weight": "0.0474"
+    },
+    {
+      "symbol": "TDG",
+      "description": "TRANSDIGM GROUP INC",
+      "weight": "0.0447"
+    },
+    {
+      "symbol": "NOC",
+      "description": "NORTHROP GRUMMAN CORP",
+      "weight": "0.0398"
+    },
+    {
+      "symbol": "GD",
+      "description": "GENERAL DYNAMICS CORP",
+      "weight": "0.0392"
+    },
+    {
+      "symbol": "LHX",
+      "description": "L3HARRIS TECHNOLOGIES INC",
+      "weight": "0.0367"
+    },
+    {
+      "symbol": "LMT",
+      "description": "LOCKHEED MARTIN CORP",
+      "weight": "0.0365"
+    },
+    {
+      "symbol": "TXT",
+      "description": "TEXTRON INC",
+      "weight": "0.0236"
+    },
+    {
+      "symbol": "HEI-A",
+      "description": "HEICO CORP CLASS A",
+      "weight": "0.0223"
+    },
+    {
+      "symbol": "CW",
+      "description": "CURTISS-WRIGHT CORP",
+      "weight": "0.0217"
+    },
+    {
+      "symbol": "WWD",
+      "description": "WOODWARD INC",
+      "weight": "0.02"
+    },
+    {
+      "symbol": "BWXT",
+      "description": "BWX TECHNOLOGIES INC",
+      "weight": "0.0172"
+    },
+    {
+      "symbol": "RKLB",
+      "description": "ROCKET LAB USA INC",
+      "weight": "0.0171"
+    },
+    {
+      "symbol": "HEI",
+      "description": "HEICO CORP",
+      "weight": "0.0149"
+    },
+    {
+      "symbol": "HII",
+      "description": "HUNTINGTON INGALLS INDUSTRIES INC",
+      "weight": "0.0117"
+    },
+    {
+      "symbol": "HXL",
+      "description": "HEXCEL CORP",
+      "weight": "0.0096"
+    },
+    {
+      "symbol": "MOG-A",
+      "description": "MOOG INC CLASS A",
+      "weight": "0.0093"
+    },
+    {
+      "symbol": "AVAV",
+      "description": "AEROVIRONMENT INC",
+      "weight": "0.0077"
+    },
+    {
+      "symbol": "KTOS",
+      "description": "KRATOS DEFENSE & SECURITY SOLUTIONS INC",
+      "weight": "0.0072"
+    },
+    {
+      "symbol": "SPR",
+      "description": "SPIRIT AEROSYSTEMS HOLDINGS INC CLASS A",
+      "weight": "0.0071"
+    },
+    {
+      "symbol": "ACHR",
+      "description": "ARCHER AVIATION INC CLASS A",
+      "weight": "0.0055"
+    },
+    {
+      "symbol": "AIR",
+      "description": "AAR CORP",
+      "weight": "0.004"
+    },
+    {
+      "symbol": "MRCY",
+      "description": "MERCURY SYSTEMS INC",
+      "weight": "0.004"
+    },
+    {
+      "symbol": "DRS",
+      "description": "LEONARDO DRS INC",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "TGI",
+      "description": "TRIUMPH GROUP INC",
+      "weight": "0.0034"
+    },
+    {
+      "symbol": "LOAR",
+      "description": "LOAR HOLDINGS INC",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "CDRE",
+      "description": "CADRE HOLDINGS INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "DCO",
+      "description": "DUCOMMUN INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "VVX",
+      "description": "V2X INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "RGR",
+      "description": "STURM RUGER & CO INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "NPK",
+      "description": "NATIONAL PRESTO INDUSTRIES INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "SWBI",
+      "description": "SMITH & WESSON BRANDS INC",
+      "weight": "0.0009"
+    }
+  ]
+}

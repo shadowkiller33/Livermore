@@ -1,0 +1,417 @@
+{
+  "net_assets": "53800000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.03",
+  "dividend_yield": "0.0124",
+  "inception_date": "1998-12-16",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.859"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.014"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "BRK-B",
+      "description": "BERKSHIRE HATHAWAY INC CLASS B",
+      "weight": "0.1208"
+    },
+    {
+      "symbol": "JPM",
+      "description": "JPMORGAN CHASE & CO",
+      "weight": "0.1071"
+    },
+    {
+      "symbol": "V",
+      "description": "VISA INC CLASS A",
+      "weight": "0.0836"
+    },
+    {
+      "symbol": "MA",
+      "description": "MASTERCARD INC CLASS A",
+      "weight": "0.0635"
+    },
+    {
+      "symbol": "BAC",
+      "description": "BANK OF AMERICA CORP",
+      "weight": "0.0418"
+    },
+    {
+      "symbol": "WFC",
+      "description": "WELLS FARGO & CO",
+      "weight": "0.0364"
+    },
+    {
+      "symbol": "GS",
+      "description": "THE GOLDMAN SACHS GROUP INC",
+      "weight": "0.0285"
+    },
+    {
+      "symbol": "MS",
+      "description": "MORGAN STANLEY",
+      "weight": "0.0237"
+    },
+    {
+      "symbol": "AXP",
+      "description": "AMERICAN EXPRESS CO",
+      "weight": "0.0235"
+    },
+    {
+      "symbol": "SPGI",
+      "description": "S&P GLOBAL INC",
+      "weight": "0.0234"
+    },
+    {
+      "symbol": "C",
+      "description": "CITIGROUP INC",
+      "weight": "0.0216"
+    },
+    {
+      "symbol": "PGR",
+      "description": "PROGRESSIVE CORP",
+      "weight": "0.0215"
+    },
+    {
+      "symbol": "BLK",
+      "description": "BLACKROCK INC",
+      "weight": "0.0195"
+    },
+    {
+      "symbol": "SCHW",
+      "description": "CHARLES SCHWAB CORP",
+      "weight": "0.019"
+    },
+    {
+      "symbol": "FI",
+      "description": "FISERV INC",
+      "weight": "0.0184"
+    },
+    {
+      "symbol": "BX",
+      "description": "BLACKSTONE INC",
+      "weight": "0.0164"
+    },
+    {
+      "symbol": "MMC",
+      "description": "MARSH & MCLENNAN COMPANIES INC",
+      "weight": "0.0155"
+    },
+    {
+      "symbol": "CB",
+      "description": "CHUBB LTD",
+      "weight": "0.0136"
+    },
+    {
+      "symbol": "ICE",
+      "description": "INTERCONTINENTAL EXCHANGE INC",
+      "weight": "0.0131"
+    },
+    {
+      "symbol": "KKR",
+      "description": "KKR & CO INC ORDINARY SHARES",
+      "weight": "0.0128"
+    },
+    {
+      "symbol": "CME",
+      "description": "CME GROUP INC CLASS A",
+      "weight": "0.0123"
+    },
+    {
+      "symbol": "AON",
+      "description": "AON PLC CLASS A",
+      "weight": "0.0117"
+    },
+    {
+      "symbol": "AJG",
+      "description": "ARTHUR J. GALLAGHER & CO",
+      "weight": "0.0112"
+    },
+    {
+      "symbol": "MCO",
+      "description": "MOODYS CORP",
+      "weight": "0.011"
+    },
+    {
+      "symbol": "COF",
+      "description": "CAPITAL ONE FINANCIAL CORP",
+      "weight": "0.0109"
+    },
+    {
+      "symbol": "PYPL",
+      "description": "PAYPAL HOLDINGS INC",
+      "weight": "0.0107"
+    },
+    {
+      "symbol": "PNC",
+      "description": "PNC FINANCIAL SERVICES GROUP INC",
+      "weight": "0.0105"
+    },
+    {
+      "symbol": "USB",
+      "description": "U.S. BANCORP",
+      "weight": "0.01"
+    },
+    {
+      "symbol": "APO",
+      "description": "APOLLO GLOBAL MANAGEMENT INC CLASS A",
+      "weight": "0.0098"
+    },
+    {
+      "symbol": "BK",
+      "description": "BANK OF NEW YORK MELLON CORP",
+      "weight": "0.0088"
+    },
+    {
+      "symbol": "TFC",
+      "description": "TRUIST FINANCIAL CORP",
+      "weight": "0.0086"
+    },
+    {
+      "symbol": "TRV",
+      "description": "THE TRAVELERS COMPANIES INC",
+      "weight": "0.0075"
+    },
+    {
+      "symbol": "AMP",
+      "description": "AMERIPRISE FINANCIAL INC",
+      "weight": "0.0073"
+    },
+    {
+      "symbol": "AFL",
+      "description": "AFLAC INC",
+      "weight": "0.0071"
+    },
+    {
+      "symbol": "DFS",
+      "description": "DISCOVER FINANCIAL SERVICES",
+      "weight": "0.007"
+    },
+    {
+      "symbol": "ALL",
+      "description": "ALLSTATE CORP",
+      "weight": "0.0069"
+    },
+    {
+      "symbol": "MET",
+      "description": "METLIFE INC",
+      "weight": "0.0066"
+    },
+    {
+      "symbol": "AIG",
+      "description": "AMERICAN INTERNATIONAL GROUP INC",
+      "weight": "0.0064"
+    },
+    {
+      "symbol": "MSCI",
+      "description": "MSCI INC",
+      "weight": "0.0062"
+    },
+    {
+      "symbol": "PRU",
+      "description": "PRUDENTIAL FINANCIAL INC",
+      "weight": "0.0054"
+    },
+    {
+      "symbol": "FIS",
+      "description": "n/a",
+      "weight": "0.0051"
+    },
+    {
+      "symbol": "NDAQ",
+      "description": "NASDAQ INC",
+      "weight": "0.0047"
+    },
+    {
+      "symbol": "ACGL",
+      "description": "ARCH CAPITAL GROUP LTD",
+      "weight": "0.0045"
+    },
+    {
+      "symbol": "HIG",
+      "description": "HARTFORD INSURANCE GROUP INC",
+      "weight": "0.0045"
+    },
+    {
+      "symbol": "WTW",
+      "description": "WILLIS TOWERS WATSON PLC",
+      "weight": "0.0045"
+    },
+    {
+      "symbol": "MTB",
+      "description": "M&T BANK CORP",
+      "weight": "0.0045"
+    },
+    {
+      "symbol": "FITB",
+      "description": "FIFTH THIRD BANCORP",
+      "weight": "0.0041"
+    },
+    {
+      "symbol": "STT",
+      "description": "STATE STREET CORP",
+      "weight": "0.004"
+    },
+    {
+      "symbol": "RJF",
+      "description": "RAYMOND JAMES FINANCIAL INC",
+      "weight": "0.004"
+    },
+    {
+      "symbol": "GPN",
+      "description": "GLOBAL PAYMENTS INC",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "BRO",
+      "description": "BROWN & BROWN INC",
+      "weight": "0.0036"
+    },
+    {
+      "symbol": "CPAY",
+      "description": "CORPAY INC",
+      "weight": "0.0036"
+    },
+    {
+      "symbol": "SYF",
+      "description": "SYNCHRONY FINANCIAL",
+      "weight": "0.0035"
+    },
+    {
+      "symbol": "TROW",
+      "description": "T. ROWE PRICE GROUP INC",
+      "weight": "0.0033"
+    },
+    {
+      "symbol": "HBAN",
+      "description": "HUNTINGTON BANCSHARES INC",
+      "weight": "0.0033"
+    },
+    {
+      "symbol": "NTRS",
+      "description": "NORTHERN TRUST CORP",
+      "weight": "0.0031"
+    },
+    {
+      "symbol": "CBOE",
+      "description": "CBOE GLOBAL MARKETS INC",
+      "weight": "0.003"
+    },
+    {
+      "symbol": "RF",
+      "description": "REGIONS FINANCIAL CORP",
+      "weight": "0.003"
+    },
+    {
+      "symbol": "CINF",
+      "description": "CINCINNATI FINANCIAL CORP",
+      "weight": "0.0029"
+    },
+    {
+      "symbol": "CFG",
+      "description": "CITIZENS FINANCIAL GROUP INC",
+      "weight": "0.0029"
+    },
+    {
+      "symbol": "PFG",
+      "description": "PRINCIPAL FINANCIAL GROUP INC",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "WRB",
+      "description": "WR BERKLEY CORP",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "KEY",
+      "description": "KEYCORP",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "FDS",
+      "description": "FACTSET RESEARCH SYSTEMS INC",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "L",
+      "description": "LOEWS CORP",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "EG",
+      "description": "EVEREST GROUP LTD",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "JKHY",
+      "description": "JACK HENRY & ASSOCIATES INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "AIZ",
+      "description": "ASSURANT INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "GL",
+      "description": "GLOBE LIFE INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "ERIE",
+      "description": "ERIE INDEMNITY CO CLASS A",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "IVZ",
+      "description": "INVESCO LTD",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "MKTX",
+      "description": "MARKETAXESS HOLDINGS INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "BEN",
+      "description": "FRANKLIN RESOURCES INC",
+      "weight": "0.0009"
+    }
+  ]
+}

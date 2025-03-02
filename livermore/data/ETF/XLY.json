@@ -1,0 +1,302 @@
+{
+  "net_assets": "24500000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.26",
+  "dividend_yield": "0.0073",
+  "inception_date": "1998-12-16",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.989"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.01"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "AMZN",
+      "description": "AMAZON.COM INC",
+      "weight": "0.2124"
+    },
+    {
+      "symbol": "TSLA",
+      "description": "TESLA INC",
+      "weight": "0.16"
+    },
+    {
+      "symbol": "HD",
+      "description": "THE HOME DEPOT INC",
+      "weight": "0.0624"
+    },
+    {
+      "symbol": "MCD",
+      "description": "MCDONALD'S CORP",
+      "weight": "0.048"
+    },
+    {
+      "symbol": "BKNG",
+      "description": "BOOKING HOLDINGS INC",
+      "weight": "0.0455"
+    },
+    {
+      "symbol": "LOW",
+      "description": "LOWE'S COMPANIES INC",
+      "weight": "0.0383"
+    },
+    {
+      "symbol": "TJX",
+      "description": "TJX COMPANIES INC",
+      "weight": "0.0381"
+    },
+    {
+      "symbol": "SBUX",
+      "description": "STARBUCKS CORP",
+      "weight": "0.0349"
+    },
+    {
+      "symbol": "NKE",
+      "description": "NIKE INC CLASS B",
+      "weight": "0.0251"
+    },
+    {
+      "symbol": "ORLY",
+      "description": "O'REILLY AUTOMOTIVE INC",
+      "weight": "0.0204"
+    },
+    {
+      "symbol": "CMG",
+      "description": "CHIPOTLE MEXICAN GRILL INC",
+      "weight": "0.02"
+    },
+    {
+      "symbol": "ABNB",
+      "description": "AIRBNB INC ORDINARY SHARES CLASS A",
+      "weight": "0.0187"
+    },
+    {
+      "symbol": "MAR",
+      "description": "MARRIOTT INTERNATIONAL INC CLASS A",
+      "weight": "0.0181"
+    },
+    {
+      "symbol": "HLT",
+      "description": "HILTON WORLDWIDE HOLDINGS INC",
+      "weight": "0.018"
+    },
+    {
+      "symbol": "RCL",
+      "description": "ROYAL CARIBBEAN GROUP",
+      "weight": "0.0178"
+    },
+    {
+      "symbol": "AZO",
+      "description": "AUTOZONE INC",
+      "weight": "0.0157"
+    },
+    {
+      "symbol": "GM",
+      "description": "GENERAL MOTORS CO",
+      "weight": "0.0144"
+    },
+    {
+      "symbol": "ROST",
+      "description": "ROSS STORES INC",
+      "weight": "0.0127"
+    },
+    {
+      "symbol": "LULU",
+      "description": "LULULEMON ATHLETICA INC",
+      "weight": "0.0113"
+    },
+    {
+      "symbol": "YUM",
+      "description": "YUM BRANDS INC",
+      "weight": "0.0113"
+    },
+    {
+      "symbol": "GRMN",
+      "description": "GARMIN LTD",
+      "weight": "0.0102"
+    },
+    {
+      "symbol": "DHI",
+      "description": "D.R. HORTON INC",
+      "weight": "0.0101"
+    },
+    {
+      "symbol": "F",
+      "description": "FORD MOTOR CO",
+      "weight": "0.01"
+    },
+    {
+      "symbol": "EBAY",
+      "description": "EBAY INC",
+      "weight": "0.0091"
+    },
+    {
+      "symbol": "TSCO",
+      "description": "TRACTOR SUPPLY CO",
+      "weight": "0.0084"
+    },
+    {
+      "symbol": "LEN",
+      "description": "LENNAR CORP CLASS A",
+      "weight": "0.0079"
+    },
+    {
+      "symbol": "CCL",
+      "description": "CARNIVAL CORP",
+      "weight": "0.0074"
+    },
+    {
+      "symbol": "EXPE",
+      "description": "EXPEDIA GROUP INC",
+      "weight": "0.0069"
+    },
+    {
+      "symbol": "DRI",
+      "description": "DARDEN RESTAURANTS INC",
+      "weight": "0.0063"
+    },
+    {
+      "symbol": "DECK",
+      "description": "DECKERS OUTDOOR CORP",
+      "weight": "0.0063"
+    },
+    {
+      "symbol": "NVR",
+      "description": "NVR INC",
+      "weight": "0.006"
+    },
+    {
+      "symbol": "PHM",
+      "description": "PULTEGROUP INC",
+      "weight": "0.0059"
+    },
+    {
+      "symbol": "TPR",
+      "description": "TAPESTRY INC",
+      "weight": "0.0057"
+    },
+    {
+      "symbol": "BBY",
+      "description": "BEST BUY CO INC",
+      "weight": "0.0049"
+    },
+    {
+      "symbol": "GPC",
+      "description": "GENUINE PARTS CO",
+      "weight": "0.0046"
+    },
+    {
+      "symbol": "ULTA",
+      "description": "ULTA BEAUTY INC",
+      "weight": "0.0046"
+    },
+    {
+      "symbol": "DPZ",
+      "description": "DOMINO'S PIZZA INC",
+      "weight": "0.0045"
+    },
+    {
+      "symbol": "APTV",
+      "description": "APTIV PLC",
+      "weight": "0.0043"
+    },
+    {
+      "symbol": "LVS",
+      "description": "LAS VEGAS SANDS CORP",
+      "weight": "0.0042"
+    },
+    {
+      "symbol": "KMX",
+      "description": "CARMAX INC",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "POOL",
+      "description": "POOL CORP",
+      "weight": "0.0035"
+    },
+    {
+      "symbol": "NCLH",
+      "description": "NORWEGIAN CRUISE LINE HOLDINGS LTD",
+      "weight": "0.0032"
+    },
+    {
+      "symbol": "RL",
+      "description": "RALPH LAUREN CORP CLASS A",
+      "weight": "0.0031"
+    },
+    {
+      "symbol": "LKQ",
+      "description": "LKQ CORP",
+      "weight": "0.0028"
+    },
+    {
+      "symbol": "MGM",
+      "description": "MGM RESORTS INTERNATIONAL",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "WYNN",
+      "description": "WYNN RESORTS LTD",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "HAS",
+      "description": "HASBRO INC",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "CZR",
+      "description": "CAESARS ENTERTAINMENT INC",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "BWA",
+      "description": "BORGWARNER INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "MHK",
+      "description": "MOHAWK INDUSTRIES INC",
+      "weight": "0.0017"
+    }
+  ]
+}

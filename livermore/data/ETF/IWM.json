@@ -1,0 +1,6657 @@
+{
+  "net_assets": "75100000000",
+  "net_expense_ratio": "0.0019",
+  "portfolio_turnover": "0.17",
+  "dividend_yield": "n/a",
+  "inception_date": "2000-05-22",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.185"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.173"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.162"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.134"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.095"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.048"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.039"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.028"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.027"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.025"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "SFM",
+      "description": "SPROUTS FARMERS MARKET INC",
+      "weight": "0.0063"
+    },
+    {
+      "symbol": "INSM",
+      "description": "INSMED INC",
+      "weight": "0.0051"
+    },
+    {
+      "symbol": "FTAI",
+      "description": "FTAI AVIATION LTD",
+      "weight": "0.0044"
+    },
+    {
+      "symbol": "HIMS",
+      "description": "n/a",
+      "weight": "0.004"
+    },
+    {
+      "symbol": "AIT",
+      "description": "APPLIED INDUSTRIAL TECHNOLOGIES INC",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "CRDO",
+      "description": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "PCVX",
+      "description": "VAXCYTE INC ORDINARY SHARES",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "SSB",
+      "description": "SOUTHSTATE CORP",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "CRS",
+      "description": "CARPENTER TECHNOLOGY CORP",
+      "weight": "0.0036"
+    },
+    {
+      "symbol": "RKLB",
+      "description": "ROCKET LAB USA INC",
+      "weight": "0.0035"
+    },
+    {
+      "symbol": "HQY",
+      "description": "HEALTHEQUITY INC",
+      "weight": "0.0035"
+    },
+    {
+      "symbol": "MLI",
+      "description": "MUELLER INDUSTRIES INC",
+      "weight": "0.0034"
+    },
+    {
+      "symbol": "AUR",
+      "description": "AURORA INNOVATION INC CLASS A",
+      "weight": "0.0033"
+    },
+    {
+      "symbol": "FN",
+      "description": "FABRINET",
+      "weight": "0.0032"
+    },
+    {
+      "symbol": "GTLS",
+      "description": "CHART INDUSTRIES INC",
+      "weight": "0.0031"
+    },
+    {
+      "symbol": "CVLT",
+      "description": "COMMVAULT SYSTEMS INC",
+      "weight": "0.003"
+    },
+    {
+      "symbol": "UMBF",
+      "description": "UMB FINANCIAL CORP",
+      "weight": "0.0029"
+    },
+    {
+      "symbol": "EXLS",
+      "description": "EXLSERVICE HOLDINGS INC",
+      "weight": "0.0029"
+    },
+    {
+      "symbol": "ONB",
+      "description": "OLD NATIONAL BANCORP",
+      "weight": "0.0028"
+    },
+    {
+      "symbol": "BECN",
+      "description": "BEACON ROOFING SUPPLY INC CLASS A",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "RMBS",
+      "description": "RAMBUS INC",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "GKOS",
+      "description": "GLAUKOS CORP",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "EAT",
+      "description": "BRINKER INTERNATIONAL INC",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "CWST",
+      "description": "CASELLA WASTE SYSTEMS INC CLASS A",
+      "weight": "0.0026"
+    },
+    {
+      "symbol": "ENSG",
+      "description": "ENSIGN GROUP INC",
+      "weight": "0.0026"
+    },
+    {
+      "symbol": "HALO",
+      "description": "HALOZYME THERAPEUTICS INC",
+      "weight": "0.0026"
+    },
+    {
+      "symbol": "COOP",
+      "description": "MR. COOPER GROUP INC",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "NXT",
+      "description": "NEXTRACKER INC ORDINARY SHARES CLASS A",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "UFPI",
+      "description": "UFP INDUSTRIES INC",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "IONQ",
+      "description": "IONQ INC CLASS A",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "FLR",
+      "description": "FLUOR CORP",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "RVMD",
+      "description": "REVOLUTION MEDICINES INC ORDINARY SHARES",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "UPST",
+      "description": "UPSTART HOLDINGS INC ORDINARY SHARES",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "SPXC",
+      "description": "SPX TECHNOLOGIES INC",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "BMI",
+      "description": "BADGER METER INC",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "TMHC",
+      "description": "TAYLOR MORRISON HOME CORP",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "HLNE",
+      "description": "HAMILTON LANE INC CLASS A",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "ALTM",
+      "description": "ARCADIUM LITHIUM PLC",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "RHP",
+      "description": "RYMAN HOSPITALITY PROPERTIES INC",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "JXN",
+      "description": "JACKSON FINANCIAL INC",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "GPI",
+      "description": "GROUP 1 AUTOMOTIVE INC",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "MMSI",
+      "description": "MERIT MEDICAL SYSTEMS INC",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "TRNO",
+      "description": "TERRENO REALTY CORP",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "LRN",
+      "description": "STRIDE INC",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "ALTR",
+      "description": "ALTAIR ENGINEERING INC CLASS A",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "KNF",
+      "description": "KNIFE RIVER HOLDING CO",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "CMC",
+      "description": "COMMERCIAL METALS CO",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "MDGL",
+      "description": "MADRIGAL PHARMACEUTICALS INC",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "ABG",
+      "description": "ASBURY AUTOMOTIVE GROUP INC",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "GATX",
+      "description": "GATX CORP",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "FSS",
+      "description": "FEDERAL SIGNAL CORP",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "WTS",
+      "description": "WATTS WATER TECHNOLOGIES INC CLASS A",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "GH",
+      "description": "GUARDANT HEALTH INC",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "BPMC",
+      "description": "BLUEPRINT MEDICINES CORP",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "HOMB",
+      "description": "HOME BANCSHARES INC",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "ESNT",
+      "description": "ESSENT GROUP LTD",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "GBCI",
+      "description": "GLACIER BANCORP INC",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "ALKS",
+      "description": "ALKERMES PLC",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "JBTM",
+      "description": "JBT MAREL CORP",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "LNTH",
+      "description": "LANTHEUS HOLDINGS INC",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "CORT",
+      "description": "CORCEPT THERAPEUTICS INC",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "ACIW",
+      "description": "ACI WORLDWIDE INC",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "SKY",
+      "description": "CHAMPION HOMES INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "QLYS",
+      "description": "QUALYS INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "QTWO",
+      "description": "Q2 HOLDINGS INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "PIPR",
+      "description": "PIPER SANDLER COS",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "CSWI",
+      "description": "CSW INDUSTRIALS INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "SPSC",
+      "description": "SPS COMMERCE INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "IDCC",
+      "description": "INTERDIGITAL INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "ANF",
+      "description": "ABERCROMBIE & FITCH CO CLASS A",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "EPRT",
+      "description": "ESSENTIAL PROPERTIES REALTY TRUST INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "OPCH",
+      "description": "OPTION CARE HEALTH INC",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "NOVT",
+      "description": "NOVANTA INC",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "PRMB",
+      "description": "n/a",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "BCPC",
+      "description": "BALCHEM CORP",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "MTH",
+      "description": "MERITAGE HOMES CORP",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "BE",
+      "description": "BLOOM ENERGY CORP CLASS A",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "MOG-A",
+      "description": "MOOG INC CLASS A",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "CADE",
+      "description": "CADENCE BANK",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "CYTK",
+      "description": "CYTOKINETICS INC",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "BIPC",
+      "description": "n/a",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "UBSI",
+      "description": "UNITED BANKSHARES INC",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "ZWS",
+      "description": "ZURN ELKAY WATER SOLUTIONS CORP",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "HWC",
+      "description": "HANCOCK WHITNEY CORP",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "HRI",
+      "description": "HERC HOLDINGS INC",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "DY",
+      "description": "DYCOM INDUSTRIES INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "VRNS",
+      "description": "VARONIS SYSTEMS INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "FFIN",
+      "description": "FIRST FINANCIAL BANKSHARES INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "CWAN",
+      "description": "n/a",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "SIGI",
+      "description": "SELECTIVE INSURANCE GROUP INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "SANM",
+      "description": "SANMINA CORP",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "KRG",
+      "description": "KITE REALTY GROUP TRUST",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "LUMN",
+      "description": "LUMEN TECHNOLOGIES INC ORDINARY SHARES",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "BOX",
+      "description": "BOX INC CLASS A",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "BBIO",
+      "description": "BRIDGEBIO PHARMA INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "CTRE",
+      "description": "CARETRUST REIT INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "RDN",
+      "description": "RADIAN GROUP INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "ACA",
+      "description": "ARCOSA INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "SLAB",
+      "description": "SILICON LABORATORIES INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "MAC",
+      "description": "MACERICH CO",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "MATX",
+      "description": "MATSON INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "FBP",
+      "description": "FIRST BANCORP",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "AEIS",
+      "description": "ADVANCED ENERGY INDUSTRIES INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "KTB",
+      "description": "KONTOOR BRANDS INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "KAI",
+      "description": "KADANT INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "TXNM",
+      "description": "TXNM ENERGY INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "FELE",
+      "description": "FRANKLIN ELECTRIC CO INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "FCFS",
+      "description": "FIRSTCASH HOLDINGS INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "CBT",
+      "description": "CABOT CORP",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "SLG",
+      "description": "SL GREEN REALTY CORP",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "MARA",
+      "description": "MARA HOLDINGS INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "SFBS",
+      "description": "SERVISFIRST BANCSHARES INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "AROC",
+      "description": "ARCHROCK INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "IRT",
+      "description": "INDEPENDENCE REALTY TRUST INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "FTDR",
+      "description": "FRONTDOOR INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "BCC",
+      "description": "BOISE CASCADE CO",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "POR",
+      "description": "PORTLAND GENERAL ELECTRIC CO",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "NSIT",
+      "description": "INSIGHT ENTERPRISES INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "MOD",
+      "description": "MODINE MANUFACTURING CO",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "BDC",
+      "description": "BELDEN INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "ITGR",
+      "description": "INTEGER HOLDINGS CORP",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "NJR",
+      "description": "NEW JERSEY RESOURCES CORP",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "AXSM",
+      "description": "AXSOME THERAPEUTICS INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "TGTX",
+      "description": "TG THERAPEUTICS INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "AVAV",
+      "description": "AEROVIRONMENT INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "ESGR",
+      "description": "ENSTAR GROUP LTD",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "PECO",
+      "description": "PHILLIPS EDISON & CO INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "CVCO",
+      "description": "CAVCO INDUSTRIES INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "ZETA",
+      "description": "ZETA GLOBAL HOLDINGS CORP CLASS A",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "ABCB",
+      "description": "AMERIS BANCORP",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "CNO",
+      "description": "CNO FINANCIAL GROUP INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "AHR",
+      "description": "n/a",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "SHAK",
+      "description": "SHAKE SHACK INC CLASS A",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "SM",
+      "description": "SM ENERGY CO",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "SR",
+      "description": "SPIRE INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "EXPO",
+      "description": "EXPONENT INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "FUN",
+      "description": "SIX FLAGS ENTERTAINMENT CORP",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "PJT",
+      "description": "PJT PARTNERS INC CLASS A",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "MC",
+      "description": "MOELIS & CO CLASS A",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "VRRM",
+      "description": "VERRA MOBILITY CORP CLASS A",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "ITRI",
+      "description": "ITRON INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "CNX",
+      "description": "CNX RESOURCES CORP",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "TDS",
+      "description": "TELEPHONE AND DATA SYSTEMS INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "NE",
+      "description": "NOBLE CORP PLC CLASS A",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "GLNG",
+      "description": "GOLAR LNG LTD",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "KBH",
+      "description": "KB HOME",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "MGY",
+      "description": "MAGNOLIA OIL & GAS CORP CLASS A",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "MMS",
+      "description": "MAXIMUS INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "ASB",
+      "description": "ASSOCIATED BANC-CORP",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "STEP",
+      "description": "n/a",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "ASTS",
+      "description": "n/a",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "AVNT",
+      "description": "AVIENT CORP",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "SKYW",
+      "description": "SKYWEST INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "CNR",
+      "description": "n/a",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "SBRA",
+      "description": "SABRA HEALTH CARE REIT INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "IBP",
+      "description": "INSTALLED BUILDING PRODUCTS INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "ATGE",
+      "description": "ADTALEM GLOBAL EDUCATION INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "KTOS",
+      "description": "KRATOS DEFENSE & SECURITY SOLUTIONS INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "ESE",
+      "description": "ESCO TECHNOLOGIES INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "NPO",
+      "description": "ENPRO INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "BCO",
+      "description": "THE BRINK'S CO",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "MWA",
+      "description": "n/a",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "WHD",
+      "description": "CACTUS INC CLASS A",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "CBZ",
+      "description": "CBIZ INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "MUR",
+      "description": "MURPHY OIL CORP",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "ENS",
+      "description": "ENERSYS",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "BOOT",
+      "description": "BOOT BARN HOLDINGS INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "PBH",
+      "description": "PRESTIGE CONSUMER HEALTHCARE INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "RDNT",
+      "description": "RADNET INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "BKH",
+      "description": "BLACK HILLS CORP",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "OGS",
+      "description": "ONE GAS INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "RUSHA",
+      "description": "RUSH ENTERPRISES INC CLASS A",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "SWTX",
+      "description": "n/a",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "ALE",
+      "description": "ALLETE INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "KRYS",
+      "description": "KRYSTAL BIOTECH INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "CDE",
+      "description": "COEUR MINING INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "INTA",
+      "description": "INTAPP INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "CALM",
+      "description": "CAL-MAINE FOODS INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "GVA",
+      "description": "GRANITE CONSTRUCTION INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "PTCT",
+      "description": "PTC THERAPEUTICS INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "PRIM",
+      "description": "PRIMORIS SERVICES CORP",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "RELY",
+      "description": "REMITLY GLOBAL INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "AX",
+      "description": "AXOS FINANCIAL INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "ORA",
+      "description": "ORMAT TECHNOLOGIES INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "PLXS",
+      "description": "PLEXUS CORP",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "STRL",
+      "description": "STERLING INFRASTRUCTURE INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "GEO",
+      "description": "THE GEO GROUP INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "FRSH",
+      "description": "FRESHWORKS INC ORDINARY SHARES CLASS A",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "ASO",
+      "description": "n/a",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "AI",
+      "description": "C3.AI INC ORDINARY SHARES CLASS A",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "PTEN",
+      "description": "PATTERSON-UTI ENERGY INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "PCH",
+      "description": "POTLATCHDELTIC CORP",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "POWI",
+      "description": "POWER INTEGRATIONS INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "JOBY",
+      "description": "JOBY AVIATION INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "APLE",
+      "description": "APPLE HOSPITALITY REIT INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "LANC",
+      "description": "LANCASTER COLONY CORP",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "KFY",
+      "description": "KORN FERRY",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "SNEX",
+      "description": "STONEX GROUP INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "SOUN",
+      "description": "n/a",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "IBOC",
+      "description": "INTERNATIONAL BANCSHARES CORP",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "CCOI",
+      "description": "COGENT COMMUNICATIONS HOLDINGS INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "CARG",
+      "description": "CARGURUS INC CLASS A",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "CNK",
+      "description": "CINEMARK HOLDINGS INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "ADMA",
+      "description": "ADMA BIOLOGICS INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "EBC",
+      "description": "EASTERN BANKSHARES INC ORDINARY SHARES",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "RXO",
+      "description": "RXO INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "SATS",
+      "description": "ECHOSTAR CORP CLASS A",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "IRTC",
+      "description": "IRHYTHM TECHNOLOGIES INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "RNA",
+      "description": "AVIDITY BIOSCIENCES INC ORDINARY SHARES",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "URBN",
+      "description": "URBAN OUTFITTERS INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "BXMT",
+      "description": "BLACKSTONE MORTGAGE TRUST INC A",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "OSIS",
+      "description": "OSI SYSTEMS INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "ICUI",
+      "description": "ICU MEDICAL INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "NOG",
+      "description": "NORTHERN OIL & GAS INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "UCB",
+      "description": "UNITED COMMUNITY BANKS INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "DORM",
+      "description": "DORMAN PRODUCTS INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "FUL",
+      "description": "H.B. FULLER CO",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "ABM",
+      "description": "ABM INDUSTRIES INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "AKRO",
+      "description": "AKERO THERAPEUTICS INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "SITM",
+      "description": "SITIME CORP ORDINARY SHARES",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "BHVN",
+      "description": "BIOHAVEN LTD",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "HASI",
+      "description": "n/a",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "HAE",
+      "description": "HAEMONETICS CORP",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "ATMU",
+      "description": "ATMUS FILTRATION TECHNOLOGIES INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "ASGN",
+      "description": "ASGN INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "HL",
+      "description": "HECLA MINING CO",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "RIOT",
+      "description": "RIOT PLATFORMS INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "REZI",
+      "description": "RESIDEO TECHNOLOGIES INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "MIR",
+      "description": "n/a",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "MGEE",
+      "description": "MGE ENERGY INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "OSCR",
+      "description": "OSCAR HEALTH INC CLASS A",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "OTTR",
+      "description": "OTTER TAIL CORP",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "PTON",
+      "description": "PELOTON INTERACTIVE INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "UNF",
+      "description": "UNIFIRST CORP",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "NWE",
+      "description": "NORTHWESTERN ENERGY GROUP INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "PLMR",
+      "description": "PALOMAR HOLDINGS INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "CRC",
+      "description": "n/a",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "SMPL",
+      "description": "THE SIMPLY GOOD FOODS CO",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "TEX",
+      "description": "TEREX CORP",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "FULT",
+      "description": "FULTON FINANCIAL CORP",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "GMS",
+      "description": "GMS INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "WDFC",
+      "description": "WD-40 CO",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "WSFS",
+      "description": "WSFS FINANCIAL CORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "MGRC",
+      "description": "MCGRATH RENTCORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "VCYT",
+      "description": "VERACYTE INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "HGV",
+      "description": "HILTON GRAND VACATIONS INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "ALRM",
+      "description": "ALARM.COM HOLDINGS INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "BL",
+      "description": "BLACKLINE INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "PATK",
+      "description": "PATRICK INDUSTRIES INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "BNL",
+      "description": "BROADSTONE NET LEASE INC ORDINARY SHARES",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "NSP",
+      "description": "INSPERITY INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "NHI",
+      "description": "NATIONAL HEALTH INVESTORS INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "PRCT",
+      "description": "PROCEPT BIOROBOTICS CORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "BGC",
+      "description": "BGC GROUP INC ORDINARY SHARES CLASS A",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "RYTM",
+      "description": "RHYTHM PHARMACEUTICALS INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "OUT",
+      "description": "OUTFRONT MEDIA INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "ACVA",
+      "description": "n/a",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "TGNA",
+      "description": "TEGNA INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "SYNA",
+      "description": "SYNAPTICS INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "GHC",
+      "description": "GRAHAM HOLDINGS CO",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "AMBA",
+      "description": "AMBARELLA INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "TPH",
+      "description": "TRI POINTE HOMES INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "STNE",
+      "description": "STONECO LTD CLASS A",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "AUB",
+      "description": "ATLANTIC UNION BANKSHARES CORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "SXT",
+      "description": "SENSIENT TECHNOLOGIES CORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "AZZ",
+      "description": "AZZ INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "AVA",
+      "description": "AVISTA CORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "GT",
+      "description": "GOODYEAR TIRE & RUBBER CO",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "COMP",
+      "description": "COMPASS INC CLASS A",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "GFF",
+      "description": "GRIFFON CORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "MHO",
+      "description": "M/I HOMES INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "CRNX",
+      "description": "CRINETICS PHARMACEUTICALS INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "CRVL",
+      "description": "CORVEL CORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "CDP",
+      "description": "COPT DEFENSE PROPERTIES",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "DOCN",
+      "description": "DIGITALOCEAN HOLDINGS INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "VCTR",
+      "description": "VICTORY CAPITAL HOLDINGS INC CLASS A",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "FORM",
+      "description": "FORMFACTOR INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "VCEL",
+      "description": "VERICEL CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "FCPT",
+      "description": "FOUR CORNERS PROPERTY TRUST INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "RXRX",
+      "description": "RECURSION PHARMACEUTICALS INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "BKU",
+      "description": "BANKUNITED INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "NMIH",
+      "description": "NMI HOLDINGS INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "NUVL",
+      "description": "NUVALENT INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "PFSI",
+      "description": "PENNYMAC FINANCIAL SERVICES INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "RRR",
+      "description": "RED ROCK RESORTS INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "BOH",
+      "description": "BANK OF HAWAII CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "CPK",
+      "description": "CHESAPEAKE UTILITIES CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "BRZE",
+      "description": "BRAZE INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "HCC",
+      "description": "WARRIOR MET COAL INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "GNW",
+      "description": "GENWORTH FINANCIAL INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "VERX",
+      "description": "VERTEX INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "OII",
+      "description": "OCEANEERING INTERNATIONAL INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "CATY",
+      "description": "CATHAY GENERAL BANCORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "INDB",
+      "description": "INDEPENDENT BANK CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "ALIT",
+      "description": "ALIGHT INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "DNLI",
+      "description": "DENALI THERAPEUTICS INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "CWT",
+      "description": "CALIFORNIA WATER SERVICE GROUP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "ENVA",
+      "description": "ENOVA INTERNATIONAL INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "TDW",
+      "description": "TIDEWATER INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "FRME",
+      "description": "FIRST MERCHANTS CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "FIBK",
+      "description": "FIRST INTERSTATE BANCSYSTEM INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "WD",
+      "description": "WALKER & DUNLOP INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "CVBF",
+      "description": "CVB FINANCIAL CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "TWST",
+      "description": "TWIST BIOSCIENCE CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "VAL",
+      "description": "VALARIS LTD",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "BWIN",
+      "description": "THE BALDWIN INSURANCE GROUP INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "AKR",
+      "description": "ACADIA REALTY TRUST",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "GSHD",
+      "description": "GOOSEHEAD INSURANCE INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "VIAV",
+      "description": "VIAVI SOLUTIONS INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "SHOO",
+      "description": "STEVEN MADDEN LTD",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "CAKE",
+      "description": "CHEESECAKE FACTORY INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "AEO",
+      "description": "AMERICAN EAGLE OUTFITTERS INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "TTMI",
+      "description": "TTM TECHNOLOGIES INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "FOLD",
+      "description": "AMICUS THERAPEUTICS INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "TBBK",
+      "description": "THE BANCORP INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "AWR",
+      "description": "AMERICAN STATES WATER CO",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "ACLX",
+      "description": "ARCELLX INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "SRRK",
+      "description": "SCHOLAR ROCK HOLDING CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "SMTC",
+      "description": "SEMTECH CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "LBRT",
+      "description": "LIBERTY ENERGY INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "LCII",
+      "description": "LCI INDUSTRIES INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "LAUR",
+      "description": "LAUREATE EDUCATION INC SHS",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "IOSP",
+      "description": "INNOSPEC INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "HUBG",
+      "description": "HUB GROUP INC CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "SFNC",
+      "description": "SIMMONS FIRST NATIONAL CORP CLASS A",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "BLKB",
+      "description": "BLACKBAUD INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "APAM",
+      "description": "n/a",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "PAYO",
+      "description": "PAYONEER GLOBAL INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "FLYW",
+      "description": "FLYWIRE CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "WNS",
+      "description": "WNS (HOLDINGS) LTD",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "ACAD",
+      "description": "ACADIA PHARMACEUTICALS INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "YELP",
+      "description": "YELP INC CLASS A",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "RIG",
+      "description": "TRANSOCEAN LTD",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "AIN",
+      "description": "ALBANY INTERNATIONAL CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "UEC",
+      "description": "URANIUM ENERGY CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "HI",
+      "description": "HILLENBRAND INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "HNI",
+      "description": "HNI CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "CPRX",
+      "description": "CATALYST PHARMACEUTICALS INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "PI",
+      "description": "IMPINJ INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "PBF",
+      "description": "PBF ENERGY INC CLASS A",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "BEAM",
+      "description": "BEAM THERAPEUTICS INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "PRGS",
+      "description": "PROGRESS SOFTWARE CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "PRVA",
+      "description": "PRIVIA HEALTH GROUP INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "BANF",
+      "description": "BANCFIRST CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "PRK",
+      "description": "PARK NATIONAL CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "NVCR",
+      "description": "NOVOCURE LTD",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "CALX",
+      "description": "CALIX INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "PDCO",
+      "description": "PATTERSON COMPANIES INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "FFBC",
+      "description": "FIRST FINANCIAL BANCORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "IPAR",
+      "description": "INTERPARFUMS INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "IVT",
+      "description": "INVENTRUST PROPERTIES CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "CRGY",
+      "description": "CRESCENT ENERGY CO CLASS A",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "HP",
+      "description": "HELMERICH & PAYNE INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "LXP",
+      "description": "LXP INDUSTRIAL TRUST",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "LIVN",
+      "description": "LIVANOVA PLC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "ATKR",
+      "description": "ATKORE INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "ARWR",
+      "description": "ARROWHEAD PHARMACEUTICALS INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "SIG",
+      "description": "SIGNET JEWELERS LTD",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "AVPT",
+      "description": "AVEPOINT INC ORDINARY SHARES CLASS A",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "SBCF",
+      "description": "SEACOAST BANKING CORP OF FLORIDA",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "GPOR",
+      "description": "n/a",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "SG",
+      "description": "SWEETGREEN INC ORDINARY SHARES CLASS A",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "TMDX",
+      "description": "TRANSMEDICS GROUP INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "ACHR",
+      "description": "ARCHER AVIATION INC CLASS A",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "SLVM",
+      "description": "SYLVAMO CORP ORDINARY SHARES WHEN ISSUED",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "MGNI",
+      "description": "MAGNITE INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "JBLU",
+      "description": "JETBLUE AIRWAYS CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "KNTK",
+      "description": "KINETIK HOLDINGS INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "VSCO",
+      "description": "VICTORIA'S SECRET & CO",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "VC",
+      "description": "VISTEON CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "VSH",
+      "description": "VISHAY INTERTECHNOLOGY INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "UPWK",
+      "description": "UPWORK INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "WERN",
+      "description": "WERNER ENTERPRISES INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "WSBC",
+      "description": "WESBANCO INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "WRBY",
+      "description": "n/a",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "ENR",
+      "description": "ENERGIZER HOLDINGS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "BANR",
+      "description": "BANNER CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "PHIN",
+      "description": "PHINIA INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "OSW",
+      "description": "ONESPAWORLD HOLDINGS LTD",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "DAN",
+      "description": "DANA INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "HURN",
+      "description": "HURON CONSULTING GROUP INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "MYRG",
+      "description": "MYR GROUP INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "MIRM",
+      "description": "MIRUM PHARMACEUTICALS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "MTX",
+      "description": "MINERALS TECHNOLOGIES INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "MRCY",
+      "description": "MERCURY SYSTEMS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "PPBI",
+      "description": "PACIFIC PREMIER BANCORP INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "NEOG",
+      "description": "NEOGEN CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "NATL",
+      "description": "NCR ATLEOS CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "NBTB",
+      "description": "NBT BANCORP INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "CXW",
+      "description": "CORECIVIC INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "CORZ",
+      "description": "CORE SCIENTIFIC INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "DRS",
+      "description": "LEONARDO DRS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "RAMP",
+      "description": "LIVERAMP HOLDINGS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "LGND",
+      "description": "LIGAND PHARMACEUTICALS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "CCS",
+      "description": "CENTURY COMMUNITIES INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "MBC",
+      "description": "MASTERBRAND INC ORDINARY SHARES",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "KLIC",
+      "description": "KULICKE & SOFFA INDUSTRIES INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "AIR",
+      "description": "AAR CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "TRMK",
+      "description": "TRUSTMARK CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "ARCB",
+      "description": "ARCBEST CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "CHEF",
+      "description": "THE CHEFS' WAREHOUSE INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "EFSC",
+      "description": "ENTERPRISE FINANCIAL SERVICES CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "EVTC",
+      "description": "EVERTEC INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "PAR",
+      "description": "PAR TECHNOLOGY CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "TDOC",
+      "description": "TELADOC HEALTH INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "EXTR",
+      "description": "EXTREME NETWORKS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "SDRL",
+      "description": "SEADRILL LTD",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "HWKN",
+      "description": "HAWKINS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "HBI",
+      "description": "HANESBRANDS INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "BANC",
+      "description": "BANC OF CALIFORNIA INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "ACLS",
+      "description": "AXCELIS TECHNOLOGIES INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "PFS",
+      "description": "PROVIDENT FINANCIAL SERVICES INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "PSMT",
+      "description": "PRICESMART INC",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "AMR",
+      "description": "ALPHA METALLURGICAL RESOURCES INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "AGIO",
+      "description": "AGIOS PHARMACEUTICALS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "ALKT",
+      "description": "ALKAMI TECHNOLOGY INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "PRKS",
+      "description": "UNITED PARKS & RESORTS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "AGYS",
+      "description": "AGILYSYS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "ALG",
+      "description": "ALAMO GROUP INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "STC",
+      "description": "STEWART INFORMATION SERVICES CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "SYBT",
+      "description": "STOCK YARDS BANCORP INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "ADUS",
+      "description": "ADDUS HOMECARE CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "GOLF",
+      "description": "ACUSHNET HOLDINGS CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "CNMD",
+      "description": "CONMED CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "WAY",
+      "description": "WAYSTAR HOLDING CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "WAFD",
+      "description": "WAFD INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "UNFI",
+      "description": "UNITED NATURAL FOODS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "YOU",
+      "description": "CLEAR SECURE INC ORDINARY SHARES CLASS A",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "LZB",
+      "description": "LA-Z-BOY INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "FBK",
+      "description": "FB FINANCIAL CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "AGM",
+      "description": "n/a",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "PLUS",
+      "description": "EPLUS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "RUN",
+      "description": "SUNRUN INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "SUPN",
+      "description": "SUPERNUS PHARMACEUTICALS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "SGRY",
+      "description": "SURGERY PARTNERS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "BCRX",
+      "description": "BIOCRYST PHARMACEUTICALS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "VYX",
+      "description": "NCR VOYIX CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "MTRN",
+      "description": "MATERION CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "SMMT",
+      "description": "SUMMIT THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "TGI",
+      "description": "TRIUMPH GROUP INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "UFPT",
+      "description": "UFP TECHNOLOGIES INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "GRBK",
+      "description": "GREEN BRICK PARTNERS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "ASAN",
+      "description": "ASANA INC ORDINARY SHARES CLASS A",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "AGX",
+      "description": "ARGAN INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "TARS",
+      "description": "n/a",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "STNG",
+      "description": "SCORPIO TANKERS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "CASH",
+      "description": "PATHWARD FINANCIAL INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "ENVX",
+      "description": "ENOVIX CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "HLMN",
+      "description": "HILLMAN SOLUTIONS CORP SHS",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "IESC",
+      "description": "IES HOLDINGS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "ICFI",
+      "description": "ICF INTERNATIONAL INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "EWTX",
+      "description": "EDGEWISE THERAPEUTICS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "IGT",
+      "description": "INTERNATIONAL GAME TECHNOLOGY PLC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "NMRK",
+      "description": "NEWMARK GROUP INC CLASS A",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "DRH",
+      "description": "DIAMONDROCK HOSPITALITY CO",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "CSGS",
+      "description": "CSG SYSTEMS INTERNATIONAL INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "LMND",
+      "description": "LEMONADE INC ORDINARY SHARES",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "LMAT",
+      "description": "LEMAITRE VASCULAR INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "LTH",
+      "description": "LIFE TIME GROUP HOLDINGS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "JJSF",
+      "description": "J&J SNACK FOODS CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "KMT",
+      "description": "KENNAMETAL INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "ABR",
+      "description": "ARBOR REALTY TRUST INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "APLD",
+      "description": "APPLIED DIGITAL CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "DEI",
+      "description": "DOUGLAS EMMETT INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "BATRK",
+      "description": "ATLANTA BRAVES HOLDINGS INC CLASS C",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "GBX",
+      "description": "GREENBRIER COMPANIES INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "SSRM",
+      "description": "SSR MINING INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "SKWD",
+      "description": "SKYWARD SPECIALTY INSURANCE GROUP INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "ATRC",
+      "description": "ATRICURE INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "KOS",
+      "description": "KOSMOS ENERGY LTD",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "KYMR",
+      "description": "KYMERA THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "ADNT",
+      "description": "ADIENT PLC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "WKC",
+      "description": "WORLD KINECT CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "XMTR",
+      "description": "XOMETRY INC ORDINARY SHARES CLASS A",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "XHR",
+      "description": "XENIA HOTELS & RESORTS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "UPBD",
+      "description": "UPBOUND GROUP INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "FL",
+      "description": "FOOT LOCKER INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "LTC",
+      "description": "LTC PROPERTIES INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "CRK",
+      "description": "COMSTOCK RESOURCES INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "IOVA",
+      "description": "IOVANCE BIOTHERAPEUTICS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "CWK",
+      "description": "CUSHMAN & WAKEFIELD PLC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "WLY",
+      "description": "JOHN WILEY & SONS INC CLASS A",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "KN",
+      "description": "KNOWLES CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "LEU",
+      "description": "CENTRUS ENERGY CORP CLASS A",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "IDYA",
+      "description": "IDEAYA BIOSCIENCES INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "DBRG",
+      "description": "DIGITALBRIDGE GROUP INC CLASS A",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "CENTA",
+      "description": "CENTRAL GARDEN & PET CO CLASS A",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "CABO",
+      "description": "CABLE ONE INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "CHCO",
+      "description": "CITY HOLDING CO",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "CUBI",
+      "description": "CUSTOMERS BANCORP INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "INOD",
+      "description": "INNODATA INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "INSW",
+      "description": "INTERNATIONAL SEAWAYS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "IART",
+      "description": "INTEGRA LIFESCIENCES HOLDINGS CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "BHE",
+      "description": "BENCHMARK ELECTRONICS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "PAGS",
+      "description": "PAGSEGURO DIGITAL LTD CLASS A",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "DVAX",
+      "description": "DYNAVAX TECHNOLOGIES CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "HTH",
+      "description": "HILLTOP HOLDINGS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "HMN",
+      "description": "HORACE MANN EDUCATORS CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "HUT",
+      "description": "HUT 8 CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "NGVT",
+      "description": "INGEVITY CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "ASTH",
+      "description": "ASTRANA HEALTH INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "AVDX",
+      "description": "AVIDXCHANGE HOLDINGS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "SASR",
+      "description": "SANDY SPRING BANCORP INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "RGTI",
+      "description": "RIGETTI COMPUTING INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "ROG",
+      "description": "ROGERS CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "FCF",
+      "description": "FIRST COMMONWEALTH FINANCIAL CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "GEF",
+      "description": "GREIF INC CLASS A",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "SOC",
+      "description": "SABLE OFFSHORE CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "HE",
+      "description": "HAWAIIAN ELECTRIC INDUSTRIES INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "TGLS",
+      "description": "TECNOGLASS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "SJW",
+      "description": "SJW GROUP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "STR",
+      "description": "n/a",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "TRUP",
+      "description": "TRUPANION INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "TVTX",
+      "description": "TRAVERE THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "TFIN",
+      "description": "TRIUMPH FINANCIAL INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "UCTT",
+      "description": "ULTRA CLEAN HOLDINGS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "TNC",
+      "description": "TENNANT CO",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "COCO",
+      "description": "THE VITA COCO CO INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "JOE",
+      "description": "THE ST. JOE CO",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "GTY",
+      "description": "GETTY REALTY CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "GERN",
+      "description": "GERON CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "ROCK",
+      "description": "GIBRALTAR INDUSTRIES INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "ATEN",
+      "description": "A10 NETWORKS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "VRNT",
+      "description": "VERINT SYSTEMS INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "VSEC",
+      "description": "VSE CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "VRE",
+      "description": "VERIS RESIDENTIAL INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "WGS",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "ADEA",
+      "description": "ADEIA INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "ALHC",
+      "description": "ALIGNMENT HEALTHCARE INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "ANDE",
+      "description": "ANDERSONS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "GNL",
+      "description": "GLOBAL NET LEASE INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "ALEX",
+      "description": "ALEXANDER & BALDWIN INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "AMRX",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "CGON",
+      "description": "CG ONCOLOGY INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "HELE",
+      "description": "HELEN OF TROY LTD",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "SPHR",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "SGHC",
+      "description": "SUPER GROUP (SGHC) LTD",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "HLIO",
+      "description": "HELIOS TECHNOLOGIES INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "PL",
+      "description": "PLANET LABS PBC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "PLAB",
+      "description": "PHOTRONICS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "PLUG",
+      "description": "PLUG POWER INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "BFH",
+      "description": "BREAD FINANCIAL HOLDINGS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "PWP",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "XPRO",
+      "description": "EXPRO GROUP HOLDINGS NV",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "MXL",
+      "description": "MAXLINEAR INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "MNKD",
+      "description": "MANNKIND CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "LADR",
+      "description": "LADDER CAPITAL CORP CLASS A",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "MTTR",
+      "description": "MATTERPORT INC ORDINARY SHARES CLASS A",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "MCY",
+      "description": "MERCURY GENERAL CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "INMD",
+      "description": "INMODE LTD",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "CTS",
+      "description": "CTS CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "PRAX",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "LNN",
+      "description": "LINDSAY CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "MSGE",
+      "description": "MADISON SQUARE GARDEN ENTERTAINMENT CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "STBA",
+      "description": "S&T BANCORP INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "SABR",
+      "description": "SABRE CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "QNST",
+      "description": "QUINSTREET INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "TILE",
+      "description": "INTERFACE INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "SPNT",
+      "description": "SIRIUSPOINT LTD",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "JAMF",
+      "description": "JAMF HOLDING CORP ORDINARY SHARES",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "MD",
+      "description": "PEDIATRIX MEDICAL GROUP INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "PMT",
+      "description": "PENNYMAC MORTGAGE INVESTMENT TRUST",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "PCT",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "QCRH",
+      "description": "QCR HOLDINGS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "PRO",
+      "description": "PROS HOLDINGS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "HRMY",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "NHC",
+      "description": "NATIONAL HEALTHCARE CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "MYGN",
+      "description": "MYRIAD GENETICS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "AESI",
+      "description": "ATLAS ENERGY SOLUTIONS INC CLASS A",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "GDYN",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "OBK",
+      "description": "ORIGIN BANCORP INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "NBHC",
+      "description": "NATIONAL BANK HOLDINGS CORP CLASS A",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "INFN",
+      "description": "INFINERA CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "WTTR",
+      "description": "SELECT WATER SOLUTIONS INC CLASS A",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "SDGR",
+      "description": "SCHRODINGER INC ORDINARY SHARES",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "ARDX",
+      "description": "ARDELYX INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "TALO",
+      "description": "TALOS ENERGY INC ORDINARY SHARES",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "ARQT",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "DHT",
+      "description": "DHT HOLDINGS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "THS",
+      "description": "TREEHOUSE FOODS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "WULF",
+      "description": "TERAWULF INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "TCBK",
+      "description": "TRICO BANCSHARES",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "ALGT",
+      "description": "ALLEGIANT TRAVEL CO",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "APPN",
+      "description": "APPIAN CORP A",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "AMC",
+      "description": "AMC ENTERTAINMENT HOLDINGS INC CLASS A",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "CLDX",
+      "description": "CELLDEX THERAPEUTICS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "NVAX",
+      "description": "NOVAVAX INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "ARI",
+      "description": "n/a",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "APGE",
+      "description": "APOGEE THERAPEUTICS INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "CWH",
+      "description": "CAMPING WORLD HOLDINGS INC CLASS A",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "CDNA",
+      "description": "CAREDX INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "HOPE",
+      "description": "HOPE BANCORP INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "KGS",
+      "description": "KODIAK GAS SERVICES INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "BLBD",
+      "description": "BLUE BIRD CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "BLMN",
+      "description": "BLOOMIN BRANDS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CCB",
+      "description": "COASTAL FINANCIAL CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ADPT",
+      "description": "ADAPTIVE BIOTECHNOLOGIES CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ACMR",
+      "description": "ACM RESEARCH INC CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "PEBO",
+      "description": "PEOPLES BANCORP INC (MARIETTA OH)",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AMSF",
+      "description": "AMERISAFE INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AMWD",
+      "description": "AMERICAN WOODMARK CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "THRM",
+      "description": "GENTHERM INC CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "VTLE",
+      "description": "VITAL ENERGY",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "GBTG",
+      "description": "n/a",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "COHU",
+      "description": "COHU INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "NAVI",
+      "description": "NAVIENT CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "GABC",
+      "description": "GERMAN AMERICAN BANCORP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "EVRI",
+      "description": "EVERI HOLDINGS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "EVH",
+      "description": "EVOLENT HEALTH INC CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "HLX",
+      "description": "HELIX ENERGY SOLUTIONS GROUP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "FBMS",
+      "description": "FIRST BANCSHARES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ARR",
+      "description": "ARMOUR RESIDENTIAL REIT INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "FSLY",
+      "description": "FASTLY INC CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "FA",
+      "description": "FIRST ADVANTAGE CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "SCS",
+      "description": "STEELCASE INC CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "SAH",
+      "description": "SONIC AUTOMOTIVE INC CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ARLO",
+      "description": "ARLO TECHNOLOGIES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "PBI",
+      "description": "PITNEY BOWES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ARRY",
+      "description": "ARRAY TECHNOLOGIES INC ORDINARY SHARES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "SWI",
+      "description": "SOLARWINDS CORP ORDINARY SHARES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CXM",
+      "description": "SPRINKLR INC CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ARVN",
+      "description": "ARVINAS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "SLNO",
+      "description": "SOLENO THERAPEUTICS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ATSG",
+      "description": "AIR TRANSPORT SERVICES GROUP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "COMM",
+      "description": "COMMSCOPE HOLDING CO INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "LGF-B",
+      "description": "n/a",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "LQDA",
+      "description": "LIQUIDIA CORP ORDINARY SHARES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "NX",
+      "description": "QUANEX BUILDING PRODUCTS CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "KALU",
+      "description": "KAISER ALUMINUM CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "JBGS",
+      "description": "JBG SMITH PROPERTIES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "PRLB",
+      "description": "PROTO LABS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "OCUL",
+      "description": "OCULAR THERAPEUTIX INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "OPEN",
+      "description": "n/a",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "HLIT",
+      "description": "HARMONIC INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CIFR",
+      "description": "CIPHER MINING INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CIM",
+      "description": "CHIMERA INVESTMENT CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "OXM",
+      "description": "OXFORD INDUSTRIES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "KW",
+      "description": "KENNEDY-WILSON HOLDINGS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "MRC",
+      "description": "MRC GLOBAL INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ROOT",
+      "description": "ROOT INC ORDINARY SHARES CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "NTLA",
+      "description": "INTELLIA THERAPEUTICS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "BY",
+      "description": "BYLINE BANCORP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "LFST",
+      "description": "n/a",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "PCRX",
+      "description": "PACIRA BIOSCIENCES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AUPH",
+      "description": "AURINIA PHARMACEUTICALS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "EFC",
+      "description": "ELLINGTON FINANCIAL INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "BFC",
+      "description": "BANK FIRST CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "DYN",
+      "description": "DYNE THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "DX",
+      "description": "DYNEX CAPITAL INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ECVT",
+      "description": "ECOVYST INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "DEA",
+      "description": "EASTERLY GOVERNMENT PROPERTIES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "BBSI",
+      "description": "BARRETT BUSINESS SERVICES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ACT",
+      "description": "ENACT HOLDINGS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ECPG",
+      "description": "ENCORE CAPITAL GROUP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "BLFS",
+      "description": "BIOLIFE SOLUTIONS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "PFC",
+      "description": "PREMIER FINANCIAL CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "LOB",
+      "description": "LIVE OAK BANCSHARES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "LZ",
+      "description": "LEGALZOOM.COM INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "EIG",
+      "description": "EMPLOYERS HOLDINGS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "SBH",
+      "description": "SALLY BEAUTY HOLDINGS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "SAFT",
+      "description": "SAFETY INSURANCE GROUP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "RSI",
+      "description": "n/a",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "RXST",
+      "description": "RXSIGHT INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CNOB",
+      "description": "CONNECTONE BANCORP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "IRON",
+      "description": "DISC MEDICINE INC ORDINARY SHARES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "INVA",
+      "description": "INNOVIVA INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "BRKL",
+      "description": "BROOKLINE BANCORP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "MFA",
+      "description": "MFA FINANCIAL INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "BKD",
+      "description": "BROOKDALE SENIOR LIVING INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "RC",
+      "description": "READY CAPITAL CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "RVLV",
+      "description": "REVOLVE GROUP INC CLASS A",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "THR",
+      "description": "THERMON GROUP HOLDINGS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "MODG",
+      "description": "TOPGOLF CALLAWAY BRANDS CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "IMVT",
+      "description": "IMMUNOVANT INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "FMBH",
+      "description": "FIRST MID BANCSHARES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "IMAX",
+      "description": "IMAX CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "DBD",
+      "description": "DIEBOLD NIXDORF INC ORDINARY SHARES- NEW",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "DCOM",
+      "description": "DIME COMMUNITY BANCSHARES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "IBTA",
+      "description": "IBOTTA INC CLASS A COMMON STOCK",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "DK",
+      "description": "n/a",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "BTSG",
+      "description": "BRIGHTSPRING HEALTH SERVICES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CENX",
+      "description": "CENTURY ALUMINUM CO",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "RDFN",
+      "description": "REDFIN CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AMPH",
+      "description": "AMPHASTAR PHARMACEUTICALS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "SNDX",
+      "description": "SYNDAX PHARMACEUTICALS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AIV",
+      "description": "n/a",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "APOG",
+      "description": "APOGEE ENTERPRISES INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AAOI",
+      "description": "APPLIED OPTOELECTRONICS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CNNE",
+      "description": "CANNAE HOLDINGS INC ORDINARY SHARES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ANIP",
+      "description": "ANI PHARMACEUTICALS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "ATEC",
+      "description": "ALPHATEC HOLDINGS INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "HCI",
+      "description": "HCI GROUP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "GSAT",
+      "description": "GLOBALSTAR INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "NTST",
+      "description": "NETSTREIT CORP ORDINARY SHARES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AGL",
+      "description": "AGILON HEALTH INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "MCRI",
+      "description": "MONARCH CASINO & RESORT INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "NRIX",
+      "description": "NURIX THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CSR",
+      "description": "CENTERSPACE",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "OCFC",
+      "description": "OCEANFIRST FINANCIAL CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "MDXG",
+      "description": "MIMEDX GROUP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AAT",
+      "description": "AMERICAN ASSETS TRUST INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AMSC",
+      "description": "AMERICAN SUPERCONDUCTOR CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CARS",
+      "description": "CARS.COM INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "AMTB",
+      "description": "n/a",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AMAL",
+      "description": "n/a",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CSTL",
+      "description": "CASTLE BIOSCIENCES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CBL",
+      "description": "CBL & ASSOCIATES PROPERTIES INC NEW",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CECO",
+      "description": "CECO ENVIRONMENTAL CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NVEE",
+      "description": "NV5 GLOBAL INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NBN",
+      "description": "NORTHEAST BANK",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NG",
+      "description": "NOVAGOLD RESOURCES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MNMD",
+      "description": "MIND MEDICINE INC ORDINARY SHARES",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MCW",
+      "description": "MISTER CAR WASH INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "ML",
+      "description": "MONEYLION INC CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MSEX",
+      "description": "MIDDLESEX WATER CO",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "LPG",
+      "description": "DORIAN LPG LTD",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HCSG",
+      "description": "HEALTHCARE SERVICES GROUP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HSTM",
+      "description": "HEALTHSTREAM INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HG",
+      "description": "n/a",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "GDEN",
+      "description": "GOLDEN ENTERTAINMENT INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NVRI",
+      "description": "ENVIRI CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HSII",
+      "description": "HEIDRICK & STRUGGLES INTERNATIONAL INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AOSL",
+      "description": "ALPHA & OMEGA SEMICONDUCTOR LTD",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NN",
+      "description": "NEXTNAV INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NBBK",
+      "description": "NB BANCORP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NTGR",
+      "description": "NETGEAR INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CFFN",
+      "description": "CAPITOL FEDERAL FINANCIAL INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HCKT",
+      "description": "THE HACKETT GROUP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "TROX",
+      "description": "TRONOX HOLDINGS PLC SHS CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "IIIV",
+      "description": "I3 VERTICALS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "IDT",
+      "description": "IDT CORP CLASS B",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HBNC",
+      "description": "HORIZON BANCORP (IN)",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "IBCP",
+      "description": "INDEPENDENT BANK CORP (IONIA MI)",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CLB",
+      "description": "CORE LABORATORIES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BASE",
+      "description": "COUCHBASE INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BELFB",
+      "description": "BEL FUSE INC CLASS B",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "DEC",
+      "description": "DIVERSIFIED ENERGY CO PLC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MCB",
+      "description": "METROPOLITAN BANK HOLDING CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MRTN",
+      "description": "MARTEN TRANSPORT LTD",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MATW",
+      "description": "MATTHEWS INTERNATIONAL CORP CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MBUU",
+      "description": "MALIBU BOATS INC CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MMI",
+      "description": "MARCUS & MILLICHAP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MBWM",
+      "description": "MERCANTILE BANK CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MBIN",
+      "description": "MERCHANTS BANCORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BV",
+      "description": "BRIGHTVIEW HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "VTOL",
+      "description": "BRISTOW GROUP INC ORDINARY SHARES",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BBUC",
+      "description": "n/a",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "KFRC",
+      "description": "KFORCE INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "KNSA",
+      "description": "n/a",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "DNUT",
+      "description": "KRISPY KREME INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "RWT",
+      "description": "REDWOOD TRUST INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "REPL",
+      "description": "REPLIMUNE GROUP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "IAS",
+      "description": "n/a",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "RCKT",
+      "description": "ROCKET PHARMACEUTICALS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CAC",
+      "description": "CAMDEN NATIONAL CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BMBL",
+      "description": "BUMBLE INC ORDINARY SHARES CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BHRB",
+      "description": "BURKE & HERBERT FINANCIAL SERVICES CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BFST",
+      "description": "BUSINESS FIRST BANCSHARES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PTVE",
+      "description": "PACTIV EVERGREEN INC ORDINARY SHARES",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PARR",
+      "description": "PAR PACIFIC HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "IMKTA",
+      "description": "INGLES MARKETS INC CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SSTK",
+      "description": "SHUTTERSTOCK INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SIBN",
+      "description": "SI-BONE INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AXGN",
+      "description": "AXOGEN INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AVDL",
+      "description": "AVADEL PHARMACEUTICALS PLC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AVNS",
+      "description": "AVANOS MEDICAL INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HTBK",
+      "description": "HERITAGE COMMERCE CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HFWA",
+      "description": "HERITAGE FINANCIAL CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BJRI",
+      "description": "BJ'S RESTAURANTS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BBAI",
+      "description": "BIGBEAR.AI HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BZH",
+      "description": "BEAZER HOMES USA INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SAFE",
+      "description": "SAFEHOLD INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SPNS",
+      "description": "SAPIENS INTERNATIONAL CORP NV",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PGRE",
+      "description": "PARAMOUNT GROUP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CDRE",
+      "description": "CADRE HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "LQDT",
+      "description": "LIQUIDITY SERVICES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "LMB",
+      "description": "LIMBACH HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "LILAK",
+      "description": "LIBERTY LATIN AMERICA LTD CLASS C",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CTBI",
+      "description": "COMMUNITY TRUST BANCORP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PUMP",
+      "description": "PROPETRO HOLDING CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "COLL",
+      "description": "COLLEGIUM PHARMACEUTICAL INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PRA",
+      "description": "PROASSURANCE CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "JACK",
+      "description": "JACK IN THE BOX INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PNTG",
+      "description": "PENNANT GROUP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "HROW",
+      "description": "HARROW INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "FIZZ",
+      "description": "NATIONAL BEVERAGE CORP",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NABL",
+      "description": "N-ABLE INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "OSPN",
+      "description": "ONESPAN INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "OSBC",
+      "description": "OLD SECOND BANCORP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "OLO",
+      "description": "OLO INC ORDINARY SHARES CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "NSSC",
+      "description": "NAPCO SECURITY TECHNOLOGIES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "OEC",
+      "description": "ORION SA",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "ORRF",
+      "description": "ORRSTOWN FINANCIAL SERVICES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MLAB",
+      "description": "MESA LABORATORIES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CEVA",
+      "description": "CEVA INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SCSC",
+      "description": "SCANSOURCE INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SLQT",
+      "description": "SELECTQUOTE INC ORDINARY SHARES",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SEZL",
+      "description": "SEZZLE INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "GRC",
+      "description": "GORMAN-RUPP CO",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "FIHL",
+      "description": "FIDELIS INSURANCE HOLDINGS LTD",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "INN",
+      "description": "SUMMIT HOTEL PROPERTIES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SNCY",
+      "description": "SUN COUNTRY AIRLINES HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SXC",
+      "description": "SUNCOKE ENERGY INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SBSI",
+      "description": "SOUTHSIDE BANCSHARES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "ARIS",
+      "description": "ARIS WATER SOLUTIONS INC CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AHH",
+      "description": "ARMADA HOFFLER PROPERTIES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AVBP",
+      "description": "ARRIVENT BIOPHARMA INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "SYRE",
+      "description": "SPYRE THERAPEUTICS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "STAA",
+      "description": "STAAR SURGICAL CO",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "ASTE",
+      "description": "ASTEC INDUSTRIES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PAX",
+      "description": "n/a",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PSFE",
+      "description": "PAYSAFE LTD ORDINARY SHARES CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "CNXN",
+      "description": "PC CONNECTION INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PDM",
+      "description": "PIEDMONT OFFICE REALTY TRUST INC CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BLND",
+      "description": "BLEND LABS INC ORDINARY SHARES CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BXC",
+      "description": "BLUELINX HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "COGT",
+      "description": "COGENT BIOSCIENCES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BRSP",
+      "description": "BRIGHTSPIRE CAPITAL INC CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PTLO",
+      "description": "PORTILLOS INC CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AIOT",
+      "description": "POWERFLEET INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "PRAA",
+      "description": "PRA GROUP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "BDN",
+      "description": "BRANDYWINE REALTY TRUST",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "ASIX",
+      "description": "ADVANSIX INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AHCO",
+      "description": "ADAPTHEALTH CORP ORDINARY SHARES",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "EYE",
+      "description": "NATIONAL VISION HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AMN",
+      "description": "AMN HEALTHCARE SERVICES INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AMPL",
+      "description": "AMPLITUDE INC CLASS A",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "ADTN",
+      "description": "ADTRAN HOLDINGS INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "AAMI",
+      "description": "ACADIAN ASSET MANAGEMENT INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "GOOD",
+      "description": "GLADSTONE COMMERCIAL CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "GMRE",
+      "description": "GLOBAL MEDICAL REIT INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "GNK",
+      "description": "GENCO SHIPPING & TRADING LTD",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "REAX",
+      "description": "THE REAL BROKERAGE INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HNST",
+      "description": "THE HONEST CO INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RCUS",
+      "description": "ARCUS BIOSCIENCES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ASC",
+      "description": "ARDMORE SHIPPING CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ABUS",
+      "description": "ARBUTUS BIOPHARMA CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CAPR",
+      "description": "CAPRICOR THERAPEUTICS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CSV",
+      "description": "CARRIAGE SERVICES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "LASR",
+      "description": "NLIGHT INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CTLP",
+      "description": "CANTALOUPE INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NYMT",
+      "description": "NEW YORK MORTGAGE TRUST INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KIND",
+      "description": "NEXTDOOR HOLDINGS INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NRDS",
+      "description": "NERDWALLET INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NLOP",
+      "description": "NET LEASE OFFICE PROPERTIES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NGVC",
+      "description": "NATURAL GROCERS BY VITAMIN COTTAGE INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NVTS",
+      "description": "NAVITAS SEMICONDUCTOR CORP CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "XERS",
+      "description": "XERIS BIOPHARMA HOLDINGS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PLYM",
+      "description": "PLYMOUTH INDUSTRIAL REIT INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "BKSY",
+      "description": "BLACKSKY TECHNOLOGY INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "AGS",
+      "description": "PLAYAGS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PAHC",
+      "description": "PHIBRO ANIMAL HEALTH CORP CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PGC",
+      "description": "PEAPACK GLADSTONE FINANCIAL CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PFIS",
+      "description": "PEOPLES FINANCIAL SERVICES CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KRNY",
+      "description": "KEARNY FINANCIAL CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KELYA",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "JELD",
+      "description": "JELD-WEN HOLDING INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PRTA",
+      "description": "PROTHENA CORP PLC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PUBM",
+      "description": "PUBMATIC INC ORDINARY SHARES CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PFBC",
+      "description": "PREFERRED BANK",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "TREE",
+      "description": "LENDINGTREE INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CLBK",
+      "description": "COLUMBIA FINANCIAL INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CMCO",
+      "description": "COLUMBUS MCKINNON CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CYH",
+      "description": "COMMUNITY HEALTH SYSTEMS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CHCT",
+      "description": "COMMUNITY HEALTHCARE TRUST INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CLW",
+      "description": "CLEARWATER PAPER CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CCNE",
+      "description": "CNB FINANCIAL CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PDFS",
+      "description": "PDF SOLUTIONS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "LXU",
+      "description": "LSB INDUSTRIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "LYTS",
+      "description": "LSI INDUSTRIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MTAL",
+      "description": "MAC COPPER LTD ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "LGF-A",
+      "description": "LIONS GATE ENTERTAINMENT CORP CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "LINC",
+      "description": "LINCOLN EDUCATIONAL SERVICES CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "LIND",
+      "description": "LINDBLAD EXPEDITIONS HOLDINGS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "LIF",
+      "description": "LIFE360 INC COMMON STOCK",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PGY",
+      "description": "PAGAYA TECHNOLOGIES LTD CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "FNA",
+      "description": "PARAGON 28 INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CAL",
+      "description": "CALERES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PACS",
+      "description": "PACS GROUP INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "BBW",
+      "description": "BUILD-A-BEAR WORKSHOP INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RES",
+      "description": "RPC INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RBCAA",
+      "description": "REPUBLIC BANCORP INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "REX",
+      "description": "REX AMERICAN RESOURCES CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RBBN",
+      "description": "RIBBON COMMUNICATIONS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RLAY",
+      "description": "RELAY THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RPAY",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RYAM",
+      "description": "RAYONIER ADVANCED MATERIALS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RICK",
+      "description": "RCI HOSPITALITY HOLDINGS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RDVT",
+      "description": "RED VIOLET INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "RDW",
+      "description": "REDWIRE CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KURA",
+      "description": "KURA ONCOLOGY INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KRUS",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KE",
+      "description": "KIMBALL ELECTRONICS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KLC",
+      "description": "KINDERCARE LEARNING COMPANIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KREF",
+      "description": "KKR REAL ESTATE FINANCE TRUST INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KOP",
+      "description": "KOPPERS HOLDINGS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "BYRN",
+      "description": "BYRNA TECHNOLOGIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PX",
+      "description": "P10 INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PACB",
+      "description": "PACIFIC BIOSCIENCES OF CALIFORNIA INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CRNC",
+      "description": "CERENCE INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MXCT",
+      "description": "MAXCYTE INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HZO",
+      "description": "MARINEMAX INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MRVI",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MCS",
+      "description": "MARCUS CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MCBS",
+      "description": "METROCITY BANKSHARES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MGPI",
+      "description": "MGP INGREDIENTS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MPB",
+      "description": "MID PENN BANCORP INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CLNE",
+      "description": "CLEAN ENERGY FUELS CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CCO",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "INVX",
+      "description": "INNOVEX INTERNATIONAL INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "IIIN",
+      "description": "INSTEEL INDUSTRIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DIN",
+      "description": "DINE BRANDS GLOBAL INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DHC",
+      "description": "DIVERSIFIED HEALTHCARE TRUST",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DHIL",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DNTH",
+      "description": "DIANTHUS THERAPEUTICS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DMRC",
+      "description": "DIGIMARC CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "APPS",
+      "description": "DIGITAL TURBINE INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "QBTS",
+      "description": "D-WAVE QUANTUM INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DJCO",
+      "description": "DAILY JOURNAL CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DAKT",
+      "description": "DAKTRONICS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DAWN",
+      "description": "DAY ONE BIOPHARMACEUTICALS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CGEM",
+      "description": "CULLINAN THERAPEUTICS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "IE",
+      "description": "IVANHOE ELECTRIC INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CCRN",
+      "description": "CROSS COUNTRY HEALTHCARE INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CTO",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CRMD",
+      "description": "CORMEDIX INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CRSR",
+      "description": "CORSAIR GAMING INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CMRE",
+      "description": "COSTAMARE INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CVLG",
+      "description": "COVENANT LOGISTICS GROUP INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CTKB",
+      "description": "CYTEK BIOSCIENCES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "IBRX",
+      "description": "IMMUNITYBIO INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "IMNM",
+      "description": "IMMUNOME INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "INDI",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HY",
+      "description": "HYSTER YALE INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HTBI",
+      "description": "HOMETRUST BANCSHARES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HOV",
+      "description": "HOVNANIAN ENTERPRISES INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HPP",
+      "description": "HUDSON PACIFIC PROPERTIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "BYON",
+      "description": "BEYOND INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "BIGC",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "BHB",
+      "description": "BAR HARBOR BANKSHARES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HLF",
+      "description": "HERBALIFE LTD",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HTZ",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "EU",
+      "description": "ENCORE ENERGY CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "PLOW",
+      "description": "DOUGLAS DYNAMICS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DFH",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "KODK",
+      "description": "EASTMAN KODAK CO",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CVI",
+      "description": "CVR ENERGY INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MLNK",
+      "description": "MERIDIANLINK INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CLDT",
+      "description": "CHATHAM LODGING TRUST",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "OFIX",
+      "description": "ORTHOFIX MEDICAL INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "OUST",
+      "description": "OUSTER INC ORDINARY SHARES CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "OMI",
+      "description": "OWENS & MINOR INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ORIC",
+      "description": "ORIC PHARMACEUTICALS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "OMER",
+      "description": "OMEROS CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "OLP",
+      "description": "ONE LIBERTY PROPERTIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NCMI",
+      "description": "NATIONAL CINEMEDIA INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NPK",
+      "description": "NATIONAL PRESTO INDUSTRIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MYE",
+      "description": "MYERS INDUSTRIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HAFC",
+      "description": "HANMI FINANCIAL CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HONE",
+      "description": "HARBORONE BANCORP INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "GRND",
+      "description": "GRINDR INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "AROW",
+      "description": "ARROW FINANCIAL CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ASPN",
+      "description": "ASPEN AEROGELS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ARHS",
+      "description": "ARHAUS INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ARKO",
+      "description": "ARKO CORP ORDINARY SHARES CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HIFS",
+      "description": "HINGHAM INSTITUTION FOR SAVINGS",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HIPO",
+      "description": "HIPPO HOLDINGS INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HBCP",
+      "description": "HOME BANCORP INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "EHAB",
+      "description": "ENHABIT INC SHS",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "GLDD",
+      "description": "GREAT LAKES DREDGE & DOCK CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "GSBC",
+      "description": "GREAT SOUTHERN BANCORP INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "GPRE",
+      "description": "GREEN PLAINS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "GOGO",
+      "description": "GOGO INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "DCGO",
+      "description": "DOCGO INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HBT",
+      "description": "HBT FINANCIAL INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "HTLD",
+      "description": "HEARTLAND EXPRESS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NBR",
+      "description": "NABORS INDUSTRIES LTD",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MITK",
+      "description": "MITEK SYSTEMS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MNRO",
+      "description": "MONRO INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MEG",
+      "description": "n/a",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MOFG",
+      "description": "MIDWESTONE FINANCIAL GROUP INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "MLR",
+      "description": "MILLER INDUSTRIES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "AVO",
+      "description": "MISSION PRODUCE INC ORDINARY SHARES",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NPKI",
+      "description": "NPK INTERNATIONAL INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CENT",
+      "description": "CENTRAL GARDEN & PET CO",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CPF",
+      "description": "CENTRAL PACIFIC FINANCIAL CORP",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "NAT",
+      "description": "NORDIC AMERICAN TANKERS LTD",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CARE",
+      "description": "CARTER BANKSHARES INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CASS",
+      "description": "CASS INFORMATION SYSTEMS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "CCBG",
+      "description": "CAPITAL CITY BANK GROUP INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "GCT",
+      "description": "GIGACLOUD TECHNOLOGY INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ZVRA",
+      "description": "ZEVRA THERAPEUTICS INC",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ZIP",
+      "description": "ZIPRECRUITER INC CLASS A",
+      "weight": "0.0002"
+    },
+    {
+      "symbol": "ZUMZ",
+      "description": "ZUMIEZ INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ARAY",
+      "description": "ACCURAY INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "SLRN",
+      "description": "ACELYRIN INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TBCH",
+      "description": "TURTLE BEACH CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AMPS",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AMCX",
+      "description": "AMC NETWORKS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CRMT",
+      "description": "AMERICA'S CAR-MART INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FLGT",
+      "description": "FULGENT GENETICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FLL",
+      "description": "FULL HOUSE RESORTS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FVCB",
+      "description": "FVCBANKCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GNE",
+      "description": "GENIE ENERGY LTD CLASS B",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GETY",
+      "description": "GETTY IMAGES HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LAND",
+      "description": "GLADSTONE LAND CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GIC",
+      "description": "GLOBAL INDUSTRIAL CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FET",
+      "description": "FORUM ENERGY TECHNOLOGIES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FC",
+      "description": "FRANKLIN COVEY CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FSP",
+      "description": "FRANKLIN STREET PROPERTIES CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FREY",
+      "description": "FREYR BATTERY INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ULCC",
+      "description": "FRONTIER GROUP HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FVR",
+      "description": "FRONTVIEW REIT INC REITS",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FCEL",
+      "description": "FUELCELL ENERGY INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FULC",
+      "description": "FULCRUM THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TCX",
+      "description": "TUCOWS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FLIC",
+      "description": "FIRST OF LONG ISLAND CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MYFW",
+      "description": "FIRST WESTERN FINANCIAL INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FLXS",
+      "description": "FLEXSTEEL INDUSTRIES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FHTX",
+      "description": "FOGHORN THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FORR",
+      "description": "FORRESTER RESEARCH INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NVRO",
+      "description": "NEVRO CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CADL",
+      "description": "CANDEL THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CBNK",
+      "description": "CAPITAL BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CRDF",
+      "description": "CARDIFF ONCOLOGY INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NATR",
+      "description": "NATURES SUNSHINE PRODUCTS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NKTR",
+      "description": "NEKTAR THERAPEUTICS",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NRDY",
+      "description": "NERDY INC ORDINARY SHARES CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NPWR",
+      "description": "NET POWER INC ORDINARY SHARES CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NMRA",
+      "description": "NEUMORA THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NGNE",
+      "description": "NEUROGENE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NPCE",
+      "description": "NEUROPACE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "VEL",
+      "description": "VELOCITY FINANCIAL INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "VSTM",
+      "description": "VERASTEM INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NRC",
+      "description": "NATIONAL RESEARCH CORP CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NGS",
+      "description": "NATURAL GAS SERVICES GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MITT",
+      "description": "AG MORTGAGE INVESTMENT TRUST INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ORGO",
+      "description": "ORGANOGENESIS HOLDINGS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ORN",
+      "description": "ORION GROUP HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ONL",
+      "description": "ORION OFFICE REIT INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "KIDS",
+      "description": "ORTHOPEDIATRICS CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "OB",
+      "description": "OUTBRAIN INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "OCGN",
+      "description": "OCUGEN INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "OIS",
+      "description": "OIL STATES INTERNATIONAL INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "OLPX",
+      "description": "OLAPLEX HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "OLMA",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ONIT",
+      "description": "ONITY GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "OPFI",
+      "description": "OPPFI INC ORDINARY SHARES CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MLYS",
+      "description": "MINERALYS THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MOV",
+      "description": "MOVADO GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MVBF",
+      "description": "MVB FINANCIAL CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NNE",
+      "description": "NANO NUCLEAR ENERGY INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NATH",
+      "description": "NATHAN'S FAMOUS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NKSH",
+      "description": "NATIONAL BANKSHARES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CDLX",
+      "description": "CARDLYTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CELC",
+      "description": "CELCUITY INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NNBR",
+      "description": "NN INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NVEC",
+      "description": "NVE CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "OVLY",
+      "description": "OAK VALLEY BANCORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MSBI",
+      "description": "MIDLAND STATES BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TRML",
+      "description": "TOURMALINE BIO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TG",
+      "description": "TREDEGAR CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TRVI",
+      "description": "TREVI THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TBI",
+      "description": "TRUEBLUE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TRUE",
+      "description": "TRUECAR INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LOVE",
+      "description": "THE LOVESAC CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "YORW",
+      "description": "THE YORK WATER CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TSBK",
+      "description": "TIMBERLAND BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AQST",
+      "description": "AQUESTIVE THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ARCT",
+      "description": "ARCTURUS THERAPEUTICS HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ARDT",
+      "description": "ARDENT HEALTH PARTNERS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ACRE",
+      "description": "ARES COMMERCIAL REAL ESTATE CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HAIN",
+      "description": "THE HAIN CELESTIAL GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AOMR",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ANGO",
+      "description": "ANGIODYNAMICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ANIK",
+      "description": "ANIKA THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ANNX",
+      "description": "ANNEXON INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ATEX",
+      "description": "ANTERIX INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MCFT",
+      "description": "MASTERCRAFT BOAT HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MTRX",
+      "description": "MATRIX SERVICE CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MLP",
+      "description": "MAUI LAND & PINEAPPLE CO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MEC",
+      "description": "MAYVILLE ENGINEERING CO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MBI",
+      "description": "MBIA INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MFIN",
+      "description": "MEDALLION FINANCIAL CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MAX",
+      "description": "MEDIAALPHA INC ORDINARY SHARES CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MEI",
+      "description": "METHODE ELECTRONICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MVIS",
+      "description": "MICROVISION INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MBCN",
+      "description": "MIDDLEFIELD BANC CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MAMA",
+      "description": "MAMA`S CREATIONS INC COMMON STOCK",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MTW",
+      "description": "MANITOWOC CO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CTRN",
+      "description": "CITI TRENDS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CZNC",
+      "description": "CITIZENS & NORTHERN CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CZFS",
+      "description": "CITIZENS FINANCIAL SERVICES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CIO",
+      "description": "CITY OFFICE REIT INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CIVB",
+      "description": "CIVISTA BANCSHARES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CMTG",
+      "description": "CLAROS MORTGAGE TRUST INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CERS",
+      "description": "CERUS CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CHPT",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CHGG",
+      "description": "CHEGG INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CHMG",
+      "description": "CHEMUNG FINANCIAL CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "REFI",
+      "description": "CHICAGO ATLANTIC REAL ESTATE FINANCE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "COFS",
+      "description": "CHOICEONE FINANCIAL SERVICES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CDXC",
+      "description": "CHROMADEX CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MGNX",
+      "description": "MACROGENICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PKBK",
+      "description": "PARKE BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PCB",
+      "description": "PCB BANCORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PKST",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PEBK",
+      "description": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LWLG",
+      "description": "LIGHTWAVE LOGIC INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LMNR",
+      "description": "LIMONEIRA CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LNKB",
+      "description": "LINKBANCORP INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LAZR",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PKE",
+      "description": "PARK AEROSPACE CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PKOH",
+      "description": "PARK-OHIO HOLDINGS CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LFMD",
+      "description": "LIFEMD INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MED",
+      "description": "MEDIFAST INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CTRI",
+      "description": "CENTURI HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CBLL",
+      "description": "CERIBELL INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BRT",
+      "description": "BRT APARTMENTS CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CCCC",
+      "description": "C4 THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CDZI",
+      "description": "CADIZ INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CVGW",
+      "description": "CALAVO GROWERS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CMCL",
+      "description": "CALEDONIA MINING CORP PLC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GHM",
+      "description": "GRAHAM CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GPMT",
+      "description": "GRANITE POINT MORTGAGE TRUST INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GRNT",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GTN",
+      "description": "GRAY MEDIA INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GDOT",
+      "description": "GREEN DOT CORP CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GCBC",
+      "description": "GREENE COUNTY BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TRDA",
+      "description": "ENTRADA THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ERAS",
+      "description": "ERASCA INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ESCA",
+      "description": "ESCALADE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FDBC",
+      "description": "FIDELITY D & D BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FNLC",
+      "description": "FIRST BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FRBA",
+      "description": "FIRST BANK",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "EAF",
+      "description": "GRAFTECH INTERNATIONAL LTD",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HVT",
+      "description": "HAVERTY FURNITURE COMPANIES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HCAT",
+      "description": "HEALTH CATALYST INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "DOMO",
+      "description": "DOMO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "DGICA",
+      "description": "DONEGAL GROUP INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GEF-B",
+      "description": "GREIF INC CLASS B",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GRPN",
+      "description": "GROUPON INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "GNTY",
+      "description": "GUARANTY BANCSHARES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HNRG",
+      "description": "HALLADOR ENERGY CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BWB",
+      "description": "BRIDGEWATER BANCSHARES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PRCH",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PSTL",
+      "description": "POSTAL REALTY TRUST INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PBPB",
+      "description": "POTBELLY CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CLFD",
+      "description": "CLEARFIELD INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CDXS",
+      "description": "CODEXIS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BLFY",
+      "description": "BLUE FOUNDRY BANCORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BOC",
+      "description": "BOSTON OMAHA CORP CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BOW",
+      "description": "BOWHEAD SPECIALTY HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BWMN",
+      "description": "BOWMAN CONSULTING GROUP LTD",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BHR",
+      "description": "BRAEMAR HOTELS & RESORTS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PBFS",
+      "description": "PIONEER BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "MYPS",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PLRX",
+      "description": "PLIANT THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PLBC",
+      "description": "PLUMAS BANCORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PDLB",
+      "description": "PONCE FINANCIAL GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BLDE",
+      "description": "BLADE AIR MOBILITY INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PHLT",
+      "description": "PERFORMANT HEALTHCARE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PPTA",
+      "description": "PERPETUA RESOURCES CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CATX",
+      "description": "PERSPECTIVE THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "WOOF",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PHAT",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PLL",
+      "description": "PIEDMONT LITHIUM INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ACDC",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PVBC",
+      "description": "PROVIDENT BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LUNG",
+      "description": "PULMONX CORP ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PLSE",
+      "description": "PULSE BIOSCIENCES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "QUAD",
+      "description": "QUAD/GRAPHICS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PLPC",
+      "description": "PREFORMED LINE PRODUCTS CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PRME",
+      "description": "PRIME MEDICINE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FRST",
+      "description": "PRIMIS FINANCIAL CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BPRN",
+      "description": "PRINCETON BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PRTH",
+      "description": "PRIORITY TECHNOLOGY HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PAL",
+      "description": "PROFICIENT AUTO LOGISTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LRMR",
+      "description": "LARIMAR THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "SWIM",
+      "description": "LATHAM GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LCNB",
+      "description": "LCNB CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LEGH",
+      "description": "LEGACY HOUSING CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LENZ",
+      "description": "LENZ THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LESL",
+      "description": "LESLIES INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PGEN",
+      "description": "PRECIGEN INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CBAN",
+      "description": "COLONY BANKCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CWBC",
+      "description": "COMMUNITY WEST BANCSHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CMP",
+      "description": "COMPASS MINERALS INTERNATIONAL INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CMPX",
+      "description": "COMPASS THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BBCP",
+      "description": "CONCRETE PUMPING HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LE",
+      "description": "LANDS' END INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LSEA",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "REPX",
+      "description": "RILEY EXPLORATION PERMIAN INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RMNI",
+      "description": "RIMINI STREET INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "REI",
+      "description": "RING ENERGY INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RCKY",
+      "description": "ROCKY BRANDS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BWFG",
+      "description": "BANKWELL FINANCIAL GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "IPI",
+      "description": "INTREPID POTASH INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ISTR",
+      "description": "INVESTAR HOLDING CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ITIC",
+      "description": "INVESTORS TITLE CO",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RGNX",
+      "description": "REGENXBIO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RM",
+      "description": "REGIONAL MANAGEMENT CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "REKR",
+      "description": "REKOR SYSTEMS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TRAK",
+      "description": "REPOSITRAK INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RSVR",
+      "description": "RESERVOIR MEDIA INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RGP",
+      "description": "RESOURCES CONNECTION INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RELL",
+      "description": "RICHARDSON ELECTRONICS LTD",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RIGL",
+      "description": "RIGEL PHARMACEUTICALS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "KRT",
+      "description": "KARAT PACKAGING INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "KROS",
+      "description": "KEROS THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "KRRO",
+      "description": "KORRO BIO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "KRO",
+      "description": "KRONOS WORLDWIDE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FSTR",
+      "description": "L.B. FOSTER CO CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RRBI",
+      "description": "RED RIVER BANCSHARES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "QTRX",
+      "description": "QUANTERIX CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "QSI",
+      "description": "QUANTUM-SI INC ORDINARY SHARES CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "JAKK",
+      "description": "JAKKS PACIFIC INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "JMSB",
+      "description": "JOHN MARSHALL BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "JOUT",
+      "description": "JOHNSON OUTDOORS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "KLTR",
+      "description": "KALTURA INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "KALV",
+      "description": "KALVISTA PHARMACEUTICALS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "INSE",
+      "description": "INSPIRED ENTERTAINMENT INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BARK",
+      "description": "BARK INC ORDINARY SHARES CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BCML",
+      "description": "BAYCOM CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BCBP",
+      "description": "BCB BANCORP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BRY",
+      "description": "BERRY CORP (BRY)",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "DH",
+      "description": "DEFINITIVE HEALTHCARE CORP CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "DENN",
+      "description": "DENNY'S CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "DBI",
+      "description": "DESIGNER BRANDS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "DSGR",
+      "description": "DISTRIBUTION SOLUTIONS GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BOOM",
+      "description": "DMC GLOBAL INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "INGN",
+      "description": "INOGEN INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LAW",
+      "description": "CS DISCO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CTOS",
+      "description": "CUSTOM TRUCK ONE SOURCE INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "IRMD",
+      "description": "IRADIMED CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "IRBT",
+      "description": "IROBOT CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "IRWD",
+      "description": "IRONWOOD PHARMACEUTICALS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ITOS",
+      "description": "ITEOS THERAPEUTICS INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "DC",
+      "description": "DAKOTA GOLD CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CWCO",
+      "description": "CONSOLIDATED WATER CO LTD",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CPS",
+      "description": "COOPER-STANDARD HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "PMTS",
+      "description": "CPI CARD GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CRD-A",
+      "description": "CRAWFORD & CO CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CRCT",
+      "description": "CRICUT INC ORDINARY SHARES CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CYRX",
+      "description": "CRYOPORT INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AIP",
+      "description": "ARTERIS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ATXS",
+      "description": "ASTRIA THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ASUR",
+      "description": "ASURE SOFTWARE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AVIR",
+      "description": "ATEA PHARMACEUTICALS INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ATLC",
+      "description": "ATLANTICUS HOLDINGS CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LAB",
+      "description": "STANDARD BIOTOOLS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HPK",
+      "description": "HIGHPEAK ENERGY INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HMST",
+      "description": "HOMESTREET INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "EDIT",
+      "description": "EDITAS MEDICINE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "LOCO",
+      "description": "EL POLLO LOCO HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ENTA",
+      "description": "ENANTA PHARMACEUTICALS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "NRGV",
+      "description": "ENERGY VAULT HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HRTG",
+      "description": "HERITAGE INSURANCE HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HRTX",
+      "description": "HERON THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "RCEL",
+      "description": "AVITA MEDICAL INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BLZE",
+      "description": "BACKBLAZE INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BSVN",
+      "description": "BANK7 CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "SES",
+      "description": "SES AI CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ATNI",
+      "description": "ATN INTERNATIONAL INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AURA",
+      "description": "AURA BIOSCIENCES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AVAH",
+      "description": "AVEANNA HEALTHCARE HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AVNW",
+      "description": "AVIAT NETWORKS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "IHRT",
+      "description": "IHEARTMEDIA INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "IMMR",
+      "description": "IMMERSION CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ILPT",
+      "description": "INDUSTRIAL LOGISTICS PROPERTIES TRUST",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "INFU",
+      "description": "INFUSYSTEMS HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "INBX",
+      "description": "INHIBRX BIOSCIENCES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "CVRX",
+      "description": "CVRX INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "SMHI",
+      "description": "SEACOR MARINE HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BKV",
+      "description": "BKV CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HDSN",
+      "description": "HUDSON TECHNOLOGIES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HUMA",
+      "description": "HUMACYTE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "HYLN",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "IAUX",
+      "description": "I-80 GOLD CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BYND",
+      "description": "BEYOND MEAT INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BCAX",
+      "description": "BICARA THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BH",
+      "description": "BIGLARI HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BVS",
+      "description": "BIOVENTUS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "BTBT",
+      "description": "BIT DIGITAL INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "VPG",
+      "description": "VISHAY PRECISION GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "EGHT",
+      "description": "8X8 INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "SEAT",
+      "description": "VIVID SEATS INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "VYGR",
+      "description": "VOYAGER THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "WTI",
+      "description": "W&T OFFSHORE INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FDMT",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ZIMV",
+      "description": "ZIMVIE INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "DSP",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "VMD",
+      "description": "VIEMED HEALTHCARE INC ORDINARY SHARES",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "VLGEA",
+      "description": "VILLAGE SUPER MARKET INC CLASS A",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "VABK",
+      "description": "VIRGINIA NATIONAL BANKSHARES CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "TYRA",
+      "description": "TYRA BIOSCIENCES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ULH",
+      "description": "UNIVERSAL LOGISTICS HOLDINGS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ACIC",
+      "description": "AMERICAN COASTAL INSURANCE CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "APEI",
+      "description": "AMERICAN PUBLIC EDUCATION INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AVD",
+      "description": "AMERICAN VANGUARD CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ATLO",
+      "description": "AMES NATIONAL CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "POWW",
+      "description": "AMMO INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AMPY",
+      "description": "AMPLIFY ENERGY CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "USNA",
+      "description": "USANA HEALTH SCIENCES INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "USCB",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "VNDA",
+      "description": "VANDA PHARMACEUTICALS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "AFCG",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "YMAB",
+      "description": "Y-MABS THERAPEUTICS INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ZNTL",
+      "description": "n/a",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FFNW",
+      "description": "FIRST FINANCIAL NORTHWEST INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "FFWM",
+      "description": "FIRST FOUNDATION INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "INBK",
+      "description": "FIRST INTERNET BANCORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "URG",
+      "description": "UR-ENERGY INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "WEYS",
+      "description": "WEYCO GROUP INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "WOW",
+      "description": "WIDEOPENWEST INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "XOMA",
+      "description": "XOMA ROYALTY CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "XPER",
+      "description": "XPERI INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "ACNB",
+      "description": "ACNB CORP",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "WSBF",
+      "description": "WATERSTONE FINANCIAL INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "WBTN",
+      "description": "WEBTOON ENTERTAINMENT INC",
+      "weight": "0.0001"
+    },
+    {
+      "symbol": "WEST",
+      "description": "WESTROCK COFFEE CO",
+      "weight": "0.0001"
+    }
+  ]
+}

@@ -16,9 +16,10 @@ def update_new_data():
     
     ret = []
     for symbol in tqdm(symbols):
-        oldest_time = 3600 * 24 * 365 * 2
+        oldest_time = 3600 * 24 * 365 * 5
         try:
-            signals = engine.get_recent_signals(symbol)
+            signals = engine.download_candles(symbol, time.time() - oldest_time, time.time())     
+            # signals = engine.get_recent_signals(symbol)
         except Exception as e:
             ret.append(symbol)
     print("Failed", len(ret))

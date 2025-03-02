@@ -1,0 +1,357 @@
+{
+  "net_assets": "39200000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.02",
+  "dividend_yield": "0.0158",
+  "inception_date": "1998-12-16",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.998"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "LLY",
+      "description": "ELI LILLY AND CO",
+      "weight": "0.1278"
+    },
+    {
+      "symbol": "UNH",
+      "description": "UNITEDHEALTH GROUP INC",
+      "weight": "0.088"
+    },
+    {
+      "symbol": "JNJ",
+      "description": "JOHNSON & JOHNSON",
+      "weight": "0.0711"
+    },
+    {
+      "symbol": "ABBV",
+      "description": "ABBVIE INC",
+      "weight": "0.0653"
+    },
+    {
+      "symbol": "ABT",
+      "description": "ABBOTT LABORATORIES",
+      "weight": "0.0429"
+    },
+    {
+      "symbol": "ISRG",
+      "description": "INTUITIVE SURGICAL INC",
+      "weight": "0.0406"
+    },
+    {
+      "symbol": "MRK",
+      "description": "MERCK & CO INC",
+      "weight": "0.0405"
+    },
+    {
+      "symbol": "TMO",
+      "description": "THERMO FISHER SCIENTIFIC INC",
+      "weight": "0.038"
+    },
+    {
+      "symbol": "AMGN",
+      "description": "AMGEN INC",
+      "weight": "0.0296"
+    },
+    {
+      "symbol": "BSX",
+      "description": "BOSTON SCIENTIFIC CORP",
+      "weight": "0.0291"
+    },
+    {
+      "symbol": "PFE",
+      "description": "PFIZER INC",
+      "weight": "0.0275"
+    },
+    {
+      "symbol": "GILD",
+      "description": "GILEAD SCIENCES INC",
+      "weight": "0.0251"
+    },
+    {
+      "symbol": "SYK",
+      "description": "STRYKER CORP",
+      "weight": "0.0249"
+    },
+    {
+      "symbol": "DHR",
+      "description": "DANAHER CORP",
+      "weight": "0.0247"
+    },
+    {
+      "symbol": "VRTX",
+      "description": "VERTEX PHARMACEUTICALS INC",
+      "weight": "0.0227"
+    },
+    {
+      "symbol": "BMY",
+      "description": "BRISTOL-MYERS SQUIBB CO",
+      "weight": "0.0209"
+    },
+    {
+      "symbol": "MDT",
+      "description": "MEDTRONIC PLC",
+      "weight": "0.0209"
+    },
+    {
+      "symbol": "ELV",
+      "description": "ELEVANCE HEALTH INC",
+      "weight": "0.017"
+    },
+    {
+      "symbol": "CVS",
+      "description": "CVS HEALTH CORP",
+      "weight": "0.0156"
+    },
+    {
+      "symbol": "CI",
+      "description": "THE CIGNA GROUP",
+      "weight": "0.0155"
+    },
+    {
+      "symbol": "MCK",
+      "description": "MCKESSON CORP",
+      "weight": "0.0143"
+    },
+    {
+      "symbol": "REGN",
+      "description": "REGENERON PHARMACEUTICALS INC",
+      "weight": "0.0135"
+    },
+    {
+      "symbol": "ZTS",
+      "description": "ZOETIS INC CLASS A",
+      "weight": "0.0132"
+    },
+    {
+      "symbol": "BDX",
+      "description": "BECTON DICKINSON & CO",
+      "weight": "0.0123"
+    },
+    {
+      "symbol": "HCA",
+      "description": "HCA HEALTHCARE INC",
+      "weight": "0.0109"
+    },
+    {
+      "symbol": "EW",
+      "description": "EDWARDS LIFESCIENCES CORP",
+      "weight": "0.0082"
+    },
+    {
+      "symbol": "COR",
+      "description": "CENCORA INC",
+      "weight": "0.0081"
+    },
+    {
+      "symbol": "GEHC",
+      "description": "n/a",
+      "weight": "0.0079"
+    },
+    {
+      "symbol": "A",
+      "description": "AGILENT TECHNOLOGIES INC",
+      "weight": "0.0074"
+    },
+    {
+      "symbol": "IDXX",
+      "description": "IDEXX LABORATORIES INC",
+      "weight": "0.0069"
+    },
+    {
+      "symbol": "DXCM",
+      "description": "DEXCOM INC",
+      "weight": "0.0066"
+    },
+    {
+      "symbol": "RMD",
+      "description": "RESMED INC",
+      "weight": "0.0064"
+    },
+    {
+      "symbol": "IQV",
+      "description": "IQVIA HOLDINGS INC",
+      "weight": "0.0063"
+    },
+    {
+      "symbol": "HUM",
+      "description": "HUMANA INC",
+      "weight": "0.006"
+    },
+    {
+      "symbol": "CAH",
+      "description": "CARDINAL HEALTH INC",
+      "weight": "0.0057"
+    },
+    {
+      "symbol": "CNC",
+      "description": "CENTENE CORP",
+      "weight": "0.0054"
+    },
+    {
+      "symbol": "MTD",
+      "description": "METTLER-TOLEDO INTERNATIONAL INC",
+      "weight": "0.0051"
+    },
+    {
+      "symbol": "WAT",
+      "description": "WATERS CORP",
+      "weight": "0.0042"
+    },
+    {
+      "symbol": "STE",
+      "description": "STERIS PLC",
+      "weight": "0.0041"
+    },
+    {
+      "symbol": "LH",
+      "description": "LABCORP HOLDINGS INC",
+      "weight": "0.0039"
+    },
+    {
+      "symbol": "ZBH",
+      "description": "ZIMMER BIOMET HOLDINGS INC",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "PODD",
+      "description": "INSULET CORP",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "BIIB",
+      "description": "BIOGEN INC",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "DGX",
+      "description": "QUEST DIAGNOSTICS INC",
+      "weight": "0.0036"
+    },
+    {
+      "symbol": "COO",
+      "description": "THE COOPER COMPANIES INC",
+      "weight": "0.0032"
+    },
+    {
+      "symbol": "MOH",
+      "description": "MOLINA HEALTHCARE INC",
+      "weight": "0.0031"
+    },
+    {
+      "symbol": "BAX",
+      "description": "BAXTER INTERNATIONAL INC",
+      "weight": "0.0029"
+    },
+    {
+      "symbol": "HOLX",
+      "description": "HOLOGIC INC",
+      "weight": "0.0028"
+    },
+    {
+      "symbol": "WST",
+      "description": "WEST PHARMACEUTICAL SERVICES INC",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "ALGN",
+      "description": "ALIGN TECHNOLOGY INC",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "RVTY",
+      "description": "REVVITY INC",
+      "weight": "0.0026"
+    },
+    {
+      "symbol": "VTRS",
+      "description": "VIATRIS INC",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "MRNA",
+      "description": "MODERNA INC",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "INCY",
+      "description": "INCYTE CORP",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "UHS",
+      "description": "UNIVERSAL HEALTH SERVICES INC CLASS B",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "TECH",
+      "description": "BIO-TECHNE CORP",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "SOLV",
+      "description": "SOLVENTUM CORP",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "HSIC",
+      "description": "HENRY SCHEIN INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "CRL",
+      "description": "n/a",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "TFX",
+      "description": "TELEFLEX INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "DVA",
+      "description": "DAVITA INC",
+      "weight": "0.0013"
+    }
+  ]
+}

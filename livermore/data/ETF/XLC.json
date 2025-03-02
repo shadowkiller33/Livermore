@@ -1,0 +1,162 @@
+{
+  "net_assets": "21800000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.25",
+  "dividend_yield": "0.0103",
+  "inception_date": "2018-06-18",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.996"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "META",
+      "description": "META PLATFORMS INC CLASS A",
+      "weight": "0.2056"
+    },
+    {
+      "symbol": "GOOGL",
+      "description": "ALPHABET INC CLASS A",
+      "weight": "0.0963"
+    },
+    {
+      "symbol": "GOOG",
+      "description": "ALPHABET INC CLASS C",
+      "weight": "0.0792"
+    },
+    {
+      "symbol": "NFLX",
+      "description": "NETFLIX INC",
+      "weight": "0.0731"
+    },
+    {
+      "symbol": "TTWO",
+      "description": "TAKE-TWO INTERACTIVE SOFTWARE INC",
+      "weight": "0.0492"
+    },
+    {
+      "symbol": "TMUS",
+      "description": "T-MOBILE US INC",
+      "weight": "0.0489"
+    },
+    {
+      "symbol": "T",
+      "description": "AT&T INC",
+      "weight": "0.0487"
+    },
+    {
+      "symbol": "VZ",
+      "description": "VERIZON COMMUNICATIONS INC",
+      "weight": "0.0436"
+    },
+    {
+      "symbol": "DIS",
+      "description": "THE WALT DISNEY CO",
+      "weight": "0.0423"
+    },
+    {
+      "symbol": "CHTR",
+      "description": "CHARTER COMMUNICATIONS INC CLASS A",
+      "weight": "0.0416"
+    },
+    {
+      "symbol": "CMCSA",
+      "description": "COMCAST CORP CLASS A",
+      "weight": "0.04"
+    },
+    {
+      "symbol": "WBD",
+      "description": "WARNER BROS. DISCOVERY INC ORDINARY SHARES CLASS A",
+      "weight": "0.0374"
+    },
+    {
+      "symbol": "LYV",
+      "description": "LIVE NATION ENTERTAINMENT INC",
+      "weight": "0.037"
+    },
+    {
+      "symbol": "EA",
+      "description": "ELECTRONIC ARTS INC",
+      "weight": "0.0344"
+    },
+    {
+      "symbol": "OMC",
+      "description": "OMNICOM GROUP INC",
+      "weight": "0.0251"
+    },
+    {
+      "symbol": "FOXA",
+      "description": "FOX CORP CLASS A",
+      "weight": "0.0195"
+    },
+    {
+      "symbol": "NWSA",
+      "description": "NEWS CORP CLASS A",
+      "weight": "0.0178"
+    },
+    {
+      "symbol": "IPG",
+      "description": "THE INTERPUBLIC GROUP OF COMPANIES INC",
+      "weight": "0.0158"
+    },
+    {
+      "symbol": "MTCH",
+      "description": "MATCH GROUP INC",
+      "weight": "0.0133"
+    },
+    {
+      "symbol": "FOX",
+      "description": "FOX CORP CLASS B",
+      "weight": "0.0109"
+    },
+    {
+      "symbol": "PARA",
+      "description": "PARAMOUNT GLOBAL CLASS B",
+      "weight": "0.0105"
+    },
+    {
+      "symbol": "NWS",
+      "description": "NEWS CORP CLASS B",
+      "weight": "0.006"
+    }
+  ]
+}

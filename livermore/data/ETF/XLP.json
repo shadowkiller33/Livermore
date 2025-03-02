@@ -1,0 +1,242 @@
+{
+  "net_assets": "16600000000",
+  "net_expense_ratio": "0.0008",
+  "portfolio_turnover": "0.28",
+  "dividend_yield": "0.0263",
+  "inception_date": "1998-12-16",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.992"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "COST",
+      "description": "COSTCO WHOLESALE CORP",
+      "weight": "0.1108"
+    },
+    {
+      "symbol": "WMT",
+      "description": "WALMART INC",
+      "weight": "0.1063"
+    },
+    {
+      "symbol": "PG",
+      "description": "PROCTER & GAMBLE CO",
+      "weight": "0.0923"
+    },
+    {
+      "symbol": "KO",
+      "description": "COCA-COLA CO",
+      "weight": "0.0639"
+    },
+    {
+      "symbol": "PM",
+      "description": "PHILIP MORRIS INTERNATIONAL INC",
+      "weight": "0.0548"
+    },
+    {
+      "symbol": "PEP",
+      "description": "PEPSICO INC",
+      "weight": "0.0471"
+    },
+    {
+      "symbol": "MDLZ",
+      "description": "MONDELEZ INTERNATIONAL INC CLASS A",
+      "weight": "0.0441"
+    },
+    {
+      "symbol": "MO",
+      "description": "ALTRIA GROUP INC",
+      "weight": "0.0438"
+    },
+    {
+      "symbol": "CL",
+      "description": "COLGATE-PALMOLIVE CO",
+      "weight": "0.042"
+    },
+    {
+      "symbol": "TGT",
+      "description": "TARGET CORP",
+      "weight": "0.0355"
+    },
+    {
+      "symbol": "KMB",
+      "description": "KIMBERLY-CLARK CORP",
+      "weight": "0.0271"
+    },
+    {
+      "symbol": "KR",
+      "description": "THE KROGER CO",
+      "weight": "0.0256"
+    },
+    {
+      "symbol": "KVUE",
+      "description": "KENVUE INC",
+      "weight": "0.0251"
+    },
+    {
+      "symbol": "KDP",
+      "description": "KEURIG DR PEPPER INC",
+      "weight": "0.0217"
+    },
+    {
+      "symbol": "MNST",
+      "description": "MONSTER BEVERAGE CORP",
+      "weight": "0.0213"
+    },
+    {
+      "symbol": "SYY",
+      "description": "SYSCO CORP",
+      "weight": "0.0204"
+    },
+    {
+      "symbol": "GIS",
+      "description": "GENERAL MILLS INC",
+      "weight": "0.0189"
+    },
+    {
+      "symbol": "STZ",
+      "description": "CONSTELLATION BRANDS INC CLASS A",
+      "weight": "0.0158"
+    },
+    {
+      "symbol": "KHC",
+      "description": "THE KRAFT HEINZ CO",
+      "weight": "0.0155"
+    },
+    {
+      "symbol": "CHD",
+      "description": "CHURCH & DWIGHT CO INC",
+      "weight": "0.015"
+    },
+    {
+      "symbol": "HSY",
+      "description": "THE HERSHEY CO",
+      "weight": "0.0143"
+    },
+    {
+      "symbol": "ADM",
+      "description": "ARCHER-DANIELS MIDLAND CO",
+      "weight": "0.013"
+    },
+    {
+      "symbol": "K",
+      "description": "KELLANOVA CO",
+      "weight": "0.013"
+    },
+    {
+      "symbol": "MKC",
+      "description": "MCCORMICK & CO INC REGISTERED SHS NON VTG",
+      "weight": "0.0117"
+    },
+    {
+      "symbol": "CLX",
+      "description": "CLOROX CO",
+      "weight": "0.011"
+    },
+    {
+      "symbol": "DG",
+      "description": "DOLLAR GENERAL CORP",
+      "weight": "0.0098"
+    },
+    {
+      "symbol": "EL",
+      "description": "THE ESTEE LAUDER COMPANIES INC CLASS A",
+      "weight": "0.0098"
+    },
+    {
+      "symbol": "TSN",
+      "description": "TYSON FOODS INC CLASS A",
+      "weight": "0.0097"
+    },
+    {
+      "symbol": "DLTR",
+      "description": "DOLLAR TREE INC",
+      "weight": "0.009"
+    },
+    {
+      "symbol": "CAG",
+      "description": "CONAGRA BRANDS INC",
+      "weight": "0.0068"
+    },
+    {
+      "symbol": "SJM",
+      "description": "JM SMUCKER CO",
+      "weight": "0.0065"
+    },
+    {
+      "symbol": "TAP",
+      "description": "MOLSON COORS BEVERAGE CO SHS -B- NON-VOTING",
+      "weight": "0.0062"
+    },
+    {
+      "symbol": "BG",
+      "description": "BUNGE GLOBAL SA",
+      "weight": "0.0058"
+    },
+    {
+      "symbol": "HRL",
+      "description": "HORMEL FOODS CORP",
+      "weight": "0.0049"
+    },
+    {
+      "symbol": "LW",
+      "description": "LAMB WESTON HOLDINGS INC",
+      "weight": "0.0048"
+    },
+    {
+      "symbol": "WBA",
+      "description": "WALGREENS BOOTS ALLIANCE INC",
+      "weight": "0.0046"
+    },
+    {
+      "symbol": "CPB",
+      "description": "THE CAMPBELL`S CO",
+      "weight": "0.0045"
+    },
+    {
+      "symbol": "BF-B",
+      "description": "BROWN-FORMAN CORP REGISTERED SHS -B- NON VTG",
+      "weight": "0.0033"
+    }
+  ]
+}

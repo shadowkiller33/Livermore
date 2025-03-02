@@ -19,7 +19,6 @@ from zoneinfo import ZoneInfo
 from itertools import chain
 
 from livermore.misc import get_readable_time, get_ny_time, time_to_seconds, get_last_time, process_database_results, plot_stock_candles, plot_multiple_stock_candles, get_begining_of_day
-from livermore.stock_candle_database import stock_candle_db
 from livermore.signal_utils import compute_vegas_channel_and_signal
 from livermore import livermore_root
 
@@ -53,6 +52,13 @@ except:
 class FinnhubEngine:
     def __init__(self, api_key=API_KEY):
         self.finnhub_client = finnhub.Client(api_key=api_key)
+        try:
+            from livermore.stock_candle_database import stock_candle_db
+            self.stock_candle_db = stock_candle_db
+            print("Stock Candle Database is loaded.")
+        except:
+            print("Stock Candle Database is not loaded.")
+            
 
     @retrying.retry(stop_max_attempt_number=None, wait_fixed=10)
     def get_stock_quote(self, symbol):
@@ -129,10 +135,10 @@ class FinnhubEngine:
         for resolution in resolutions:
             assert resolution in ["30m", "1h", "2h", "3h", "4h", "1d"]
         
-        min_t1, max_t1 = stock_candle_db.get_min_max_timestamp(symbol, candle_type="1m")
+        min_t1, max_t1 = self.stock_candle_db.get_min_max_timestamp(symbol, candle_type="1m")
         if min_t1 is None:
             return
-        min_tn, max_tn = stock_candle_db.get_min_max_timestamp(symbol, candle_type=resolution)
+        min_tn, max_tn = self.stock_candle_db.get_min_max_timestamp(symbol, candle_type=resolution)
         
         day_start, day_end = dt_time(9, 30), dt_time(16, 0)
         day_start_1 = dt_time(9, 31)
@@ -142,7 +148,7 @@ class FinnhubEngine:
         def loop_compute(start_time, end_time):
             if start_time > end_time:
                 return
-            candles = stock_candle_db.query_candles(symbol, start_time, end_time, candle_type="1m")
+            candles = self.stock_candle_db.query_candles(symbol, start_time, end_time, candle_type="1m")
             start_time, end_time = get_ny_time(start_time), get_ny_time(end_time)
             
             def compute_resolution(resolution):
@@ -216,7 +222,7 @@ class FinnhubEngine:
                     # break
                     day = (day + one_day).replace(hour=9, minute=30)
                 if len(ret["t"]) > 0:
-                    stock_candle_db.update_multiple_candles(symbol, dict(ret), resolution)
+                    self.stock_candle_db.update_multiple_candles(symbol, dict(ret), resolution)
             for resolution in resolutions:
                 compute_resolution(resolution)
         
@@ -246,7 +252,7 @@ class FinnhubEngine:
 
     def download_candles(self, symbol, new_start=None, new_end=None):
         # To make sure the data stored in the database is always a continuous interval and new interval can always cover the old interval
-        old_start, old_end = stock_candle_db.get_min_max_timestamp(symbol, candle_type="1m")  # [C, D]
+        old_start, old_end = self.stock_candle_db.get_min_max_timestamp(symbol, candle_type="1m")  # [C, D]
         now = get_last_time()
         timestamp = now.timestamp()
         if new_start is None:
@@ -271,7 +277,7 @@ class FinnhubEngine:
                 candles = self._download_candles(symbol, 1, period_begin, period_end)
                 if "t" not in candles:
                     break
-                stock_candle_db.update_multiple_candles(symbol, candles, "1m")
+                self.stock_candle_db.update_multiple_candles(symbol, candles, "1m")
                 period_end = candles["t"][0] - 1
         
         if old_start is not None:
@@ -303,8 +309,8 @@ class FinnhubEngine:
         for resolution in ["30m", "1h", "2h", "3h", "4h", "1d"]:
             last_time = get_last_time(resolution).timestamp()
             begin_of_next_period = last_time + time_to_seconds(resolution)
-            # one_minute_candles = stock_candle_db.query_candles(symbol, begin_of_next_period, candle_type="1m")
-            results = stock_candle_db.query_the_latest_candle(symbol, num=num, candle_type=resolution, last_time=last_time)
+            # one_minute_candles = self.stock_candle_db.query_candles(symbol, begin_of_next_period, candle_type="1m")
+            results = self.stock_candle_db.query_the_latest_candle(symbol, num=num, candle_type=resolution, last_time=last_time)
             results = process_database_results(results)
             # Forward Adjusted Price
             # Consider Split & Cash Dividend
@@ -323,7 +329,7 @@ class FinnhubEngine:
     
     def validate_candles(self, symbol):
         for resolution in ["1m", "30m", "1h", "2h", "3h", "4h", "1d"]:
-            candles = stock_candle_db.query_candles(symbol, candle_type=resolution)
+            candles = self.stock_candle_db.query_candles(symbol, candle_type=resolution)
             timestamp = [candle.timestamp for candle in candles]
             assert len(timestamp) == len(set(timestamp)), f"Stock {symbol} has duplicated {resolution} candles."
 
@@ -525,7 +531,7 @@ if __name__ == '__main__':
     
     # for resolution in ["30m", "1h", "2h", "3h", "4h", "1d"]:
     #     print(f"Delete {resolution}")
-        # stock_candle_db.delete_all_candles_by_candle_type(resolution)
+        # self.stock_candle_db.delete_all_candles_by_candle_type(resolution)
     # engine.update_recent_candles("AAPL")
     
     
