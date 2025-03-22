@@ -101,3 +101,5 @@ exp/
 tmp
 *.png
 livermore/data/previous_signals.json
+*.pkl
+.history/

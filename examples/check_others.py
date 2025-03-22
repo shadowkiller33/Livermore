@@ -1,12 +1,22 @@
 from mmengine import dump, load
-from collections import defaultdict
+from tqdm import tqdm
 
-from livermore.misc import get_readable_time, get_ny_time, time_to_seconds, get_last_time, process_database_results, plot_stock_candles, plot_multiple_stock_candles
-from livermore.stock_candle_database import stock_candle_db
-from livermore.signal_utils import compute_vegas_channel_and_signal
 from livermore import livermore_root
+from livermore.finnhub_engine import FinnhubEngine
+from livermore.misc import get_last_time
+import time
 
 
-if __name__ = "__main__":
-    pass
-
+if __name__ == "__main__":
+    engine = FinnhubEngine(api_key="cu9bivpr01qnf5nmlh8gcu9bivpr01qnf5nmlh90")
+    finnhub_client = engine.finnhub_client
+    # print(engine.finnhub_client.crypto_candles('BINANCE:BTC', 'D', 1590988249, 1591852249))
+    # print(engine.finnhub_client.bond_price('US912810TD00', 1590988249, 1649099548))
+    # print(engine.finnhub_client.price_target('AAPL'))
+    # print(engine.finnhub_client.stock_investment_theme('financialExchangesData'))
+    # print(finnhub_client.financials('AAPL', 'bs', 'annual'))
+    
+    # print(engine.finnhub_client.financials_reported(symbol='AAPL', freq='quarterly')) Get financials as reported. This data is available for bulk download on Kaggle SEC Financials database.
+    # print(engine.finnhub_client.company_earnings('TSLA') # Get company historical quarterly earnings surprise going back to 2000.
+    # print(engine.finnhub_client.company_basic_financials('AAPL', 'all'))  # Get company basic financials such as margin, P/E ratio, 52-week high/low etc.
+    exit(0)

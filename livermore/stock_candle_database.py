@@ -36,7 +36,7 @@ DATABASE = livermore_root / "data" / "database"
 
 
 class StockCandleDatabase:
-    def __init__(self, database_name, database_folder=None, delete_old=False):
+    def __init__(self, database_name, database_folder=None, delete_old=False, read_only=False):
         super(StockCandleDatabase, self).__init__()
         if database_folder is None:
             database_folder = DATABASE
@@ -52,7 +52,10 @@ class StockCandleDatabase:
         # engine = create_engine(f"sqlite:///{database_path}")
         # print(f"{database_name} database is stored at {database_path}")
         # engine = create_engine("postgresql://stock_candle:123456@localhost/stock_candle")
-        engine = create_engine(f"duckdb:///{database_path}")
+        url = f"duckdb:///{database_path}"
+        if read_only:
+            url += "?access_mode=read_only"
+        engine = create_engine(url)
         Base.metadata.create_all(engine)
         Base.metadata.bind = engine
         self.session_maker = sessionmaker(bind=engine)
@@ -197,5 +200,3 @@ class StockCandleDatabase:
             session.rollback()
             print(f"An error occurred while deleting candles: {e}")
         session.close()
-
-stock_candle_db = StockCandleDatabase("stock_candles")

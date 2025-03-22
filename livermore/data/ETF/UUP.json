@@ -1,0 +1,16 @@
+{
+  "net_assets": "400300000",
+  "net_expense_ratio": "0.0075",
+  "portfolio_turnover": "n/a",
+  "dividend_yield": "n/a",
+  "inception_date": "2007-02-20",
+  "leveraged": "NO",
+  "sectors": [],
+  "holdings": [
+    {
+      "symbol": "AGPXX",
+      "description": "INVESCO SHRT-TRM INV GOV&AGCY INSTL",
+      "weight": "0.3139"
+    }
+  ]
+}

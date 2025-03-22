@@ -1,0 +1,757 @@
+{
+  "net_assets": "822000000",
+  "net_expense_ratio": "n/a",
+  "portfolio_turnover": "n/a",
+  "dividend_yield": "n/a",
+  "inception_date": "2015-08-19",
+  "leveraged": "YES",
+  "sectors": [
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.635"
+    },
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "FTIXX",
+      "description": "GOLDMAN SACHS FS TREASURY INTMS INSTL",
+      "weight": "0.0861"
+    },
+    {
+      "symbol": "TFC",
+      "description": "TRUIST FINANCIAL CORP",
+      "weight": "0.0286"
+    },
+    {
+      "symbol": "CFG",
+      "description": "CITIZENS FINANCIAL GROUP INC",
+      "weight": "0.0278"
+    },
+    {
+      "symbol": "MTB",
+      "description": "M&T BANK CORP",
+      "weight": "0.0272"
+    },
+    {
+      "symbol": "HBAN",
+      "description": "HUNTINGTON BANCSHARES INC",
+      "weight": "0.0266"
+    },
+    {
+      "symbol": "RF",
+      "description": "REGIONS FINANCIAL CORP",
+      "weight": "0.0266"
+    },
+    {
+      "symbol": "FHN",
+      "description": "FIRST HORIZON CORP",
+      "weight": "0.0244"
+    },
+    {
+      "symbol": "WAL",
+      "description": "WESTERN ALLIANCE BANCORP",
+      "weight": "0.0235"
+    },
+    {
+      "symbol": "ZION",
+      "description": "ZIONS BANCORP NA",
+      "weight": "0.0158"
+    },
+    {
+      "symbol": "FLG",
+      "description": "FLAGSTAR FINANCIAL INC",
+      "weight": "0.0157"
+    },
+    {
+      "symbol": "SNV",
+      "description": "SYNOVUS FINANCIAL CORP",
+      "weight": "0.0147"
+    },
+    {
+      "symbol": "EWBC",
+      "description": "EAST WEST BANCORP INC",
+      "weight": "0.0146"
+    },
+    {
+      "symbol": "CFR",
+      "description": "CULLEN/FROST BANKERS INC",
+      "weight": "0.0134"
+    },
+    {
+      "symbol": "WBS",
+      "description": "WEBSTER FINANCIAL CORP",
+      "weight": "0.0131"
+    },
+    {
+      "symbol": "OZK",
+      "description": "BANK OZK",
+      "weight": "0.0127"
+    },
+    {
+      "symbol": "PNFP",
+      "description": "PINNACLE FINANCIAL PARTNERS INC",
+      "weight": "0.0126"
+    },
+    {
+      "symbol": "VLY",
+      "description": "VALLEY NATIONAL BANCORP",
+      "weight": "0.0124"
+    },
+    {
+      "symbol": "BPOP",
+      "description": "POPULAR INC",
+      "weight": "0.0118"
+    },
+    {
+      "symbol": "SSB",
+      "description": "SOUTHSTATE CORP",
+      "weight": "0.0105"
+    },
+    {
+      "symbol": "WTFC",
+      "description": "WINTRUST FINANCIAL CORP",
+      "weight": "0.0103"
+    },
+    {
+      "symbol": "COLB",
+      "description": "COLUMBIA BANKING SYSTEM INC",
+      "weight": "0.0093"
+    },
+    {
+      "symbol": "CADE",
+      "description": "CADENCE BANK",
+      "weight": "0.009"
+    },
+    {
+      "symbol": "ONB",
+      "description": "OLD NATIONAL BANCORP",
+      "weight": "0.0089"
+    },
+    {
+      "symbol": "PB",
+      "description": "PROSPERITY BANCSHARES INC",
+      "weight": "0.0088"
+    },
+    {
+      "symbol": "CBSH",
+      "description": "COMMERCE BANCSHARES INC",
+      "weight": "0.0087"
+    },
+    {
+      "symbol": "UMBF",
+      "description": "UMB FINANCIAL CORP",
+      "weight": "0.0085"
+    },
+    {
+      "symbol": "TBBK",
+      "description": "THE BANCORP INC",
+      "weight": "0.0077"
+    },
+    {
+      "symbol": "BANC",
+      "description": "BANC OF CALIFORNIA INC",
+      "weight": "0.0075"
+    },
+    {
+      "symbol": "TCBI",
+      "description": "TEXAS CAPITAL BANCSHARES INC",
+      "weight": "0.0073"
+    },
+    {
+      "symbol": "AX",
+      "description": "AXOS FINANCIAL INC",
+      "weight": "0.0072"
+    },
+    {
+      "symbol": "ASB",
+      "description": "ASSOCIATED BANC-CORP",
+      "weight": "0.007"
+    },
+    {
+      "symbol": "FNB",
+      "description": "F N B CORP",
+      "weight": "0.007"
+    },
+    {
+      "symbol": "BKU",
+      "description": "BANKUNITED INC",
+      "weight": "0.0066"
+    },
+    {
+      "symbol": "HWC",
+      "description": "HANCOCK WHITNEY CORP",
+      "weight": "0.0064"
+    },
+    {
+      "symbol": "FBP",
+      "description": "FIRST BANCORP",
+      "weight": "0.0063"
+    },
+    {
+      "symbol": "FULT",
+      "description": "FULTON FINANCIAL CORP",
+      "weight": "0.0059"
+    },
+    {
+      "symbol": "GBCI",
+      "description": "GLACIER BANCORP INC",
+      "weight": "0.0059"
+    },
+    {
+      "symbol": "HOMB",
+      "description": "HOME BANCSHARES INC",
+      "weight": "0.0059"
+    },
+    {
+      "symbol": "ABCB",
+      "description": "AMERIS BANCORP",
+      "weight": "0.0053"
+    },
+    {
+      "symbol": "BOH",
+      "description": "BANK OF HAWAII CORP",
+      "weight": "0.0048"
+    },
+    {
+      "symbol": "CUBI",
+      "description": "CUSTOMERS BANCORP INC",
+      "weight": "0.0045"
+    },
+    {
+      "symbol": "AUB",
+      "description": "ATLANTIC UNION BANKSHARES CORP",
+      "weight": "0.0041"
+    },
+    {
+      "symbol": "UBSI",
+      "description": "UNITED BANKSHARES INC",
+      "weight": "0.004"
+    },
+    {
+      "symbol": "UCB",
+      "description": "UNITED COMMUNITY BANKS INC",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "FIBK",
+      "description": "FIRST INTERSTATE BANCSYSTEM INC",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "SFBS",
+      "description": "SERVISFIRST BANCSHARES INC",
+      "weight": "0.0038"
+    },
+    {
+      "symbol": "INDB",
+      "description": "INDEPENDENT BANK CORP",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "FFIN",
+      "description": "FIRST FINANCIAL BANKSHARES INC",
+      "weight": "0.0037"
+    },
+    {
+      "symbol": "RNST",
+      "description": "RENASANT CORP",
+      "weight": "0.0036"
+    },
+    {
+      "symbol": "EBC",
+      "description": "EASTERN BANKSHARES INC ORDINARY SHARES",
+      "weight": "0.0034"
+    },
+    {
+      "symbol": "WAFD",
+      "description": "WAFD INC",
+      "weight": "0.0033"
+    },
+    {
+      "symbol": "CBU",
+      "description": "COMMUNITY FINANCIAL SYSTEM INC",
+      "weight": "0.0032"
+    },
+    {
+      "symbol": "FHB",
+      "description": "FIRST HAWAIIAN INC",
+      "weight": "0.0032"
+    },
+    {
+      "symbol": "BOKF",
+      "description": "BOK FINANCIAL CORP",
+      "weight": "0.0032"
+    },
+    {
+      "symbol": "PPBI",
+      "description": "PACIFIC PREMIER BANCORP INC",
+      "weight": "0.003"
+    },
+    {
+      "symbol": "WSFS",
+      "description": "WSFS FINANCIAL CORP",
+      "weight": "0.003"
+    },
+    {
+      "symbol": "CVBF",
+      "description": "CVB FINANCIAL CORP",
+      "weight": "0.0029"
+    },
+    {
+      "symbol": "BANR",
+      "description": "BANNER CORP",
+      "weight": "0.0029"
+    },
+    {
+      "symbol": "CASH",
+      "description": "PATHWARD FINANCIAL INC",
+      "weight": "0.0029"
+    },
+    {
+      "symbol": "SFNC",
+      "description": "SIMMONS FIRST NATIONAL CORP CLASS A",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "CATY",
+      "description": "CATHAY GENERAL BANCORP",
+      "weight": "0.0027"
+    },
+    {
+      "symbol": "PFS",
+      "description": "PROVIDENT FINANCIAL SERVICES INC",
+      "weight": "0.0026"
+    },
+    {
+      "symbol": "WSBC",
+      "description": "WESBANCO INC",
+      "weight": "0.0026"
+    },
+    {
+      "symbol": "IBOC",
+      "description": "INTERNATIONAL BANCSHARES CORP",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "OFG",
+      "description": "OFG BANCORP",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "SBCF",
+      "description": "SEACOAST BANKING CORP OF FLORIDA",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "FFBC",
+      "description": "FIRST FINANCIAL BANCORP",
+      "weight": "0.0023"
+    },
+    {
+      "symbol": "HTH",
+      "description": "HILLTOP HOLDINGS INC",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "BANF",
+      "description": "BANCFIRST CORP",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "FRME",
+      "description": "FIRST MERCHANTS CORP",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "SASR",
+      "description": "SANDY SPRING BANCORP INC",
+      "weight": "0.0022"
+    },
+    {
+      "symbol": "TRMK",
+      "description": "TRUSTMARK CORP",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "VBTX",
+      "description": "VERITEX HOLDINGS INC",
+      "weight": "0.0021"
+    },
+    {
+      "symbol": "FCF",
+      "description": "FIRST COMMONWEALTH FINANCIAL CORP",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "NBHC",
+      "description": "NATIONAL BANK HOLDINGS CORP CLASS A",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "NBTB",
+      "description": "NBT BANCORP INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "EFSC",
+      "description": "ENTERPRISE FINANCIAL SERVICES CORP",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "TFIN",
+      "description": "TRIUMPH FINANCIAL INC",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "TOWN",
+      "description": "TOWNE BANK",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "PRK",
+      "description": "PARK NATIONAL CORP",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "SYBT",
+      "description": "STOCK YARDS BANCORP INC",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "LOB",
+      "description": "LIVE OAK BANCSHARES INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "HOPE",
+      "description": "HOPE BANCORP INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "NWBI",
+      "description": "NORTHWEST BANCSHARES INC",
+      "weight": "0.0016"
+    },
+    {
+      "symbol": "LKFN",
+      "description": "LAKELAND FINANCIAL CORP",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "FBK",
+      "description": "FB FINANCIAL CORP",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "BHLB",
+      "description": "BERKSHIRE HILLS BANCORP INC",
+      "weight": "0.0015"
+    },
+    {
+      "symbol": "CPF",
+      "description": "CENTRAL PACIFIC FINANCIAL CORP",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "STBA",
+      "description": "S&T BANCORP INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "BUSE",
+      "description": "FIRST BUSEY CORP",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "EGBN",
+      "description": "EAGLE BANCORP INC",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "AMAL",
+      "description": "n/a",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "PFBC",
+      "description": "PREFERRED BANK",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "BRKL",
+      "description": "BROOKLINE BANCORP INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "DCOM",
+      "description": "DIME COMMUNITY BANCSHARES INC",
+      "weight": "0.0013"
+    },
+    {
+      "symbol": "CNOB",
+      "description": "CONNECTONE BANCORP INC",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "CHCO",
+      "description": "CITY HOLDING CO",
+      "weight": "0.0012"
+    },
+    {
+      "symbol": "WABC",
+      "description": "WESTAMERICA BANCORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "CCB",
+      "description": "COASTAL FINANCIAL CORP",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "QCRH",
+      "description": "QCR HOLDINGS INC",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "SRCE",
+      "description": "1ST SOURCE CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "NIC",
+      "description": "NICOLET BANKSHARES INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "OSBC",
+      "description": "OLD SECOND BANCORP INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "CFB",
+      "description": "n/a",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "FBMS",
+      "description": "FIRST BANCSHARES INC",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "OCFC",
+      "description": "OCEANFIRST FINANCIAL CORP",
+      "weight": "0.001"
+    },
+    {
+      "symbol": "STEL",
+      "description": "STELLAR BANCORP INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "BY",
+      "description": "BYLINE BANCORP INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "HAFC",
+      "description": "HANMI FINANCIAL CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "CFFN",
+      "description": "CAPITOL FEDERAL FINANCIAL INC",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "TCBK",
+      "description": "TRICO BANCSHARES",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "PFC",
+      "description": "PREMIER FINANCIAL CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "MCB",
+      "description": "METROPOLITAN BANK HOLDING CORP",
+      "weight": "0.0009"
+    },
+    {
+      "symbol": "AMTB",
+      "description": "AMERANT BANCORP INC ORDINARY SHARES CLASS A",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "HIFS",
+      "description": "HINGHAM INSTITUTION FOR SAVINGS",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "PEBO",
+      "description": "PEOPLES BANCORP INC (MARIETTA OH)",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "TFSL",
+      "description": "TFS FINANCIAL CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "HTBK",
+      "description": "HERITAGE COMMERCE CORP",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "SBSI",
+      "description": "SOUTHSIDE BANCSHARES INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "UVSP",
+      "description": "UNIVEST FINANCIAL CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "HFWA",
+      "description": "HERITAGE FINANCIAL CORP",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "HBNC",
+      "description": "HORIZON BANCORP (IN)",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "CAC",
+      "description": "CAMDEN NATIONAL CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "IBCP",
+      "description": "INDEPENDENT BANK CORP (IONIA MI)",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "FFWM",
+      "description": "FIRST FOUNDATION INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "OBK",
+      "description": "ORIGIN BANCORP INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "TMP",
+      "description": "TOMPKINS FINANCIAL CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "WASH",
+      "description": "WASHINGTON TRUST BANCORP INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "NBBK",
+      "description": "NB BANCORP INC",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "MBWM",
+      "description": "MERCANTILE BANK CORP",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "PGC",
+      "description": "PEAPACK GLADSTONE FINANCIAL CORP",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "CTBI",
+      "description": "COMMUNITY TRUST BANCORP INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "HONE",
+      "description": "HARBORONE BANCORP INC",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "TRST",
+      "description": "TRUSTCO BANK CORP N Y",
+      "weight": "0.0005"
+    },
+    {
+      "symbol": "THFF",
+      "description": "FIRST FINANCIAL CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "FFIC",
+      "description": "FLUSHING FINANCIAL CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "KRNY",
+      "description": "KEARNY FINANCIAL CORP",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "NFBK",
+      "description": "NORTHFIELD BANCORP INC",
+      "weight": "0.0004"
+    },
+    {
+      "symbol": "CLBK",
+      "description": "COLUMBIA FINANCIAL INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "MSBI",
+      "description": "MIDLAND STATES BANCORP INC",
+      "weight": "0.0003"
+    },
+    {
+      "symbol": "GSBC",
+      "description": "GREAT SOUTHERN BANCORP INC",
+      "weight": "0.0002"
+    }
+  ]
+}

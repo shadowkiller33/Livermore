@@ -4,9 +4,7 @@ import time
 import pandas as pd
 import numpy as np
 import io
-from PIL import Image
-
-from copy import deepcopy
+import pickle
 
 import matplotlib
 matplotlib.use('Agg')
@@ -19,6 +17,19 @@ from mmengine import load, dump
 from IPython import embed  
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
+from PIL import Image
+from copy import deepcopy
+
+
+def dump_pkl(data, filename):
+    with open(filename, "wb") as file:
+        pickle.dump(data, file)
+
+
+def load_pkl(filename):
+    with open(filename, "rb") as file:
+        ret = pickle.load(file)
+    return ret
 
 
 def get_ny_time(timestamp=None):
@@ -205,6 +216,7 @@ def plot_stock_candles(candles, symbol, kline_type="", signals=None, filename=No
     ax.set_xticks(range(len(df)))
     ax.set_xticklabels(date, rotation=90)
     
+    with_label = False
     if signals is not None:
         ax.plot(range(len(df)), signals['alpha1'], color='blue', linestyle='-')
         ax.plot(range(len(df)), signals['beta1'], color='blue', linestyle='-', label="Fast")
@@ -219,6 +231,7 @@ def plot_stock_candles(candles, symbol, kline_type="", signals=None, filename=No
         indices = np.where(signals['sell_signal'])[0]
         buy_prices = df.iloc[indices]["High"] + (df.iloc[indices]["High"] * 0.05).clip(upper=3, lower=1)
         ax.scatter(indices, buy_prices, marker='v', color='green', label='Sell', s=100)
+        with_label = True
 
     ax.xaxis.set_major_locator(MaxNLocator(integer=True, prune='both', nbins=50))
     if output_ax is None:
@@ -232,7 +245,7 @@ def plot_stock_candles(candles, symbol, kline_type="", signals=None, filename=No
     ax.tick_params(axis="y", labelsize=14) 
     
     ax.set_xlim(-1, len(df))
-    if show_legend:
+    if show_legend and with_label:
         ax.legend(fontsize=14)
     ret = None
     if output_ax is None:

@@ -1,0 +1,21 @@
+{
+  "net_assets": "5400000000",
+  "net_expense_ratio": "n/a",
+  "portfolio_turnover": "n/a",
+  "dividend_yield": "n/a",
+  "inception_date": "2009-04-16",
+  "leveraged": "YES",
+  "sectors": [],
+  "holdings": [
+    {
+      "symbol": "TLT",
+      "description": "ISHARES 20& YEAR TREASURY BOND ETF",
+      "weight": "0.7143"
+    },
+    {
+      "symbol": "FTIXX",
+      "description": "GOLDMAN SACHS FS TREASURY INTMS INSTL",
+      "weight": "0.1203"
+    }
+  ]
+}

@@ -21,6 +21,7 @@ from itertools import chain
 from livermore.misc import get_readable_time, get_ny_time, time_to_seconds, get_last_time, process_database_results, plot_stock_candles, plot_multiple_stock_candles, get_begining_of_day
 from livermore.signal_utils import compute_vegas_channel_and_signal
 from livermore import livermore_root
+from livermore.stock_candle_database import StockCandleDatabase
 
 
 # Finnhub API Key
@@ -38,6 +39,7 @@ OPTION_CHAIN_URL = "https://finnhub.io/api/v1/stock/option-chain"
 QUOTE_URL = "https://finnhub.io/api/v1/quote"
 HISTORICAL_PRICE_URL = "https://finnhub.io/api/v1/stock/candle"
 
+
 try:
     STOCK_SPLITS = load(str(livermore_root / 'data/stock_splits.json'))
 except:
@@ -49,22 +51,25 @@ except:
     STOCK_DIVIDENDS = None
 
 
+def retry_if_value_error(exception):
+    return isinstance(exception, ValueError)
+
+
 class FinnhubEngine:
-    def __init__(self, api_key=API_KEY):
+    def __init__(self, api_key=API_KEY, read_only=False):
         self.finnhub_client = finnhub.Client(api_key=api_key)
         try:
-            from livermore.stock_candle_database import stock_candle_db
-            self.stock_candle_db = stock_candle_db
+            self.stock_candle_db = StockCandleDatabase("stock_candles", read_only=read_only)
             print("Stock Candle Database is loaded.")
-        except:
-            print("Stock Candle Database is not loaded.")
-            
+        except Exception as e:
+            self.stock_candle_db = None
+            print("Stock Candle Database is not loaded")
 
     @retrying.retry(stop_max_attempt_number=None, wait_fixed=10)
     def get_stock_quote(self, symbol):
         return self.finnhub_client.quote(symbol)
 
-    @retrying.retry(stop_max_attempt_number=None, wait_fixed=10)
+    # @retrying.retry(stop_max_attempt_number=None, wait_fixed=10)
     def get_option_chain(self, symbol, expiration=None):
         if isinstance(expiration, str):
             templates = ["%y-%m-%d", "%Y-%m-%d", "%Y.%m.%d", "%y.%m.%d"]
@@ -79,7 +84,26 @@ class FinnhubEngine:
             expiration = expiration.timestamp()
         # print(expiration)
         # exit(0)
-        return self.finnhub_client.option_chain(symbol=symbol)
+        json_res = self.finnhub_client.option_chain(symbol=symbol)
+        try:
+            return json.loads(json_res)
+        except:
+            return None
+    
+    @retrying.retry(stop_max_attempt_number=None, wait_fixed=10)
+    def get_financials_reported(self, symbol, freq='quarterly'):
+        # Get financials as reported. This data is available for bulk download on Kaggle SEC Financials database.
+        return self.finnhub_client.financials_reported(symbol=symbol, freq=freq)
+    
+    @retrying.retry(stop_max_attempt_number=None, wait_fixed=10)
+    def get_company_earnings(self, symbol):
+        # Get company historical quarterly earnings surprise going back to 2000.
+        return self.finnhub_client.company_earnings(symbol)
+    
+    @retrying.retry(stop_max_attempt_number=None, wait_fixed=10)
+    def get_company_basic_financials(self, symbol):
+        # Get company basic financials such as margin, P/E ratio, 52-week high/low etc.
+        return self.finnhub_client.company_basic_financials(symbol, 'all')
     
     @retrying.retry(stop_max_attempt_number=None, wait_fixed=10)
     def get_stock_splits(self, symbol):
@@ -264,8 +288,8 @@ class FinnhubEngine:
         if new_start > new_end:
             return
         
-        # print(f"Downloading {symbol} new_start={get_readable_time(new_start)} new_end={get_readable_time(new_end)}.")
-        # print(f"Fetching {symbol} old_start={get_readable_time(old_start)} old_end={get_readable_time(old_end)}.")
+        print(f"Download {symbol} new_start={get_readable_time(new_start)} new_end={get_readable_time(new_end)}.")
+        print(f"We have {symbol} old_start={get_readable_time(old_start)} old_end={get_readable_time(old_end)}.")
         
         def loop_download(start_time, end_time):
             if start_time > end_time:
@@ -297,7 +321,7 @@ class FinnhubEngine:
             resolutions = ["30m", "1h", "2h", "3h", "4h", "1d"]
         self.compute_candles_for_different_resolutions(symbol, resolutions)
         
-    def query_candles_of_different_resolutions(self, symbol, num=200, last_time=None):
+    def query_candles_of_different_resolutions(self, symbol, num=200, last_time=None, resolutions="all"):
         ret = {}
         splits = STOCK_SPLITS["data"].get(symbol, [])
         for split_i in splits:
@@ -306,7 +330,11 @@ class FinnhubEngine:
         factor = 1
         splits = sorted(splits, key=lambda _: _["date"], reverse=True)
         begin_time = get_begining_of_day(last_time)
-        for resolution in ["30m", "1h", "2h", "3h", "4h", "1d"]:
+        if resolutions == "all":
+            resolutions = ["30m", "1h", "2h", "3h", "4h", "1d"]
+        elif isinstance(resolutions, str):
+            resolutions = [resolutions]
+        for resolution in resolutions:
             last_time = get_last_time(resolution).timestamp()
             begin_of_next_period = last_time + time_to_seconds(resolution)
             # one_minute_candles = self.stock_candle_db.query_candles(symbol, begin_of_next_period, candle_type="1m")
@@ -318,10 +346,12 @@ class FinnhubEngine:
                 for i in reversed(range(len(results["t"]))):
                     if split_idx < len(splits) and results["t"][i] < splits[split_idx]["date"]:
                         factor *= splits[split_idx]["fromFactor"] / splits[split_idx]["toFactor"]
-                        results["o"][i] *= factor
-                        results["h"][i] *= factor
-                        results["l"][i] *= factor
-                        results["c"][i] *= factor
+                        split_idx += 1
+                        
+                    results["o"][i] *= factor
+                    results["h"][i] *= factor
+                    results["l"][i] *= factor
+                    results["c"][i] *= factor
                 ret[resolution] = results
             except Exception:
                 print("We cannot get data:", symbol, resolution, len(results["t"]))
@@ -376,27 +406,6 @@ class FinnhubEngine:
             if len(buy_signal) > 0:
                 buy_signals[resolution] = buy_signal
         return buy_signals
-
-    def calculate_realized_volatility(self, prices, window=21, annual_factor=252):
-        """
-        Calculate Realized Volatility (RV) using log returns.
-
-        :param prices: Series or list, daily closing prices of the asset
-        :param window: int, rolling window size (default is 21 days)
-        :param annual_factor: int, annualization factor (default is 252 trading days)
-        :return: Series, realized volatility
-        """
-        if isinstance(prices, list):
-            prices = pd.Series(prices)
-        # Compute log returns
-        log_returns = np.log(prices / prices.shift(1))
-        
-        # Compute rolling realized volatility
-        rv = log_returns.rolling(window=window).apply(lambda x: np.sqrt(np.sum(x**2)), raw=True)
-        
-        # Annualized realized volatility
-        rv_annualized = rv * np.sqrt(annual_factor / window)
-        return rv_annualized
 
 
 def update_new_data():

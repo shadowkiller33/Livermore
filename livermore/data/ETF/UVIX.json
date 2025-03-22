@@ -1,0 +1,16 @@
+{
+  "net_assets": "217600000",
+  "net_expense_ratio": "n/a",
+  "portfolio_turnover": "n/a",
+  "dividend_yield": "n/a",
+  "inception_date": "2022-03-28",
+  "leveraged": "YES",
+  "sectors": [],
+  "holdings": [
+    {
+      "symbol": "FGXXX",
+      "description": "FIRST AMERICAN GOVERNMENT OBLIGS X",
+      "weight": "0.3556"
+    }
+  ]
+}

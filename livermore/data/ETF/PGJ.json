@@ -1,0 +1,367 @@
+{
+  "net_assets": "139800000",
+  "net_expense_ratio": "0.0067",
+  "portfolio_turnover": "0.38",
+  "dividend_yield": "0.0057",
+  "inception_date": "2004-12-09",
+  "leveraged": "NO",
+  "sectors": [
+    {
+      "sector": "INFORMATION TECHNOLOGY",
+      "weight": "0.004"
+    },
+    {
+      "sector": "COMMUNICATION SERVICES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER DISCRETIONARY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "HEALTHCARE",
+      "weight": "0.00"
+    },
+    {
+      "sector": "CONSUMER STAPLES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "INDUSTRIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "MATERIALS",
+      "weight": "0.00"
+    },
+    {
+      "sector": "UTILITIES",
+      "weight": "0.00"
+    },
+    {
+      "sector": "ENERGY",
+      "weight": "0.00"
+    },
+    {
+      "sector": "FINANCIALS",
+      "weight": "0.00"
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "BABA",
+      "description": "ALIBABA GROUP HOLDING LTD ADR",
+      "weight": "0.0997"
+    },
+    {
+      "symbol": "JD",
+      "description": "JD.COM INC ADR",
+      "weight": "0.0726"
+    },
+    {
+      "symbol": "TCOM",
+      "description": "TRIP.COM GROUP LTD ADR",
+      "weight": "0.0714"
+    },
+    {
+      "symbol": "YUMC",
+      "description": "YUM CHINA HOLDINGS INC",
+      "weight": "0.0703"
+    },
+    {
+      "symbol": "BIDU",
+      "description": "BAIDU INC ADR",
+      "weight": "0.0565"
+    },
+    {
+      "symbol": "NTES",
+      "description": "NETEASE INC ADR",
+      "weight": "0.0412"
+    },
+    {
+      "symbol": "YMM",
+      "description": "FULL TRUCK ALLIANCE CO LTD ADR",
+      "weight": "0.0405"
+    },
+    {
+      "symbol": "TME",
+      "description": "TENCENT MUSIC ENTERTAINMENT GROUP ADR",
+      "weight": "0.0397"
+    },
+    {
+      "symbol": "BEKE",
+      "description": "KE HOLDINGS INC ADR",
+      "weight": "0.0368"
+    },
+    {
+      "symbol": "HTHT",
+      "description": "H WORLD GROUP LTD ADR",
+      "weight": "0.0298"
+    },
+    {
+      "symbol": "TAL",
+      "description": "TAL EDUCATION GROUP ADR",
+      "weight": "0.0296"
+    },
+    {
+      "symbol": "VIPS",
+      "description": "VIPSHOP HOLDINGS LTD ADR",
+      "weight": "0.0295"
+    },
+    {
+      "symbol": "NIO",
+      "description": "NIO INC ADR",
+      "weight": "0.0284"
+    },
+    {
+      "symbol": "QFIN",
+      "description": "QIFU TECHNOLOGY INC ADR",
+      "weight": "0.0279"
+    },
+    {
+      "symbol": "EDU",
+      "description": "n/a",
+      "weight": "0.0274"
+    },
+    {
+      "symbol": "LI",
+      "description": "LI AUTO INC ADR",
+      "weight": "0.0269"
+    },
+    {
+      "symbol": "ZTO",
+      "description": "ZTO EXPRESS (CAYMAN) INC ADR",
+      "weight": "0.0264"
+    },
+    {
+      "symbol": "BZ",
+      "description": "KANZHUN LTD ADR",
+      "weight": "0.0254"
+    },
+    {
+      "symbol": "GDS",
+      "description": "GDS HOLDINGS LTD ADR",
+      "weight": "0.0232"
+    },
+    {
+      "symbol": "XPEV",
+      "description": "XPENG INC ADR",
+      "weight": "0.023"
+    },
+    {
+      "symbol": "ATAT",
+      "description": "ATOUR LIFESTYLE HOLDINGS LTD ADR",
+      "weight": "0.0132"
+    },
+    {
+      "symbol": "BILI",
+      "description": "BILIBILI INC ADR",
+      "weight": "0.0118"
+    },
+    {
+      "symbol": "ATHM",
+      "description": "AUTOHOME INC ADR",
+      "weight": "0.0101"
+    },
+    {
+      "symbol": "VNET",
+      "description": "VNET GROUP INC ADR",
+      "weight": "0.0088"
+    },
+    {
+      "symbol": "DQ",
+      "description": "DAQO NEW ENERGY CORP ADR",
+      "weight": "0.0083"
+    },
+    {
+      "symbol": "FINV",
+      "description": "FINVOLUTION GROUP ADR",
+      "weight": "0.0081"
+    },
+    {
+      "symbol": "ZLAB",
+      "description": "ZAI LAB LTD ADR REPR 1 SHS",
+      "weight": "0.008"
+    },
+    {
+      "symbol": "RLX",
+      "description": "RLX TECHNOLOGY INC ADR",
+      "weight": "0.0079"
+    },
+    {
+      "symbol": "MOMO",
+      "description": "HELLO GROUP INC ADR",
+      "weight": "0.0066"
+    },
+    {
+      "symbol": "KC",
+      "description": "KINGSOFT CLOUD HOLDINGS LTD ADR",
+      "weight": "0.0064"
+    },
+    {
+      "symbol": "EH",
+      "description": "EHANG HOLDINGS LTD ADR",
+      "weight": "0.0064"
+    },
+    {
+      "symbol": "IQ",
+      "description": "IQIYI INC ADR",
+      "weight": "0.0063"
+    },
+    {
+      "symbol": "LX",
+      "description": "LEXINFINTECH HOLDINGS LTD DR",
+      "weight": "0.0062"
+    },
+    {
+      "symbol": "TIGR",
+      "description": "UP FINTECH HOLDING LTD ADR",
+      "weight": "0.0054"
+    },
+    {
+      "symbol": "MNSO",
+      "description": "MINISO GROUP HOLDING LTD ADR",
+      "weight": "0.0053"
+    },
+    {
+      "symbol": "WB",
+      "description": "WEIBO CORP ADR",
+      "weight": "0.0053"
+    },
+    {
+      "symbol": "JKS",
+      "description": "JINKOSOLAR HOLDING CO LTD DR",
+      "weight": "0.0045"
+    },
+    {
+      "symbol": "CSIQ",
+      "description": "CANADIAN SOLAR INC",
+      "weight": "0.0036"
+    },
+    {
+      "symbol": "LU",
+      "description": "LUFAX HOLDING LTD ADR",
+      "weight": "0.0034"
+    },
+    {
+      "symbol": "QD",
+      "description": "QUDIAN INC ADR",
+      "weight": "0.003"
+    },
+    {
+      "symbol": "ZK",
+      "description": "n/a",
+      "weight": "0.003"
+    },
+    {
+      "symbol": "SOHU",
+      "description": "SOHU.COM LTD ADR",
+      "weight": "0.0025"
+    },
+    {
+      "symbol": "DDL",
+      "description": "DINGDONG (CAYMAN) LTD ADR",
+      "weight": "0.0024"
+    },
+    {
+      "symbol": "GOTU",
+      "description": "GAOTU TECHEDU INC ADR",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "TUYA",
+      "description": "TUYA INC ADR",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "NOAH",
+      "description": "NOAH HOLDINGS LTD ADR",
+      "weight": "0.002"
+    },
+    {
+      "symbol": "DAO",
+      "description": "YOUDAO INC ADR",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "ZKH",
+      "description": "ZKH GROUP LTD ADS",
+      "weight": "0.0019"
+    },
+    {
+      "symbol": "RERE",
+      "description": "ATRENEW INC ADR",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "AGPXX",
+      "description": "INVESCO SHRT-TRM INV GOV&AGCY INSTL",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "HUYA",
+      "description": "HUYA INC CLASS A",
+      "weight": "0.0018"
+    },
+    {
+      "symbol": "API",
+      "description": "AGORA INC ADR",
+      "weight": "0.0017"
+    },
+    {
+      "symbol": "ZH",
+      "description": "ZHIHU INC ADR",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "YSG",
+      "description": "YATSEN HOLDING LTD ADR",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "SDA",
+      "description": "n/a",
+      "weight": "0.0014"
+    },
+    {
+      "symbol": "DADA",
+      "description": "DADA NEXUS LTD ADR",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "DOYU",
+      "description": "DOUYU INTERNATIONAL HOLDINGS LTD ADR",
+      "weight": "0.0011"
+    },
+    {
+      "symbol": "BZUN",
+      "description": "BAOZUN INC ADR",
+      "weight": "0.0008"
+    },
+    {
+      "symbol": "YRD",
+      "description": "YIREN DIGITAL LTD ADR",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "CAAS",
+      "description": "CHINA AUTOMOTIVE SYSTEMS INC",
+      "weight": "0.0007"
+    },
+    {
+      "symbol": "DSY",
+      "description": "BIG TREE CLOUD HOLDINGS LTD",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "ZJYL",
+      "description": "JIN MEDICAL INTERNATIONAL LTD",
+      "weight": "0.0006"
+    },
+    {
+      "symbol": "NIU",
+      "description": "NIU TECHNOLOGIES ADR",
+      "weight": "0.0005"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "net_assets": "7400000000",
+  "net_expense_ratio": "0.0074",
+  "portfolio_turnover": "0.18",
+  "dividend_yield": "n/a",
+  "inception_date": "2004-10-05",
+  "leveraged": "NO",
+  "sectors": [],
+  "holdings": [
+    {
+      "symbol": "MGCOF",
+      "description": "MIDEA GROUP CO LTD ORDINARY SHARES CLASS H",
+      "weight": "0.0033"
+    }
+  ]
+}

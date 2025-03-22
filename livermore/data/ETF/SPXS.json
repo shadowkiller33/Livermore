@@ -1,0 +1,16 @@
+{
+  "net_assets": "343600000",
+  "net_expense_ratio": "n/a",
+  "portfolio_turnover": "n/a",
+  "dividend_yield": "n/a",
+  "inception_date": "2008-11-05",
+  "leveraged": "YES",
+  "sectors": [],
+  "holdings": [
+    {
+      "symbol": "FTIXX",
+      "description": "GOLDMAN SACHS FS TREASURY INTMS INSTL",
+      "weight": "0.3765"
+    }
+  ]
+}

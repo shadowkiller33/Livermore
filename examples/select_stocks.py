@@ -2,25 +2,31 @@ from mmengine import dump, load
 from collections import defaultdict
 
 from livermore.misc import get_readable_time, get_ny_time, time_to_seconds, get_last_time, process_database_results, plot_stock_candles, plot_multiple_stock_candles
-from livermore.stock_candle_database import stock_candle_db
 from livermore.signal_utils import compute_vegas_channel_and_signal
 from livermore import livermore_root
+from livermore.finnhub_engine import FinnhubEngine
 
 
-def save_all_existing_symbols():
-    """ Only keep US stocks """
+def save_all_symbols():
+    """ Keep all stocks """
+    symbols = engine.get_stock_symbols()
+    print("Total number of stock symbols: ", len(symbols))
+    dump(symbols, str(livermore_root / 'data/stock_symbols.json'), indent=2)
+
+
+def save_usd_symbols():
+    """ Only keep USD stocks """
     if (livermore_root / 'data/stock_symbols.json').exists():
         symbols = load(str(livermore_root / 'data/stock_symbols.json'))
     else:
-        engine = FinnhubEngine()
         symbols = engine.get_stock_symbols()
     ret = []
     for item in symbols:
-        if item["currency"] != "USD" or item["type"] != "Common Stock" or item["mic"] == "OOTC":
+        if item["currency"] != "USD" or item["type"] not in ["Common Stock", "ADR"] or item["mic"] == "OOTC":
             continue
         ret.append(item)
     print("Total number of stock symbols: ", len(ret))
-    dump(ret, str(livermore_root / 'data/stock_symbols.json'), indent=2)
+    dump(ret, str(livermore_root / 'data/usd_stock_symbols.json'), indent=2)
 
 
 def save_all_company_profiles():
@@ -126,7 +132,6 @@ def reduce_stock_list():
 
 
 
-
 def check_existing_stocks():
     """ Validate the exiting selected stocks by lingfeng """
     data = load(str(livermore_root / 'data/selected_sotcks.json'))
@@ -157,6 +162,10 @@ def check_existing_stocks():
     
 
 if __name__ == "__main__":
+    engine = FinnhubEngine(api_key="cu9bivpr01qnf5nmlh8gcu9bivpr01qnf5nmlh90")
+    # save_all_symbols()
+    save_usd_symbols()
+    
     formatted_date = "20250206"
     symbols_by_sectors = load(str(livermore_root / 'data/coarse_selection.json'))
     symbols = []

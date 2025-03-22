@@ -1,0 +1,71 @@
+{
+  "CN": [
+    "CQQQ",
+    "FXI",
+    "FXI",
+    "PGJ",
+    "YANG",
+    "YINN"
+  ],
+  "finance": [
+    "DPST"
+  ],
+  "tlt_tmf": [
+    "GLD",
+    "IEF",
+    "SHY",
+    "SLV",
+    "TLT",
+    "TMF",
+    "UUP"
+  ],
+  "crypto": [
+    "IBIT"
+  ],
+  "sectors": [
+    "ITA",
+    "ITB",
+    "IYZ",
+    "KBE",
+    "KRE",
+    "SOXX",
+    "XHB",
+    "XLB",
+    "XLC",
+    "XLE",
+    "XLF",
+    "XLF",
+    "XLI",
+    "XLK",
+    "XLP",
+    "XLRE",
+    "XLU",
+    "XLV",
+    "XLY"
+  ],
+  "Home_builder": [
+    "ITB",
+    "XHB"
+  ],
+  "spy_qqq_iwm": [
+    "IWM",
+    "QQQ",
+    "SPY"
+  ],
+  "energy": [
+    "KOLD"
+  ],
+  "semi_conductor": [
+    "SOXX"
+  ],
+  "short_eft": [
+    "SPXS",
+    "SQQQ",
+    "TZA",
+    "UVIX",
+    "UVXY"
+  ],
+  "Oil": [
+    "USO"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "net_assets": "669900000",
+  "net_expense_ratio": "0.0065",
+  "portfolio_turnover": "0.43",
+  "dividend_yield": "-0.0012",
+  "inception_date": "2009-12-08",
+  "leveraged": "NO",
+  "sectors": [],
+  "holdings": [
+    {
+      "symbol": "PDD",
+      "description": "PDD HOLDINGS INC ADR",
+      "weight": "0.082"
+    },
+    {
+      "symbol": "AGPXX",
+      "description": "INVESCO SHRT-TRM INV GOV&AGCY INSTL",
+      "weight": "0.0256"
+    },
+    {
+      "symbol": "ATHM",
+      "description": "AUTOHOME INC ADR",
+      "weight": "0.0113"
+    },
+    {
+      "symbol": "YY",
+      "description": "JOYY INC ADR",
+      "weight": "0.008"
+    },
+    {
+      "symbol": "WB",
+      "description": "WEIBO CORP ADR",
+      "weight": "0.0044"
+    }
+  ]
+}

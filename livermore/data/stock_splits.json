@@ -1,30 +1,5574 @@
 {
-  "time": "2025-02-21",
+  "time": "2025-03-05",
   "data": {
-    "Bio": [],
-    "Transportation": [],
-    "Tech": [
+    "A": [],
+    "AAL": [],
+    "AAOI": [],
+    "AAPL": [
+      {
+        "date": "2000-06-21",
+        "fromFactor": 1,
+        "symbol": "AAPL",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-02-28",
+        "fromFactor": 1,
+        "symbol": "AAPL",
+        "toFactor": 2
+      },
+      {
+        "date": "2014-06-09",
+        "fromFactor": 1,
+        "symbol": "AAPL",
+        "toFactor": 7
+      },
+      {
+        "date": "2020-08-31",
+        "fromFactor": 1,
+        "symbol": "AAPL",
+        "toFactor": 4
+      }
+    ],
+    "ABBV": [],
+    "ABNB": [],
+    "ABT": [],
+    "ACGL": [
+      {
+        "date": "2011-05-12",
+        "fromFactor": 1,
+        "symbol": "ACGL",
+        "toFactor": 3
+      },
+      {
+        "date": "2018-06-21",
+        "fromFactor": 1,
+        "symbol": "ACGL",
+        "toFactor": 3
+      }
+    ],
+    "ACHR": [],
+    "ACI": [],
+    "ACN": [
+      {
+        "date": "2009-09-01",
+        "fromFactor": 1,
+        "symbol": "ACN",
+        "toFactor": 1
+      }
+    ],
+    "ADBE": [
+      {
+        "date": "2000-10-25",
+        "fromFactor": 1,
+        "symbol": "ADBE",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-05-24",
+        "fromFactor": 1,
+        "symbol": "ADBE",
+        "toFactor": 2
+      }
+    ],
+    "ADDYY": [
+      {
+        "date": "2006-06-13",
+        "fromFactor": 1,
+        "symbol": "ADDYY",
+        "toFactor": 4
+      }
+    ],
+    "ADI": [
+      {
+        "date": "2000-03-16",
+        "fromFactor": 1,
+        "symbol": "ADI",
+        "toFactor": 2
+      }
+    ],
+    "ADM": [
+      {
+        "date": "2000-08-24",
+        "fromFactor": 20,
+        "symbol": "ADM",
+        "toFactor": 21
+      },
+      {
+        "date": "2001-08-30",
+        "fromFactor": 20,
+        "symbol": "ADM",
+        "toFactor": 21
+      }
+    ],
+    "ADP": [],
+    "ADSK": [
+      {
+        "date": "2002-04-19",
+        "fromFactor": 1,
+        "symbol": "ADSK",
+        "toFactor": 2
+      },
+      {
+        "date": "2004-12-21",
+        "fromFactor": 1,
+        "symbol": "ADSK",
+        "toFactor": 2
+      }
+    ],
+    "AEE": [],
+    "AEM": [],
+    "AEP": [],
+    "AER": [],
+    "AETUF": [],
+    "AFG": [
+      {
+        "date": "2006-12-18",
+        "fromFactor": 2,
+        "symbol": "AFG",
+        "toFactor": 3
+      }
+    ],
+    "AFL": [
+      {
+        "date": "2001-03-19",
+        "fromFactor": 1,
+        "symbol": "AFL",
+        "toFactor": 2
+      },
+      {
+        "date": "2018-03-19",
+        "fromFactor": 1,
+        "symbol": "AFL",
+        "toFactor": 2
+      }
+    ],
+    "AFRM": [],
+    "AGI": [],
+    "AI": [],
+    "AIG": [
+      {
+        "date": "2000-07-31",
+        "fromFactor": 2,
+        "symbol": "AIG",
+        "toFactor": 3
+      },
+      {
+        "date": "2009-07-01",
+        "fromFactor": 20,
+        "symbol": "AIG",
+        "toFactor": 1
+      }
+    ],
+    "AIT": [
+      {
+        "date": "2004-12-20",
+        "fromFactor": 2,
+        "symbol": "AIT",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-06-16",
+        "fromFactor": 2,
+        "symbol": "AIT",
+        "toFactor": 3
+      }
+    ],
+    "AIZ": [],
+    "AJG": [
+      {
+        "date": "2000-03-16",
+        "fromFactor": 1,
+        "symbol": "AJG",
+        "toFactor": 2
+      },
+      {
+        "date": "2001-01-19",
+        "fromFactor": 1,
+        "symbol": "AJG",
+        "toFactor": 2
+      }
+    ],
+    "AKAM": [],
+    "ALAB": [],
+    "ALC": [],
+    "ALGN": [],
+    "ALL": [],
+    "ALLY": [
+      {
+        "date": "2014-04-10",
+        "fromFactor": 1,
+        "symbol": "ALLY",
+        "toFactor": 310
+      }
+    ],
+    "ALNY": [],
+    "ALSN": [],
+    "AMAT": [
+      {
+        "date": "2000-03-16",
+        "fromFactor": 1,
+        "symbol": "AMAT",
+        "toFactor": 2
+      },
+      {
+        "date": "2002-04-17",
+        "fromFactor": 1,
+        "symbol": "AMAT",
+        "toFactor": 2
+      }
+    ],
+    "AMCR": [],
+    "AMD": [
+      {
+        "date": "2000-08-22",
+        "fromFactor": 1,
+        "symbol": "AMD",
+        "toFactor": 2
+      }
+    ],
+    "AME": [
+      {
+        "date": "2004-03-01",
+        "fromFactor": 1,
+        "symbol": "AME",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-11-28",
+        "fromFactor": 2,
+        "symbol": "AME",
+        "toFactor": 3
+      },
+      {
+        "date": "2010-12-22",
+        "fromFactor": 2,
+        "symbol": "AME",
+        "toFactor": 3
+      },
+      {
+        "date": "2012-07-02",
+        "fromFactor": 2,
+        "symbol": "AME",
+        "toFactor": 3
+      }
+    ],
+    "AMGN": [],
+    "AMP": [],
+    "AMT": [],
+    "AMZN": [
+      {
+        "date": "2022-06-06",
+        "fromFactor": 1,
+        "symbol": "AMZN",
+        "toFactor": 20
+      }
+    ],
+    "ANET": [
+      {
+        "date": "2021-11-18",
+        "fromFactor": 1,
+        "symbol": "ANET",
+        "toFactor": 4
+      },
+      {
+        "date": "2024-12-04",
+        "fromFactor": 1,
+        "symbol": "ANET",
+        "toFactor": 4
+      }
+    ],
+    "ANSS": [
+      {
+        "date": "2004-10-05",
+        "fromFactor": 1,
+        "symbol": "ANSS",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-06-05",
+        "fromFactor": 1,
+        "symbol": "ANSS",
+        "toFactor": 2
+      }
+    ],
+    "AON": [],
+    "APD": [],
+    "APH": [
+      {
+        "date": "2000-04-26",
+        "fromFactor": 1,
+        "symbol": "APH",
+        "toFactor": 2
+      },
+      {
+        "date": "2004-03-30",
+        "fromFactor": 1,
+        "symbol": "APH",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-04-02",
+        "fromFactor": 1,
+        "symbol": "APH",
+        "toFactor": 2
+      },
+      {
+        "date": "2014-10-10",
+        "fromFactor": 1,
+        "symbol": "APH",
+        "toFactor": 2
+      },
+      {
+        "date": "2021-03-05",
+        "fromFactor": 1,
+        "symbol": "APH",
+        "toFactor": 2
+      },
+      {
+        "date": "2024-06-12",
+        "fromFactor": 1,
+        "symbol": "APH",
+        "toFactor": 2
+      }
+    ],
+    "APO": [],
+    "APP": [],
+    "APTV": [],
+    "AR": [],
+    "ARCC": [],
+    "ARES": [],
+    "ARM": [],
+    "ARMK": [],
+    "AS": [],
+    "ASML": [
+      {
+        "date": "2000-04-17",
+        "fromFactor": 1,
+        "symbol": "ASML",
+        "toFactor": 3
+      },
+      {
+        "date": "2007-10-01",
+        "fromFactor": 1,
+        "symbol": "ASML",
+        "toFactor": 1
+      },
+      {
+        "date": "2012-11-29",
+        "fromFactor": 100,
+        "symbol": "ASML",
+        "toFactor": 77
+      }
+    ],
+    "ASMLF": [],
+    "ASTS": [
+      {
+        "date": "2021-04-07",
+        "fromFactor": 1,
+        "symbol": "ASTS",
+        "toFactor": 1
+      }
+    ],
+    "ATO": [],
+    "ATR": [
+      {
+        "date": "2007-05-10",
+        "fromFactor": 1,
+        "symbol": "ATR",
+        "toFactor": 2
+      }
+    ],
+    "AU": [],
+    "AUR": [
+      {
+        "date": "2021-11-04",
+        "fromFactor": 1,
+        "symbol": "AUR",
+        "toFactor": 1
+      }
+    ],
+    "AVAV": [],
+    "AVGO": [
+      {
+        "date": "2024-07-15",
+        "fromFactor": 1,
+        "symbol": "AVGO",
+        "toFactor": 10
+      }
+    ],
+    "AVTR": [],
+    "AVY": [],
+    "AWK": [],
+    "AXON": [
+      {
+        "date": "2004-02-11",
+        "fromFactor": 1,
+        "symbol": "AXON",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-04-30",
+        "fromFactor": 1,
+        "symbol": "AXON",
+        "toFactor": 2
+      },
+      {
+        "date": "2004-11-30",
+        "fromFactor": 1,
+        "symbol": "AXON",
+        "toFactor": 2
+      }
+    ],
+    "AXP": [
+      {
+        "date": "2000-05-11",
+        "fromFactor": 1,
+        "symbol": "AXP",
+        "toFactor": 3
+      }
+    ],
+    "AYI": [],
+    "AZO": [],
+    "AZPN": [],
+    "BA": [],
+    "BABA": [],
+    "BAC": [
+      {
+        "date": "2004-08-30",
+        "fromFactor": 1,
+        "symbol": "BAC",
+        "toFactor": 2
+      }
+    ],
+    "BAH": [],
+    "BALL": [
+      {
+        "date": "2002-02-25",
+        "fromFactor": 1,
+        "symbol": "BALL",
+        "toFactor": 2
+      },
+      {
+        "date": "2004-08-24",
+        "fromFactor": 1,
+        "symbol": "BALL",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-02-16",
+        "fromFactor": 1,
+        "symbol": "BALL",
+        "toFactor": 2
+      },
+      {
+        "date": "2017-05-17",
+        "fromFactor": 1,
+        "symbol": "BALL",
+        "toFactor": 2
+      }
+    ],
+    "BAM": [],
+    "BAX": [
+      {
+        "date": "2001-05-31",
+        "fromFactor": 1,
+        "symbol": "BAX",
+        "toFactor": 2
+      }
+    ],
+    "BBAI": [],
+    "BBY": [
+      {
+        "date": "2002-05-13",
+        "fromFactor": 2,
+        "symbol": "BBY",
+        "toFactor": 3
+      },
+      {
+        "date": "2005-08-04",
+        "fromFactor": 2,
+        "symbol": "BBY",
+        "toFactor": 3
+      }
+    ],
+    "BCE": [
+      {
+        "date": "2006-07-11",
+        "fromFactor": 1,
+        "symbol": "BCE",
+        "toFactor": 0.915
+      }
+    ],
+    "BDX": [],
+    "BEN": [
+      {
+        "date": "2013-07-26",
+        "fromFactor": 1,
+        "symbol": "BEN",
+        "toFactor": 3
+      }
+    ],
+    "BF.A": [
+      {
+        "date": "2004-01-21",
+        "fromFactor": 1,
+        "symbol": "BF.A",
+        "toFactor": 2
+      },
+      {
+        "date": "2012-08-13",
+        "fromFactor": 2,
+        "symbol": "BF.A",
+        "toFactor": 3
+      },
+      {
+        "date": "2016-08-19",
+        "fromFactor": 1,
+        "symbol": "BF.A",
+        "toFactor": 2
+      }
+    ],
+    "BIDU": [
+      {
+        "date": "2010-05-12",
+        "fromFactor": 1,
+        "symbol": "BIDU",
+        "toFactor": 10
+      }
+    ],
+    "BIIB": [
+      {
+        "date": "2001-01-18",
+        "fromFactor": 1,
+        "symbol": "BIIB",
+        "toFactor": 3
+      }
+    ],
+    "BILI": [],
+    "BIRK": [],
+    "BJ": [],
+    "BK": [
+      {
+        "date": "2007-07-02",
+        "fromFactor": 1,
+        "symbol": "BK",
+        "toFactor": 0.9434
+      }
+    ],
+    "BKNG": [
+      {
+        "date": "2003-06-16",
+        "fromFactor": 6,
+        "symbol": "BKNG",
+        "toFactor": 1
+      }
+    ],
+    "BKR": [
+      {
+        "date": "2017-07-05",
+        "fromFactor": 1,
+        "symbol": "BKR",
+        "toFactor": 1
+      }
+    ],
+    "BLD": [],
+    "BLK": [],
+    "BMO": [
+      {
+        "date": "2001-03-15",
+        "fromFactor": 1,
+        "symbol": "BMO",
+        "toFactor": 2
+      }
+    ],
+    "BMRN": [],
+    "BMY": [],
+    "BN": [
+      {
+        "date": "2004-06-02",
+        "fromFactor": 2,
+        "symbol": "BN",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-04-28",
+        "fromFactor": 2,
+        "symbol": "BN",
+        "toFactor": 3
+      },
+      {
+        "date": "2007-06-04",
+        "fromFactor": 2,
+        "symbol": "BN",
+        "toFactor": 3
+      },
+      {
+        "date": "2015-05-13",
+        "fromFactor": 2,
+        "symbol": "BN",
+        "toFactor": 3
+      },
+      {
+        "date": "2020-04-02",
+        "fromFactor": 2,
+        "symbol": "BN",
+        "toFactor": 3
+      },
+      {
+        "date": "2023-11-13",
+        "fromFactor": 1,
+        "symbol": "BN",
+        "toFactor": 1
+      },
+      {
+        "date": "2023-11-16",
+        "fromFactor": 1,
+        "symbol": "BN",
+        "toFactor": 1
+      }
+    ],
+    "BNS": [
+      {
+        "date": "2004-04-29",
+        "fromFactor": 1,
+        "symbol": "BNS",
+        "toFactor": 2
+      },
+      {
+        "date": "2010-10-01",
+        "fromFactor": 1,
+        "symbol": "BNS",
+        "toFactor": 1
+      }
+    ],
+    "BP": [],
+    "BR": [],
+    "BRK.B": [
+      {
+        "date": "2010-01-21",
+        "fromFactor": 1,
+        "symbol": "BRK.B",
+        "toFactor": 50
+      }
+    ],
+    "BRO": [
+      {
+        "date": "2000-08-24",
+        "fromFactor": 1,
+        "symbol": "BRO",
+        "toFactor": 2
+      },
+      {
+        "date": "2001-11-23",
+        "fromFactor": 1,
+        "symbol": "BRO",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-11-29",
+        "fromFactor": 1,
+        "symbol": "BRO",
+        "toFactor": 2
+      },
+      {
+        "date": "2018-03-29",
+        "fromFactor": 1,
+        "symbol": "BRO",
+        "toFactor": 2
+      }
+    ],
+    "BROS": [],
+    "BSX": [
+      {
+        "date": "2003-11-06",
+        "fromFactor": 1,
+        "symbol": "BSX",
+        "toFactor": 2
+      }
+    ],
+    "BSY": [],
+    "BTDR": [],
+    "BURL": [],
+    "BWLP": [],
+    "BWXT": [],
+    "BX": [],
+    "BYDDF": [
+      {
+        "date": "2008-02-15",
+        "fromFactor": 5,
+        "symbol": "BYDDF",
+        "toFactor": 19
+      }
+    ],
+    "C": [
+      {
+        "date": "2000-08-28",
+        "fromFactor": 3,
+        "symbol": "C",
+        "toFactor": 4
+      },
+      {
+        "date": "2011-05-09",
+        "fromFactor": 10,
+        "symbol": "C",
+        "toFactor": 1
+      }
+    ],
+    "CAG": [],
+    "CAH": [
+      {
+        "date": "2001-04-23",
+        "fromFactor": 2,
+        "symbol": "CAH",
+        "toFactor": 3
+      }
+    ],
+    "CART": [],
+    "CASY": [],
+    "CAT": [
+      {
+        "date": "2005-07-14",
+        "fromFactor": 1,
+        "symbol": "CAT",
+        "toFactor": 2
+      }
+    ],
+    "CAVA": [],
+    "CB": [],
+    "CBOE": [],
+    "CCEP": [
+      {
+        "date": "2010-10-04",
+        "fromFactor": 1,
+        "symbol": "CCEP",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-05-31",
+        "fromFactor": 1,
+        "symbol": "CCEP",
+        "toFactor": 1
+      }
+    ],
+    "CCJ": [
+      {
+        "date": "2005-01-07",
+        "fromFactor": 1,
+        "symbol": "CCJ",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-02-23",
+        "fromFactor": 1,
+        "symbol": "CCJ",
+        "toFactor": 2
+      }
+    ],
+    "CCK": [],
+    "CCL": [],
+    "CDNS": [],
+    "CDW": [],
+    "CEG": [],
+    "CF": [
+      {
+        "date": "2015-06-18",
+        "fromFactor": 1,
+        "symbol": "CF",
+        "toFactor": 5
+      }
+    ],
+    "CFG": [],
+    "CFLT": [],
+    "CG": [
+      {
+        "date": "2020-01-02",
+        "fromFactor": 1,
+        "symbol": "CG",
+        "toFactor": 1
+      }
+    ],
+    "CHD": [
+      {
+        "date": "2004-09-02",
+        "fromFactor": 2,
+        "symbol": "CHD",
+        "toFactor": 3
+      },
+      {
+        "date": "2011-06-02",
+        "fromFactor": 1,
+        "symbol": "CHD",
+        "toFactor": 2
+      },
+      {
+        "date": "2016-09-02",
+        "fromFactor": 1,
+        "symbol": "CHD",
+        "toFactor": 2
+      }
+    ],
+    "CHKP": [
+      {
+        "date": "2000-01-31",
+        "fromFactor": 1,
+        "symbol": "CHKP",
+        "toFactor": 2
+      },
+      {
+        "date": "2000-07-26",
+        "fromFactor": 1,
+        "symbol": "CHKP",
+        "toFactor": 2
+      },
+      {
+        "date": "2001-02-13",
+        "fromFactor": 2,
+        "symbol": "CHKP",
+        "toFactor": 3
+      }
+    ],
+    "CHRW": [
       {
         "date": "2000-12-04",
         "fromFactor": 1,
-        "symbol": "Tech",
+        "symbol": "CHRW",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-10-17",
+        "fromFactor": 1,
+        "symbol": "CHRW",
+        "toFactor": 2
+      }
+    ],
+    "CHTR": [],
+    "CHWY": [],
+    "CI": [
+      {
+        "date": "2007-06-05",
+        "fromFactor": 1,
+        "symbol": "CI",
+        "toFactor": 3
+      }
+    ],
+    "CIEN": [
+      {
+        "date": "2000-09-19",
+        "fromFactor": 1,
+        "symbol": "CIEN",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-09-25",
+        "fromFactor": 7,
+        "symbol": "CIEN",
+        "toFactor": 1
+      }
+    ],
+    "CINF": [
+      {
+        "date": "2004-04-28",
+        "fromFactor": 20,
+        "symbol": "CINF",
+        "toFactor": 21
+      },
+      {
+        "date": "2005-04-04",
+        "fromFactor": 1,
+        "symbol": "CINF",
+        "toFactor": 1.05
+      }
+    ],
+    "CL": [
+      {
+        "date": "2013-05-16",
+        "fromFactor": 1,
+        "symbol": "CL",
+        "toFactor": 2
+      }
+    ],
+    "CLS": [],
+    "CLSK": [
+      {
+        "date": "2013-02-26",
+        "fromFactor": 39,
+        "symbol": "CLSK",
+        "toFactor": 1
+      },
+      {
+        "date": "2015-05-13",
+        "fromFactor": 1,
+        "symbol": "CLSK",
+        "toFactor": 3
+      },
+      {
+        "date": "2019-12-11",
+        "fromFactor": 10,
+        "symbol": "CLSK",
+        "toFactor": 1
+      }
+    ],
+    "CLX": [],
+    "CM": [
+      {
+        "date": "2022-05-16",
+        "fromFactor": 1,
+        "symbol": "CM",
+        "toFactor": 2
+      }
+    ],
+    "CMCSA": [
+      {
+        "date": "2007-02-22",
+        "fromFactor": 2,
+        "symbol": "CMCSA",
+        "toFactor": 3
+      },
+      {
+        "date": "2017-02-21",
+        "fromFactor": 1,
+        "symbol": "CMCSA",
+        "toFactor": 2
+      }
+    ],
+    "CME": [
+      {
+        "date": "2012-07-23",
+        "fromFactor": 1,
+        "symbol": "CME",
+        "toFactor": 5
+      }
+    ],
+    "CMG": [
+      {
+        "date": "2024-06-26",
+        "fromFactor": 1,
+        "symbol": "CMG",
+        "toFactor": 50
+      }
+    ],
+    "CMI": [
+      {
+        "date": "2007-04-10",
+        "fromFactor": 1,
+        "symbol": "CMI",
+        "toFactor": 2
+      },
+      {
+        "date": "2008-01-03",
+        "fromFactor": 1,
+        "symbol": "CMI",
+        "toFactor": 2
+      },
+      {
+        "date": "2024-03-13",
+        "fromFactor": 1,
+        "symbol": "CMI",
+        "toFactor": 1
+      }
+    ],
+    "CMS": [],
+    "CNA": [],
+    "CNC": [
+      {
+        "date": "2003-07-14",
+        "fromFactor": 2,
+        "symbol": "CNC",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-12-20",
+        "fromFactor": 1,
+        "symbol": "CNC",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-02-20",
+        "fromFactor": 1,
+        "symbol": "CNC",
+        "toFactor": 2
+      },
+      {
+        "date": "2019-02-07",
+        "fromFactor": 1,
+        "symbol": "CNC",
+        "toFactor": 2
+      }
+    ],
+    "CNH": [],
+    "CNI": [
+      {
+        "date": "2004-03-01",
+        "fromFactor": 2,
+        "symbol": "CNI",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-03-01",
+        "fromFactor": 1,
+        "symbol": "CNI",
+        "toFactor": 2
+      },
+      {
+        "date": "2013-12-02",
+        "fromFactor": 1,
+        "symbol": "CNI",
+        "toFactor": 2
+      }
+    ],
+    "CNM": [],
+    "CNP": [],
+    "CNQ": [
+      {
+        "date": "2004-06-01",
+        "fromFactor": 1,
+        "symbol": "CNQ",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-05-31",
+        "fromFactor": 1,
+        "symbol": "CNQ",
+        "toFactor": 2
+      },
+      {
+        "date": "2010-06-01",
+        "fromFactor": 1,
+        "symbol": "CNQ",
+        "toFactor": 2
+      },
+      {
+        "date": "2024-06-11",
+        "fromFactor": 1,
+        "symbol": "CNQ",
+        "toFactor": 2
+      }
+    ],
+    "CNSWF": [],
+    "COF": [],
+    "COHR": [
+      {
+        "date": "2000-09-21",
+        "fromFactor": 1,
+        "symbol": "COHR",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-03-23",
+        "fromFactor": 1,
+        "symbol": "COHR",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-06-27",
+        "fromFactor": 1,
+        "symbol": "COHR",
+        "toFactor": 2
+      }
+    ],
+    "COIN": [],
+    "COKE": [],
+    "COO": [
+      {
+        "date": "2002-11-25",
+        "fromFactor": 1,
+        "symbol": "COO",
+        "toFactor": 2
+      },
+      {
+        "date": "2024-02-20",
+        "fromFactor": 1,
+        "symbol": "COO",
+        "toFactor": 4
+      }
+    ],
+    "COP": [
+      {
+        "date": "2005-06-02",
+        "fromFactor": 1,
+        "symbol": "COP",
+        "toFactor": 2
+      }
+    ],
+    "COR": [
+      {
+        "date": "2005-12-29",
+        "fromFactor": 1,
+        "symbol": "COR",
+        "toFactor": 2
+      },
+      {
+        "date": "2009-06-16",
+        "fromFactor": 1,
+        "symbol": "COR",
+        "toFactor": 2
+      }
+    ],
+    "COST": [
+      {
+        "date": "2000-01-14",
+        "fromFactor": 1,
+        "symbol": "COST",
+        "toFactor": 2
+      }
+    ],
+    "CP": [
+      {
+        "date": "2021-05-14",
+        "fromFactor": 1,
+        "symbol": "CP",
+        "toFactor": 5
+      }
+    ],
+    "CPAY": [],
+    "CPB": [],
+    "CPNG": [],
+    "CQQQ": [],
+    "CRBG": [],
+    "CRDO": [],
+    "CRM": [
+      {
+        "date": "2013-04-18",
+        "fromFactor": 1,
+        "symbol": "CRM",
+        "toFactor": 4
+      }
+    ],
+    "CRWD": [],
+    "CSCO": [
+      {
+        "date": "2000-03-23",
+        "fromFactor": 1,
+        "symbol": "CSCO",
+        "toFactor": 2
+      }
+    ],
+    "CSX": [
+      {
+        "date": "2006-08-16",
+        "fromFactor": 1,
+        "symbol": "CSX",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-06-16",
+        "fromFactor": 1,
+        "symbol": "CSX",
+        "toFactor": 3
+      },
+      {
+        "date": "2021-06-29",
+        "fromFactor": 1,
+        "symbol": "CSX",
+        "toFactor": 3
+      }
+    ],
+    "CTRA": [
+      {
+        "date": "2005-04-01",
+        "fromFactor": 2,
+        "symbol": "CTRA",
+        "toFactor": 3
+      },
+      {
+        "date": "2007-04-02",
+        "fromFactor": 1,
+        "symbol": "CTRA",
+        "toFactor": 2
+      },
+      {
+        "date": "2012-01-26",
+        "fromFactor": 1,
+        "symbol": "CTRA",
+        "toFactor": 2
+      },
+      {
+        "date": "2013-08-15",
+        "fromFactor": 1,
+        "symbol": "CTRA",
+        "toFactor": 2
+      }
+    ],
+    "CTSH": [
+      {
+        "date": "2000-03-17",
+        "fromFactor": 1,
+        "symbol": "CTSH",
+        "toFactor": 2
+      },
+      {
+        "date": "2003-04-02",
+        "fromFactor": 1,
+        "symbol": "CTSH",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-06-18",
+        "fromFactor": 1,
+        "symbol": "CTSH",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-10-17",
+        "fromFactor": 1,
+        "symbol": "CTSH",
+        "toFactor": 2
+      },
+      {
+        "date": "2014-03-10",
+        "fromFactor": 1,
+        "symbol": "CTSH",
+        "toFactor": 2
+      }
+    ],
+    "CTVA": [],
+    "CVE": [],
+    "CVNA": [],
+    "CVS": [
+      {
+        "date": "2005-06-07",
+        "fromFactor": 1,
+        "symbol": "CVS",
+        "toFactor": 2
+      }
+    ],
+    "CVX": [
+      {
+        "date": "2004-09-13",
+        "fromFactor": 1,
+        "symbol": "CVX",
+        "toFactor": 2
+      }
+    ],
+    "CW": [
+      {
+        "date": "2003-12-18",
+        "fromFactor": 1,
+        "symbol": "CW",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-04-24",
+        "fromFactor": 1,
+        "symbol": "CW",
+        "toFactor": 2
+      }
+    ],
+    "CYBR": [],
+    "D": [
+      {
+        "date": "2007-11-20",
+        "fromFactor": 1,
+        "symbol": "D",
+        "toFactor": 2
+      }
+    ],
+    "DAL": [],
+    "DASH": [],
+    "DAY": [],
+    "DB": [],
+    "DD": [
+      {
+        "date": "2019-06-03",
+        "fromFactor": 3,
+        "symbol": "DD",
+        "toFactor": 1
+      },
+      {
+        "date": "2021-01-29",
+        "fromFactor": 1,
+        "symbol": "DD",
+        "toFactor": 1
+      }
+    ],
+    "DDOG": [],
+    "DE": [
+      {
+        "date": "2007-12-04",
+        "fromFactor": 1,
+        "symbol": "DE",
+        "toFactor": 2
+      }
+    ],
+    "DECK": [
+      {
+        "date": "2010-07-06",
+        "fromFactor": 1,
+        "symbol": "DECK",
+        "toFactor": 3
+      },
+      {
+        "date": "2024-09-17",
+        "fromFactor": 1,
+        "symbol": "DECK",
+        "toFactor": 6
+      }
+    ],
+    "DELL": [
+      {
+        "date": "2018-12-28",
+        "fromFactor": 1,
+        "symbol": "DELL",
+        "toFactor": 1.8066
+      }
+    ],
+    "DFS": [],
+    "DG": [],
+    "DGX": [
+      {
+        "date": "2001-06-01",
+        "fromFactor": 1,
+        "symbol": "DGX",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-06-21",
+        "fromFactor": 1,
+        "symbol": "DGX",
+        "toFactor": 2
+      }
+    ],
+    "DHI": [
+      {
+        "date": "2000-09-14",
+        "fromFactor": 1,
+        "symbol": "DHI",
+        "toFactor": 1.09
+      },
+      {
+        "date": "2001-03-07",
+        "fromFactor": 1,
+        "symbol": "DHI",
+        "toFactor": 1.11
+      },
+      {
+        "date": "2002-04-10",
+        "fromFactor": 2,
+        "symbol": "DHI",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-01-13",
+        "fromFactor": 2,
+        "symbol": "DHI",
+        "toFactor": 3
+      },
+      {
+        "date": "2005-03-17",
+        "fromFactor": 3,
+        "symbol": "DHI",
+        "toFactor": 4
+      }
+    ],
+    "DHR": [
+      {
+        "date": "2004-05-21",
+        "fromFactor": 1,
+        "symbol": "DHR",
+        "toFactor": 2
+      },
+      {
+        "date": "2010-06-14",
+        "fromFactor": 1,
+        "symbol": "DHR",
+        "toFactor": 2
+      },
+      {
+        "date": "2019-12-12",
+        "fromFactor": 1,
+        "symbol": "DHR",
+        "toFactor": 1
+      }
+    ],
+    "DIS": [],
+    "DKNG": [
+      {
+        "date": "2020-04-24",
+        "fromFactor": 1,
+        "symbol": "DKNG",
+        "toFactor": 1
+      },
+      {
+        "date": "2022-05-05",
+        "fromFactor": 1,
+        "symbol": "DKNG",
+        "toFactor": 1
+      }
+    ],
+    "DKS": [
+      {
+        "date": "2004-04-06",
+        "fromFactor": 1,
+        "symbol": "DKS",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-10-22",
+        "fromFactor": 1,
+        "symbol": "DKS",
+        "toFactor": 2
+      }
+    ],
+    "DLR": [],
+    "DLTR": [
+      {
+        "date": "2000-06-20",
+        "fromFactor": 2,
+        "symbol": "DLTR",
+        "toFactor": 3
+      },
+      {
+        "date": "2010-06-25",
+        "fromFactor": 2,
+        "symbol": "DLTR",
+        "toFactor": 3
+      },
+      {
+        "date": "2012-06-27",
+        "fromFactor": 1,
+        "symbol": "DLTR",
+        "toFactor": 2
+      }
+    ],
+    "DOCS": [],
+    "DOCU": [],
+    "DOV": [],
+    "DOW": [],
+    "DPST": [
+      {
+        "date": "2020-04-23",
+        "fromFactor": 10,
+        "symbol": "DPST",
+        "toFactor": 1
+      },
+      {
+        "date": "2021-10-25",
+        "fromFactor": 1,
+        "symbol": "DPST",
+        "toFactor": 5
+      },
+      {
+        "date": "2023-06-05",
+        "fromFactor": 10,
+        "symbol": "DPST",
+        "toFactor": 1
+      }
+    ],
+    "DPZ": [],
+    "DRI": [
+      {
+        "date": "2002-05-02",
+        "fromFactor": 2,
+        "symbol": "DRI",
+        "toFactor": 3
+      }
+    ],
+    "DSGX": [],
+    "DT": [],
+    "DTE": [],
+    "DTM": [],
+    "DUK": [
+      {
+        "date": "2001-01-29",
+        "fromFactor": 1,
+        "symbol": "DUK",
+        "toFactor": 2
+      },
+      {
+        "date": "2012-07-03",
+        "fromFactor": 3,
+        "symbol": "DUK",
+        "toFactor": 1
+      }
+    ],
+    "DUOL": [],
+    "DVA": [
+      {
+        "date": "2004-06-16",
+        "fromFactor": 2,
+        "symbol": "DVA",
+        "toFactor": 3
+      },
+      {
+        "date": "2013-09-09",
+        "fromFactor": 1,
+        "symbol": "DVA",
+        "toFactor": 2
+      }
+    ],
+    "DVN": [
+      {
+        "date": "2004-11-16",
+        "fromFactor": 1,
+        "symbol": "DVN",
+        "toFactor": 2
+      }
+    ],
+    "DXCM": [
+      {
+        "date": "2022-06-13",
+        "fromFactor": 1,
+        "symbol": "DXCM",
+        "toFactor": 4
+      }
+    ],
+    "DXYZ": [],
+    "EA": [
+      {
+        "date": "2000-09-11",
+        "fromFactor": 1,
+        "symbol": "EA",
+        "toFactor": 2
+      },
+      {
+        "date": "2003-11-18",
+        "fromFactor": 1,
+        "symbol": "EA",
+        "toFactor": 2
+      }
+    ],
+    "EBAY": [
+      {
+        "date": "2000-05-25",
+        "fromFactor": 1,
+        "symbol": "EBAY",
+        "toFactor": 2
+      },
+      {
+        "date": "2003-08-29",
+        "fromFactor": 1,
+        "symbol": "EBAY",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-02-17",
+        "fromFactor": 1,
+        "symbol": "EBAY",
+        "toFactor": 2
+      }
+    ],
+    "ECL": [
+      {
+        "date": "2003-06-09",
+        "fromFactor": 1,
+        "symbol": "ECL",
+        "toFactor": 2
+      }
+    ],
+    "ED": [],
+    "EDR": [],
+    "EFX": [],
+    "EG": [],
+    "EIX": [],
+    "EL": [
+      {
+        "date": "2012-01-23",
+        "fromFactor": 1,
+        "symbol": "EL",
+        "toFactor": 2
+      }
+    ],
+    "ELF": [],
+    "ELV": [
+      {
+        "date": "2002-03-18",
+        "fromFactor": 1,
+        "symbol": "ELV",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-06-01",
+        "fromFactor": 1,
+        "symbol": "ELV",
+        "toFactor": 2
+      }
+    ],
+    "EMN": [
+      {
+        "date": "2011-10-04",
+        "fromFactor": 1,
+        "symbol": "EMN",
+        "toFactor": 2
+      }
+    ],
+    "EMR": [
+      {
+        "date": "2006-12-12",
+        "fromFactor": 1,
+        "symbol": "EMR",
+        "toFactor": 2
+      }
+    ],
+    "ENB": [
+      {
+        "date": "2005-05-31",
+        "fromFactor": 1,
+        "symbol": "ENB",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-06-01",
+        "fromFactor": 1,
+        "symbol": "ENB",
+        "toFactor": 2
+      }
+    ],
+    "ENTG": [],
+    "EOG": [
+      {
+        "date": "2005-03-02",
+        "fromFactor": 1,
+        "symbol": "EOG",
+        "toFactor": 2
+      },
+      {
+        "date": "2014-04-01",
+        "fromFactor": 1,
+        "symbol": "EOG",
+        "toFactor": 2
+      }
+    ],
+    "EPAM": [],
+    "EQH": [],
+    "EQIX": [
+      {
+        "date": "2014-10-23",
+        "fromFactor": 1,
+        "symbol": "EQIX",
+        "toFactor": 1.027
+      },
+      {
+        "date": "2015-10-06",
+        "fromFactor": 1,
+        "symbol": "EQIX",
+        "toFactor": 1.029
+      }
+    ],
+    "EQT": [
+      {
+        "date": "2001-06-12",
+        "fromFactor": 1,
+        "symbol": "EQT",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-09-02",
+        "fromFactor": 1,
+        "symbol": "EQT",
+        "toFactor": 2
+      }
+    ],
+    "ERIE": [],
+    "ES": [],
+    "ESLT": [],
+    "ESTC": [],
+    "ETN": [
+      {
+        "date": "2004-02-24",
+        "fromFactor": 1,
+        "symbol": "ETN",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-03-01",
+        "fromFactor": 1,
+        "symbol": "ETN",
+        "toFactor": 2
+      }
+    ],
+    "ETR": [
+      {
+        "date": "2024-12-13",
+        "fromFactor": 1,
+        "symbol": "ETR",
+        "toFactor": 2
+      }
+    ],
+    "EVR": [],
+    "EVRG": [
+      {
+        "date": "2018-06-05",
+        "fromFactor": 1,
+        "symbol": "EVRG",
+        "toFactor": 1
+      }
+    ],
+    "EW": [
+      {
+        "date": "2010-05-28",
+        "fromFactor": 1,
+        "symbol": "EW",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-12-14",
+        "fromFactor": 1,
+        "symbol": "EW",
+        "toFactor": 2
+      },
+      {
+        "date": "2020-06-01",
+        "fromFactor": 1,
+        "symbol": "EW",
+        "toFactor": 3
+      }
+    ],
+    "EWBC": [
+      {
+        "date": "2004-06-22",
+        "fromFactor": 1,
+        "symbol": "EWBC",
+        "toFactor": 2
+      }
+    ],
+    "EXAS": [],
+    "EXC": [
+      {
+        "date": "2004-05-06",
+        "fromFactor": 1,
+        "symbol": "EXC",
+        "toFactor": 2
+      }
+    ],
+    "EXE": [],
+    "EXPD": [
+      {
+        "date": "2002-06-25",
+        "fromFactor": 1,
+        "symbol": "EXPD",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-06-26",
+        "fromFactor": 1,
+        "symbol": "EXPD",
+        "toFactor": 2
+      }
+    ],
+    "EXPE": [
+      {
+        "date": "2011-12-21",
+        "fromFactor": 2,
+        "symbol": "EXPE",
+        "toFactor": 1
+      }
+    ],
+    "F": [
+      {
+        "date": "2000-08-03",
+        "fromFactor": 1,
+        "symbol": "F",
+        "toFactor": 1.7482
+      }
+    ],
+    "FANG": [],
+    "FAST": [
+      {
+        "date": "2002-05-13",
+        "fromFactor": 1,
+        "symbol": "FAST",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-11-14",
+        "fromFactor": 1,
+        "symbol": "FAST",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-05-23",
+        "fromFactor": 1,
+        "symbol": "FAST",
+        "toFactor": 2
+      },
+      {
+        "date": "2019-05-23",
+        "fromFactor": 1,
+        "symbol": "FAST",
+        "toFactor": 2
+      }
+    ],
+    "FCX": [
+      {
+        "date": "2011-02-02",
+        "fromFactor": 1,
+        "symbol": "FCX",
+        "toFactor": 2
+      }
+    ],
+    "FDS": [
+      {
+        "date": "2000-02-07",
+        "fromFactor": 1,
+        "symbol": "FDS",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-02-07",
+        "fromFactor": 2,
+        "symbol": "FDS",
+        "toFactor": 3
+      }
+    ],
+    "FDX": [],
+    "FE": [],
+    "FERG": [
+      {
+        "date": "2009-04-02",
+        "fromFactor": 10,
+        "symbol": "FERG",
+        "toFactor": 1
+      }
+    ],
+    "FFIV": [
+      {
+        "date": "2007-08-21",
+        "fromFactor": 1,
+        "symbol": "FFIV",
+        "toFactor": 2
+      }
+    ],
+    "FHN": [
+      {
+        "date": "2008-09-10",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.031
+      },
+      {
+        "date": "2008-12-10",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.018
+      },
+      {
+        "date": "2009-03-11",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.027
+      },
+      {
+        "date": "2009-06-10",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.016
+      },
+      {
+        "date": "2009-09-09",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.016
+      },
+      {
+        "date": "2009-12-09",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.015
+      },
+      {
+        "date": "2010-03-10",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.015
+      },
+      {
+        "date": "2010-06-09",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.013
+      },
+      {
+        "date": "2010-09-08",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.017
+      },
+      {
+        "date": "2010-12-08",
+        "fromFactor": 1,
+        "symbol": "FHN",
+        "toFactor": 1.018
+      }
+    ],
+    "FI": [
+      {
+        "date": "2013-12-17",
+        "fromFactor": 1,
+        "symbol": "FI",
+        "toFactor": 2
+      },
+      {
+        "date": "2018-03-20",
+        "fromFactor": 1,
+        "symbol": "FI",
+        "toFactor": 2
+      }
+    ],
+    "FICO": [
+      {
+        "date": "2001-06-05",
+        "fromFactor": 2,
+        "symbol": "FICO",
+        "toFactor": 3
+      },
+      {
+        "date": "2002-06-06",
+        "fromFactor": 2,
+        "symbol": "FICO",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-03-11",
+        "fromFactor": 2,
+        "symbol": "FICO",
+        "toFactor": 3
+      }
+    ],
+    "FIS": [],
+    "FITB": [
+      {
+        "date": "2000-07-17",
+        "fromFactor": 2,
+        "symbol": "FITB",
+        "toFactor": 3
+      }
+    ],
+    "FLEX": [
+      {
+        "date": "2000-10-17",
+        "fromFactor": 1,
+        "symbol": "FLEX",
+        "toFactor": 2
+      }
+    ],
+    "FLNG": [],
+    "FLUT": [],
+    "FND": [],
+    "FNF": [
+      {
+        "date": "2014-07-01",
+        "fromFactor": 1,
+        "symbol": "FNF",
+        "toFactor": 1
+      }
+    ],
+    "FNV": [],
+    "FOUR": [],
+    "FOXA": [],
+    "FQVLF": [
+      {
+        "date": "2011-08-09",
+        "fromFactor": 1,
+        "symbol": "FQVLF",
+        "toFactor": 5
+      }
+    ],
+    "FRFHF": [],
+    "FSLR": [],
+    "FTAI": [],
+    "FTI": [],
+    "FTNT": [
+      {
+        "date": "2011-06-02",
+        "fromFactor": 1,
+        "symbol": "FTNT",
+        "toFactor": 2
+      },
+      {
+        "date": "2022-06-23",
+        "fromFactor": 1,
+        "symbol": "FTNT",
+        "toFactor": 5
+      }
+    ],
+    "FTS": [
+      {
+        "date": "2005-10-12",
+        "fromFactor": 1,
+        "symbol": "FTS",
+        "toFactor": 4
+      }
+    ],
+    "FTV": [],
+    "FXI": [
+      {
+        "date": "2008-07-24",
+        "fromFactor": 1,
+        "symbol": "FXI",
+        "toFactor": 3
+      }
+    ],
+    "GD": [
+      {
+        "date": "2006-03-27",
+        "fromFactor": 1,
+        "symbol": "GD",
+        "toFactor": 2
+      }
+    ],
+    "GDDY": [],
+    "GE": [
+      {
+        "date": "2000-05-08",
+        "fromFactor": 1,
+        "symbol": "GE",
+        "toFactor": 3
+      },
+      {
+        "date": "2021-08-02",
+        "fromFactor": 8,
+        "symbol": "GE",
+        "toFactor": 1
+      }
+    ],
+    "GEHC": [],
+    "GEN": [
+      {
+        "date": "2002-02-01",
+        "fromFactor": 1,
+        "symbol": "GEN",
+        "toFactor": 2
+      },
+      {
+        "date": "2003-11-20",
+        "fromFactor": 1,
+        "symbol": "GEN",
+        "toFactor": 2
+      },
+      {
+        "date": "2004-12-01",
+        "fromFactor": 1,
+        "symbol": "GEN",
+        "toFactor": 2
+      }
+    ],
+    "GEV": [],
+    "GFS": [],
+    "GGG": [
+      {
+        "date": "2001-02-07",
+        "fromFactor": 2,
+        "symbol": "GGG",
+        "toFactor": 3
+      },
+      {
+        "date": "2002-06-07",
+        "fromFactor": 2,
+        "symbol": "GGG",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-03-31",
+        "fromFactor": 2,
+        "symbol": "GGG",
+        "toFactor": 3
+      },
+      {
+        "date": "2017-12-28",
+        "fromFactor": 1,
+        "symbol": "GGG",
+        "toFactor": 3
+      }
+    ],
+    "GIB": [
+      {
+        "date": "2000-01-18",
+        "fromFactor": 1,
+        "symbol": "GIB",
+        "toFactor": 2
+      }
+    ],
+    "GIL": [
+      {
+        "date": "2001-02-28",
+        "fromFactor": 1,
+        "symbol": "GIL",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-06-01",
+        "fromFactor": 1,
+        "symbol": "GIL",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-05-29",
+        "fromFactor": 1,
+        "symbol": "GIL",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-03-30",
+        "fromFactor": 1,
+        "symbol": "GIL",
+        "toFactor": 2
+      }
+    ],
+    "GILD": [
+      {
+        "date": "2001-02-22",
+        "fromFactor": 1,
+        "symbol": "GILD",
+        "toFactor": 2
+      },
+      {
+        "date": "2002-03-08",
+        "fromFactor": 1,
+        "symbol": "GILD",
+        "toFactor": 2
+      },
+      {
+        "date": "2004-09-07",
+        "fromFactor": 1,
+        "symbol": "GILD",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-06-25",
+        "fromFactor": 1,
+        "symbol": "GILD",
+        "toFactor": 2
+      },
+      {
+        "date": "2013-01-28",
+        "fromFactor": 1,
+        "symbol": "GILD",
+        "toFactor": 2
+      }
+    ],
+    "GIS": [
+      {
+        "date": "2010-06-09",
+        "fromFactor": 1,
+        "symbol": "GIS",
+        "toFactor": 2
+      }
+    ],
+    "GL": [
+      {
+        "date": "2011-07-05",
+        "fromFactor": 2,
+        "symbol": "GL",
+        "toFactor": 3
+      },
+      {
+        "date": "2014-07-02",
+        "fromFactor": 2,
+        "symbol": "GL",
+        "toFactor": 3
+      }
+    ],
+    "GLD": [],
+    "GLW": [
+      {
+        "date": "2000-10-04",
+        "fromFactor": 1,
+        "symbol": "GLW",
+        "toFactor": 3
+      }
+    ],
+    "GM": [],
+    "GME": [
+      {
+        "date": "2007-03-19",
+        "fromFactor": 1,
+        "symbol": "GME",
+        "toFactor": 2
+      },
+      {
+        "date": "2022-07-22",
+        "fromFactor": 1,
+        "symbol": "GME",
+        "toFactor": 4
+      }
+    ],
+    "GMED": [],
+    "GOLD": [],
+    "GOOG": [
+      {
+        "date": "2015-04-27",
+        "fromFactor": 1,
+        "symbol": "GOOG",
+        "toFactor": 1.003
+      },
+      {
+        "date": "2015-10-05",
+        "fromFactor": 1,
+        "symbol": "GOOG",
+        "toFactor": 1
+      },
+      {
+        "date": "2022-07-18",
+        "fromFactor": 1,
+        "symbol": "GOOG",
+        "toFactor": 20
+      }
+    ],
+    "GPC": [],
+    "GPN": [
+      {
+        "date": "2005-10-31",
+        "fromFactor": 1,
+        "symbol": "GPN",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-11-03",
+        "fromFactor": 1,
+        "symbol": "GPN",
+        "toFactor": 2
+      }
+    ],
+    "GRAB": [],
+    "GRMN": [
+      {
+        "date": "2006-08-16",
+        "fromFactor": 1,
+        "symbol": "GRMN",
+        "toFactor": 2
+      }
+    ],
+    "GS": [],
+    "GTLB": [],
+    "GWRE": [],
+    "GWW": [],
+    "H": [],
+    "HAFN": [],
+    "HAL": [
+      {
+        "date": "2006-07-17",
+        "fromFactor": 1,
+        "symbol": "HAL",
+        "toFactor": 2
+      }
+    ],
+    "HBAN": [
+      {
+        "date": "2000-07-12",
+        "fromFactor": 10,
+        "symbol": "HBAN",
+        "toFactor": 11
+      }
+    ],
+    "HCA": [],
+    "HD": [],
+    "HEI.A": [
+      {
+        "date": "2000-07-06",
+        "fromFactor": 10,
+        "symbol": "HEI.A",
+        "toFactor": 11
+      },
+      {
+        "date": "2001-08-08",
+        "fromFactor": 10,
+        "symbol": "HEI.A",
+        "toFactor": 11
+      },
+      {
+        "date": "2004-01-02",
+        "fromFactor": 10,
+        "symbol": "HEI.A",
+        "toFactor": 11
+      },
+      {
+        "date": "2010-04-27",
+        "fromFactor": 4,
+        "symbol": "HEI.A",
+        "toFactor": 5
+      },
+      {
+        "date": "2011-04-26",
+        "fromFactor": 4,
+        "symbol": "HEI.A",
+        "toFactor": 5
+      },
+      {
+        "date": "2012-04-25",
+        "fromFactor": 4,
+        "symbol": "HEI.A",
+        "toFactor": 5
+      },
+      {
+        "date": "2013-10-23",
+        "fromFactor": 4,
+        "symbol": "HEI.A",
+        "toFactor": 5
+      },
+      {
+        "date": "2017-04-19",
+        "fromFactor": 4,
+        "symbol": "HEI.A",
+        "toFactor": 5
+      },
+      {
+        "date": "2018-01-18",
+        "fromFactor": 4,
+        "symbol": "HEI.A",
+        "toFactor": 5
+      },
+      {
+        "date": "2018-06-28",
+        "fromFactor": 4,
+        "symbol": "HEI.A",
+        "toFactor": 5
+      }
+    ],
+    "HES": [
+      {
+        "date": "2006-06-01",
+        "fromFactor": 1,
+        "symbol": "HES",
+        "toFactor": 3
+      }
+    ],
+    "HIG": [],
+    "HIMS": [],
+    "HLI": [],
+    "HLT": [
+      {
+        "date": "2017-01-04",
+        "fromFactor": 3,
+        "symbol": "HLT",
+        "toFactor": 1
+      }
+    ],
+    "HOLX": [
+      {
+        "date": "2005-12-01",
+        "fromFactor": 1,
+        "symbol": "HOLX",
+        "toFactor": 2
+      },
+      {
+        "date": "2008-04-03",
+        "fromFactor": 1,
+        "symbol": "HOLX",
+        "toFactor": 2
+      }
+    ],
+    "HON": [],
+    "HOOD": [],
+    "HPE": [],
+    "HPQ": [
+      {
+        "date": "2000-10-30",
+        "fromFactor": 1,
+        "symbol": "HPQ",
+        "toFactor": 2
+      }
+    ],
+    "HRL": [
+      {
+        "date": "2000-02-16",
+        "fromFactor": 1,
+        "symbol": "HRL",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-02-15",
+        "fromFactor": 1,
+        "symbol": "HRL",
+        "toFactor": 2
+      },
+      {
+        "date": "2016-02-10",
+        "fromFactor": 1,
+        "symbol": "HRL",
+        "toFactor": 2
+      }
+    ],
+    "HSY": [
+      {
+        "date": "2004-06-16",
+        "fromFactor": 1,
+        "symbol": "HSY",
+        "toFactor": 2
+      }
+    ],
+    "HUBB": [
+      {
+        "date": "2015-12-24",
+        "fromFactor": 1,
+        "symbol": "HUBB",
+        "toFactor": 1
+      }
+    ],
+    "HUBS": [],
+    "HUM": [],
+    "HWM": [
+      {
+        "date": "2000-06-12",
+        "fromFactor": 1,
+        "symbol": "HWM",
+        "toFactor": 2
+      },
+      {
+        "date": "2016-10-06",
+        "fromFactor": 3,
+        "symbol": "HWM",
+        "toFactor": 1
+      }
+    ],
+    "IBIT": [],
+    "IBKR": [],
+    "IBM": [],
+    "ICE": [
+      {
+        "date": "2016-11-04",
+        "fromFactor": 1,
+        "symbol": "ICE",
+        "toFactor": 5
+      }
+    ],
+    "ICL": [],
+    "ICLR": [
+      {
+        "date": "2006-10-24",
+        "fromFactor": 1,
+        "symbol": "ICLR",
+        "toFactor": 2
+      },
+      {
+        "date": "2008-08-13",
+        "fromFactor": 1,
+        "symbol": "ICLR",
+        "toFactor": 2
+      }
+    ],
+    "IDXX": [
+      {
+        "date": "2007-11-27",
+        "fromFactor": 1,
+        "symbol": "IDXX",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-06-16",
+        "fromFactor": 1,
+        "symbol": "IDXX",
+        "toFactor": 2
+      }
+    ],
+    "IEF": [],
+    "IEX": [
+      {
+        "date": "2004-06-01",
+        "fromFactor": 2,
+        "symbol": "IEX",
+        "toFactor": 3
+      },
+      {
+        "date": "2007-05-22",
+        "fromFactor": 2,
+        "symbol": "IEX",
+        "toFactor": 3
+      }
+    ],
+    "IFF": [],
+    "ILMN": [
+      {
+        "date": "2008-09-23",
+        "fromFactor": 1,
+        "symbol": "ILMN",
+        "toFactor": 2
+      }
+    ],
+    "IMO": [
+      {
+        "date": "2006-05-30",
+        "fromFactor": 1,
+        "symbol": "IMO",
+        "toFactor": 3
+      }
+    ],
+    "INCY": [
+      {
+        "date": "2000-09-01",
+        "fromFactor": 1,
+        "symbol": "INCY",
+        "toFactor": 2
+      }
+    ],
+    "INSM": [
+      {
+        "date": "2000-07-31",
+        "fromFactor": 4,
+        "symbol": "INSM",
+        "toFactor": 1
+      },
+      {
+        "date": "2011-03-03",
+        "fromFactor": 10,
+        "symbol": "INSM",
+        "toFactor": 1
+      }
+    ],
+    "INTA": [],
+    "INTC": [
+      {
+        "date": "2000-07-31",
+        "fromFactor": 1,
+        "symbol": "INTC",
+        "toFactor": 2
+      }
+    ],
+    "INTU": [
+      {
+        "date": "2006-07-07",
+        "fromFactor": 1,
+        "symbol": "INTU",
+        "toFactor": 2
+      }
+    ],
+    "IOT": [],
+    "IP": [],
+    "IPG": [],
+    "IQV": [],
+    "IR": [],
+    "ISRG": [
+      {
+        "date": "2003-07-01",
+        "fromFactor": 2,
+        "symbol": "ISRG",
+        "toFactor": 1
+      },
+      {
+        "date": "2017-10-06",
+        "fromFactor": 1,
+        "symbol": "ISRG",
+        "toFactor": 3
+      },
+      {
+        "date": "2021-10-05",
+        "fromFactor": 1,
+        "symbol": "ISRG",
+        "toFactor": 3
+      }
+    ],
+    "IT": [],
+    "ITA": [
+      {
+        "date": "2020-12-07",
+        "fromFactor": 1,
+        "symbol": "ITA",
+        "toFactor": 2
+      }
+    ],
+    "ITB": [],
+    "ITCI": [],
+    "ITT": [
+      {
+        "date": "2006-02-22",
+        "fromFactor": 1,
+        "symbol": "ITT",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-11-01",
+        "fromFactor": 2,
+        "symbol": "ITT",
+        "toFactor": 1
+      }
+    ],
+    "ITW": [
+      {
+        "date": "2006-05-26",
+        "fromFactor": 1,
+        "symbol": "ITW",
+        "toFactor": 2
+      }
+    ],
+    "IVPAF": [],
+    "IWM": [
+      {
+        "date": "2005-06-09",
+        "fromFactor": 1,
+        "symbol": "IWM",
+        "toFactor": 2
+      }
+    ],
+    "IYZ": [],
+    "J": [
+      {
+        "date": "2002-04-02",
+        "fromFactor": 1,
+        "symbol": "J",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-03-16",
+        "fromFactor": 1,
+        "symbol": "J",
+        "toFactor": 2
+      }
+    ],
+    "JBHT": [
+      {
+        "date": "2003-09-02",
+        "fromFactor": 1,
+        "symbol": "JBHT",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-05-24",
+        "fromFactor": 1,
+        "symbol": "JBHT",
+        "toFactor": 2
+      }
+    ],
+    "JBL": [
+      {
+        "date": "2000-03-31",
+        "fromFactor": 1,
+        "symbol": "JBL",
+        "toFactor": 2
+      }
+    ],
+    "JD": [],
+    "JEF": [
+      {
+        "date": "2005-01-03",
+        "fromFactor": 2,
+        "symbol": "JEF",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-06-15",
+        "fromFactor": 1,
+        "symbol": "JEF",
+        "toFactor": 2
+      }
+    ],
+    "JKHY": [
+      {
+        "date": "2000-03-03",
+        "fromFactor": 1,
+        "symbol": "JKHY",
+        "toFactor": 2
+      },
+      {
+        "date": "2001-03-05",
+        "fromFactor": 1,
+        "symbol": "JKHY",
+        "toFactor": 2
+      }
+    ],
+    "JNJ": [
+      {
+        "date": "2001-06-13",
+        "fromFactor": 1,
+        "symbol": "JNJ",
+        "toFactor": 2
+      },
+      {
+        "date": "2023-08-23",
+        "fromFactor": 1,
+        "symbol": "JNJ",
+        "toFactor": 1
+      }
+    ],
+    "JNPR": [
+      {
+        "date": "2000-01-18",
+        "fromFactor": 1,
+        "symbol": "JNPR",
+        "toFactor": 3
+      },
+      {
+        "date": "2000-06-16",
+        "fromFactor": 1,
+        "symbol": "JNPR",
+        "toFactor": 2
+      }
+    ],
+    "JPM": [
+      {
+        "date": "2000-06-12",
+        "fromFactor": 2,
+        "symbol": "JPM",
+        "toFactor": 3
+      }
+    ],
+    "K": [],
+    "KBE": [],
+    "KBH": [
+      {
+        "date": "2005-04-29",
+        "fromFactor": 1,
+        "symbol": "KBH",
+        "toFactor": 2
+      }
+    ],
+    "KDP": [],
+    "KEY": [],
+    "KEYS": [],
+    "KGC": [
+      {
+        "date": "2003-02-03",
+        "fromFactor": 3,
+        "symbol": "KGC",
+        "toFactor": 1
+      },
+      {
+        "date": "2004-12-06",
+        "fromFactor": 1,
+        "symbol": "KGC",
+        "toFactor": 1
+      }
+    ],
+    "KHC": [],
+    "KKR": [],
+    "KLAC": [
+      {
+        "date": "2000-01-19",
+        "fromFactor": 1,
+        "symbol": "KLAC",
+        "toFactor": 2
+      }
+    ],
+    "KMB": [],
+    "KMI": [],
+    "KMX": [
+      {
+        "date": "2007-03-27",
+        "fromFactor": 1,
+        "symbol": "KMX",
+        "toFactor": 2
+      }
+    ],
+    "KNSL": [],
+    "KO": [
+      {
+        "date": "2012-08-13",
+        "fromFactor": 1,
+        "symbol": "KO",
+        "toFactor": 2
+      }
+    ],
+    "KOLD": [
+      {
+        "date": "2012-05-11",
+        "fromFactor": 1,
+        "symbol": "KOLD",
+        "toFactor": 3
+      },
+      {
+        "date": "2013-06-10",
+        "fromFactor": 4,
+        "symbol": "KOLD",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-07-25",
+        "fromFactor": 1,
+        "symbol": "KOLD",
+        "toFactor": 3
+      },
+      {
+        "date": "2022-01-14",
+        "fromFactor": 5,
+        "symbol": "KOLD",
+        "toFactor": 1
+      },
+      {
+        "date": "2022-05-26",
+        "fromFactor": 4,
+        "symbol": "KOLD",
+        "toFactor": 1
+      },
+      {
+        "date": "2024-04-11",
+        "fromFactor": 1,
+        "symbol": "KOLD",
+        "toFactor": 2
+      }
+    ],
+    "KR": [
+      {
+        "date": "2015-07-14",
+        "fromFactor": 1,
+        "symbol": "KR",
+        "toFactor": 2
+      }
+    ],
+    "KRE": [],
+    "KVUE": [],
+    "KVYO": [],
+    "KYCCF": [
+      {
+        "date": "2017-01-18",
+        "fromFactor": 1,
+        "symbol": "KYCCF",
+        "toFactor": 2
+      },
+      {
+        "date": "2019-11-19",
+        "fromFactor": 1,
+        "symbol": "KYCCF",
+        "toFactor": 2
+      }
+    ],
+    "L": [
+      {
+        "date": "2001-03-21",
+        "fromFactor": 1,
+        "symbol": "L",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-05-09",
+        "fromFactor": 1,
+        "symbol": "L",
+        "toFactor": 3
+      }
+    ],
+    "LAD": [],
+    "LBRDK": [],
+    "LDOS": [
+      {
+        "date": "2013-09-30",
+        "fromFactor": 4,
+        "symbol": "LDOS",
+        "toFactor": 1
+      }
+    ],
+    "LECO": [
+      {
+        "date": "2011-06-01",
+        "fromFactor": 1,
+        "symbol": "LECO",
+        "toFactor": 2
+      }
+    ],
+    "LEN": [
+      {
+        "date": "2004-01-21",
+        "fromFactor": 1,
+        "symbol": "LEN",
+        "toFactor": 2
+      }
+    ],
+    "LH": [
+      {
+        "date": "2000-05-04",
+        "fromFactor": 10,
+        "symbol": "LH",
+        "toFactor": 1
+      },
+      {
+        "date": "2001-06-12",
+        "fromFactor": 1,
+        "symbol": "LH",
+        "toFactor": 2
+      },
+      {
+        "date": "2002-05-13",
+        "fromFactor": 1,
+        "symbol": "LH",
+        "toFactor": 2
+      }
+    ],
+    "LHX": [
+      {
+        "date": "2005-03-31",
+        "fromFactor": 1,
+        "symbol": "LHX",
+        "toFactor": 2
+      }
+    ],
+    "LIN": [
+      {
+        "date": "2003-12-16",
+        "fromFactor": 1,
+        "symbol": "LIN",
+        "toFactor": 2
+      },
+      {
+        "date": "2018-10-31",
+        "fromFactor": 1,
+        "symbol": "LIN",
+        "toFactor": 1
+      },
+      {
+        "date": "2023-03-02",
+        "fromFactor": 1,
+        "symbol": "LIN",
+        "toFactor": 1
+      }
+    ],
+    "LLY": [],
+    "LMT": [],
+    "LNG": [
+      {
+        "date": "2005-04-25",
+        "fromFactor": 1,
+        "symbol": "LNG",
+        "toFactor": 2
+      }
+    ],
+    "LNT": [
+      {
+        "date": "2016-05-20",
+        "fromFactor": 1,
+        "symbol": "LNT",
+        "toFactor": 2
+      }
+    ],
+    "LOGI": [],
+    "LOW": [
+      {
+        "date": "2001-07-02",
+        "fromFactor": 1,
+        "symbol": "LOW",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-07-03",
+        "fromFactor": 1,
+        "symbol": "LOW",
+        "toFactor": 2
+      }
+    ],
+    "LPLA": [],
+    "LRCX": [
+      {
+        "date": "2000-03-17",
+        "fromFactor": 1,
+        "symbol": "LRCX",
+        "toFactor": 3
+      },
+      {
+        "date": "2024-10-03",
+        "fromFactor": 1,
+        "symbol": "LRCX",
+        "toFactor": 10
+      }
+    ],
+    "LRLCY": [],
+    "LTBR": [
+      {
+        "date": "2009-09-29",
+        "fromFactor": 30,
+        "symbol": "LTBR",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-07-20",
+        "fromFactor": 5,
+        "symbol": "LTBR",
+        "toFactor": 1
+      },
+      {
+        "date": "2019-10-21",
+        "fromFactor": 12,
+        "symbol": "LTBR",
+        "toFactor": 1
+      }
+    ],
+    "LULU": [
+      {
+        "date": "2011-07-12",
+        "fromFactor": 1,
+        "symbol": "LULU",
+        "toFactor": 2
+      }
+    ],
+    "LUNMF": [
+      {
+        "date": "2007-02-09",
+        "fromFactor": 1,
+        "symbol": "LUNMF",
+        "toFactor": 3
+      }
+    ],
+    "LUNR": [
+      {
+        "date": "2023-02-14",
+        "fromFactor": 1,
+        "symbol": "LUNR",
+        "toFactor": 1
+      }
+    ],
+    "LUV": [
+      {
+        "date": "2001-02-16",
+        "fromFactor": 2,
+        "symbol": "LUV",
+        "toFactor": 3
+      }
+    ],
+    "LVMHF": [],
+    "LVMUY": [],
+    "LVS": [],
+    "LYB": [],
+    "LYFT": [],
+    "LYV": [],
+    "MA": [
+      {
+        "date": "2014-01-22",
+        "fromFactor": 1,
+        "symbol": "MA",
+        "toFactor": 10
+      }
+    ],
+    "MANH": [
+      {
+        "date": "2014-01-13",
+        "fromFactor": 1,
+        "symbol": "MANH",
+        "toFactor": 4
+      }
+    ],
+    "MAR": [
+      {
+        "date": "2006-06-12",
+        "fromFactor": 1,
+        "symbol": "MAR",
+        "toFactor": 2
+      },
+      {
+        "date": "2009-06-23",
+        "fromFactor": 1,
+        "symbol": "MAR",
+        "toFactor": 1.004
+      },
+      {
+        "date": "2009-08-18",
+        "fromFactor": 1,
+        "symbol": "MAR",
+        "toFactor": 1.004
+      },
+      {
+        "date": "2009-11-17",
+        "fromFactor": 1,
+        "symbol": "MAR",
+        "toFactor": 1.003
+      }
+    ],
+    "MARA": [
+      {
+        "date": "2011-12-13",
+        "fromFactor": 1,
+        "symbol": "MARA",
+        "toFactor": 1.3626
+      },
+      {
+        "date": "2013-07-22",
+        "fromFactor": 13,
+        "symbol": "MARA",
+        "toFactor": 1
+      },
+      {
+        "date": "2014-12-23",
+        "fromFactor": 1,
+        "symbol": "MARA",
+        "toFactor": 2
+      },
+      {
+        "date": "2017-10-30",
+        "fromFactor": 4,
+        "symbol": "MARA",
+        "toFactor": 1
+      },
+      {
+        "date": "2019-04-08",
+        "fromFactor": 4,
+        "symbol": "MARA",
+        "toFactor": 1
+      }
+    ],
+    "MBGAF": [],
+    "MBLY": [],
+    "MCD": [],
+    "MCHP": [
+      {
+        "date": "2000-02-08",
+        "fromFactor": 2,
+        "symbol": "MCHP",
+        "toFactor": 3
+      },
+      {
+        "date": "2000-09-27",
+        "fromFactor": 2,
+        "symbol": "MCHP",
+        "toFactor": 3
+      },
+      {
+        "date": "2002-05-09",
+        "fromFactor": 2,
+        "symbol": "MCHP",
+        "toFactor": 3
+      },
+      {
+        "date": "2021-10-13",
+        "fromFactor": 1,
+        "symbol": "MCHP",
+        "toFactor": 2
+      }
+    ],
+    "MCK": [
+      {
+        "date": "2020-03-10",
+        "fromFactor": 1,
+        "symbol": "MCK",
+        "toFactor": 1
+      }
+    ],
+    "MCO": [
+      {
+        "date": "2005-05-19",
+        "fromFactor": 1,
+        "symbol": "MCO",
+        "toFactor": 2
+      }
+    ],
+    "MDB": [],
+    "MDLZ": [],
+    "MDT": [],
+    "MEDP": [],
+    "MELI": [],
+    "MET": [],
+    "META": [],
+    "MFC": [
+      {
+        "date": "2006-06-05",
+        "fromFactor": 1,
+        "symbol": "MFC",
+        "toFactor": 2
+      }
+    ],
+    "MGA": [
+      {
+        "date": "2010-11-26",
+        "fromFactor": 1,
+        "symbol": "MGA",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-03-26",
+        "fromFactor": 1,
+        "symbol": "MGA",
+        "toFactor": 2
+      }
+    ],
+    "MGM": [
+      {
+        "date": "2000-02-28",
+        "fromFactor": 1,
+        "symbol": "MGM",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-05-19",
+        "fromFactor": 1,
+        "symbol": "MGM",
+        "toFactor": 2
+      }
+    ],
+    "MKC": [
+      {
+        "date": "2002-04-09",
+        "fromFactor": 1,
+        "symbol": "MKC",
+        "toFactor": 2
+      },
+      {
+        "date": "2020-12-01",
+        "fromFactor": 1,
+        "symbol": "MKC",
+        "toFactor": 2
+      }
+    ],
+    "MKL": [],
+    "MMC": [
+      {
+        "date": "2002-07-01",
+        "fromFactor": 1,
+        "symbol": "MMC",
+        "toFactor": 2
+      }
+    ],
+    "MMM": [
+      {
+        "date": "2022-09-01",
+        "fromFactor": 1,
+        "symbol": "MMM",
+        "toFactor": 1
+      }
+    ],
+    "MMYT": [],
+    "MNDY": [],
+    "MNST": [
+      {
+        "date": "2005-08-09",
+        "fromFactor": 1,
+        "symbol": "MNST",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-07-10",
+        "fromFactor": 1,
+        "symbol": "MNST",
+        "toFactor": 4
+      },
+      {
+        "date": "2012-02-16",
+        "fromFactor": 1,
+        "symbol": "MNST",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-06-15",
+        "fromFactor": 1,
+        "symbol": "MNST",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-11-10",
+        "fromFactor": 1,
+        "symbol": "MNST",
+        "toFactor": 3
+      },
+      {
+        "date": "2023-03-28",
+        "fromFactor": 1,
+        "symbol": "MNST",
+        "toFactor": 2
+      }
+    ],
+    "MO": [],
+    "MOH": [
+      {
+        "date": "2011-05-23",
+        "fromFactor": 2,
+        "symbol": "MOH",
+        "toFactor": 3
+      }
+    ],
+    "MORN": [],
+    "MPC": [
+      {
+        "date": "2015-06-11",
+        "fromFactor": 1,
+        "symbol": "MPC",
+        "toFactor": 2
+      }
+    ],
+    "MPWR": [],
+    "MRK": [
+      {
+        "date": "2009-11-04",
+        "fromFactor": 1,
+        "symbol": "MRK",
+        "toFactor": 1
+      }
+    ],
+    "MRNA": [],
+    "MS": [
+      {
+        "date": "2000-01-27",
+        "fromFactor": 1,
+        "symbol": "MS",
+        "toFactor": 2
+      }
+    ],
+    "MSCI": [],
+    "MSFT": [
+      {
+        "date": "2003-02-18",
+        "fromFactor": 1,
+        "symbol": "MSFT",
+        "toFactor": 2
+      }
+    ],
+    "MSI": [
+      {
+        "date": "2000-06-02",
+        "fromFactor": 1,
+        "symbol": "MSI",
+        "toFactor": 3
+      },
+      {
+        "date": "2011-01-04",
+        "fromFactor": 7,
+        "symbol": "MSI",
+        "toFactor": 1
+      }
+    ],
+    "MSTR": [
+      {
+        "date": "2000-01-27",
+        "fromFactor": 1,
+        "symbol": "MSTR",
+        "toFactor": 2
+      },
+      {
+        "date": "2002-07-31",
+        "fromFactor": 10,
+        "symbol": "MSTR",
+        "toFactor": 1
+      },
+      {
+        "date": "2024-08-08",
+        "fromFactor": 1,
+        "symbol": "MSTR",
+        "toFactor": 10
+      }
+    ],
+    "MTB": [
+      {
+        "date": "2000-10-06",
+        "fromFactor": 1,
+        "symbol": "MTB",
+        "toFactor": 10
+      }
+    ],
+    "MTD": [],
+    "MU": [
+      {
+        "date": "2000-05-02",
+        "fromFactor": 1,
+        "symbol": "MU",
+        "toFactor": 2
+      }
+    ],
+    "MUSA": [],
+    "NBIX": [],
+    "NCLH": [],
+    "NDAQ": [
+      {
+        "date": "2022-08-29",
+        "fromFactor": 1,
+        "symbol": "NDAQ",
+        "toFactor": 3
+      }
+    ],
+    "NDSN": [
+      {
+        "date": "2000-09-13",
+        "fromFactor": 1,
+        "symbol": "NDSN",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-04-13",
+        "fromFactor": 1,
+        "symbol": "NDSN",
+        "toFactor": 2
+      }
+    ],
+    "NEE": [
+      {
+        "date": "2005-03-16",
+        "fromFactor": 1,
+        "symbol": "NEE",
+        "toFactor": 2
+      },
+      {
+        "date": "2020-10-27",
+        "fromFactor": 1,
+        "symbol": "NEE",
+        "toFactor": 4
+      }
+    ],
+    "NEM": [],
+    "NFLX": [
+      {
+        "date": "2004-02-12",
+        "fromFactor": 1,
+        "symbol": "NFLX",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-07-15",
+        "fromFactor": 1,
+        "symbol": "NFLX",
+        "toFactor": 7
+      }
+    ],
+    "NI": [],
+    "NKE": [
+      {
+        "date": "2007-04-03",
+        "fromFactor": 1,
+        "symbol": "NKE",
+        "toFactor": 2
+      },
+      {
+        "date": "2012-12-26",
+        "fromFactor": 1,
+        "symbol": "NKE",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-12-24",
+        "fromFactor": 1,
+        "symbol": "NKE",
+        "toFactor": 2
+      }
+    ],
+    "NNE": [],
+    "NOC": [
+      {
+        "date": "2004-06-22",
+        "fromFactor": 1,
+        "symbol": "NOC",
+        "toFactor": 2
+      }
+    ],
+    "NONOF": [
+      {
+        "date": "2014-01-02",
+        "fromFactor": 1,
+        "symbol": "NONOF",
+        "toFactor": 5
+      },
+      {
+        "date": "2023-09-13",
+        "fromFactor": 1,
+        "symbol": "NONOF",
+        "toFactor": 2
+      }
+    ],
+    "NOW": [],
+    "NRG": [
+      {
+        "date": "2007-06-01",
+        "fromFactor": 1,
+        "symbol": "NRG",
+        "toFactor": 2
+      }
+    ],
+    "NSC": [],
+    "NSRGF": [
+      {
+        "date": "2008-06-30",
+        "fromFactor": 1,
+        "symbol": "NSRGF",
+        "toFactor": 10
+      }
+    ],
+    "NTAP": [
+      {
+        "date": "2000-03-23",
+        "fromFactor": 1,
+        "symbol": "NTAP",
+        "toFactor": 2
+      }
+    ],
+    "NTES": [
+      {
+        "date": "2006-03-28",
+        "fromFactor": 1,
+        "symbol": "NTES",
+        "toFactor": 4
+      },
+      {
+        "date": "2020-10-02",
+        "fromFactor": 1,
+        "symbol": "NTES",
+        "toFactor": 5
+      }
+    ],
+    "NTNX": [],
+    "NTR": [],
+    "NTRA": [],
+    "NTRS": [],
+    "NU": [],
+    "NUE": [
+      {
+        "date": "2004-10-18",
+        "fromFactor": 1,
+        "symbol": "NUE",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-06-01",
+        "fromFactor": 1,
+        "symbol": "NUE",
+        "toFactor": 2
+      }
+    ],
+    "NVDA": [
+      {
+        "date": "2000-06-27",
+        "fromFactor": 1,
+        "symbol": "NVDA",
+        "toFactor": 2
+      },
+      {
+        "date": "2001-09-12",
+        "fromFactor": 1,
+        "symbol": "NVDA",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-04-07",
+        "fromFactor": 1,
+        "symbol": "NVDA",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-09-11",
+        "fromFactor": 2,
+        "symbol": "NVDA",
+        "toFactor": 3
+      },
+      {
+        "date": "2021-07-20",
+        "fromFactor": 1,
+        "symbol": "NVDA",
+        "toFactor": 4
+      },
+      {
+        "date": "2024-06-10",
+        "fromFactor": 1,
+        "symbol": "NVDA",
+        "toFactor": 10
+      }
+    ],
+    "NVR": [],
+    "NVT": [],
+    "NWSA": [],
+    "NXPI": [],
+    "O": [
+      {
+        "date": "2005-01-03",
+        "fromFactor": 1,
+        "symbol": "O",
+        "toFactor": 2
+      }
+    ],
+    "ODFL": [
+      {
+        "date": "2003-06-17",
+        "fromFactor": 2,
+        "symbol": "ODFL",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-05-21",
+        "fromFactor": 2,
+        "symbol": "ODFL",
+        "toFactor": 3
+      },
+      {
+        "date": "2005-12-01",
+        "fromFactor": 2,
+        "symbol": "ODFL",
+        "toFactor": 3
+      },
+      {
+        "date": "2010-08-24",
+        "fromFactor": 2,
+        "symbol": "ODFL",
+        "toFactor": 3
+      },
+      {
+        "date": "2012-09-10",
+        "fromFactor": 2,
+        "symbol": "ODFL",
+        "toFactor": 3
+      },
+      {
+        "date": "2020-03-25",
+        "fromFactor": 2,
+        "symbol": "ODFL",
+        "toFactor": 3
+      },
+      {
+        "date": "2024-03-28",
+        "fromFactor": 1,
+        "symbol": "ODFL",
+        "toFactor": 2
+      }
+    ],
+    "OKE": [
+      {
+        "date": "2001-06-12",
+        "fromFactor": 1,
+        "symbol": "OKE",
+        "toFactor": 2
+      },
+      {
+        "date": "2012-06-04",
+        "fromFactor": 1,
+        "symbol": "OKE",
+        "toFactor": 2
+      }
+    ],
+    "OKLO": [],
+    "OKTA": [],
+    "OMC": [
+      {
+        "date": "2007-06-26",
+        "fromFactor": 1,
+        "symbol": "OMC",
+        "toFactor": 2
+      }
+    ],
+    "ON": [],
+    "ONON": [],
+    "ONTO": [],
+    "ORCL": [
+      {
+        "date": "2000-01-19",
+        "fromFactor": 1,
+        "symbol": "ORCL",
+        "toFactor": 2
+      },
+      {
+        "date": "2000-10-13",
+        "fromFactor": 1,
+        "symbol": "ORCL",
+        "toFactor": 2
+      }
+    ],
+    "ORLY": [
+      {
+        "date": "2005-06-16",
+        "fromFactor": 1,
+        "symbol": "ORLY",
+        "toFactor": 2
+      }
+    ],
+    "OTEX": [
+      {
+        "date": "2003-10-29",
+        "fromFactor": 1,
+        "symbol": "OTEX",
+        "toFactor": 2
+      },
+      {
+        "date": "2014-02-19",
+        "fromFactor": 1,
+        "symbol": "OTEX",
+        "toFactor": 2
+      },
+      {
+        "date": "2017-01-25",
+        "fromFactor": 1,
+        "symbol": "OTEX",
+        "toFactor": 2
+      }
+    ],
+    "OTIS": [],
+    "OVV": [
+      {
+        "date": "2005-05-23",
+        "fromFactor": 1,
+        "symbol": "OVV",
+        "toFactor": 2
+      },
+      {
+        "date": "2020-01-27",
+        "fromFactor": 5,
+        "symbol": "OVV",
+        "toFactor": 1
+      }
+    ],
+    "OWL": [],
+    "OXY": [
+      {
+        "date": "2006-08-16",
+        "fromFactor": 1,
+        "symbol": "OXY",
+        "toFactor": 2
+      }
+    ],
+    "PAAS": [],
+    "PAG": [
+      {
+        "date": "2006-06-02",
+        "fromFactor": 1,
+        "symbol": "PAG",
+        "toFactor": 2
+      }
+    ],
+    "PANW": [
+      {
+        "date": "2022-09-14",
+        "fromFactor": 1,
+        "symbol": "PANW",
+        "toFactor": 3
+      },
+      {
+        "date": "2024-12-16",
+        "fromFactor": 1,
+        "symbol": "PANW",
+        "toFactor": 2
+      }
+    ],
+    "PAYC": [],
+    "PAYX": [
+      {
+        "date": "2000-05-23",
+        "fromFactor": 2,
+        "symbol": "PAYX",
+        "toFactor": 3
+      }
+    ],
+    "PBA": [],
+    "PCAR": [
+      {
+        "date": "2002-05-29",
+        "fromFactor": 2,
+        "symbol": "PCAR",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-02-06",
+        "fromFactor": 2,
+        "symbol": "PCAR",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-08-11",
+        "fromFactor": 2,
+        "symbol": "PCAR",
+        "toFactor": 3
+      },
+      {
+        "date": "2007-10-10",
+        "fromFactor": 2,
+        "symbol": "PCAR",
+        "toFactor": 3
+      },
+      {
+        "date": "2023-02-08",
+        "fromFactor": 2,
+        "symbol": "PCAR",
+        "toFactor": 3
+      }
+    ],
+    "PCG": [],
+    "PCOR": [],
+    "PCTY": [],
+    "PCVX": [],
+    "PDD": [],
+    "PDYN": [],
+    "PEG": [
+      {
+        "date": "2008-02-05",
+        "fromFactor": 1,
+        "symbol": "PEG",
+        "toFactor": 2
+      }
+    ],
+    "PEN": [],
+    "PEP": [],
+    "PFE": [
+      {
+        "date": "2013-06-24",
+        "fromFactor": 1,
+        "symbol": "PFE",
+        "toFactor": 1
+      }
+    ],
+    "PFG": [],
+    "PFGC": [],
+    "PG": [
+      {
+        "date": "2004-06-21",
+        "fromFactor": 1,
+        "symbol": "PG",
+        "toFactor": 2
+      },
+      {
+        "date": "2008-11-06",
+        "fromFactor": 1,
+        "symbol": "PG",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-09-30",
+        "fromFactor": 1,
+        "symbol": "PG",
+        "toFactor": 1
+      }
+    ],
+    "PGJ": [],
+    "PGR": [
+      {
+        "date": "2002-04-23",
+        "fromFactor": 1,
+        "symbol": "PGR",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-05-19",
+        "fromFactor": 1,
+        "symbol": "PGR",
+        "toFactor": 4
+      }
+    ],
+    "PH": [
+      {
+        "date": "2007-10-02",
+        "fromFactor": 2,
+        "symbol": "PH",
+        "toFactor": 3
+      }
+    ],
+    "PHM": [
+      {
+        "date": "2004-01-05",
+        "fromFactor": 1,
+        "symbol": "PHM",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-09-02",
+        "fromFactor": 1,
+        "symbol": "PHM",
+        "toFactor": 2
+      }
+    ],
+    "PINS": [],
+    "PKG": [],
+    "PLD": [],
+    "PLTR": [],
+    "PM": [],
+    "PNC": [],
+    "PNR": [
+      {
+        "date": "2004-06-09",
+        "fromFactor": 1,
+        "symbol": "PNR",
+        "toFactor": 2
+      },
+      {
+        "date": "2012-10-01",
+        "fromFactor": 1,
+        "symbol": "PNR",
+        "toFactor": 1
+      },
+      {
+        "date": "2014-06-03",
+        "fromFactor": 1,
+        "symbol": "PNR",
+        "toFactor": 1
+      }
+    ],
+    "PODD": [],
+    "POOL": [
+      {
+        "date": "2000-06-20",
+        "fromFactor": 2,
+        "symbol": "POOL",
+        "toFactor": 3
+      },
+      {
+        "date": "2001-09-10",
+        "fromFactor": 2,
+        "symbol": "POOL",
+        "toFactor": 3
+      },
+      {
+        "date": "2003-09-15",
+        "fromFactor": 2,
+        "symbol": "POOL",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-09-13",
+        "fromFactor": 2,
+        "symbol": "POOL",
+        "toFactor": 3
+      }
+    ],
+    "PPC": [],
+    "PPG": [
+      {
+        "date": "2015-06-15",
+        "fromFactor": 1,
+        "symbol": "PPG",
+        "toFactor": 2
+      }
+    ],
+    "PPL": [
+      {
+        "date": "2005-08-25",
+        "fromFactor": 1,
+        "symbol": "PPL",
+        "toFactor": 2
+      }
+    ],
+    "PR": [],
+    "PRU": [],
+    "PSA": [],
+    "PSTG": [],
+    "PSX": [],
+    "PTC": [
+      {
+        "date": "2006-02-28",
+        "fromFactor": 5,
+        "symbol": "PTC",
+        "toFactor": 2
+      }
+    ],
+    "PWCDF": [],
+    "PYPL": [],
+    "QCOM": [
+      {
+        "date": "2004-08-16",
+        "fromFactor": 1,
+        "symbol": "QCOM",
+        "toFactor": 2
+      }
+    ],
+    "QQQ": [
+      {
+        "date": "2000-03-20",
+        "fromFactor": 1,
+        "symbol": "QQQ",
+        "toFactor": 2
+      }
+    ],
+    "QSR": [],
+    "RACE": [
+      {
+        "date": "2016-01-04",
+        "fromFactor": 1,
+        "symbol": "RACE",
+        "toFactor": 1
+      }
+    ],
+    "RBC": [],
+    "RBLX": [],
+    "RBRK": [],
+    "RCAT": [
+      {
+        "date": "2014-07-23",
+        "fromFactor": 150,
+        "symbol": "RCAT",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-11-22",
+        "fromFactor": 10,
+        "symbol": "RCAT",
+        "toFactor": 1
+      },
+      {
+        "date": "2019-08-01",
+        "fromFactor": 1200,
+        "symbol": "RCAT",
+        "toFactor": 1
+      }
+    ],
+    "RCI": [
+      {
+        "date": "2007-01-08",
+        "fromFactor": 1,
+        "symbol": "RCI",
+        "toFactor": 2
+      }
+    ],
+    "RCL": [],
+    "RDDT": [],
+    "REGN": [],
+    "RF": [],
+    "RGA": [],
+    "RIOT": [
+      {
+        "date": "2011-07-29",
+        "fromFactor": 5,
+        "symbol": "RIOT",
+        "toFactor": 1
+      },
+      {
+        "date": "2012-06-20",
+        "fromFactor": 6,
+        "symbol": "RIOT",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-03-31",
+        "fromFactor": 8,
+        "symbol": "RIOT",
+        "toFactor": 1
+      }
+    ],
+    "RIVN": [],
+    "RJF": [
+      {
+        "date": "2004-03-25",
+        "fromFactor": 2,
+        "symbol": "RJF",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-03-23",
+        "fromFactor": 2,
+        "symbol": "RJF",
+        "toFactor": 3
+      },
+      {
+        "date": "2021-09-22",
+        "fromFactor": 2,
+        "symbol": "RJF",
+        "toFactor": 3
+      }
+    ],
+    "RKLB": [
+      {
+        "date": "2021-08-25",
+        "fromFactor": 1,
+        "symbol": "RKLB",
+        "toFactor": 1
+      }
+    ],
+    "RKT": [],
+    "RL": [],
+    "RMD": [
+      {
+        "date": "2000-04-03",
+        "fromFactor": 1,
+        "symbol": "RMD",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-10-03",
+        "fromFactor": 1,
+        "symbol": "RMD",
+        "toFactor": 2
+      },
+      {
+        "date": "2010-08-31",
+        "fromFactor": 1,
+        "symbol": "RMD",
+        "toFactor": 2
+      }
+    ],
+    "RNR": [
+      {
+        "date": "2002-05-31",
+        "fromFactor": 1,
+        "symbol": "RNR",
+        "toFactor": 3
+      }
+    ],
+    "ROK": [],
+    "ROKU": [],
+    "ROP": [
+      {
+        "date": "2005-08-29",
+        "fromFactor": 1,
+        "symbol": "ROP",
+        "toFactor": 2
+      }
+    ],
+    "ROST": [
+      {
+        "date": "2003-12-19",
+        "fromFactor": 1,
+        "symbol": "ROST",
+        "toFactor": 2
+      },
+      {
+        "date": "2011-12-16",
+        "fromFactor": 1,
+        "symbol": "ROST",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-06-12",
+        "fromFactor": 1,
+        "symbol": "ROST",
+        "toFactor": 2
+      }
+    ],
+    "RPM": [],
+    "RPRX": [],
+    "RS": [
+      {
+        "date": "2006-07-20",
+        "fromFactor": 1,
+        "symbol": "RS",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-06-01",
+        "fromFactor": 1,
+        "symbol": "RS",
+        "toFactor": 1
+      }
+    ],
+    "RTX": [
+      {
+        "date": "2005-06-13",
+        "fromFactor": 1,
+        "symbol": "RTX",
+        "toFactor": 2
+      }
+    ],
+    "RVTY": [],
+    "RY": [
+      {
+        "date": "2000-09-25",
+        "fromFactor": 1,
+        "symbol": "RY",
+        "toFactor": 2
+      },
+      {
+        "date": "2006-04-07",
+        "fromFactor": 1,
+        "symbol": "RY",
+        "toFactor": 2
+      }
+    ],
+    "RYAN": [],
+    "RYCEF": [],
+    "SAIA": [
+      {
+        "date": "2013-06-14",
+        "fromFactor": 2,
+        "symbol": "SAIA",
+        "toFactor": 3
+      }
+    ],
+    "SAP": [
+      {
+        "date": "2000-06-27",
+        "fromFactor": 1,
+        "symbol": "SAP",
+        "toFactor": 1
+      }
+    ],
+    "SBUX": [
+      {
+        "date": "2001-04-30",
+        "fromFactor": 1,
+        "symbol": "SBUX",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-10-24",
+        "fromFactor": 1,
+        "symbol": "SBUX",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-04-09",
+        "fromFactor": 1,
+        "symbol": "SBUX",
+        "toFactor": 2
+      }
+    ],
+    "SCCO": [
+      {
+        "date": "2006-10-03",
+        "fromFactor": 1,
+        "symbol": "SCCO",
+        "toFactor": 2
+      },
+      {
+        "date": "2008-07-10",
+        "fromFactor": 1,
+        "symbol": "SCCO",
+        "toFactor": 3
+      },
+      {
+        "date": "2012-02-13",
+        "fromFactor": 1,
+        "symbol": "SCCO",
+        "toFactor": 1.011
+      },
+      {
+        "date": "2024-05-07",
+        "fromFactor": 1,
+        "symbol": "SCCO",
+        "toFactor": 1.01
+      },
+      {
+        "date": "2024-08-09",
+        "fromFactor": 1,
+        "symbol": "SCCO",
+        "toFactor": 1.006
+      },
+      {
+        "date": "2024-11-06",
+        "fromFactor": 1,
+        "symbol": "SCCO",
+        "toFactor": 1.006
+      },
+      {
+        "date": "2025-02-11",
+        "fromFactor": 1,
+        "symbol": "SCCO",
+        "toFactor": 1.007
+      }
+    ],
+    "SCHW": [
+      {
+        "date": "2000-05-31",
+        "fromFactor": 2,
+        "symbol": "SCHW",
+        "toFactor": 3
+      }
+    ],
+    "SCI": [],
+    "SEIC": [
+      {
+        "date": "2000-06-20",
+        "fromFactor": 1,
+        "symbol": "SEIC",
+        "toFactor": 3
+      },
+      {
+        "date": "2001-03-01",
+        "fromFactor": 1,
+        "symbol": "SEIC",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-06-22",
+        "fromFactor": 1,
+        "symbol": "SEIC",
+        "toFactor": 2
+      }
+    ],
+    "SERV": [],
+    "SF": [
+      {
+        "date": "2004-09-16",
+        "fromFactor": 3,
+        "symbol": "SF",
+        "toFactor": 4
+      },
+      {
+        "date": "2008-06-13",
+        "fromFactor": 2,
+        "symbol": "SF",
+        "toFactor": 3
+      },
+      {
+        "date": "2011-04-06",
+        "fromFactor": 2,
+        "symbol": "SF",
+        "toFactor": 3
+      },
+      {
+        "date": "2020-12-17",
+        "fromFactor": 2,
+        "symbol": "SF",
+        "toFactor": 3
+      }
+    ],
+    "SFM": [],
+    "SHEL": [
+      {
+        "date": "2005-07-20",
+        "fromFactor": 1,
+        "symbol": "SHEL",
+        "toFactor": 1
+      },
+      {
+        "date": "2011-02-09",
+        "fromFactor": 1,
+        "symbol": "SHEL",
+        "toFactor": 1
+      },
+      {
+        "date": "2022-02-01",
+        "fromFactor": 1,
+        "symbol": "SHEL",
+        "toFactor": 1
+      }
+    ],
+    "SHOP": [
+      {
+        "date": "2022-06-29",
+        "fromFactor": 1,
+        "symbol": "SHOP",
+        "toFactor": 10
+      }
+    ],
+    "SHW": [
+      {
+        "date": "2021-04-01",
+        "fromFactor": 1,
+        "symbol": "SHW",
+        "toFactor": 3
+      }
+    ],
+    "SHY": [],
+    "SJM": [
+      {
+        "date": "2002-06-03",
+        "fromFactor": 1,
+        "symbol": "SJM",
+        "toFactor": 0.9451
+      }
+    ],
+    "SKX": [
+      {
+        "date": "2015-10-16",
+        "fromFactor": 1,
+        "symbol": "SKX",
+        "toFactor": 3
+      }
+    ],
+    "SLB": [
+      {
+        "date": "2006-04-10",
+        "fromFactor": 1,
+        "symbol": "SLB",
+        "toFactor": 2
+      }
+    ],
+    "SLF": [],
+    "SLV": [
+      {
+        "date": "2008-07-24",
+        "fromFactor": 1,
+        "symbol": "SLV",
+        "toFactor": 10
+      }
+    ],
+    "SMCI": [
+      {
+        "date": "2024-10-01",
+        "fromFactor": 1,
+        "symbol": "SMCI",
+        "toFactor": 10
+      }
+    ],
+    "SMECF": [],
+    "SMMT": [],
+    "SMR": [],
+    "SMTC": [
+      {
+        "date": "2000-09-26",
+        "fromFactor": 1,
+        "symbol": "SMTC",
+        "toFactor": 2
+      }
+    ],
+    "SN": [],
+    "SNA": [],
+    "SNAP": [],
+    "SNOW": [],
+    "SNPS": [
+      {
+        "date": "2003-09-24",
+        "fromFactor": 1,
+        "symbol": "SNPS",
+        "toFactor": 2
+      }
+    ],
+    "SNX": [],
+    "SO": [],
+    "SOFI": [],
+    "SOLV": [],
+    "SOUN": [],
+    "SOXX": [
+      {
+        "date": "2024-03-07",
+        "fromFactor": 1,
+        "symbol": "SOXX",
+        "toFactor": 3
+      }
+    ],
+    "SPG": [
+      {
+        "date": "2009-02-10",
+        "fromFactor": 1,
+        "symbol": "SPG",
+        "toFactor": 1.024
+      },
+      {
+        "date": "2009-05-12",
+        "fromFactor": 1,
+        "symbol": "SPG",
+        "toFactor": 1.009
+      },
+      {
+        "date": "2009-08-13",
+        "fromFactor": 1,
+        "symbol": "SPG",
+        "toFactor": 1.007
+      },
+      {
+        "date": "2009-11-12",
+        "fromFactor": 1,
+        "symbol": "SPG",
+        "toFactor": 1.006
+      }
+    ],
+    "SPGI": [
+      {
+        "date": "2005-05-18",
+        "fromFactor": 1,
+        "symbol": "SPGI",
+        "toFactor": 2
+      }
+    ],
+    "SPOT": [],
+    "SPXS": [
+      {
+        "date": "2011-02-24",
+        "fromFactor": 5,
+        "symbol": "SPXS",
+        "toFactor": 1
+      },
+      {
+        "date": "2013-08-20",
+        "fromFactor": 5,
+        "symbol": "SPXS",
+        "toFactor": 1
+      },
+      {
+        "date": "2017-05-01",
+        "fromFactor": 5,
+        "symbol": "SPXS",
+        "toFactor": 1
+      },
+      {
+        "date": "2021-01-11",
+        "fromFactor": 10,
+        "symbol": "SPXS",
+        "toFactor": 1
+      }
+    ],
+    "SPY": [],
+    "SQQQ": [
+      {
+        "date": "2012-05-11",
+        "fromFactor": 4,
+        "symbol": "SQQQ",
+        "toFactor": 1
+      },
+      {
+        "date": "2014-01-24",
+        "fromFactor": 4,
+        "symbol": "SQQQ",
+        "toFactor": 1
+      },
+      {
+        "date": "2017-01-12",
+        "fromFactor": 4,
+        "symbol": "SQQQ",
+        "toFactor": 1
+      },
+      {
+        "date": "2019-05-24",
+        "fromFactor": 4,
+        "symbol": "SQQQ",
+        "toFactor": 1
+      },
+      {
+        "date": "2020-08-18",
+        "fromFactor": 5,
+        "symbol": "SQQQ",
+        "toFactor": 1
+      },
+      {
+        "date": "2022-01-13",
+        "fromFactor": 5,
+        "symbol": "SQQQ",
+        "toFactor": 1
+      },
+      {
+        "date": "2024-11-07",
+        "fromFactor": 5,
+        "symbol": "SQQQ",
+        "toFactor": 1
+      }
+    ],
+    "SRE": [
+      {
+        "date": "2023-08-22",
+        "fromFactor": 1,
+        "symbol": "SRE",
+        "toFactor": 2
+      }
+    ],
+    "SRPT": [
+      {
+        "date": "2012-07-12",
+        "fromFactor": 6,
+        "symbol": "SRPT",
+        "toFactor": 1
+      }
+    ],
+    "SSB": [
+      {
+        "date": "2002-11-20",
+        "fromFactor": 1,
+        "symbol": "SSB",
+        "toFactor": 1.1
+      },
+      {
+        "date": "2004-12-20",
+        "fromFactor": 20,
+        "symbol": "SSB",
+        "toFactor": 21
+      },
+      {
+        "date": "2007-03-07",
+        "fromFactor": 20,
+        "symbol": "SSB",
+        "toFactor": 21
+      }
+    ],
+    "SSNC": [
+      {
+        "date": "2004-03-08",
+        "fromFactor": 2,
+        "symbol": "SSNC",
+        "toFactor": 3
+      },
+      {
+        "date": "2016-06-27",
+        "fromFactor": 1,
+        "symbol": "SSNC",
+        "toFactor": 2
+      }
+    ],
+    "STE": [
+      {
+        "date": "2015-11-03",
+        "fromFactor": 1,
+        "symbol": "STE",
+        "toFactor": 1
+      }
+    ],
+    "STLA": [],
+    "STLD": [
+      {
+        "date": "2006-11-21",
+        "fromFactor": 1,
+        "symbol": "STLD",
+        "toFactor": 2
+      },
+      {
+        "date": "2008-03-31",
+        "fromFactor": 1,
+        "symbol": "STLD",
+        "toFactor": 2
+      }
+    ],
+    "STT": [
+      {
+        "date": "2001-05-31",
+        "fromFactor": 1,
+        "symbol": "STT",
+        "toFactor": 2
+      }
+    ],
+    "STX": [],
+    "STZ": [
+      {
+        "date": "2005-05-16",
+        "fromFactor": 1,
+        "symbol": "STZ",
+        "toFactor": 2
+      }
+    ],
+    "SU": [
+      {
+        "date": "2000-05-16",
+        "fromFactor": 1,
+        "symbol": "SU",
+        "toFactor": 2
+      },
+      {
+        "date": "2002-05-23",
+        "fromFactor": 1,
+        "symbol": "SU",
+        "toFactor": 2
+      },
+      {
+        "date": "2008-05-27",
+        "fromFactor": 1,
+        "symbol": "SU",
+        "toFactor": 2
+      }
+    ],
+    "SW": [],
+    "SWK": [],
+    "SWKS": [],
+    "SYF": [],
+    "SYK": [
+      {
+        "date": "2000-05-15",
+        "fromFactor": 1,
+        "symbol": "SYK",
+        "toFactor": 2
+      },
+      {
+        "date": "2004-05-17",
+        "fromFactor": 1,
+        "symbol": "SYK",
+        "toFactor": 2
+      }
+    ],
+    "SYM": [
+      {
+        "date": "2022-06-08",
+        "fromFactor": 1,
+        "symbol": "SYM",
+        "toFactor": 1
+      }
+    ],
+    "SYY": [
+      {
+        "date": "2000-12-18",
+        "fromFactor": 1,
+        "symbol": "SYY",
+        "toFactor": 2
+      }
+    ],
+    "T": [],
+    "TCEHY": [
+      {
+        "date": "2014-05-20",
+        "fromFactor": 1,
+        "symbol": "TCEHY",
+        "toFactor": 5
+      }
+    ],
+    "TCOM": [
+      {
+        "date": "2006-04-11",
+        "fromFactor": 1,
+        "symbol": "TCOM",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-07-31",
+        "fromFactor": 1,
+        "symbol": "TCOM",
+        "toFactor": 2
+      },
+      {
+        "date": "2010-01-21",
+        "fromFactor": 1,
+        "symbol": "TCOM",
+        "toFactor": 2
+      },
+      {
+        "date": "2015-12-02",
+        "fromFactor": 1,
+        "symbol": "TCOM",
+        "toFactor": 2
+      }
+    ],
+    "TD": [
+      {
+        "date": "2014-02-03",
+        "fromFactor": 1,
+        "symbol": "TD",
+        "toFactor": 2
+      }
+    ],
+    "TDG": [],
+    "TDY": [],
+    "TEAM": [],
+    "TECH": [
+      {
+        "date": "2000-12-04",
+        "fromFactor": 1,
+        "symbol": "TECH",
         "toFactor": 2
       },
       {
         "date": "2022-11-30",
         "fromFactor": 1,
-        "symbol": "Tech",
+        "symbol": "TECH",
         "toFactor": 4
       }
     ],
-    "Entertainment": [],
-    "Finance": [],
-    "Industrials": [],
-    "Retail": [],
-    "Real Estate": [],
-    "Others": [],
-    "Utilities": [],
-    "Materials": [],
-    "ETF": []
+    "TEL": [
+      {
+        "date": "2009-06-26",
+        "fromFactor": 1,
+        "symbol": "TEL",
+        "toFactor": 1
+      }
+    ],
+    "TEM": [],
+    "TER": [],
+    "TFC": [],
+    "TFII": [],
+    "TGT": [
+      {
+        "date": "2000-07-20",
+        "fromFactor": 1,
+        "symbol": "TGT",
+        "toFactor": 2
+      }
+    ],
+    "THC": [
+      {
+        "date": "2002-07-01",
+        "fromFactor": 2,
+        "symbol": "THC",
+        "toFactor": 3
+      },
+      {
+        "date": "2012-10-11",
+        "fromFactor": 4,
+        "symbol": "THC",
+        "toFactor": 1
+      }
+    ],
+    "TJX": [
+      {
+        "date": "2002-05-09",
+        "fromFactor": 1,
+        "symbol": "TJX",
+        "toFactor": 2
+      },
+      {
+        "date": "2012-02-03",
+        "fromFactor": 1,
+        "symbol": "TJX",
+        "toFactor": 2
+      },
+      {
+        "date": "2018-11-07",
+        "fromFactor": 1,
+        "symbol": "TJX",
+        "toFactor": 2
+      }
+    ],
+    "TKO": [],
+    "TLN": [],
+    "TLT": [],
+    "TMF": [
+      {
+        "date": "2016-08-25",
+        "fromFactor": 1,
+        "symbol": "TMF",
+        "toFactor": 4
+      },
+      {
+        "date": "2023-12-04",
+        "fromFactor": 10,
+        "symbol": "TMF",
+        "toFactor": 1
+      }
+    ],
+    "TMO": [],
+    "TMUS": [
+      {
+        "date": "2013-05-01",
+        "fromFactor": 1,
+        "symbol": "TMUS",
+        "toFactor": 0.5
+      }
+    ],
+    "TOL": [
+      {
+        "date": "2002-04-01",
+        "fromFactor": 1,
+        "symbol": "TOL",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-07-11",
+        "fromFactor": 1,
+        "symbol": "TOL",
+        "toFactor": 2
+      }
+    ],
+    "TOST": [],
+    "TPG": [],
+    "TPL": [
+      {
+        "date": "2007-07-13",
+        "fromFactor": 1,
+        "symbol": "TPL",
+        "toFactor": 5
+      },
+      {
+        "date": "2024-03-27",
+        "fromFactor": 1,
+        "symbol": "TPL",
+        "toFactor": 3
+      }
+    ],
+    "TPR": [
+      {
+        "date": "2002-07-05",
+        "fromFactor": 1,
+        "symbol": "TPR",
+        "toFactor": 2
+      },
+      {
+        "date": "2003-10-02",
+        "fromFactor": 1,
+        "symbol": "TPR",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-04-05",
+        "fromFactor": 1,
+        "symbol": "TPR",
+        "toFactor": 2
+      }
+    ],
+    "TRGP": [],
+    "TRI": [
+      {
+        "date": "2018-11-27",
+        "fromFactor": 1,
+        "symbol": "TRI",
+        "toFactor": 0.9079
+      },
+      {
+        "date": "2023-06-23",
+        "fromFactor": 1,
+        "symbol": "TRI",
+        "toFactor": 1
+      }
+    ],
+    "TRMB": [
+      {
+        "date": "2004-03-05",
+        "fromFactor": 2,
+        "symbol": "TRMB",
+        "toFactor": 3
+      },
+      {
+        "date": "2007-02-23",
+        "fromFactor": 1,
+        "symbol": "TRMB",
+        "toFactor": 2
+      },
+      {
+        "date": "2013-03-21",
+        "fromFactor": 1,
+        "symbol": "TRMB",
+        "toFactor": 2
+      }
+    ],
+    "TRMD": [],
+    "TRMLF": [],
+    "TROW": [
+      {
+        "date": "2006-06-26",
+        "fromFactor": 1,
+        "symbol": "TROW",
+        "toFactor": 2
+      }
+    ],
+    "TRP": [],
+    "TRU": [],
+    "TRV": [],
+    "TSCO": [
+      {
+        "date": "2002-08-20",
+        "fromFactor": 1,
+        "symbol": "TSCO",
+        "toFactor": 2
+      },
+      {
+        "date": "2003-08-22",
+        "fromFactor": 1,
+        "symbol": "TSCO",
+        "toFactor": 2
+      },
+      {
+        "date": "2010-09-03",
+        "fromFactor": 1,
+        "symbol": "TSCO",
+        "toFactor": 2
+      },
+      {
+        "date": "2013-09-27",
+        "fromFactor": 1,
+        "symbol": "TSCO",
+        "toFactor": 2
+      },
+      {
+        "date": "2024-12-20",
+        "fromFactor": 1,
+        "symbol": "TSCO",
+        "toFactor": 5
+      }
+    ],
+    "TSLA": [
+      {
+        "date": "2020-08-31",
+        "fromFactor": 1,
+        "symbol": "TSLA",
+        "toFactor": 5
+      },
+      {
+        "date": "2022-08-25",
+        "fromFactor": 1,
+        "symbol": "TSLA",
+        "toFactor": 3
+      }
+    ],
+    "TSM": [
+      {
+        "date": "2000-05-15",
+        "fromFactor": 100,
+        "symbol": "TSM",
+        "toFactor": 128
+      },
+      {
+        "date": "2001-06-26",
+        "fromFactor": 5,
+        "symbol": "TSM",
+        "toFactor": 7
+      },
+      {
+        "date": "2002-06-19",
+        "fromFactor": 10,
+        "symbol": "TSM",
+        "toFactor": 11
+      },
+      {
+        "date": "2004-06-14",
+        "fromFactor": 1,
+        "symbol": "TSM",
+        "toFactor": 1.141
+      },
+      {
+        "date": "2005-06-13",
+        "fromFactor": 1,
+        "symbol": "TSM",
+        "toFactor": 1.05
+      },
+      {
+        "date": "2006-06-20",
+        "fromFactor": 1,
+        "symbol": "TSM",
+        "toFactor": 1.03
+      },
+      {
+        "date": "2007-06-08",
+        "fromFactor": 1,
+        "symbol": "TSM",
+        "toFactor": 1.005
+      },
+      {
+        "date": "2008-07-16",
+        "fromFactor": 1,
+        "symbol": "TSM",
+        "toFactor": 1.005
+      },
+      {
+        "date": "2009-07-15",
+        "fromFactor": 1,
+        "symbol": "TSM",
+        "toFactor": 1.005
+      }
+    ],
+    "TSN": [],
+    "TTD": [
+      {
+        "date": "2021-06-17",
+        "fromFactor": 1,
+        "symbol": "TTD",
+        "toFactor": 10
+      }
+    ],
+    "TTWO": [
+      {
+        "date": "2005-04-12",
+        "fromFactor": 2,
+        "symbol": "TTWO",
+        "toFactor": 3
+      }
+    ],
+    "TU": [
+      {
+        "date": "2013-04-17",
+        "fromFactor": 1,
+        "symbol": "TU",
+        "toFactor": 2
+      },
+      {
+        "date": "2020-03-18",
+        "fromFactor": 1,
+        "symbol": "TU",
+        "toFactor": 2
+      }
+    ],
+    "TW": [],
+    "TWLO": [],
+    "TXN": [
+      {
+        "date": "2000-05-23",
+        "fromFactor": 1,
+        "symbol": "TXN",
+        "toFactor": 2
+      }
+    ],
+    "TXRH": [
+      {
+        "date": "2005-09-26",
+        "fromFactor": 1,
+        "symbol": "TXRH",
+        "toFactor": 2
+      }
+    ],
+    "TXT": [
+      {
+        "date": "2007-08-27",
+        "fromFactor": 1,
+        "symbol": "TXT",
+        "toFactor": 2
+      }
+    ],
+    "TYL": [],
+    "TZA": [
+      {
+        "date": "2010-07-08",
+        "fromFactor": 5,
+        "symbol": "TZA",
+        "toFactor": 1
+      },
+      {
+        "date": "2011-02-24",
+        "fromFactor": 3,
+        "symbol": "TZA",
+        "toFactor": 1
+      },
+      {
+        "date": "2013-04-02",
+        "fromFactor": 4,
+        "symbol": "TZA",
+        "toFactor": 1
+      },
+      {
+        "date": "2015-10-01",
+        "fromFactor": 4,
+        "symbol": "TZA",
+        "toFactor": 1
+      },
+      {
+        "date": "2019-06-28",
+        "fromFactor": 5,
+        "symbol": "TZA",
+        "toFactor": 1
+      },
+      {
+        "date": "2021-03-02",
+        "fromFactor": 8,
+        "symbol": "TZA",
+        "toFactor": 1
+      }
+    ],
+    "UAA": [
+      {
+        "date": "2012-07-10",
+        "fromFactor": 1,
+        "symbol": "UAA",
+        "toFactor": 2
+      },
+      {
+        "date": "2014-04-15",
+        "fromFactor": 1,
+        "symbol": "UAA",
+        "toFactor": 2
+      }
+    ],
+    "UAL": [],
+    "UBER": [],
+    "UBS": [
+      {
+        "date": "2006-07-10",
+        "fromFactor": 1,
+        "symbol": "UBS",
+        "toFactor": 2
+      },
+      {
+        "date": "2008-04-28",
+        "fromFactor": 20,
+        "symbol": "UBS",
+        "toFactor": 21
+      }
+    ],
+    "UHAL": [],
+    "UHAL.B": [],
+    "UHS": [
+      {
+        "date": "2001-06-04",
+        "fromFactor": 1,
+        "symbol": "UHS",
+        "toFactor": 2
+      },
+      {
+        "date": "2009-12-16",
+        "fromFactor": 1,
+        "symbol": "UHS",
+        "toFactor": 2
+      }
+    ],
+    "UI": [],
+    "ULS": [],
+    "ULTA": [],
+    "UNH": [
+      {
+        "date": "2000-12-26",
+        "fromFactor": 1,
+        "symbol": "UNH",
+        "toFactor": 2
+      },
+      {
+        "date": "2003-06-19",
+        "fromFactor": 1,
+        "symbol": "UNH",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-05-31",
+        "fromFactor": 1,
+        "symbol": "UNH",
+        "toFactor": 2
+      }
+    ],
+    "UNM": [],
+    "UNP": [
+      {
+        "date": "2008-05-29",
+        "fromFactor": 1,
+        "symbol": "UNP",
+        "toFactor": 2
+      },
+      {
+        "date": "2014-06-09",
+        "fromFactor": 1,
+        "symbol": "UNP",
+        "toFactor": 2
+      }
+    ],
+    "UPS": [],
+    "UPST": [],
+    "URI": [],
+    "USB": [],
+    "USFD": [],
+    "USO": [
+      {
+        "date": "2020-04-29",
+        "fromFactor": 8,
+        "symbol": "USO",
+        "toFactor": 1
+      }
+    ],
+    "UTHR": [
+      {
+        "date": "2009-09-23",
+        "fromFactor": 1,
+        "symbol": "UTHR",
+        "toFactor": 2
+      }
+    ],
+    "UUP": [],
+    "UVIX": [
+      {
+        "date": "2023-01-25",
+        "fromFactor": 5,
+        "symbol": "UVIX",
+        "toFactor": 1
+      },
+      {
+        "date": "2023-10-11",
+        "fromFactor": 10,
+        "symbol": "UVIX",
+        "toFactor": 1
+      },
+      {
+        "date": "2025-01-15",
+        "fromFactor": 10,
+        "symbol": "UVIX",
+        "toFactor": 1
+      }
+    ],
+    "UVXY": [
+      {
+        "date": "2012-03-08",
+        "fromFactor": 6,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2012-09-07",
+        "fromFactor": 10,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2013-06-10",
+        "fromFactor": 10,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2014-01-24",
+        "fromFactor": 4,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2015-05-20",
+        "fromFactor": 5,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-07-25",
+        "fromFactor": 5,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2017-01-12",
+        "fromFactor": 5,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2017-07-17",
+        "fromFactor": 4,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2018-09-18",
+        "fromFactor": 5,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2021-05-26",
+        "fromFactor": 10,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2023-06-23",
+        "fromFactor": 10,
+        "symbol": "UVXY",
+        "toFactor": 1
+      },
+      {
+        "date": "2024-04-11",
+        "fromFactor": 5,
+        "symbol": "UVXY",
+        "toFactor": 1
+      }
+    ],
+    "UWMC": [],
+    "V": [
+      {
+        "date": "2015-03-19",
+        "fromFactor": 1,
+        "symbol": "V",
+        "toFactor": 4
+      }
+    ],
+    "VEEV": [],
+    "VIK": [],
+    "VLO": [
+      {
+        "date": "2004-10-08",
+        "fromFactor": 1,
+        "symbol": "VLO",
+        "toFactor": 2
+      },
+      {
+        "date": "2005-12-16",
+        "fromFactor": 1,
+        "symbol": "VLO",
+        "toFactor": 2
+      }
+    ],
+    "VNOM": [],
+    "VRSK": [],
+    "VRSN": [],
+    "VRT": [],
+    "VRTX": [
+      {
+        "date": "2000-08-24",
+        "fromFactor": 1,
+        "symbol": "VRTX",
+        "toFactor": 2
+      }
+    ],
+    "VST": [],
+    "VTR": [],
+    "VTRS": [
+      {
+        "date": "2003-01-28",
+        "fromFactor": 2,
+        "symbol": "VTRS",
+        "toFactor": 3
+      },
+      {
+        "date": "2003-10-09",
+        "fromFactor": 2,
+        "symbol": "VTRS",
+        "toFactor": 3
+      }
+    ],
+    "VZ": [],
+    "WAB": [
+      {
+        "date": "2013-06-12",
+        "fromFactor": 1,
+        "symbol": "WAB",
+        "toFactor": 2
+      }
+    ],
+    "WAT": [
+      {
+        "date": "2000-08-28",
+        "fromFactor": 1,
+        "symbol": "WAT",
+        "toFactor": 2
+      }
+    ],
+    "WAY": [],
+    "WBA": [],
+    "WBD": [],
+    "WBS": [],
+    "WDAY": [],
+    "WDC": [],
+    "WEC": [
+      {
+        "date": "2011-03-02",
+        "fromFactor": 1,
+        "symbol": "WEC",
+        "toFactor": 2
+      }
+    ],
+    "WEN": [],
+    "WFC": [
+      {
+        "date": "2006-08-14",
+        "fromFactor": 1,
+        "symbol": "WFC",
+        "toFactor": 2
+      }
+    ],
+    "WING": [],
+    "WIX": [],
+    "WLK": [
+      {
+        "date": "2014-03-19",
+        "fromFactor": 1,
+        "symbol": "WLK",
+        "toFactor": 2
+      }
+    ],
+    "WMB": [],
+    "WMG": [],
+    "WMT": [
+      {
+        "date": "2024-02-26",
+        "fromFactor": 1,
+        "symbol": "WMT",
+        "toFactor": 3
+      }
+    ],
+    "WPM": [],
+    "WRB": [
+      {
+        "date": "2002-07-03",
+        "fromFactor": 2,
+        "symbol": "WRB",
+        "toFactor": 3
+      },
+      {
+        "date": "2003-08-28",
+        "fromFactor": 2,
+        "symbol": "WRB",
+        "toFactor": 3
+      },
+      {
+        "date": "2005-04-11",
+        "fromFactor": 2,
+        "symbol": "WRB",
+        "toFactor": 3
+      },
+      {
+        "date": "2006-04-05",
+        "fromFactor": 2,
+        "symbol": "WRB",
+        "toFactor": 3
+      },
+      {
+        "date": "2019-04-03",
+        "fromFactor": 2,
+        "symbol": "WRB",
+        "toFactor": 3
+      },
+      {
+        "date": "2022-03-24",
+        "fromFactor": 2,
+        "symbol": "WRB",
+        "toFactor": 3
+      },
+      {
+        "date": "2024-07-11",
+        "fromFactor": 2,
+        "symbol": "WRB",
+        "toFactor": 3
+      }
+    ],
+    "WSM": [
+      {
+        "date": "2002-05-10",
+        "fromFactor": 1,
+        "symbol": "WSM",
+        "toFactor": 2
+      },
+      {
+        "date": "2024-07-09",
+        "fromFactor": 1,
+        "symbol": "WSM",
+        "toFactor": 2
+      }
+    ],
+    "WST": [
+      {
+        "date": "2004-09-30",
+        "fromFactor": 1,
+        "symbol": "WST",
+        "toFactor": 2
+      },
+      {
+        "date": "2013-09-27",
+        "fromFactor": 1,
+        "symbol": "WST",
+        "toFactor": 2
+      }
+    ],
+    "WTW": [
+      {
+        "date": "2016-01-05",
+        "fromFactor": 2.649,
+        "symbol": "WTW",
+        "toFactor": 1
+      }
+    ],
+    "WWD": [
+      {
+        "date": "2006-02-15",
+        "fromFactor": 1,
+        "symbol": "WWD",
+        "toFactor": 3
+      },
+      {
+        "date": "2008-02-15",
+        "fromFactor": 1,
+        "symbol": "WWD",
+        "toFactor": 2
+      }
+    ],
+    "XEL": [],
+    "XHB": [],
+    "XLB": [],
+    "XLC": [],
+    "XLE": [],
+    "XLF": [],
+    "XLI": [],
+    "XLK": [],
+    "XLP": [],
+    "XLRE": [],
+    "XLU": [],
+    "XLV": [],
+    "XLY": [],
+    "XOM": [
+      {
+        "date": "2001-07-19",
+        "fromFactor": 1,
+        "symbol": "XOM",
+        "toFactor": 2
+      }
+    ],
+    "XPO": [
+      {
+        "date": "2011-09-02",
+        "fromFactor": 4,
+        "symbol": "XPO",
+        "toFactor": 1
+      }
+    ],
+    "XYL": [],
+    "YANG": [
+      {
+        "date": "2013-04-02",
+        "fromFactor": 5,
+        "symbol": "YANG",
+        "toFactor": 1
+      },
+      {
+        "date": "2015-05-20",
+        "fromFactor": 10,
+        "symbol": "YANG",
+        "toFactor": 1
+      },
+      {
+        "date": "2016-03-24",
+        "fromFactor": 1,
+        "symbol": "YANG",
+        "toFactor": 4
+      },
+      {
+        "date": "2018-03-29",
+        "fromFactor": 10,
+        "symbol": "YANG",
+        "toFactor": 1
+      },
+      {
+        "date": "2024-11-04",
+        "fromFactor": 20,
+        "symbol": "YANG",
+        "toFactor": 1
+      }
+    ],
+    "YINN": [
+      {
+        "date": "2022-05-31",
+        "fromFactor": 20,
+        "symbol": "YINN",
+        "toFactor": 1
+      }
+    ],
+    "YUM": [
+      {
+        "date": "2002-06-18",
+        "fromFactor": 1,
+        "symbol": "YUM",
+        "toFactor": 2
+      },
+      {
+        "date": "2007-06-27",
+        "fromFactor": 1,
+        "symbol": "YUM",
+        "toFactor": 2
+      }
+    ],
+    "YUMC": [],
+    "ZBH": [],
+    "ZBRA": [
+      {
+        "date": "2003-08-22",
+        "fromFactor": 2,
+        "symbol": "ZBRA",
+        "toFactor": 3
+      },
+      {
+        "date": "2004-08-26",
+        "fromFactor": 2,
+        "symbol": "ZBRA",
+        "toFactor": 3
+      }
+    ],
+    "ZM": [],
+    "ZS": [],
+    "ZTS": []
   }
 }
