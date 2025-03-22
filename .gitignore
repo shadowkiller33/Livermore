@@ -103,3 +103,4 @@ tmp
 livermore/data/previous_signals.json
 *.pkl
 .history/
+*.pdf

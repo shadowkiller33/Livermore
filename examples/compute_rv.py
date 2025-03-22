@@ -1,5 +1,6 @@
 from mmengine import dump, load
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 import numpy as np
 import pandas as pd
@@ -9,6 +10,36 @@ from livermore.modeling.volatility_estimation import realized_volatility, parkin
 from livermore.signal_utils import compute_vegas_channel_and_signal
 from livermore.finnhub_engine import FinnhubEngine
 from livermore import livermore_root
+
+
+def plot_rv(candles_1d, rv_result, name, symbol):
+    fig, ax1 = plt.subplots(figsize=(12, 6))
+    dates = pd.to_datetime([get_readable_time(_) for _ in candles_1d["t"]])
+    rv_result = np.array(rv_result) * 100
+    
+    line1 = ax1.plot(dates, rv_result, label=name, color='#FF6961', linewidth=2)
+    ax1.set_xlabel('Date', fontsize=12)
+    ax1.set_ylabel('Volatility(%)', fontsize=12)
+    
+    # Create a second y-axis for price
+    ax2 = ax1.twinx()
+    line2 = ax2.plot(dates, candles_1d["c"], label='Price', color='#00BFFF', linewidth=2)
+    ax2.set_ylabel('Price', fontsize=12)
+    
+    plt.title(f'{symbol} - Volatility', fontsize=14)
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.xticks(rotation=45)
+    ax = plt.gca()
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+
+    lines = line1 + line2
+    labels = [l.get_label() for l in lines]
+    fig.legend(lines, labels, loc='upper center', bbox_to_anchor=(0.5, 0.95), ncol=2)
+
+    # Adjust layout to prevent label cutoff
+    plt.tight_layout()
+    plt.savefig("volatility_plot.pdf")
 
 
 if __name__ == "__main__":
@@ -27,54 +58,12 @@ if __name__ == "__main__":
     
     symbol = "SPY"
     candles_1d = engine.query_candles_of_different_resolutions(symbol, resolutions="1d", num=200)["1d"]
-    print(candles_1d.keys())
-    
-    print(get_readable_time(candles_1d["t"][-1]))
-    print(candles_1d["c"][-20:])
-    rv_result = yang_zhang_volatility(candles_1d)
-    rv_result = rv_result.tolist()
-    
-    # Create figure and axis
-    plt.figure(figsize=(12, 6))
-    
-    # Plot RV with dates
-    dates = [get_readable_time(t) for t in candles_1d["t"]]
-    plt.plot(dates, rv_result, label='Yang-Zhang Volatility', color='blue', linewidth=2)
-    
-    # Customize the plot
-    plt.title(f'{symbol} Realized Volatility', fontsize=14)
-    plt.xlabel('Date', fontsize=12)
-    plt.ylabel('Volatility', fontsize=12)
-    plt.grid(True, linestyle='--', alpha=0.7)
-    plt.xticks(rotation=45)
-    plt.legend()
-    
-    # Adjust layout to prevent label cutoff
-    plt.tight_layout()
-    plt.show()
-    
-    # ... rest of the code ...    candles = engine.query_candles_of_different_resolutions(symbol, num=200, last_time=None)
-    print(get_readable_time(candles_1d["t"][-1]))
-    print(candles_1d["c"][-20:])
-    rv_result = yang_zhang_volatility(candles_1d)
-    rv_result = rv_result.tolist()
-    
-    # Create figure and axis
-    plt.figure(figsize=(12, 6))
-    
-    # Plot RV with dates
-    dates = [get_readable_time(t) for t in candles_1d["t"]]
-    plt.plot(dates, rv_result, label='Yang-Zhang Volatility', color='blue', linewidth=2)
-    
-    # Customize the plot
-    plt.title(f'{symbol} Realized Volatility', fontsize=14)
-    plt.xlabel('Date', fontsize=12)
-    plt.ylabel('Volatility', fontsize=12)
-    plt.grid(True, linestyle='--', alpha=0.7)
-    plt.xticks(rotation=45)
-    plt.legend()
-    
-    # Adjust layout to prevent label cutoff
-    plt.tight_layout()
-    plt.show()
 
+    rv_result = yang_zhang_volatility(candles_1d)
+    name = "Yang-Zhang Volatility"
+    
+    # rv_result = realized_volatility(candles_1d)
+    # name = "Realized Volatility"
+    
+    rv_result = rv_result.tolist()
+    plot_rv(candles_1d, rv_result, name, symbol)

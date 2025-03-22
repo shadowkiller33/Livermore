@@ -10,9 +10,6 @@ def to_pd_series(prices):
 def realized_volatility(data, window=20, period=252):
     close_prices = to_pd_series(data["c"])
     log_returns = np.log(close_prices / close_prices.shift(1))
-    
-    print(log_returns[-10:], close_prices / close_prices.shift(1)[-10:])
-    
     def compute_rv(log_returns):
         mean_log_return = np.mean(log_returns)
         return np.sqrt((1 / (window - 1)) * np.sum((log_returns - mean_log_return) ** 2) - (1 / (window * (window - 1))) * (np.sum(log_returns)) ** 2)
